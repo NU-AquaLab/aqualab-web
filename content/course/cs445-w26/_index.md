@@ -1,8 +1,8 @@
 ---
 title: "CS 445: Internet-Scale Experimentation - Winter '26"
 type: page
-summary: "Course overview, schedule, and materials for Winter 2026."
-weight: 1
+summary: "Graduate seminar on Internet-scale measurement and experimentation."
+weight: 3
 ---
 
 {{< course_tabs >}}

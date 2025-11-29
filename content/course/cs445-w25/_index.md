@@ -3,7 +3,7 @@ title: "CS 445: Internet-Scale Experimentation — Winter '25"
 linktitle: "Syllabus"
 type: course
 date: 2025-01-01
-weight: 1
+weight: 2
 summary: "Graduate seminar on Internet-scale measurement and experimentation."
 layout: "course_detail"
 ---
