@@ -15,7 +15,7 @@ design:
   width: 100vw;
 ">
   <img
-    src="/media/aqualab-banner1.jpeg"
+    src="media/aqualab-banner1.jpeg"
     alt="AquaLab banner"
     style="width:100%; height:auto; display:block; max-height:320px; object-fit:cover;"
   >
