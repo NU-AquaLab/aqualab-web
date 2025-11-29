@@ -2,7 +2,6 @@
 title: "CS 445: Internet-Scale Experimentation — Winter '25"
 linktitle: "Syllabus"
 type: course
-date: 2025-01-01
 weight: 2
 summary: "Graduate seminar on Internet-scale measurement and experimentation."
 layout: "course_detail"
@@ -10,13 +9,9 @@ layout: "course_detail"
 
 {{< course_tabs >}}
 
-## Announcements & Quick Links
+##  Quick Links
 
-Remember to check this page (and Canvas) regularly!
-
-- Just for fun: [Hurricane Electric’s 3D visualization of Internet infrastructure](https://he.net/3d-map/)
-- Quick links:  
-  - **WINE (We do INternet Experimentation) 2025:** <https://northwestern-ise25.hotcrp.com/>  
+  - **WINE (We do INternet Experimentation) 2025:**  
   - **Canvas for ISE:** (link via Northwestern Canvas)
 
 ---
@@ -36,15 +31,15 @@ This course satisfies the Systems requirement and the project requirement.
 - **Professor:** [Fabián E. Bustamante](https://www.cs.northwestern.edu/~fabianb)  
   - Office: Seely Mudd 3509  
   - Phone: +1 847 491-2745  
-  - Email: `fabianb@cs.northwestern.edu`
+  - Email: `fabianb@cs. ...`
 
 - **TA:** Kedar Thiagarajan  
   - Office: Seely Mudd  
-  - Email: `kedarthiagarajan2028@u.northwestern.edu`
+  - Email: `kedarthiagarajan2028@u. ...`
 
 ### Meeting Time & Location
 
-- **Lectures:** Tue/Thu 11:00–12:20  
+- **Time:** Tue/Thu 11:00–12:20  
 - **Room:** [Tech Institute A110](https://www.mccormick.northwestern.edu/contact/tech-room-finder-map.php?id=A110&room-floor=1&room-id=3&room-ingress=)
 
 ### Course Prerequisites

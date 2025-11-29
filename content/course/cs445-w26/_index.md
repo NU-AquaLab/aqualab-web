@@ -1,25 +1,54 @@
 ---
 title: "CS 445: Internet-Scale Experimentation - Winter '26"
-type: page
-summary: "Graduate seminar on Internet-scale measurement and experimentation."
+linktitle: "Syllabus"
+type: course
 weight: 3
+summary: "Graduate seminar on Internet-scale measurement and experimentation."
+layoute: "course_detail"
 ---
 
 {{< course_tabs >}}
 
-Welcome to **CS 445 — Internet-Scale Experimentation (Winter 2026)**.
+##  Quick Links
 
-This course explores the challenges of conducting experimentation and measurement in large-scale networked systems. We examine foundational techniques, modern Internet-wide datasets, and cutting-edge research published in 2025–2026. The class runs using a hybrid model:
+  - **WINE (We do INternet Experimentation) 2025:**
+  - **Canvas for ISE:** (link via Northwestern Canvas)
 
-- **Weeks 1–5:** Instructor-led lectures introducing platforms, methodologies, and core measurement challenges.  
-- **Weeks 6–10:** Student-led presentations following a *mini-conference* format, with students serving as the program committee.
+---
 
-By the end of the course, you will have:
+## Catalog Description
 
-- Developed a practical understanding of Internet-scale measurement tools and platforms.  
-- Analyzed real-world network behavior and infrastructures.  
-- Served as a reviewer in a PC-style meeting to select “accepted” papers.  
-- Completed two hands-on projects involving measurement, analysis, and reproducibility.
+Internet-scale Experimentation is a graduate-level course that combines an introduction to the field with a seminar component, delving into the challenges of conducting experimentation and measurements in large-scale networked systems.
 
-Use the tabs above to navigate the **Overview**, **Calendar**, **Project**, and **Review & Presentation** guidelines.
+This course satisfies the Systems requirement and the project requirement.
+
+---
+
+## Administrative Information
+
+### Staff
+
+- **Professor:** [Fabián E. Bustamante](https://www.cs.northwestern.edu/~fabianb)
+  - Office: Seely Mudd 3509
+  - Phone: +1 847 491-2745
+  - Email: `fabianb@cs. ...`
+
+- **TA:** Kedar Thiagarajan
+  - Office: Seely Mudd
+  - Email: `kedarthiagarajan2028@u. ...`
+
+### Meeting Time & Location
+
+- **Time:** Tue/Thu 11:00–12:20
+- **Room:** [Tech Institute M128](https://www.mccormick.northwestern.edu/contact/tech-room-finder-map.php?id=M128&room-floor=1&room-id=3&room-ingress=)
+
+### Course Prerequisites
+
+- [CS 340 “Intro to Computer Networking”](https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/340.html)
+  or
+- [CS 345 “Distributed Systems”](https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/345.html).
+
+If you have taken similar courses elsewhere, or have not taken any of these but would like to register for this seminar, please contact the instructor.
+
+---
 
