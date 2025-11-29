@@ -1,0 +1,18 @@
+---
+title: "Insights from Operating an IP Exchange Provider"
+authors:
+  - Andra Lutu
+  - Diego Perino
+  - Marcelo Bagnulo
+  - Fabián E. Bustamante
+
+date: 2021-08-23
+publication: "Proceedings of ACM SIGCOMM"
+abstract: ""
+url_pdf: "ALutu-SIGCOMM21.pdf"
+featured: false
+---
+
+{{< spoiler text="Abstract" >}}
+IP Exchange Providers (IPX-Ps) offer to their customers (e.g., mobile or IoT service providers) global data roaming and support for a variety of emerging services. They peer to other IPX-Ps and form the IPX network, which interconnects 800 MNOs worldwide offering their customers access to mobile services in any other country. Despite the importance of IPX-Ps, little is known about their operations and performance. In this paper, we shed light on these opaque providers by analyzing a large IPX-P with more than 100 PoPs in 40+ countries, with a particularly strong presence in America and Europe. Specifically, we characterize the traffic and performance of the main infrastructures of the IPX-P (i.e., 2-3-4G signaling and GTP tunneling), and provide implications for its operation, as well as for the IPX-P’s customers. Our analysis is based on statistics we collected during two time periods (i.e., prior and during COVID-19 pandemic) and includes insights on the main service the platform supports (i.e., IoT and data roaming), traffic breakdown and geographical/temporal distribution, communication performance (e.g., tunnel setup time, RTTs). Our results constitute a step towards advancing the understanding of IPX-Ps at their core, and provide guidelines for their operations and customer satisfaction.
+{{< /spoiler >}}

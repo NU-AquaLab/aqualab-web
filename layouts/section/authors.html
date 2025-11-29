@@ -1,0 +1,34 @@
+{{ define "main" }}
+<section class="people-section">
+  <h1>{{ .Title }}</h1>
+
+  <div class="people-grid">
+    {{ range sort .Pages "Title" }}
+      {{ $p := . }}
+      <article class="person-card">
+        <a href="{{ $p.RelPermalink }}">
+
+          {{/* Look for avatar.jpg/png/etc inside each author bundle */}}
+          {{ with $p.Resources.GetMatch "avatar*" }}
+            <img
+              class="person-avatar"
+              src="{{ .RelPermalink }}"
+              alt="{{ $p.Title }}">
+          {{ end }}
+
+          <div class="person-name">
+            {{ $p.Title }}
+          </div>
+
+          {{ with $p.Params.role }}
+            <div class="person-role">
+              {{ . }}
+            </div>
+          {{ end }}
+        </a>
+      </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+

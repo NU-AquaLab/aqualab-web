@@ -1,0 +1,21 @@
+---
+title: "Global Mobile Network Aggregators: Taxonomy, Roaming"
+authors:
+  - Sergi Alcala-Marin
+  - Aravnidh Raman
+  - Weili Wu
+  - Andra Lutu
+  - Marcelo Bagnulo
+  - Ozgu Alay
+  - Fabian E. Bustamante
+
+date: 2022-06-25
+publication: "Proceedings of ACM Mobisys"
+abstract: ""
+url_pdf: "SAlcala-Marin-Mobisys22.pdf"
+featured: false
+---
+
+{{< spoiler text="Abstract" >}}
+A new model of global virtual Mobile Network Operator (MNO) – the Mobile Network Aggregator ( MNA ) – has recently been gaining significant traction. MNA s provide mobile communications services to their customers by leveraging multiple MNOs, and connecting through the one that best match their customers’ needs at any point in time (and space). MNAs naturally provide optimized global coverage by connecting through local MNOs across the different geographic regions they provide service. In this paper, we dissect the operations of three MNAs, namely, Google Fi, Twilio and Truphone. We perform measurements using the three selected MNAs to assess their performance for three major applications, namely, DNS, web browsing and video streaming. We benchmark their performance comparing it to the one of a traditional MNO. We find that even MNAs provide some delay penalty compared to the service accessed through the local MNOs in the geographic area where the user is roaming, they can significantly improve performance compared to traditional roaming model of the MNOs (e.g. home routed roaming). Finally, in order to fully quantify the potential benefits that can be realized using the MNA model, we perform a set of emulations by deploying both control and user plane functions of open-source 5G implementations in different locations of AWS, and measure the potential gains.
+{{< /spoiler >}}

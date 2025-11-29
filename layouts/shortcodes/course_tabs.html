@@ -1,0 +1,27 @@
+{{/* Generic tabs for any course under content/course/<course-id> */}}
+
+{{- $section := .Page.CurrentSection -}}
+{{- $base := $section.RelPermalink -}}
+{{- $rel := .Page.RelPermalink -}}
+
+<div class="course-tabs">
+  <a href="{{ $base }}"
+     class="course-tab{{ if or (eq $rel $base) (eq $rel (printf "%s/" $base)) }} course-tab-active{{ end }}">
+    Syllabus
+  </a>
+
+  <a href="{{ $base }}calendar/"
+     class="course-tab{{ if or (hasSuffix $rel "/calendar/") (hasSuffix $rel "/calendar") }} course-tab-active{{ end }}">
+    Calendar &amp; Readings
+  </a>
+
+  <a href="{{ $base }}project/"
+     class="course-tab{{ if or (hasSuffix $rel "/project/") (hasSuffix $rel "/project") }} course-tab-active{{ end }}">
+    Course Project
+  </a>
+
+  <a href="{{ $base }}reviews-presenting/"
+     class="course-tab{{ if or (hasSuffix $rel "/reviews-presenting/") (hasSuffix $rel "/reviews-presenting") }} course-tab-active{{ end }}">
+    Reading, Reviews &amp; Presentations
+  </a>
+</div>

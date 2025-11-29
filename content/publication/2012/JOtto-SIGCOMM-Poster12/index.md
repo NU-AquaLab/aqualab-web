@@ -1,0 +1,16 @@
+---
+title: "namehelp : Intelligent Client-Side DNS Resolution"
+authors:
+  - ""
+date: 2012-01-01
+publication: ""
+abstract: ""
+url_pdf: "JOtto-SIGCOMM-Poster12.pdf"
+featured: false
+---
+
+{{< spoiler text="Abstract" >}}
+
+The Domain Name System (DNS) is a fundamental component of today's Internet. Recent years have seen radical changes to DNS with increases in usage of remote DNS and public DNS services such as OpenDNS. Given the close relationship between DNS and Content Delivery Networks (CDNs) and the pervasive use of CDNs by many popular applications including web browsing and real-time entertainment services, it is important to understand the impact of remote and public DNS services on users' overall experience on the Web. This work presents a tool, namehelp , which comparatively evaluates DNS services in terms of the web performance they provide, and implements an end-host solution to address the performance impact of remote DNS on CDNs. The demonstration will show the functionality of namehelp with online results for its performance improvements. Categories and Subject Descriptors C.2.4 [ Computer Communication Networks ]: Distributed Systems
+
+{{< /spoiler >}}

@@ -1,0 +1,19 @@
+---
+title: "Out of Sight, Not Out of Mind - A User-View on the"
+authors:
+  - Schucheng Liu
+  - Zachary S. Bischof
+  - Ishaan Madan
+  - Peter K. Chan
+  - Fabián E. Bustamante
+
+date: 2020-01-01
+publication: "Proceedings of the ACM Internet Measurement Conference (IMC)"
+abstract: ""
+url_pdf: "SLiu-IMC2020.pdf"
+featured: false
+---
+
+{{< spoiler text="Abstract" >}}
+Nearly all international data is carried by a mesh of submarine cables connecting virtually every region in the world. It is generally assumed that Internet services rely on this submarine cable network (SCN) for backend traffic, but that most users do not directly depend on it, as popular resources are either local or cached nearby. In this paper, we study the criticality of the SCN from the perspective of end users. We present a general methodology for analyzing the reliance on the SCN for a given region, and apply it to the most popular web resources accessed by users in 63 countries from every inhabited continent, collectively capturing ≈80% of the global Internet population. We find that as many as 64.33% of all web resources accessed from a specific country rely on the SCN. Despite the explosive growth of data center and CDN infrastructure around the world, at least 28.22% of the CDN-hosted resources traverse a submarine cable.
+{{< /spoiler >}}

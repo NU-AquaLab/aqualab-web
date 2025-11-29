@@ -1,0 +1,122 @@
+{{ define "main" }}
+<main class="container py-4">
+
+  <header class="mb-4">
+    <h1 class="mb-1">{{ .Title }}</h1>
+    {{ with .Content }}
+      <div class="section-intro">
+        {{ . }}
+      </div>
+    {{ end }}
+  </header>
+
+  {{/* Collect all publication pages in this site */}}
+  {{ $pubPages := where .Site.RegularPages "Section" "publication" }}
+
+  {{ if gt (len $pubPages) 0 }}
+
+{{/* Group by year (YYYY) and sort years descending */}}
+{{ $groups := $pubPages.GroupByDate "2006" }}
+{{ range sort $groups "Key" "desc" }}
+  {{ $year := .Key }}
+
+      <section class="pub-year mb-4" id="pub-{{ $year }}">
+        <h2 class="h4 pub-year-heading">{{ $year }}</h2>
+
+        <ul class="list-unstyled mb-0">
+          {{/* Sort publications within the year by date desc */}}
+          {{ range sort .Pages "Date" "desc" }}
+            {{ $p := . }}
+
+            <li class="pub-item mb-3">
+
+              <div class="pub-meta">
+                <span class="pub-title fw-semibold">{{ $p.Title }}</span>
+
+                {{ with $p.Params.authors }}
+                  <span class="pub-authors d-block">
+                    {{ delimit . ", " }}
+                  </span>
+                {{ end }}
+
+                {{ with $p.Params.publication }}
+                  <span class="pub-venue d-block fst-italic">
+                    {{ . }}
+                  </span>
+                {{ end }}
+              </div>
+
+              {{/* ---------- PDF LINK ---------- */}}
+              {{ $pdf := "" }}
+
+              {{/* 1) Prefer explicit url_pdf param */}}
+              {{ with $p.Params.url_pdf }}
+                {{ $pdf = . }}
+              {{ end }}
+
+              {{/* 2) Fallback: first *.pdf in the page bundle */}}
+              {{ if eq $pdf "" }}
+                {{ with $p.Resources.GetMatch "*.pdf" }}
+                  {{ $pdf = .RelPermalink }}
+                {{ end }}
+              {{ end }}
+
+              {{ if ne $pdf "" }}
+                {{/* Absolute URL (http/https) or site-absolute (/...) vs bundle-relative file */}}
+                {{ $isAbs := or (hasPrefix $pdf "http") (hasPrefix $pdf "/") }}
+                {{ $href := cond $isAbs $pdf (printf "%s%s" $p.RelPermalink $pdf) }}
+
+                <div class="pub-links mt-1">
+                  <a class="btn btn-sm btn-outline-primary" href="{{ $href }}">PDF</a>
+                </div>
+              {{ end }}
+
+              {{/* ---------- ABSTRACT TOGGLE ---------- */}}
+              {{ $abs := "" }}
+
+              {{ with $p.Params.abstract }}
+                {{ $abs = . }}
+              {{ end }}
+
+              {{ if eq $abs "" }}
+                {{ with $p.Params.summary }}
+                  {{ $abs = . }}
+                {{ end }}
+              {{ end }}
+
+              {{ if eq $abs "" }}
+                {{ with $p.Summary }}
+                  {{ $abs = . }}
+                {{ end }}
+              {{ end }}
+
+              {{ if ne $abs "" }}
+                {{ $html := $abs | markdownify }}
+
+                {{/* If the abstract already contains its own <details>, just render it. */}}
+                {{ if in $html "<details" }}
+                  {{ $html | safeHTML }}
+                {{ else }}
+                  <details class="pub-abstract mt-1">
+                    <summary>Abstract</summary>
+                    <div class="abstract-content">
+                      {{ $html | safeHTML }}
+                    </div>
+                  </details>
+                {{ end }}
+              {{ end }}
+
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+
+    {{ end }}
+
+  {{ else }}
+    <p>No publications yet.</p>
+  {{ end }}
+
+</main>
+{{ end }}
+

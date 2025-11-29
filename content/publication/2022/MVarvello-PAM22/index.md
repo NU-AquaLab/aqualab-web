@@ -1,0 +1,20 @@
+---
+title: "BatteryLab: A Collaborative Platform for Power Monitoring"
+authors:
+  - Matteo Varvello
+  - Kleomenis Katevas
+  - Mihai Plesa
+  - Hamed Haddadi
+  - Fabian E. Bustamante
+  - Ben Livshits
+
+date: 2022-01-01
+publication: "Proceedings of PAM"
+abstract: ""
+url_pdf: "MVarvello-PAM22.pdf"
+featured: false
+---
+
+{{< spoiler text="Abstract" >}}
+Advances in cloud computing have simpliﬁed the way that both software development and testing are performed. This is not true for battery testing for which state of the art test-beds simply consist of one phone attached to a power meter. These test-beds have limited resources,access, and are overall hard to maintain; for these reasons, they often sit idle with no experiment to run. In this paper, we propose to share existing battery testbeds and transform them into vantage points of BatteryLab, a power monitoring platform oﬀering heterogeneous devices and testing conditions. We have achieved this vision with a combination of hardware and software which allow to augment existing battery test-beds with remote capabilities. BatteryLab currently counts three vantage points, one in Europe and two in the US, hosting three Android devices and one iPhone 7. We benchmark BatteryLab with respect to the accuracy of its battery readings, system performance, and platform heterogeneity. Next, we demonstrate how measurements can be run atop of BatteryLab by developing the “Web Power Monitor” (WPM), a tool which can measure website power consumption at scale. We released WPM and used it to report on the energy consumption of Alexa’s top 1,000 websites across 3 locations and 4 devices (both Android and iOS).
+{{< /spoiler >}}

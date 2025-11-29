@@ -1,0 +1,88 @@
+{{ define "main" }}
+<main class="container py-4">
+  <h1 class="mb-4">Publications</h1>
+
+  {{ $groups := .Pages.ByDate.Reverse.GroupByDate "2006" }}
+
+  {{ range $groups }}
+    <section class="mb-4 year-block">
+      <h2 class="h5 mt-4 mb-3">{{ .Key }}</h2>
+
+      <ul class="list-unstyled">
+        {{ range .Pages.ByDate.Reverse }}
+          {{ $p := . }}
+          <li class="pub-item mb-2">
+
+            {{/* Authors */}}
+            {{ with $p.Params.authors }}
+              {{ delimit . ", " }}
+            {{ end }}
+
+            {{/* Year */}}
+            {{ if $p.Date }}
+              ({{ $p.Date.Format "2006" }}).
+            {{ end }}
+
+            {{/* Title */}}
+            {{ if $p.Title }}
+              <span class="pub-title"> {{ $p.Title }}.</span>
+            {{ end }}
+
+            {{/* Venue */}}
+            {{ with $p.Params.publication }}
+              <span class="pub-venue"> <em>{{ . }}</em>.</span>
+            {{ end }}
+
+            {{/* PDF BUTTON — put this BEFORE the abstract logic */}}
+{{ with $p.Params.url_pdf }}
+  {{ $pdf := . }}
+  {{/* If it's an absolute URL (starts with http), use as-is. Otherwise, treat as file in the page bundle. */}}
+  {{ $href := cond (hasPrefix $pdf "http") $pdf (printf "%s%s" $p.RelPermalink $pdf) }}
+  <div class="pdf-wrapper">
+    <a class="btn btn-sm btn-outline-primary pdf-btn" href="{{ $href }}">PDF</a>
+  </div>
+{{ end }}
+
+
+	    {{/* ABSTRACT TOGGLE – try abstract, then summary, then .Summary */}}
+	{{ $abs := "" }}
+
+	{{ with $p.Params.abstract }}
+ 		 {{ $abs = . }}
+	{{ end }}
+
+	{{ if eq $abs "" }}
+  		{{ with $p.Params.summary }}
+   		 {{ $abs = . }}
+  		{{ end }}
+	{{ end }}
+
+	{{ if eq $abs "" }}
+  		{{ with $p.Summary }}
+    		{{ $abs = . }}
+  		{{ end }}
+	{{ end }}
+
+	{{ if ne $abs "" }}
+  		{{ $html := $abs | markdownify }}
+
+  	{{/* If the content already has its own <details> (old spoiler), just render it. */}}
+ 	 {{ if in $html "<details" }}
+  	  	{{ $html | safeHTML }}
+ 	 {{ else }}
+  		  <details class="pub-abstract">
+   		   <summary>Abstract</summary>
+  		    <div class="abstract-content">
+     		   {{ $html | safeHTML }}
+    		  </div>
+   		 </details>
+  		{{ end }}
+	{{ end }}
+
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+</main>
+{{ end }}

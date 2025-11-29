@@ -1,0 +1,41 @@
+**Confirmed Participants (as of 11/21/2023)**
+
+- David Alderson — Naval Postgraduate School  
+- John Allspaw — Adaptive Capacity Labs  
+- Luis Amaral — Northwestern U.  
+- James Anderson — Columbia U.  
+- Todd Arnold — West Point  
+- Paul Barford — U. Wisconsin-Madison  
+- Pete Beckman — Argonne/Northwestern  
+- Zachary Bischof — Georgia Tech  
+- Fabián E. Bustamante — Northwestern U.  
+- Alberto Dainotti — Georgia Tech  
+- John Doyle — Caltech  
+- Zakir Durumeric — Stanford U.  
+- Marwan Fayed — Cloudflare  
+- David Forscey — JCDC  
+- Ramesh Govindan — USC  
+- Dominic Gross — U. of Wisconsin-Madison  
+- Lorin Hochstein — Coupang  
+- Yih-Chun Hu — UIUC  
+- Igor Kadota — Northwestern U.  
+- Steven Low — Caltech  
+- Z. Morley Mao — U. of Michigan  
+- Nikolai Matni — U. of Pennsylvania  
+- Deepankar Medhi — NSF  
+- Doug Montgomery — NIST  
+- Fernando Paganini — Universidad ORT Uruguay  
+- Zoran Perkov — Super Stealth Startup Inc.  
+- Ahmed Saeed — Georgia Tech  
+- Stefan Savage — UCSD  
+- Aaron Schulman — UCSD  
+- Henning Schulzrinne — Columbia U.  
+- Yixin Sun — U. of Virginia  
+- Joshua Taylor — U. of Toronto  
+- Cecilia Testart — Georgia Tech  
+- Lang Tong — Cornell U.  
+- Ermin Wei — Northwestern U.  
+- Walter Willinger — NIKSUN  
+- David Woods — Ohio State U.  
+- Le Xie — Texas A&M University  
+- Lixia Zhang — UCLA

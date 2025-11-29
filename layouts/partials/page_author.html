@@ -1,0 +1,29 @@
+{{/* layouts/partials/page_author.html
+     Override default author rendering to link to profile pages
+     in content/authors/ instead of taxonomy /author/.
+*/}}
+
+{{ $page := . }}
+{{ with $page.Params.authors }}
+  <div class="article-metadata">
+    <span>Authors:</span>
+    {{ $first := true }}
+
+    {{ range . }}
+      {{ $name := . }}
+      {{/* Try to find a matching profile in content/authors/<slug> */}}
+      {{ $slug := urlize $name }}
+      {{ $profile := site.GetPage (printf "authors/%s" $slug) }}
+
+      {{ if not $first }}, {{ end }}
+      {{ if $profile }}
+        <a href="{{ $profile.RelPermalink }}">{{ $name }}</a>
+      {{ else }}
+        {{ $name }}
+      {{ end }}
+
+      {{ $first = false }}
+    {{ end }}
+  </div>
+{{ end }}
+

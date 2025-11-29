@@ -1,0 +1,51 @@
+{{ define "main" }}
+<main id="people">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+
+    {{/* Get the authors section and its children */}}
+    {{ $authorsSection := site.GetPage "section" "authors" }}
+    {{ if not $authorsSection }}
+      <p>No <code>content/authors</code> section found.</p>
+    {{ else }}
+
+      {{/* Filter to only pages whose user_groups includes "Lab Member" */}}
+      {{ $labMembers := where $authorsSection.Pages "Params.user_groups" "intersect" (slice "Lab Member" "Faculty") }}
+      {{ $sorted := sort $labMembers ".Params.user_groups" "desc" "Params.last_name" }}
+
+      {{ if eq (len $labMembers) 0 }}
+        <p>No lab members found. Make sure each member has
+          <code>user_groups:</code><code>["Lab Member"]</code> in its front matter.</p>
+      {{ else }}
+        <div class="row">
+          {{ range sort $labMembers "Params.last_name" }}
+            <div class="col-6 col-md-4 col-lg-3 mb-4">
+              <div class="card h-100 text-center">
+                
+                {{ with .Resources.GetMatch "avatar*" }}
+                     <div class="card-img-top d-flex justify-content-center mt-3">
+                     <img src="{{ .RelPermalink }}" alt="{{ $.Title }}"
+                        class="people-avatar"
+                     />
+                     </div>
+                {{ end }}
+
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  </h5>
+
+                  {{ with .Params.role }}
+                    <p class="card-text small text-muted">{{ . }}</p>
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</main>
+{{ end }}
+

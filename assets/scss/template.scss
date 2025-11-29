@@ -1,0 +1,187 @@
+// Make page headers compact and left-aligned
+.universal-wrapper h1 {
+  text-align: left;
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+// Center the CTA shortcode button
+.cta-group {
+  justify-content: center;
+}
+
+/* =========================================================
+   Global content width (applies to normal pages and courses)
+   ========================================================= */
+
+.universal-wrapper,
+.article-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =========================================================
+   COURSE PAGES — Tabs
+   ========================================================= */
+
+/* Tabs bar */
+.course-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 1rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Individual tab */
+.course-tab {
+  position: relative;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #666;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.course-tab:hover {
+  color: #222;
+}
+
+.course-tab::after {
+  content: "";
+  position: absolute;
+  left: 0.6rem;
+  right: 0.6rem;
+  bottom: -1px;
+  height: 2px;
+  background: transparent;
+  transition: background 0.15s ease-in-out;
+}
+
+.course-tab:hover::after {
+  background: #ccc;
+}
+
+/* Active tab */
+.course-tab-active {
+  color: #111;
+  font-weight: 600;
+  background: #ffffff;
+}
+
+.course-tab-active::after {
+  background: #3f51b5; /* Adjust to match your accent color if needed */
+}
+
+/* ============================================
+   Course pages: unify header alignment
+   ============================================ */
+
+/* Remove forced centering on course pages */
+body .course-tabs + h1,
+body .course-tabs + h2,
+body .course-tabs + h3 {
+  text-align: left !important;
+}
+
+/* ============================================
+   Course pages: more compact text
+   ============================================ */
+
+.universal-wrapper,
+.article-container {
+  font-size: 0.90rem;      /* was 0.95–1.0 */
+  line-height: 1.55;
+}
+
+.course-tab {
+  font-size: 0.80rem;
+}
+
+/* Remove padded “page header” spacing only for course pages */
+.page-header {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+/* ===============================================
+   Remove "hero" header from course landing pages
+   =============================================== */
+
+/* Remove huge centering wrapper */
+.page-header {
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: left !important;
+}
+
+/* Ensure the course title matches subpages exactly */
+.page-header h1,
+.universal-wrapper h1 {
+  font-size: 2rem !important;  /* same as subpage heading */
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: left !important;
+}
+/* ============================================
+   Course landing page: remove extra hero feel
+   ============================================ */
+
+/* Flatten the .page-header wrapper (used on the Overview page) */
+.page-header {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  margin: 0 !important;
+  text-align: left !important;
+}
+
+/* Make the big landing title match other H1s */
+.page-header h1 {
+  font-size: 2.1rem !important;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  text-align: left !important;
+}
+
+/* Slightly smaller body text everywhere */
+.universal-wrapper,
+.article-container {
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+/* =========================================================
+   Calendar reading tags (Background / Question / Review)
+   ========================================================= */
+
+.reading-tag {
+  display: inline-block;
+  padding: 0.08rem 0.45rem;
+  margin-left: 0.3rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Background: soft blue */
+.reading-tag-background {
+  background: #eef3ff;
+  color: #243b7a;
+}
+
+/* Question: soft amber */
+.reading-tag-question {
+  background: #fdf3e6;
+  color: #8a4b16;
+}
+
+/* Review: soft green */
+.reading-tag-review {
+  background: #e7f7ec;
+  color: #1b5e20;
+}

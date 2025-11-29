@@ -1,0 +1,7 @@
+{{/* Usage: {{< reading_tag "background" >}} or {{< reading_tag "review" "Must read" >}} */}}
+
+{{- $kind := lower (.Get 0) -}}
+{{- $text := cond (ge (len .Params) 2) (.Get 1) (title $kind) -}}
+
+<span class="reading-tag reading-tag-{{ $kind }}">{{ $text }}</span>
+

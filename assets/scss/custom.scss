@@ -1,0 +1,272 @@
+/* ------------------------------------------------------------
+   Global Publication Page Styling
+   ------------------------------------------------------------ */
+
+.year-block {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.year-block h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.pub-item {
+  margin-bottom: 1.4rem;
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.pub-title {
+  font-weight: 600;
+}
+
+.pub-venue em {
+  font-style: italic;
+  color: #333;
+}
+
+/* ------------------------------------------------------------
+   PDF Button
+   ------------------------------------------------------------ */
+
+.pdf-wrapper {
+  margin-top: 0.25rem;
+}
+
+.pdf-btn {
+  display: inline-block;
+  font-size: 0.8rem !important;
+  padding: 0.15rem 0.5rem !important;
+}
+
+/* ------------------------------------------------------------
+   Abstract Toggle (<details>/<summary>)
+   ------------------------------------------------------------ */
+
+.pub-abstract {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.pub-abstract > summary {
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #444;
+  list-style: none;
+  padding-left: 0;
+}
+
+.pub-abstract > summary::-webkit-details-marker {
+  display: none;
+}
+
+.pub-abstract > summary::before {
+  content: "▶ ";
+  font-size: 0.8rem;
+  margin-right: 0.1rem;
+  color: #666;
+}
+
+.pub-abstract[open] > summary::before {
+  content: "▼ ";
+}
+
+.abstract-content {
+  margin-top: 0.3rem;
+  margin-left: 1.2rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #555;
+}
+
+/* ------------------------------------------------------------
+   Spacing Consistency
+   ------------------------------------------------------------ */
+
+ul.list-unstyled {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* --- PUBLICATION LIST TYPOGRAPHY TIGHTENING --- */
+
+.pub-item {
+  font-size: 1rem;            /* was ~1.25–1.3rem depending on theme */
+  line-height: 1.35;
+  margin-bottom: 1.75rem;
+}
+
+.pub-item p {
+  margin: 0.2rem 0;
+}
+
+.pub-item em {
+  font-size: 0.98rem;         /* keep italics slightly smaller */
+}
+
+.pub-authors, .pub-title, .pub-venue {
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+/* Make the Abstract toggle smaller */
+.pub-abstract summary {
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+/* PDF button smaller + tighter margin */
+.pub-pdf-btn {
+  font-size: 0.8rem !important;
+  padding: 2px 6px !important;
+  margin-top: 0.25rem !important;
+}
+
+/* -----------------------------------------------------
+   Tighten typography for publications page
+----------------------------------------------------- */
+
+/* Year heading (e.g., 2025, 2024...) */
+.year-block h2 {
+  font-size: 1.1rem !important;
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+/* Each publication block */
+.pub-item {
+  font-size: 0.9rem !important;
+  line-height: 1.35 !important;
+  margin-bottom: 1.2rem !important;
+}
+
+/* Venue text (often italic) */
+.pub-item em {
+  font-size: 0.9rem !important;
+  color: #444;
+}
+
+/* Abstract toggle line */
+.pub-abstract > summary {
+  font-size: 0.85rem !important;
+  color: #555 !important;
+  cursor: pointer;
+  margin-top: 0.3rem;
+}
+
+/* Collapsed abstract body */
+.pub-abstract {
+  font-size: 0.85rem !important;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+/* PDF button */
+.pdf-wrapper {
+  margin-top: 0.2rem !important;
+}
+
+.pdf-btn {
+  font-size: 0.7rem !important;
+  padding: 0.1rem 0.4rem !important;
+  border-radius: 3px !important;
+}
+
+/* -----------------------------------------------------
+   People
+----------------------------------------------------- */
+
+.people-section {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.people-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.person-card {
+  width: 160px;
+  text-align: center;
+}
+
+.person-card a {
+  text-decoration: none;
+}
+
+.person-avatar {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 0.75rem auto;
+}
+
+.person-name {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.person-role {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.people-avatar {
+  width: 160px;      // pick a size you like
+  height: 160px;     // same as width → square
+  border-radius: 50%;
+  object-fit: cover; // crop to fill without distortion
+  display: block;
+  margin: 0 auto 1rem auto; // center in card
+}
+
+/* ------------------------------------------------------------
+   Publications page layout: match margins with other pages
+   ------------------------------------------------------------ */
+
+body[data-wc-page-id="3a079e7dad19be978a318345a7749d34"] .page-body > main.container {
+  max-width: 900px;          /* adjust 860–960 to taste */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* =========================================================
+   Global page heading & top spacing (About/People/Projects/
+   Publications/Courses/Contact)
+   ========================================================= */
+
+/* Uniform top/bottom padding for all simple pages */
+.page-body main.container {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+/* Normalize all page titles, regardless of layout */
+.page-body h1,
+.page-body .section-heading h1 {
+  font-size: 2.4rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  margin-top: 0 !important;
+  margin-bottom: 1.5rem !important;
+  /* make sure they all use the same font */
+  font-family: inherit !important;
+}
+
+/* In some Hugo Blox layouts the title is wrapped differently;
+   catch those too just in case. */
+.page-body main.container > h1:first-child,
+.page-body main.container > .article-title:first-child {
+  margin-top: 0 !important;
+}
+

@@ -1,0 +1,9 @@
+<script>
+function toggleAbstract(el) {
+  const content = el.nextElementSibling;
+  const isOpen = content.style.display === "block";
+
+  content.style.display = isOpen ? "none" : "block";
+  el.innerHTML = isOpen ? "▶ Abstract" : "▼ Abstract";
+}
+</script>

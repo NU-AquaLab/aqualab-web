@@ -1,0 +1,56 @@
+{{ define "main" }}
+<main id="author-profile">
+  <div class="container my-5">
+
+    <div class="row">
+      <div class="col-md-3 text-center mb-4">
+
+        {{/* Try to get the profile page that matches this author term */}}
+        {{ $authorID := .Title | urlize }}
+        {{ $profile := site.GetPage (printf "authors/%s" $authorID) }}
+
+        {{ with $profile }}
+          {{ with .Resources.GetMatch .Params.avatar }}
+            <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="people-avatar">
+          {{ end }}
+
+          {{ with .Params.role }}
+            <p class="mt-3 text-muted">{{ . }}</p>
+          {{ end }}
+
+          {{ with .Params.website }}
+            <p class="mt-2">
+              <a href="{{ . }}" target="_blank" rel="noopener">Website</a>
+            </p>
+          {{ end }}
+        {{ end }}
+
+      </div>
+
+      <div class="col-md-9">
+        <h1>{{ .Title }}</h1>
+
+        {{ with $profile }}
+          {{ with .Params.organizations }}
+            <p class="text-muted">
+              {{ range $i, $org := . }}
+                {{ if $i }}, {{ end }}{{ $org.name }}
+              {{ end }}
+            </p>
+          {{ end }}
+
+          <div class="mt-4">
+            {{ .Content }}
+          </div>
+        {{ else }}
+          <p class="text-muted">
+            No profile page found under <code>content/authors/{{ $authorID }}/</code>.
+          </p>
+        {{ end }}
+      </div>
+    </div>
+
+  </div>
+</main>
+{{ end }}
+
