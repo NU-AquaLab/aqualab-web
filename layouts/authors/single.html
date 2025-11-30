@@ -1,0 +1,59 @@
+{{ define "main" }}
+<main class="people-section">
+  <div class="container">
+    <article class="person-profile text-center">
+
+      {{/* Avatar: prefer page resource (avatar.*), fallback to Params.avatar */}}
+      {{ with .Resources.GetMatch "avatar*" }}
+        <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="people-avatar">
+      {{ else }}
+        {{ with .Params.avatar }}
+          <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="people-avatar">
+        {{ end }}
+      {{ end }}
+
+      <h1 class="person-name mt-3">{{ .Title }}</h1>
+
+      {{ with .Params.role }}
+        <p class="person-role">{{ . }}</p>
+      {{ end }}
+
+      {{ with .Params.organizations }}
+        {{ range . }}
+          {{ with .name }}
+            <p class="person-affiliation">{{ . }}</p>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ if or .Params.website .Params.email (gt (len .Params.social) 0) }}
+        <div class="person-links mt-3 mb-3">
+          {{ with .Params.website }}
+            <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary me-2">
+              Website
+            </a>
+          {{ end }}
+          {{ with .Params.email }}
+            <a href="mailto:{{ . }}" class="btn btn-sm btn-outline-primary me-2">
+              Email
+            </a>
+          {{ end }}
+          {{ range .Params.social }}
+            <a href="{{ .link }}" target="_blank" rel="noopener" class="me-2">
+              <i class="{{ .icon_pack }} fa-{{ .icon }}"></i>
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      {{ with .Content }}
+        <div class="person-bio text-start mt-3">
+          {{ . }}
+        </div>
+      {{ end }}
+
+    </article>
+  </div>
+</main>
+{{ end }}
+
