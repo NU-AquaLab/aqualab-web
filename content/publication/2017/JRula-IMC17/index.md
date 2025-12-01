@@ -1,8 +1,11 @@
 ---
-title: "Cell Spotting: Studying the Role of Cellular Networks in the"
+title: "Cell Spotting: Studying the Role of Cellular Networks in the Internet"
 authors:
-  - ""
-date: 2017-01-01
+  - John P. Rula
+  - Fabián E. Bustamante
+  - Moritz Steiner
+
+date: 2017-11-01
 publication: ""
 abstract: ""
 url_pdf: "JRula-IMC17.pdf"
@@ -10,7 +13,9 @@ featured: false
 ---
 
 {{< spoiler text="Abstract" >}}
+The impressive growth of the mobile Internet has motivated several industry reports retelling the story in terms of number of devices or subscriptions sold per regions, or the increase in mobile traffic, both WiFi and cellular. Yet, despite the abundance of such reports, we still lack an understanding of the impact of cellular networks around the world. 
 
-The impressive growth of the mobile Internet has motivated several industry reports retelling the story in terms of number of devices or subscriptions sold per regions, or the increase in mobile traffic, both WiFi and cellular. Yet, despite the abundance of such reports, we still lack an understanding of the impact of cellular networks around the world. We present the first comprehensive analysis of global cellular networks. We describe an approach to accurately identify cellular network IP addresses using the Network Information API, a non-standard Javascript API in several mobile browsers, and show its effectiveness in a range cellular network configurations. We combine this approach with the vantage point of one of the world’s largest CDNs, with servers located in 1,450 networks and clients distributed across across 245 countries, to characterize cellular access around the globe. We find that the majority of cellular networks exist as mixed networks (i.e., networks that share both fixed-line and cellular devices), requiring prefix – not ASN – level identification. We discover over 350 thousand /24 and 23 thousand /48 cellular IPv4 and IPv6 prefixes respectively. By utilizing addresses level traffic from the same CDN, we calculate the fraction of traffic coming from cellular addresses. Overall we find that cellular traffic comprises 16.2% of the CDN’s global traffic, and that cellular traffic ranges widely in importance between countries, from capturing nearly 96% of all traffic in Ghana to just 12.1% in France.
+We present the first comprehensive analysis of global cellular networks. We describe an approach to accurately identify cellular network IP addresses using the Network Information API, a non-standard Javascript API in several mobile browsers, and show its effectiveness in a range cellular network configurations. We combine this approach with the vantage point of one of the world’s largest CDNs, with servers located in 1,450 networks and clients distributed across across 245 countries, to characterize cellular access around the globe. 
 
+We find that the majority of cellular networks exist as mixed networks (i.e., networks that share both fixed-line and cellular devices), requiring prefix – not ASN – level identification. We discover over 350 thousand /24 and 23 thousand /48 cellular IPv4 and IPv6 prefixes respectively. By utilizing addresses level traffic from the same CDN, we calculate the fraction of traffic coming from cellular addresses. Overall we find that cellular traffic comprises 16.2% of the CDN’s global traffic, and that cellular traffic ranges widely in importance between countries, from capturing nearly 96% of all traffic in Ghana to just 12.1% in France.
 {{< /spoiler >}}
