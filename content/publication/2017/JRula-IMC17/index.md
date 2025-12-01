@@ -7,7 +7,7 @@ authors:
 
 date: 2017-11-01
 publication: ""
-abstract: ""
+abstract: "Proceedings of the ACM Internet Measurement Conference (IMC)"
 url_pdf: "JRula-IMC17.pdf"
 featured: false
 ---
