@@ -33,17 +33,17 @@ These are graded for comprehension — short but thoughtful answers are enough.
 
 ### Helpful resources
 
-- S. Keshav, *How to Read a Paper*, CCR 2007  
-- M. Hanson & D. McNamee, *Efficient Reading of Papers in Science and Technology*  
+- S. Keshav, [*How to Read a Paper*](https://dl.acm.org/doi/10.1145/1273445.1273458), CCR 2007  
+- M. Hanson & D. McNamee, [*Efficient Reading of Papers in Science and Technology*](https://www.cs.columbia.edu/~hgs/netbib/efficientReading.pdf)  
 
 ---
 
-## Writing Reviews — WINE 2025 Mini-Conference
+## Writing Reviews — WINE 2026 Mini-Conference
 
 The class runs a small program-committee–style process using:
 
-**WINE (We do INternet Experimentation) 2025**  
-HotCRP: <https://northwestern-ise25.hotcrp.com/>
+**WINE (We do INternet Experimentation) 2026**
+[HotCRP](https://northwestern-ise26.hotcrp.com/)
 
 You will:
 

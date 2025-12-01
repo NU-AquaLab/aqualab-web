@@ -19,13 +19,13 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- V. Paxson, *Strategies for Sound Internet Measurements*, IMC 2004 — {{< reading_tag "question" >}}
+- V. Paxson, [*Strategies for Sound Internet Measurements*](https://dl.acm.org/doi/10.1145/1028788.1028824), IMC 2004 — {{< reading_tag "question" >}}
 
 ### Thu 01/08 — The Questions We Ask
 
 **Readings**
 
-- M. Sanchez et al., *Internet Inter-Domain Traffic Estimation for the Outsider*, IMC 2014 — {{< reading_tag "question" >}}
+- M. Sanchez et al., [*Internet Inter-Domain Traffic Estimation for the Outsider*](https://nu-aqualab.github.io/aqualab-web/publication/2014/msanchez-imc14/MSanchez-IMC14.pdf), IMC 2014 — {{< reading_tag "question" >}}
 
 </details>
 
@@ -38,15 +38,15 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- B. Augustin et al., *Avoiding Traceroute Anomalies with Paris Traceroute*, IMC 2006 — {{< reading_tag "background" >}}  
-- E. Fazzion et al., *RemapRoute: Local Remapping of Internet Path Changes*, IMC 2025 (short) — {{< reading_tag "question" >}}
+- B. Augustin et al., [*Avoiding Traceroute Anomalies with Paris Traceroute*](https://conferences.sigcomm.org/imc/2006/papers/p15-augustin.pdf), IMC 2006 — {{< reading_tag "background" >}}  
+- E. Fazzion et al., [*RemapRoute: Local Remapping of Internet Path Changes*](https://dl.acm.org/doi/10.1145/3730567.3732923), IMC 2025 (short) — {{< reading_tag "question" >}}
 
 ### Thu 01/15 — Platforms, Capture & Under-Adversary Measurement
 
 **Readings**
 
-- Z. Durumeric et al., *Censys: A Map of Internet Hosts and Services*, SIGCOMM 2025 — {{< reading_tag "review" >}}  
-- A. Männel et al., *Lessons learned from operating a large network telescope*,  SIGCOMM 2025 — {{< reading_tag "question" >}}  
+- Z. Durumeric et al., [*Censys: A Map of Internet Hosts and Services*](https://dl.acm.org/doi/10.1145/3718958.3754344), SIGCOMM 2025 — {{< reading_tag "review" >}}  
+- A. Männel et al., [*Lessons learned from operating a large network telescope*](https://dl.acm.org/doi/10.1145/3718958.3754347),  SIGCOMM 2025 — {{< reading_tag "question" >}}  
 
 </details>
 
@@ -59,14 +59,14 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- C. Selmo et al., *Learning AS-to-Organization Mappings with Borges*, IMC 2025 — {{< reading_tag "review" >}}
+- C. Selmo et al., [*Learning AS-to-Organization Mappings with Borges*](https://nu-aqualab.github.io/aqualab-web/publication/2025/cselmo-imc25/CSelmo-IMC25.pdf), IMC 2025 — {{< reading_tag "review" >}}
 
 ### Thu 01/22 — Mapping Internet Infrastructure
 
 **Readings**
 
-- K. Tiagarajan et al., *The Aleph: Decoding DNS PTR Records With LLMs*, CoNEXT 2025 — {{< reading_tag "background" >}}
-- H. Rimlinger et al., GeoResolver: An Accurate, Scalable, and Explainable Geolocation Technique Using DNS Redirection*, CoNEXT 2025 — {{< reading_tag "review" >}}
+- K. Tiagarajan et al., [*The Aleph: Decoding DNS PTR Records With LLMs*](https://nu-aqualab.github.io/aqualab-web/publication/2025/kthiagarajan-conext25/KThiagarajan-CoNEXT25.pdf), CoNEXT 2025 — {{< reading_tag "background" >}}
+- H. Rimlinger et al., [*GeoResolver: An Accurate, Scalable, and Explainable Geolocation Technique Using DNS Redirection*](https://dl.acm.org/doi/10.1145/3680121.3699884), CoNEXT 2025 — {{< reading_tag "review" >}}
 
 </details>
 
@@ -79,15 +79,15 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- Z. Bischof et al., *Need, Want, Can Afford: Broadband Markets and the Behavior of Users*, IMC 2014 — {{< reading_tag "question" >}}  
-- F. de Vocht et al., *Conceptualizing Natural and Quasi-Experiments in Public Health*, BMC Medical Research Methodology 21(32), 2021  — {{< reading_tag "background" >}}  
+- Z. Bischof et al., [*Need, Want, Can Afford: Broadband Markets and the Behavior of Users*](https://nu-aqualab.github.io/aqualab-web/publication/2014/zbischof-imc14/ZBischof-IMC14.pdf), IMC 2014 — {{< reading_tag "question" >}}  
+- F. de Vocht et al., [*Conceptualizing Natural and Quasi-Experiments in Public Health*](https://pubmed.ncbi.nlm.nih.gov/33573595/), BMC Medical Research Methodology 21(32), 2021  — {{< reading_tag "background" >}}  
 
 ### Thu 01/29 — Bias & Latency Stability
 
 **Readings**
 
-- A. Efstratiou, *On YouTube Search API Use in Research*, IMC 2025 — {{< reading_tag "question" >}}  
-- P. Sermpezis et al., *Bias in Internet Measurement Platforms*, TMA 2023 — {{< reading_tag "background" >}}
+- A. Efstratiou, [*On YouTube Search API Use in Research*](https://dl.acm.org/doi/10.1145/3730567.3764492), IMC 2025 — {{< reading_tag "question" >}}  
+- P. Sermpezis et al., [*Bias in Internet Measurement Platforms*](https://tma.ifip.org/2023/wp-content/uploads/sites/12/2023/06/tma2023-final28.pdf), TMA 2023 — {{< reading_tag "background" >}}
 
 </details>
 
@@ -100,8 +100,8 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- R. Hiesgen et al., A Detailed Measurement View on IPv6 Scanners and Their Adaption to BGP Signals*, CoNEXT 2025  — {{< reading_tag "review" >}} 
-- R. Hendriks et al., *An Empirical Evaluation of Longitudinal Anycast Catchment Stability*, PAM 2025 — {{< reading_tag "review" >}}
+- R. Hiesgen et al., [*A Detailed Measurement View on IPv6 Scanners and Their Adaption to BGP Signals*](https://dl.acm.org/doi/10.1145/3749215), CoNEXT 2025  — {{< reading_tag "review" >}} 
+- R. Hendriks et al., [*An Empirical Evaluation of Longitudinal Anycast Catchment Stability*](https://ris.utwente.nl/ws/portalfiles/portal/499495935/978-3-031-85960-1_16.pdf), PAM 2025 — {{< reading_tag "review" >}}
 
 ### Thu 02/05 — Satellites
 
