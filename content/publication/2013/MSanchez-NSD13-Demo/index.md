@@ -10,7 +10,7 @@ authors:
   - Walter Willinger
 
 date: 2013-01-01
-publication: "Proceedings of USENIX NSDI - Demo"
+publication: "Proc.USENIX NSDI - Demo"
 abstract: ""
 url_pdf: "MSanchez-NSDI13-Demo.pdf"
 featured: false

@@ -7,7 +7,7 @@ authors:
   - Fabián E. Bustamante
 
 date: 2013-01-01
-publication: "Proceedings of PAM"
+publication: "Proc.PAM"
 abstract: ""
 url_pdf: "MSanchez-PAM13.pdf"
 featured: false
