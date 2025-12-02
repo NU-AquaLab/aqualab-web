@@ -1,5 +1,5 @@
 ---
-title: "No “One-Size Fits All" - Towards a principled approach for incentives in mobile crowdsourcing"
+title: "No One-Size Fits All - Towards a principled approach for incentives in mobile crowdsourcing"
 authors:
   - John P. Rula
   - Vishnu Navda
