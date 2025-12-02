@@ -8,8 +8,8 @@ authors:
   - Fabián E. Bustamante
   - Balachander Krishnamurthy
   - Walter Winnger
-date: 2015-01-01
-publication: ""
+date: 2015-12-01
+publication: "IEEE/ACM Transactions on Networking, 23(6)"
 abstract: ""
 url_pdf: "MSanchez-IEEEToN15.pdf"
 featured: false

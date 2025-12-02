@@ -5,7 +5,7 @@ authors:
   - Zachary S. Bischof
   - Fabián E. Bustamante
 date: 2015-01-01
-publication: "Proceedings of SIGCOMM C2B(I)D Workshop"
+publication: "Proc.SIGCOMM C2B(I)D Workshop"
 abstract: ""
 url_pdf: "JRula-SIGCOMM-C2BID15.pdf"
 featured: false

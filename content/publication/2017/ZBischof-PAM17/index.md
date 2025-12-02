@@ -6,7 +6,7 @@ authors:
   - Rade Stanojevic
 
 date: 2017-03-30
-publication: "Proceedings of the Passive and Active Measurement Conference (PAM)"
+publication: "Proc. Passive and Active Measurement Conference (PAM)"
 abstract: ""
 url_pdf: "ZBischof-PAM17.pdf"
 featured: false

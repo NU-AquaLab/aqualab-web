@@ -4,7 +4,7 @@ authors:
   - Zachary S. Bischof
   - Fabián E. Bustamante
 date: 2014-08-17
-publication: ""
+publication: "Proc. ACM SIGCOMM Posters and Demos"
 abstract: ""
 url_pdf: "ZBischof-SIGCOMM-Poster14.pdf"
 featured: false

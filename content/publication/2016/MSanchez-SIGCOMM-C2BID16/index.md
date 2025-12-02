@@ -7,7 +7,7 @@ authors:
   - Walter Willinger
 
 date: 2016-06-17
-publication: "Proceedings of ACM SIGCOMM C2B(I)D Workshop"
+publication: "Proc.ACM SIGCOMM C2B(I)D Workshop"
 abstract: ""
 url_pdf: "MSanchez-SIGCOMM-C2BID16.pdf"
 featured: false

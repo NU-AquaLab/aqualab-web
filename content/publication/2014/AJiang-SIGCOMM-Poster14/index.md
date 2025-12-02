@@ -6,7 +6,7 @@ authors:
   - Fabián E. Bustamante
 
 date: 2014-08-17
-publication: ""
+publication: "Proc. of SIGCOMM Posters and Demos"
 abstract: ""
 url_pdf: "AJiang-SIGCOMM-Poster14.pdf"
 featured: false

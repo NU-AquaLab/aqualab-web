@@ -7,7 +7,7 @@ authors:
   - Ranjita Bhagwan 
   - Saikat Uha
 date: 2014-02-26
-publication: "Proceedings of International Workshop on Mobile Computing Systems and Applications (HotMobile)"
+publication: "Proc.International Workshop on Mobile Computing Systems and Applications (HotMobile)"
 abstract: ""
 url_pdf: "JRula-HotMobile14.pdf"
 featured: false

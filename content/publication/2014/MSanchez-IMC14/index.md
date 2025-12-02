@@ -8,7 +8,7 @@ authors:
   - Georgios Smaragdakis 
   - Jeffrey Ernman
 date: 2014-11-05
-publication: "Proceedings of the ACM Internet Measurement Conference (IMC)"
+publication: "Proc.the ACM Internet Measurement Conference (IMC)"
 abstract: ""
 url_pdf: "MSanchez-IMC14.pdf"
 featured: false

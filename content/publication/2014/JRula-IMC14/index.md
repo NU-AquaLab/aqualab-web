@@ -4,7 +4,7 @@ authors:
   - John P. Rula
   - Fabián E. Bustamante
 date: 2014-11-05
-publication: "Proceedings of the ACM Internet Measurement Conference (IMC)"
+publication: "Proc. ACM Internet Measurement Conference (IMC)"
 abstract: ""
 url_pdf: "JRula-IMC14.pdf"
 featured: false

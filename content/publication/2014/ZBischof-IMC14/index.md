@@ -5,7 +5,7 @@ authors:
   - Fabián E. Bustamante
   - Rade Stanojevic
 date: 2014-11-05
-publication: "Proceedings of the ACM Internet Measurement Conference (IMC)"
+publication: "Proc.the ACM Internet Measurement Conference (IMC)"
 abstract: ""
 url_pdf: "ZBischof-IMC14.pdf"
 featured: false

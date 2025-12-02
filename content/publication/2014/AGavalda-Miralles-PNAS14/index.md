@@ -10,8 +10,8 @@ authors:
   - Jordi Duch
   - Roger Guimera
 
-date: 2014-01-01
-publication: ""
+date: 2014-10-06
+publication: "Proc. Natl. Acad. Sci. (PNAS), 111(43)"
 abstract: ""
 url_pdf: "AGavalda-Miralles-PNAS14.pdf"
 featured: false

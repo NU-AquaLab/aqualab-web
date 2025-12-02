@@ -8,7 +8,7 @@ authors:
   - Jordi Duch
   - Roger Guimera
 date: 2014-12-02
-publication: "Proceedings of International Conference on Emerging Networking Experiments And Technologies (CoNEXT)"
+publication: "Proc.International Conference on Emerging Networking Experiments And Technologies (CoNEXT)"
 abstract: ""
 url_pdf: "AGavalda-Miralles-CoNEXT14.pdf"
 featured: false

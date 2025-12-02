@@ -5,7 +5,7 @@ authors:
   - John P. Rula
   - Fabián E. Bustamante
 date: 2015-01-01
-publication: "Proceedings of the ACM Internet Measurement Conference (IMC)"
+publication: "Proc. ACM Internet Measurement Conference (IMC)"
 abstract: ""
 url_pdf: "ZBischof-IMC15.pdf"
 featured: false
