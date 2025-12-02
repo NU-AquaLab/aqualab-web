@@ -7,7 +7,7 @@ authors:
   - Santiago Klein
   - Fabián E. Bustamante
 date: 2024-08-04
-publication: "Proceedings of ACM SIGCOMM"
+publication: "Proc. ACM SIGCOMM"
 abstract: ""
 url_pdf: "ECarisimo-SIGCOMM24.pdf"
 featured: false

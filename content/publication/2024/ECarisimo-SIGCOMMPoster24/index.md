@@ -7,7 +7,7 @@ authors:
   - Paul Barford
 
 date: 2024-08-01
-publication: "Proceedings of ACM SIGCOMM Posters and Demos"
+publication: "Proci. ACM SIGCOMM Posters and Demos"
 abstract: ""
 url_pdf: "ECarisimo-SIGCOMMPoster24.pdf"
 featured: false
