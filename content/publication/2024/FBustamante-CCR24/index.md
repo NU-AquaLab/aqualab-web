@@ -11,7 +11,7 @@ authors:
   - Henning Schulzrinne
 
 date: 2024-04-01
-publication: "ACM SIGCOMM Computer Communication Review"
+publication: "ACM SIGCOMM Computer Communication Review, 54(2)"
 abstract: ""
 url_pdf: "FBustamante-CCR24.pdf"
 featured: false

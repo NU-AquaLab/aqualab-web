@@ -9,7 +9,7 @@ authors:
   - Alberto Dainotti
 
 date: 2022-03-28
-publication: "Proceedings of PAM"
+publication: "Proceedings of the Passive and Active Measurement Conference (PAM)"
 abstract: ""
 url_pdf: "AGameroG-PAM22.pdf"
 featured: false
