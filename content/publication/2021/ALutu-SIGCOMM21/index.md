@@ -7,7 +7,7 @@ authors:
   - Fabián E. Bustamante
 
 date: 2021-08-23
-publication: "Proceedings of ACM SIGCOMM"
+publication: "Proc. ACM SIGCOMM"
 abstract: ""
 url_pdf: "ALutu-SIGCOMM21.pdf"
 featured: false

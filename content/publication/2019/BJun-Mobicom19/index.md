@@ -7,7 +7,7 @@ authors:
   - Zachary S. Bischof
   
 date: 2019-10-21
-publication: "Proceedings of ACM MobiCom"
+publication: "Proc. Annual International Conference on Mobile Computing and Networking (MobiCom)"
 abstract: ""
 url_pdf: "BJun-Mobicom19.pdf"
 featured: false

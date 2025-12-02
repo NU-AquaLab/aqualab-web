@@ -7,7 +7,7 @@ authors:
   - Alberto Dainotti
 
 date: 2021-11-02
-publication: "Proceedings of the ACM Internet Measurement Conference (IMC)"
+publication: "Proc. ACM Internet Measurement Conference (IMC)"
 abstract: ""
 url_pdf: "ECarisimo-IMC21.pdf"
 featured: false

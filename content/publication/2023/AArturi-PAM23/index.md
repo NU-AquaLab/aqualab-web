@@ -6,7 +6,7 @@ authors:
   - Fabian E. Bustamante
 
 date: 2023-01-01
-publication: "Proceedings of the Passive and Active Measurement Conference (PAM)"
+publication: "Proc. Passive and Active Measurement Conference (PAM)"
 abstract: ""
 url_pdf: "AArturi-PAM23.pdf"
 featured: false

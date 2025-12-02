@@ -7,7 +7,7 @@ authors:
   - Ian Clelland
 
 date: 2022-03-09
-publication: "Proceedings of International Workshop on Mobile Computing Systems and Applications (HotMobile)"
+publication: "Proc. International Workshop on Mobile Computing Systems and Applications (HotMobile)"
 abstract: ""
 url_pdf: "BJung-HotMobile22.pdf"
 featured: false

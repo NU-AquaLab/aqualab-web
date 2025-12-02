@@ -7,7 +7,7 @@ authors:
   - Fabian E. Bustamante
 
 date: 2023-01-01
-publication: "Proceedings of ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems"
+publication: "Proc. ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems"
 abstract: ""
 url_pdf: "RKumar-SIGMETRICS23.pdf"
 featured: false

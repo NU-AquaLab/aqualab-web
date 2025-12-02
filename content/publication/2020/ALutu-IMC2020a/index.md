@@ -8,7 +8,7 @@ authors:
   - Diego Perino
 
 date: 2020-01-01
-publication: "Proceedings of the ACM Internet Measurement Conference (IMC)"
+publication: "Proc. ACM Internet Measurement Conference (IMC)"
 abstract: ""
 url_pdf: "ALutu-IMC2020a.pdf"
 featured: false

@@ -10,7 +10,7 @@ authors:
   - Mariano G. Beiro
 
 date: 2024-11-04
-publication: "Proceedings of the ACM Internet Measurement Conference (IMC)"
+publication: "Proc. ACM Internet Measurement Conference (IMC)"
 abstract: ""
 url_pdf: "RKumar-IMC24.pdf"
 featured: false

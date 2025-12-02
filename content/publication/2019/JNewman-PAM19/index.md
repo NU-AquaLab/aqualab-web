@@ -4,7 +4,7 @@ authors:
   - James Newman
   - Fabián E. Bustamante
 date: 2019-01-01
-publication: "Proceedings of the Passive and Active Measurement Conference (PAM)"
+publication: "Proc. Passive and Active Measurement Conference (PAM)"
 abstract: ""
 url_pdf: "JNewman-PAM19.pdf"
 featured: false

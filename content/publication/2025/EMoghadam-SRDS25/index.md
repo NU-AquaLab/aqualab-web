@@ -6,7 +6,7 @@ authors:
   - Adrian Perrig
   - Walter Willinger
 date: 2025-09-29         
-publication: "Proceedings of the International Symposium on Reliable Distributed Systems"
+publication: "Proc. International Symposium on Reliable Distributed Systems (SRDS)"
 award: "Best Student Paper"
 award_icon: "award"
 abstract: ""

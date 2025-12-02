@@ -5,7 +5,7 @@ authors:
   - Esteban Carisimo
   - Fabián E. Bustamante
 date: 2025-11-01
-publication: "Proceedings of the International Conference on emerging Networking EXperiments and Technologies (CoNEXT)"
+publication: "Proc. International Conference on emerging Networking EXperiments and Technologies (CoNEXT)"
 abstract: ""
 url_pdf: "KThiagarajan-CoNEXT25.pdf"
 featured: false

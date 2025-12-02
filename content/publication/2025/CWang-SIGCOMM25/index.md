@@ -8,7 +8,7 @@ authors:
   - Fabián E. Bustamante
   - Ram Durairajan
 date: 2025-08-01          # approximate; update to the actual SIGCOMM 2025 date
-publication: "Proceedings of ACM SIGCOMM 2025 (Short Paper)"
+publication: "Proc. ACM SIGCOMM 2025 (Short Paper)"
 
 abstract: ""
 

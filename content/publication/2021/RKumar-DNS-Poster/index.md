@@ -5,7 +5,7 @@ authors:
   - Fabián E. Bustamante
 
 date: 2021-08-23
-publication: "Proceedings of ACM SIGCOMM Demos and Posters"
+publication: "Proc. ACM SIGCOMM Demos and Posters"
 abstract: ""
 url_pdf: "RKumar-DNS-Poster.pdf"
 featured: false

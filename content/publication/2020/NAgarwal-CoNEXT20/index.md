@@ -8,7 +8,7 @@ authors:
   - Ravi Netravali
 
 date: 2020-11-24
-publication: "Proceedings of the International Conference on emerging Networking EXperiments and Technologies (CoNEXT)"
+publication: "Proc. International Conference on emerging Networking EXperiments and Technologies (CoNEXT)"
 abstract: ""
 url_pdf: "NAgarwal-CoNEXT20.pdf"
 featured: false

@@ -8,7 +8,7 @@ authors:
   - Fabián E. Bustamante
 
 date: 2020-01-01
-publication: "Proceedings of the ACM Internet Measurement Conference (IMC)"
+publication: "Proc. ACM Internet Measurement Conference (IMC)"
 abstract: ""
 url_pdf: "SLiu-IMC2020.pdf"
 featured: false

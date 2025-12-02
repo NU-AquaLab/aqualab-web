@@ -6,7 +6,7 @@ authors:
   - Nick Feamster 
 
 date: 2018-01-01
-publication: "Proceedings of The Research Conference on Communications, Information and Internet Policy (TPRC)"
+publication: "Proc. The Research Conference on Communications, Information and Internet Policy (TPRC)"
 abstract: ""
 url_pdf: "ZBischof-TPRC18.pdf"
 featured: false
