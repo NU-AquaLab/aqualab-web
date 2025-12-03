@@ -6,7 +6,7 @@ authors:
   - Fabián E. Bustamante
   - J. Ignacio Alvarez-Hamelin
 date: 2025-10-28        
-publication: "Proc. ACM Internet Measurement Conference (IMC)"
+publication: "IMC '25"
 
 abstract: ""
 

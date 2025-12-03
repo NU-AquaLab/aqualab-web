@@ -9,7 +9,7 @@ authors:
 
 date: 2025-01-01
 
-publication: "Proc. Privacy Enhancing Technology Symposium (PoPETs)"
+publication: "PoPETS '25"
 abstract: ""
 url_pdf: "JHe-popets-2025.pdf"
 featured: false
