@@ -8,7 +8,7 @@ authors:
   - Paul Barford
 
 date: 2023-12-01
-publication: "Proc. ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems"
+publication: "SIGMETRICS '23"
 abstract: ""
 url_pdf: "ECarisimo-SIGMETRICS23.pdf"
 featured: false

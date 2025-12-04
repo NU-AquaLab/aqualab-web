@@ -7,7 +7,7 @@ authors:
   - kc claffy
 
 date: 2022-03-28
-publication: "Proc. Passive and Active Measurement Conference (PAM)"
+publication: "PAM '22"
 abstract: ""
 url_pdf: "ECarisimo-PAM22.pdf"
 featured: false

@@ -9,7 +9,7 @@ authors:
   - Ben Livshits
 
 date: 2022-01-01
-publication: "Proc. Passive and Active Measurement Conference (PAM)"
+publication: "PAM '22"
 abstract: ""
 url_pdf: "MVarvello-PAM22.pdf"
 featured: false

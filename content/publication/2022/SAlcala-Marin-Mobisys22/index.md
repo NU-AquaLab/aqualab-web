@@ -10,7 +10,7 @@ authors:
   - Fabian E. Bustamante
 
 date: 2022-06-25
-publication: "Proc. International Conference on Mobile Systems, Applications, and Services (Mobisys)"
+publication: "MobiSys '22"
 abstract: ""
 url_pdf: "SAlcala-Marin-Mobisys22.pdf"
 featured: false
