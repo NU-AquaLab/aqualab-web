@@ -83,6 +83,21 @@
 }
 
 /* ------------------------------------------------------------
+   Awards
+   ------------------------------------------------------------ */
+
+.pub-award-badge {
+  display: inline-block;
+  background-color: #ffd54f;   /* soft yellow like ETH */
+  color: #000;
+  padding: 2px 6px;
+  margin-left: 6px;
+  font-size: 0.65em;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+/* ------------------------------------------------------------
    Spacing Consistency
    ------------------------------------------------------------ */
 
@@ -283,5 +298,9 @@ body[data-wc-page-id="3a079e7dad19be978a318345a7749d34"] .page-body > main.conta
 .page-body main.container > h1:first-child,
 .page-body main.container > .article-title:first-child {
   margin-top: 0 !important;
+}
+
+.pub-item .pub-award-badge {
+  font-size: 0.7em !important;
 }
 

@@ -5,7 +5,7 @@ authors:
   - Esteban Carisimo
   - Fabián E. Bustamante
 date: 2024-08-01
-publication: "Proc. ACM SIGCOMM Posters and Demos"
+publication: "SIGCOMM '24 Posters and Demos"
 abstract: ""
 url_pdf: "KThiagarajan-SIGCOMMPoster24.pdf"
 featured: false

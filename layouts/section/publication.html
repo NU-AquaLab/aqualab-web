@@ -44,6 +44,10 @@
                     {{ . }}
                   </span>
                 {{ end }}
+
+		{{ with .Params.award }}
+    		  <span class="pub-award-badge">🏆 {{ . }}</span>
+  		{{ end }}
               </div>
 
               {{/* ---------- PDF LINK ---------- */}}
