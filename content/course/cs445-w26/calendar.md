@@ -66,7 +66,7 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 **Readings**
 
 - K. Tiagarajan et al., [*The Aleph: Decoding DNS PTR Records With LLMs*](https://nu-aqualab.github.io/aqualab-web/publication/2025/kthiagarajan-conext25/KThiagarajan-CoNEXT25.pdf), CoNEXT 2025 — {{< reading_tag "background" >}}
-- H. Rimlinger et al., [*GeoResolver: An Accurate, Scalable, and Explainable Geolocation Technique Using DNS Redirection*](https://dl.acm.org/doi/10.1145/3680121.3699884), CoNEXT 2025 — {{< reading_tag "review" >}}
+- H. Rimlinger et al., [*GeoResolver: An Accurate, Scalable, and Explainable Geolocation Technique Using DNS Redirection*](https://dl.acm.org/doi/10.1145/3749219), CoNEXT 2025 — {{< reading_tag "review" >}}
 
 </details>
 
@@ -100,7 +100,7 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- R. Hiesgen et al., [*A Detailed Measurement View on IPv6 Scanners and Their Adaption to BGP Signals*](https://dl.acm.org/doi/10.1145/3749215), CoNEXT 2025  — {{< reading_tag "review" >}} 
+- I. Egloff et al., [*A Detailed Measurement View on IPv6 Scanners and Their Adaption to BGP Signals*](https://dl.acm.org/doi/10.1145/3749215), CoNEXT 2025  — {{< reading_tag "review" >}} 
 - R. Hendriks et al., [*An Empirical Evaluation of Longitudinal Anycast Catchment Stability*](https://ris.utwente.nl/ws/portalfiles/portal/499495935/978-3-031-85960-1_16.pdf), PAM 2025 — {{< reading_tag "review" >}}
 
 ### Thu 02/05 — Satellites
@@ -141,7 +141,7 @@ Short presentations + Q&A.
 
 **Readings**
 
-- E. Lieu et al., [*Somesite I Used to Crawl: Protecting Content Creators From AI Crawlers*](https://www.sysnet.ucsd.edu/~voelker/pubs/robots-imc25.pdf), IMC 2025 — {{< reading_tag "review" >}}  
+- E. Liu et al., [*Somesite I Used to Crawl: Protecting Content Creators From AI Crawlers*](https://www.sysnet.ucsd.edu/~voelker/pubs/robots-imc25.pdf), IMC 2025 — {{< reading_tag "review" >}}  
 - M. Ansar et al., [*Web Crawl Refusals: Insights From Common Crawl*](https://research.utwente.nl/en/publications/web-crawl-refusals-insights-from-common-crawl/), PAM 2025 — {{< reading_tag "background" >}}
 
 ### Thu 02/19 — Cookies & Fingerprinting
