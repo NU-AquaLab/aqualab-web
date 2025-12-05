@@ -7,7 +7,7 @@ authors:
   - Fabián E. Bustamante
 
 date: 2021-01-01
-publication: "Proc. Network Traffic Measurement and Analysis Conference (TMA)"
+publication: "TMA '21"
 abstract: ""
 url_pdf: "WebTune-4.pdf"
 featured: false

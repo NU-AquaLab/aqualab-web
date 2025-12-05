@@ -107,8 +107,8 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- Z. Liu et al., *Vivisecting Starlink Throughput*, CoNEXT 2025 — {{< reading_tag "review" >}}  
-- Z. Zhao et al., *Measuring the OneWeb Satellite Network*, TMA 2025 — {{< reading_tag "review" >}}
+- Z. Liu et al., [*Vivisecting Starlink Throughput*](https://dl.acm.org/doi/10.1145/3768971), CoNEXT 2025 — {{< reading_tag "review" >}}  
+- Z. Zhao et al., [*Measuring the OneWeb Satellite Network*](https://ieeexplore.ieee.org/document/11096999), TMA 2025 — {{< reading_tag "review" >}}
 
 </details>
 
@@ -121,8 +121,8 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- P. Sattler et al., *ECSeptional DNS Data: Evaluating Nameserver ECS Deployments with Response-Aware Scanning*, CoNEXT 2025 — {{< reading_tag "review" >}}
-- C. Deccio and B. Tessem, *On Aggressive Negative Caching in DNS Resolvers*, TMA 2025 — {{< reading_tag "review" >}}  
+- P. Sattler et al., [*ECSeptional DNS Data: Evaluating Nameserver ECS Deployments with Response-Aware Scanning*](https://dl.acm.org/doi/10.1145/3730977), CoNEXT 2025 — {{< reading_tag "review" >}}
+- C. Deccio and B. Tessem, [*On Aggressive Negative Caching in DNS Resolvers*](https://casey.byu.edu/papers/2025_tma_agg_nsec.pdf), TMA 2025 — {{< reading_tag "review" >}}  
 
 
 ### Thu 02/12 — Midterm Presentations
@@ -141,15 +141,15 @@ Short presentations + Q&A.
 
 **Readings**
 
-- E. Lieu et al., *Somesite I Used to Crawl: Protecting Content Creators From AI Crawlers*, IMC 2025 — {{< reading_tag "review" >}}  
-- M. Ansar et al., *Web Crawl Refusals: Insights From Common Crawl*, PAM 2025 — {{< reading_tag "background" >}}
+- E. Lieu et al., [*Somesite I Used to Crawl: Protecting Content Creators From AI Crawlers*](https://www.sysnet.ucsd.edu/~voelker/pubs/robots-imc25.pdf), IMC 2025 — {{< reading_tag "review" >}}  
+- M. Ansar et al., [*Web Crawl Refusals: Insights From Common Crawl*](https://research.utwente.nl/en/publications/web-crawl-refusals-insights-from-common-crawl/), PAM 2025 — {{< reading_tag "background" >}}
 
 ### Thu 02/19 — Cookies & Fingerprinting
 
 **Readings**
 
-- M. Zollner et al., *A First Look at Cookies Having Independent Partitioned State*, PAM 2025 — {{< reading_tag "review" >}}  
-- E. Luo et al., *Canvassing the Fingerprinters*, IMC 2025 — {{< reading_tag "review" >}}
+- M. Zollner et al., [*A First Look at Cookies Having Independent Partitioned State*](https://link.springer.com/chapter/10.1007/978-3-031-85960-1_8), PAM 2025 — {{< reading_tag "review" >}}  
+- E. Luo et al., [*Canvassing the Fingerprinters: Characterizing Canvas Fingerprinting Use Across the Web*](https://dl.acm.org/doi/10.1145/3730567.3764500), IMC 2025 — {{< reading_tag "review" >}}
 
 </details>
 
@@ -162,15 +162,15 @@ Short presentations + Q&A.
 
 **Readings**
 
-- M. Abdulla et al., *Caching as Differentiation*, SIGCOMM 2025 — {{< reading_tag "review" >}}
-- Y. Wang et al., *Games Are Not Equal*, IMC 2025 — {{< reading_tag "review" >}}
+- M. Abdulla et al., [*Edge Caching as Differentiation*](https://dl.acm.org/doi/10.1145/3718958.3754350), SIGCOMM 2025 — {{< reading_tag "review" >}}
+- Y. Wang et al., [*Games Are Not Equal: Classifying Cloud Gaming Contexts for Effective User Experience Measurement*](https://dl.acm.org/doi/10.1145/3730567.3764455), IMC 2025 — {{< reading_tag "review" >}}
 
 ### Thu 02/26 — Decentralized Infra
 
 **Readings**
 
-- Y. Weil et al., *An Empirical Analysis of the Nostr Social Network*, CoNEXT 2025 — {{< reading_tag "review" >}}
-- R. Shi et al., *The Decentralization Dilemma: Performance Trade-Offs in IPFS and Breakpoints*, IMC 2025  — {{< reading_tag "review" >}}  
+- Y. Weil et al., [*An Empirical Analysis of the Nostr Social Network*](https://dl.acm.org/doi/10.1145/3768994), CoNEXT 2025 — {{< reading_tag "review" >}}
+- R. Shi et al., [*The Decentralization Dilemma: Performance Trade-Offs in IPFS and Breakpoints*](https://dl.acm.org/doi/10.1145/3730567.3764453), IMC 2025  — {{< reading_tag "review" >}}  
 
 
 </details>
@@ -184,15 +184,15 @@ Short presentations + Q&A.
 
 **Readings**
 
-- L. Bertholdo et al., *Analyzing the Effect of an Extreme Weather Event (30 Days of Flooding)*, PAM 2025 — {{< reading_tag "review" >}}  
-- F. Holzbauer et al., *Tracking Internet Disruptions in Ukraine*, IMC 2025 — {{< reading_tag "review" >}}
+- L. Bertholdo et al., [*Analyzing the Effect of an Extreme Weather Event (30 Days of Flooding)*](https://link.springer.com/chapter/10.1007/978-3-031-85960-1_12), PAM 2025 — {{< reading_tag "review" >}}  
+- F. Holzbauer et al., [*Tracking Internet Disruptions in Ukrainei: Insights from Three Years of Active Full Block Scans*](https://dl.acm.org/doi/10.1145/3730567.3764449), IMC 2025 — {{< reading_tag "review" >}}
 
 ### Thu 03/05 — Outages, Abuse & Platform Policy
 
 **Readings**
 
-- F. Steurer et al., *Catching Wind in a Net: Effects of the CrowdStrike Outage*, TMA 2025 — {{< reading_tag "review" >}}  
-- B. Degen et al., *From Scarcity to Opportunity: Abuse of the IPv4 Leasing Market*, TMA 2025 — {{< reading_tag "review" >}}
+- F. Steurer et al., [*Catching Wind in a Net: Effects of the CrowdStrike Outage*](https://ieeexplore.ieee.org/abstract/document/11096993), TMA 2025 — {{< reading_tag "review" >}}  
+- B. Degen et al., [*From Scarcity to Opportunity: Abuse of the IPv4 Leasing Market*](https://ieeexplore.ieee.org/abstract/document/11097001), TMA 2025 — {{< reading_tag "review" >}}
 
 </details>
 
@@ -205,8 +205,8 @@ Short presentations + Q&A.
 
 **Readings**
 
-- Jens Frieß et al., *ValidaTor: Domain Validation over Tor*, NSDI 2025  — {{< reading_tag "review" >}}  
-- D. Kondo et al., *Who Did Not Implement Email Security Measures After Google’s New Email Sender Guidelines?: A Large-Scale Measurement Study*, TMA 2025 — {{< reading_tag "review" >}}  
+- Jens Frieß et al., [*ValidaTor: Domain Validation over Tor*](https://www.usenix.org/conference/nsdi25/presentation/friess), NSDI 2025  — {{< reading_tag "review" >}}  
+- D. Kondo et al., [*Who Did Not Implement Email Security Measures After Google’s New Email Sender Guidelines?: A Large-Scale Measurement Study*](https://tma.ifip.org/2025/wp-content/uploads/sites/14/2025/06/tma2025_paper36.pdf), TMA 2025 — {{< reading_tag "review" >}}  
   
 ### Thu 03/12 — PC Meeting
 

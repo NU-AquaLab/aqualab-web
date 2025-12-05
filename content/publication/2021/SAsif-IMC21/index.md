@@ -7,7 +7,7 @@ authors:
   - John P. Rula
 
 date: 2021-11-02
-publication: "Proc. ACM Internet Measurement Conference (IMC)"
+publication: "IMC '21"
 abstract: ""
 url_pdf: "SAsif-IMC21.pdf"
 featured: false
