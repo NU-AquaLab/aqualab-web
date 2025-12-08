@@ -67,7 +67,7 @@ Criticality of the Submarine Cable Network,*** written with Shucheng Liu, Zach B
 
 {{< paperblock
     title="A Hop Away from Everywhere: A view of the intercontinental long-haul infrastructure"
-    img="/project/scn-criticality/submarine_map.png"
+    img="/project/scn-criticality/lhl-example.png"
     alt="Submarine Cable Map as of 2018 (Source: Telegeography)"
     paper="https://aqualab.cs.northwestern.edu/publication/2023/ecarisimo-sigmetrics23/ECarisimo-SIGMETRICS23.pdf"
     data="https://github.com/NU-AquaLab/intercont-LHL-2024"
@@ -78,7 +78,7 @@ long-haul infrastructure,*** with Esteban Carisimo, Caleb Wang, Mia Weaver, and 
 
 {{< paperblock
     title="Out of Sight, Not Out of Mind: A User-View on the Criticality of the Submarine Cable Network"
-    img="/project/scn-criticality/submarine_map.png"
+    img="/project/scn-criticality/cloud-peering.png"
     alt="Submarine Cable Map as of 2018 (Source: Telegeography)"
     paper="https://aqualab.cs.northwestern.edu/publication/2025/ecarisimo-ton2025/ECarisimo-ToN2025.pdf"
     data="https://github.com/NU-AquaLab/Criticality-SCN"
