@@ -86,7 +86,7 @@ In the IEEE Transactions on Networking Article, ***Take the Long Way Home: Dista
 {{< /paperblock >}}
 
 {{< paperblock
-    title="Out of Sight, Not Out of Mind: A User-View on the Criticality of the Submarine Cable Network"
+    title="Threading the Ocean: Mapping Digital Routes Across Submarine Cables using Calypso"
     img="/project/scn-criticality/submarine_map.png"
     alt="Submarine Cable Map as of 2018 (Source: Telegeography)"
     paper="https://aqualab.cs.northwestern.edu/publication/2025/cwang-sigcomm25/CWang-SIGCOMM25.pdf"
