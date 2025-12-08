@@ -1,0 +1,30 @@
+<div class="row align-items-center my-4">
+  <div class="col-md-8">
+    {{ with .Get "title" }}
+      <h3>{{ . }}</h3>
+    {{ end }}
+
+    <p>{{ .Inner | markdownify }}</p>
+
+    <p class="mt-2">
+      {{ with .Get "paper" }}
+        <a class="btn btn-primary me-2" href="{{ . }}" target="_blank" rel="noopener">
+          📄 Paper
+        </a>
+      {{ end }}
+      {{ with .Get "data" }}
+        <a class="btn btn-secondary" href="{{ . }}" target="_blank" rel="noopener">
+          📊 Dataset
+        </a>
+      {{ end }}
+    </p>
+  </div>
+
+  <div class="col-md-4 mb-3 mb-md-0">
+    {{ with .Get "img" }}
+      <img src="{{ . }}" alt="{{ $.Get "alt" }}" class="img-fluid rounded shadow-sm">
+    {{ end }}
+  </div>
+
+</div>
+
