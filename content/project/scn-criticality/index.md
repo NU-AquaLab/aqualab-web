@@ -70,18 +70,17 @@ Criticality of the Submarine Cable Network,*** written with Shucheng Liu, Zach B
     img="/project/scn-criticality/lhl-example.png"
     alt="Submarine Cable Map as of 2018 (Source: Telegeography)"
     paper="https://aqualab.cs.northwestern.edu/publication/2023/ecarisimo-sigmetrics23/ECarisimo-SIGMETRICS23.pdf"
-    data="https://github.com/NU-AquaLab/intercont-LHL-2024"
+    data="https://github.com/NU-AquaLab/intercont-LHL-2024" 
 >}}
 In our 2023 SIGMETRICS/MACS paper ***A Hop Away from Everywhere: A view of the intercontinental
 long-haul infrastructure,*** with Esteban Carisimo, Caleb Wang, Mia Weaver, and Paul Barford we presented the first in-depth, longitudinal study of intercontinental long-haul links—the network-layer manifestations of critical transoceanic submarine cables. By analyzing seven years of CAIDA Ark measurements, the paper showed how these long-haul hops consistently reveal the Internet’s preferred intercontinental gateways, often terminating far inland and frequently shaped by MPLS and other virtualization mechanisms. The work exposed a remarkably stable global backbone of “super-routers” and highlighted how much of the Internet’s international connectivity is anchored in a small number of persistent, geographically concentrated transit points.
 {{< /paperblock >}}
 
 {{< paperblock
-    title="Out of Sight, Not Out of Mind: A User-View on the Criticality of the Submarine Cable Network"
+    title="Take the Long Way Home: Distant Peering to the Cloud"
     img="/project/scn-criticality/cloud-peering.png"
     alt="Submarine Cable Map as of 2018 (Source: Telegeography)"
     paper="https://aqualab.cs.northwestern.edu/publication/2025/ecarisimo-ton2025/ECarisimo-ToN2025.pdf"
-    data="https://github.com/NU-AquaLab/Criticality-SCN"
 >}}
 In the IEEE Transactions on Networking Article, ***Take the Long Way Home: Distant Peering to the Cloud,*** with Esteban Carisimo, Mia Weaver, and Paul Barford we uncover a striking pattern: even in a world where cloud providers have planted datacenters everywhere, a non-trivial share of networks still take the long way home—crossing oceans over submarine cables to peer with the cloud thousands of kilometers away. Using a cloud-wide traceroute campaign, the paper shows that while many networks connect close to home, more than 20% stretch their paths by 6,700 km or more, sometimes nearing 19,000 km, often detouring to North America.
 {{< /paperblock >}}
