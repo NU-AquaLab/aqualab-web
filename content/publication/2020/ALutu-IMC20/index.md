@@ -1,5 +1,5 @@
 ---
-title: "Where Things Roam:"
+title: "Where Things Roam: Uncovering Cellular IoT/M2M Connectivity"
 authors:
   - Andra Lutu
   - Byungjin Jun
@@ -8,9 +8,9 @@ authors:
   - Diego Perino
 
 date: 2020-01-01
-publication: "Proc. ACM Internet Measurement Conference (IMC)"
+publication: "IMC '20"
 abstract: ""
-url_pdf: "ALutu-IMC2020a.pdf"
+url_pdf: "ALutu-IMC20.pdf"
 featured: false
 ---
 

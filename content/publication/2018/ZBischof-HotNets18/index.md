@@ -6,7 +6,7 @@ authors:
   - Fabián E. Bustamante
 
 date: 2018-11-15
-publication: "Proc. ACM Workshop on Hot Topics in Networks (HotNets)"
+publication: "HotNets '18"
 abstract: ""
 url_pdf: "ZBischof-HotNets18.pdf"
 featured: false

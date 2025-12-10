@@ -1,5 +1,5 @@
 ---
-title: "Out of Sight, Not Out of Mind - A User-View on the"
+title: "Out of Sight, Not Out of Mind - - A User-View on the Criticality of the Submarine Cable Network"
 authors:
   - Schucheng Liu
   - Zachary S. Bischof
@@ -8,9 +8,9 @@ authors:
   - Fabián E. Bustamante
 
 date: 2020-01-01
-publication: "Proc. ACM Internet Measurement Conference (IMC)"
+publication: "IMC '20"
 abstract: ""
-url_pdf: "SLiu-IMC2020.pdf"
+url_pdf: "SLiu-IMC20.pdf"
 featured: false
 ---
 

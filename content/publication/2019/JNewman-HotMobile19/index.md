@@ -6,7 +6,7 @@ authors:
   - Fabián E. Bustamante
 
 date: 2019-01-01
-publication: "Proceedings of International Workshop on Mobile Computing Systems and Applications (HotMobile)"
+publication: "HotMobile '19"
 abstract: ""
 url_pdf: "JNewman-HotMobile19.pdf"
 featured: false

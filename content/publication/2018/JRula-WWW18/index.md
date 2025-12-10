@@ -8,7 +8,7 @@ authors:
   - David R. Choffnes
 
 date: 2018-04-10
-publication: "Proc. World Wide Web Conference (WWW)"
+publication: "WWW '18"
 abstract: ""
 url_pdf: "JRula-WWW18.pdf"
 featured: false

@@ -7,7 +7,7 @@ authors:
   - Pedro Casas
 
 date: 2018-01-01
-publication: "Proc. Network Traffic Measurement and Analysis Conference (TMA)"
+publication: "TMA '18"
 abstract: ""
 url_pdf: "SWasserman-TMA18.pdf"
 featured: false
