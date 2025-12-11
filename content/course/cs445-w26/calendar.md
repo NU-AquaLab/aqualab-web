@@ -100,8 +100,8 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- I. Egloff et al., [*A Detailed Measurement View on IPv6 Scanners and Their Adaption to BGP Signals*](https://dl.acm.org/doi/10.1145/3749215), CoNEXT 2025  — {{< reading_tag "review" >}} 
 - R. Hendriks et al., [*An Empirical Evaluation of Longitudinal Anycast Catchment Stability*](https://ris.utwente.nl/ws/portalfiles/portal/499495935/978-3-031-85960-1_16.pdf), PAM 2025 — {{< reading_tag "review" >}}
+- I. Egloff et al., [*A Detailed Measurement View on IPv6 Scanners and Their Adaption to BGP Signals*](https://dl.acm.org/doi/10.1145/3749215), CoNEXT 2025  — {{< reading_tag "question" >}}
 
 ### Thu 02/05 — Satellites
 
