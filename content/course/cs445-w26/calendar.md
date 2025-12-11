@@ -65,7 +65,7 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- K. Tiagarajan et al., [*The Aleph: Decoding DNS PTR Records With LLMs*](https://nu-aqualab.github.io/aqualab-web/publication/2025/kthiagarajan-conext25/KThiagarajan-CoNEXT25.pdf), CoNEXT 2025 — {{< reading_tag "background" >}}
+- K. Tiagarajan et al., [*The Aleph: Decoding DNS PTR Records With LLMs*](https://nu-aqualab.github.io/aqualab-web/publication/2025/kthiagarajan-conext25/KThiagarajan-CoNEXT25.pdf), CoNEXT 2025 — {{< reading_tag "question" >}}
 - H. Rimlinger et al., [*GeoResolver: An Accurate, Scalable, and Explainable Geolocation Technique Using DNS Redirection*](https://dl.acm.org/doi/10.1145/3749219), CoNEXT 2025 — {{< reading_tag "review" >}}
 
 </details>
@@ -86,8 +86,8 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- A. Efstratiou, [*On YouTube Search API Use in Research*](https://dl.acm.org/doi/10.1145/3730567.3764492), IMC 2025 — {{< reading_tag "question" >}}  
-- P. Sermpezis et al., [*Bias in Internet Measurement Platforms*](https://tma.ifip.org/2023/wp-content/uploads/sites/12/2023/06/tma2023-final28.pdf), TMA 2023 — {{< reading_tag "background" >}}
+- A. Efstratiou, [*On YouTube Search API Use in Research*](https://dl.acm.org/doi/10.1145/3730567.3764492), IMC 2025 — {{< reading_tag "review" >}}  
+- P. Sermpezis et al., [*Bias in Internet Measurement Platforms*](https://tma.ifip.org/2023/wp-content/uploads/sites/12/2023/06/tma2023-final28.pdf), TMA 2023 — {{< reading_tag "question" >}}
 
 </details>
 
@@ -108,7 +108,7 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 **Readings**
 
 - Z. Liu et al., [*Vivisecting Starlink Throughput*](https://dl.acm.org/doi/10.1145/3768971), CoNEXT 2025 — {{< reading_tag "review" >}}  
-- Z. Zhao et al., [*Measuring the OneWeb Satellite Network*](https://ieeexplore.ieee.org/document/11096999), TMA 2025 — {{< reading_tag "review" >}}
+- Z. Zhao et al., [*Measuring the OneWeb Satellite Network*](https://ieeexplore.ieee.org/document/11096999), TMA 2025 — {{< reading_tag "question" >}}
 
 </details>
 
@@ -122,7 +122,7 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 **Readings**
 
 - P. Sattler et al., [*ECSeptional DNS Data: Evaluating Nameserver ECS Deployments with Response-Aware Scanning*](https://dl.acm.org/doi/10.1145/3730977), CoNEXT 2025 — {{< reading_tag "review" >}}
-- C. Deccio and B. Tessem, [*On Aggressive Negative Caching in DNS Resolvers*](https://casey.byu.edu/papers/2025_tma_agg_nsec.pdf), TMA 2025 — {{< reading_tag "review" >}}  
+- C. Deccio and B. Tessem, [*On Aggressive Negative Caching in DNS Resolvers*](https://casey.byu.edu/papers/2025_tma_agg_nsec.pdf), TMA 2025 — {{< reading_tag "question" >}}  
 
 
 ### Thu 02/12 — Midterm Presentations
@@ -142,7 +142,7 @@ Short presentations + Q&A.
 **Readings**
 
 - E. Liu et al., [*Somesite I Used to Crawl: Protecting Content Creators From AI Crawlers*](https://www.sysnet.ucsd.edu/~voelker/pubs/robots-imc25.pdf), IMC 2025 — {{< reading_tag "review" >}}  
-- M. Ansar et al., [*Web Crawl Refusals: Insights From Common Crawl*](https://research.utwente.nl/en/publications/web-crawl-refusals-insights-from-common-crawl/), PAM 2025 — {{< reading_tag "background" >}}
+- M. Ansar et al., [*Web Crawl Refusals: Insights From Common Crawl*](https://research.utwente.nl/en/publications/web-crawl-refusals-insights-from-common-crawl/), PAM 2025 — {{< reading_tag "question" >}}
 
 ### Thu 02/19 — Cookies & Fingerprinting
 
@@ -185,7 +185,7 @@ Short presentations + Q&A.
 **Readings**
 
 - L. Bertholdo et al., [*Analyzing the Effect of an Extreme Weather Event (30 Days of Flooding)*](https://link.springer.com/chapter/10.1007/978-3-031-85960-1_12), PAM 2025 — {{< reading_tag "review" >}}  
-- F. Holzbauer et al., [*Tracking Internet Disruptions in Ukrainei: Insights from Three Years of Active Full Block Scans*](https://dl.acm.org/doi/10.1145/3730567.3764449), IMC 2025 — {{< reading_tag "review" >}}
+- F. Holzbauer et al., [*Tracking Internet Disruptions in Ukraine: Insights from Three Years of Active Full Block Scans*](https://dl.acm.org/doi/10.1145/3730567.3764449), IMC 2025 — {{< reading_tag "review" >}}
 
 ### Thu 03/05 — Outages, Abuse & Platform Policy
 
