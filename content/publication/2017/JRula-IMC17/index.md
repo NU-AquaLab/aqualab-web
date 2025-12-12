@@ -6,7 +6,7 @@ authors:
   - Moritz Steiner
 
 date: 2017-11-01
-publication: "Proc. ACM Internet Measurement Conference (IMC)"
+publication: "IMC '17"
 abstract: ""
 url_pdf: "JRula-IMC17.pdf"
 featured: false

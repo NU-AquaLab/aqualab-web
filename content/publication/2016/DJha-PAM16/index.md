@@ -5,7 +5,7 @@ authors:
   - John P. Rula
   - Fabián E. Bustamante
 date: 2016-01-01
-publication: "Proc. Passive and Active Measurement Conference (PAM)"
+publication: "PAM '16"
 abstract: ""
 url_pdf: "DJha-PAM16.pdf"
 featured: false

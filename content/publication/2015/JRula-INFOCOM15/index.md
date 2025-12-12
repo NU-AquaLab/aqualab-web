@@ -4,7 +4,7 @@ authors:
   - John P. Rula 
   - Fabián E. Bustamante
 date: 2015-01-01
-publication: "Proc. IEEE International Conference on Computer Communications (INFOCOM)"
+publication: "INFOCOM '15"
 abstract: ""
 url_pdf: "JRula-INFOCOM15.pdf"
 featured: false

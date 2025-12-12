@@ -6,7 +6,7 @@ authors:
   - David R. Choffnes
 
 date: 2016-02-23
-publication: "Proc.International Workshop on Mobile Computing Systems and Applications (HotMobile)"
+publication: "HotMobile '16"
 abstract: ""
 url_pdf: "JRula-HotMobile16.pdf"
 featured: false

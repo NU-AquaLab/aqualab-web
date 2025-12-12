@@ -5,7 +5,7 @@ authors:
   - Byungjin Jun 
   - Fabián E. Bustamante
 date: 2015-02-12
-publication: "Proc.International Workshop on Mobile Computing Systems and Applications (HotMobile)"
+publication: "HotMobile '17"
 abstract: ""
 url_pdf: "JRula-HotMobile15.pdf"
 featured: false
