@@ -1,5 +1,5 @@
 ---
-title: "CS 445: Internet-Scale Experimentation - Winter '26"
+title: "CS 445: Internet-Scale Experimentation -- Winter '26"
 linktitle: "Syllabus"
 type: course
 weight: 3

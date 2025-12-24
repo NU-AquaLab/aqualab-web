@@ -15,7 +15,7 @@ Below is a concise overview. Full details live on Canvas.
 
 ## Warm-Up Project
 
-The warm-up project gives you practical experience with Internet-scale measurement techniques, focusing on analyzing **cross-border dependencies in government hosting**.
+The warm-up project gives you practical experience with Internet-scale measurement techniques, focusing on analyzing **geolocating network routers**.
 
 **Deliverables**
 - **Report**: 3–5 pages describing your methodology, findings, and analysis.  
@@ -29,7 +29,7 @@ For the second assignment, you will work in small teams to **reproduce results f
 This is designed to help you deeply understand a significant networking paper and its methodology.
 
 You will:
-- Choose a paper (from the course list or propose your own).  
+- Choose a paper (from the course proposed list or your own).  
 - Identify the specific component you intend to reproduce.  
 - Outline your approach and scope.  
 - **Contact the original authors** (strongly encouraged!).  
