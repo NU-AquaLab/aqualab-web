@@ -19,12 +19,14 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
+- S. Keshav, [*How to Read a Paper*](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf), SIGCOMM CCR 2007 - {{< reading_tag "background" >}}
 - V. Paxson, [*Strategies for Sound Internet Measurements*](https://dl.acm.org/doi/10.1145/1028788.1028824), IMC 2004 — {{< reading_tag "question" >}}
 
 ### Thu 01/08 — The Questions We Ask
 
 **Readings**
 
+- C. Labovitz et al., [*Internet Inter-domain Traffic*](https://dl.acm.org/doi/10.1145/1851275.1851194), SIGCOMM 2010 - {{< reading_tag "background" >}}
 - M. Sanchez et al., [*Internet Inter-Domain Traffic Estimation for the Outsider*](https://nu-aqualab.github.io/aqualab-web/publication/2014/msanchez-imc14/MSanchez-IMC14.pdf), IMC 2014 — {{< reading_tag "question" >}}
 
 </details>
@@ -59,6 +61,7 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
+- R. Fontugne et al., [*The Wisdom of the Measurement Crowd: Building the Internet Yellow Pages a Knowledge Graph for the Internet,*](https://dl.acm.org/doi/10.1145/3646547.3688444), IMC 2024 — {{< reading_tag "background" >}}
 - C. Selmo et al., [*Learning AS-to-Organization Mappings with Borges*](https://nu-aqualab.github.io/aqualab-web/publication/2025/cselmo-imc25/CSelmo-IMC25.pdf), IMC 2025 — {{< reading_tag "review" >}}
 
 ### Thu 01/22 — Mapping Internet Infrastructure
@@ -79,8 +82,8 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- Z. Bischof et al., [*Need, Want, Can Afford: Broadband Markets and the Behavior of Users*](https://nu-aqualab.github.io/aqualab-web/publication/2014/zbischof-imc14/ZBischof-IMC14.pdf), IMC 2014 — {{< reading_tag "question" >}}  
-- F. de Vocht et al., [*Conceptualizing Natural and Quasi-Experiments in Public Health*](https://pubmed.ncbi.nlm.nih.gov/33573595/), BMC Medical Research Methodology 21(32), 2021  — {{< reading_tag "background" >}}  
+- F. de Vocht et al., [*Conceptualizing Natural and Quasi-Experiments in Public Health*](https://pubmed.ncbi.nlm.nih.gov/33573595/), BMC Medical Research Methodology 21(32), 2021  — {{< reading_tag "background" >}}
+- Z. Bischof et al., [*Need, Want, Can Afford: Broadband Markets and the Behavior of Users*](https://nu-aqualab.github.io/aqualab-web/publication/2014/zbischof-imc14/ZBischof-IMC14.pdf), IMC 2014 — {{< reading_tag "question" >}} 
 
 ### Thu 01/29 — Bias & Latency Stability
 
