@@ -110,7 +110,7 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 **Readings**
 
 - Z. Liu et al., [*Vivisecting Starlink Throughput*](https://dl.acm.org/doi/10.1145/3768971), CoNEXT 2025 — {{< reading_tag "review" >}}  
-- C. Wang et al., [*Calypso’s Voyage: Charting Traceroute Paths Through Submarine Cables*], (long vesion) SIGCOMM 2025 — {{< reading_tag "review" >}} 
+- C. Wang et al., [*Calypso’s Voyage: Charting Traceroute Paths Through Submarine Cables*](), (long vesion) SIGCOMM 2025 — {{< reading_tag "review" >}} 
 </details>
 
 ---
