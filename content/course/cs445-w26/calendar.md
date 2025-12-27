@@ -15,20 +15,19 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 <details open>
 <summary><strong>Week 1 – Overview & Questions</strong></summary>
 
-### Tue 01/06 — What Makes Internet-Scale Experimentation Hard?
+### Tue 01/06 — Internet-Scale Experimentation
 
 **Readings**
 
 - S. Keshav, [*How to Read a Paper*](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf), SIGCOMM CCR 2007 - {{< reading_tag "background" >}}
 - V. Paxson, [*Strategies for Sound Internet Measurements*](https://dl.acm.org/doi/10.1145/1028788.1028824), IMC 2004 — {{< reading_tag "question" >}}
 
-### Thu 01/08 — The Questions We Ask
+### Thu 01/08 — Internet Architecture - A Brief Overview
 
 **Readings**
 
 - C. Labovitz et al., [*Internet Inter-domain Traffic*](https://dl.acm.org/doi/10.1145/1851275.1851194), SIGCOMM 2010 - {{< reading_tag "background" >}}
-- M. Sanchez et al., [*Internet Inter-Domain Traffic Estimation for the Outsider*](https://nu-aqualab.github.io/aqualab-web/publication/2014/msanchez-imc14/MSanchez-IMC14.pdf), IMC 2014 — {{< reading_tag "question" >}}
-
+- P. Gigis et al., [*Seven Years in the Life of Hypergiants' Off-Nets*](https://dl.acm.org/doi/10.1145/3452296.3472928), SIGCOMM 2021 - - {{< reading_tag "question" >}}
 </details>
 
 ---
@@ -36,19 +35,19 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 <details>
 <summary><strong>Week 2 – Measurement Tools & Platforms</strong></summary>
 
-### Tue 01/13 — Paths, Traceroute & Routing Surprises
+### Tue 01/13 — Measurement Tools
 
 **Readings**
 
 - B. Augustin et al., [*Avoiding Traceroute Anomalies with Paris Traceroute*](https://conferences.sigcomm.org/imc/2006/papers/p15-augustin.pdf), IMC 2006 — {{< reading_tag "background" >}}  
 - E. Fazzion et al., [*RemapRoute: Local Remapping of Internet Path Changes*](https://dl.acm.org/doi/10.1145/3730567.3732923), IMC 2025 (short) — {{< reading_tag "question" >}}
 
-### Thu 01/15 — Platforms, Capture & Under-Adversary Measurement
+### Thu 01/15 — Measurement Platforms
 
 **Readings**
 
-- Z. Durumeric et al., [*Censys: A Map of Internet Hosts and Services*](https://dl.acm.org/doi/10.1145/3718958.3754344), SIGCOMM 2025 — {{< reading_tag "review" >}}  
-- A. Männel et al., [*Lessons learned from operating a large network telescope*](https://dl.acm.org/doi/10.1145/3718958.3754347),  SIGCOMM 2025 — {{< reading_tag "question" >}}  
+- V. Bajpai and J. Schönwälder, [*A Survey on Internet Performance Measurement Platforms and Related Standardization Efforts*](https://ieeexplore.ieee.org/document/7076582), IEEE Communications Surveys & Tutorials, 17(3), 2015 {{< reading_tag "background" >}}
+- Z. Durumeric et al., [*Censys: A Map of Internet Hosts and Services*](https://dl.acm.org/doi/10.1145/3718958.3754344), SIGCOMM 2025 — {{< reading_tag "review" >}}
 
 </details>
 
@@ -57,40 +56,40 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 <details>
 <summary><strong>Week 3 – Measurement Approaches & Datasets</strong></summary>
 
-### Tue 01/20 — Mapping the Internet - ASes, Organizations, Operators, ...
+### Tue 01/20 — Measurement Approaches & Datasets
 
 **Readings**
 
+- A. Männel et al., [*Lessons learned from operating a large network telescope*](https://dl.acm.org/doi/10.1145/3718958.3754347), SIGCOMM 2025
 - R. Fontugne et al., [*The Wisdom of the Measurement Crowd: Building the Internet Yellow Pages a Knowledge Graph for the Internet,*](https://dl.acm.org/doi/10.1145/3646547.3688444), IMC 2024 — {{< reading_tag "background" >}}
-- C. Selmo et al., [*Learning AS-to-Organization Mappings with Borges*](https://nu-aqualab.github.io/aqualab-web/publication/2025/cselmo-imc25/CSelmo-IMC25.pdf), IMC 2025 — {{< reading_tag "review" >}}
 
-### Thu 01/22 — Mapping Internet Infrastructure
-
-**Readings**
-
-- K. Tiagarajan et al., [*The Aleph: Decoding DNS PTR Records With LLMs*](https://nu-aqualab.github.io/aqualab-web/publication/2025/kthiagarajan-conext25/KThiagarajan-CoNEXT25.pdf), CoNEXT 2025 — {{< reading_tag "question" >}}
-- H. Rimlinger et al., [*GeoResolver: An Accurate, Scalable, and Explainable Geolocation Technique Using DNS Redirection*](https://dl.acm.org/doi/10.1145/3749219), CoNEXT 2025 — {{< reading_tag "review" >}}
-
-</details>
-
----
-
-<details>
-<summary><strong>Week 4 – Experimental Approaches & Weighting Measurements</strong></summary>
-
-### Tue 01/27 — Experiments, Treatments & Contextualized QoE
+### Thu 01/22 — Measurement Approaches & Datasets
 
 **Readings**
 
 - F. de Vocht et al., [*Conceptualizing Natural and Quasi-Experiments in Public Health*](https://pubmed.ncbi.nlm.nih.gov/33573595/), BMC Medical Research Methodology 21(32), 2021  — {{< reading_tag "background" >}}
 - Z. Bischof et al., [*Need, Want, Can Afford: Broadband Markets and the Behavior of Users*](https://nu-aqualab.github.io/aqualab-web/publication/2014/zbischof-imc14/ZBischof-IMC14.pdf), IMC 2014 — {{< reading_tag "question" >}} 
 
-### Thu 01/29 — Bias & Latency Stability
+</details>
+
+---
+
+<details>
+<summary><strong>Week 4 – Weigthing and Inferences </strong></summary>
+
+### Tue 01/27 — Weighting and Biases
 
 **Readings**
 
-- A. Efstratiou, [*On YouTube Search API Use in Research*](https://dl.acm.org/doi/10.1145/3730567.3764492), IMC 2025 — {{< reading_tag "review" >}}  
+- Q. Scheitle et al., [*A Long Way to the Top: Significance, Structure, and Stability of Internet Top Lists*](https://dl.acm.org/doi/10.1145/3278532.3278574), IMC 2018
+- L. Salamatian et al., [*What’s in the Dataset? Unboxing the APNIC User Populations*](), IMC 2024
+
+### Thu 01/29 — Weighting and Biases
+
+**Readings**
+
 - P. Sermpezis et al., [*Bias in Internet Measurement Platforms*](https://tma.ifip.org/2023/wp-content/uploads/sites/12/2023/06/tma2023-final28.pdf), TMA 2023 — {{< reading_tag "question" >}}
+- A. Efstratiou, [*On YouTube Search API Use in Research*](https://dl.acm.org/doi/10.1145/3730567.3764492), IMC 2025 — {{< reading_tag "review" >}}  
 
 </details>
 
@@ -99,20 +98,19 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 <details>
 <summary><strong>Week 5 – Infrastructure</strong></summary>
 
-### Tue 02/03 — Routing, Anycast & Traffic Engineering
+### Tue 02/03 — Mapping Infrastructure
 
 **Readings**
 
-- R. Hendriks et al., [*An Empirical Evaluation of Longitudinal Anycast Catchment Stability*](https://ris.utwente.nl/ws/portalfiles/portal/499495935/978-3-031-85960-1_16.pdf), PAM 2025 — {{< reading_tag "review" >}}
-- I. Egloff et al., [*A Detailed Measurement View on IPv6 Scanners and Their Adaption to BGP Signals*](https://dl.acm.org/doi/10.1145/3749215), CoNEXT 2025  — {{< reading_tag "question" >}}
+- K. Tiagarajan et al., [*The Aleph: Decoding DNS PTR Records With LLMs*](https://nu-aqualab.github.io/aqualab-web/publication/2025/kthiagarajan-conext25/KThiagarajan-CoNEXT25.pdf), CoNEXT 2025 — {{< reading_tag "question" >}}
+- C. Selmo et al., [*Learning AS-to-Organization Mappings with Borges*](https://nu-aqualab.github.io/aqualab-web/publication/2025/cselmo-imc25/CSelmo-IMC25.pdf), IMC 2025 — {{< reading_tag "review" >}}
 
-### Thu 02/05 — Satellites
+### Thu 02/05 — Underwater and Outer Space
 
 **Readings**
 
 - Z. Liu et al., [*Vivisecting Starlink Throughput*](https://dl.acm.org/doi/10.1145/3768971), CoNEXT 2025 — {{< reading_tag "review" >}}  
-- Z. Zhao et al., [*Measuring the OneWeb Satellite Network*](https://ieeexplore.ieee.org/document/11096999), TMA 2025 — {{< reading_tag "question" >}}
-
+- C. Wang et al., [*Calypso’s Voyage: Charting Traceroute Paths Through Submarine Cables*], (long vesion) SIGCOMM 2025 — {{< reading_tag "review" >}} 
 </details>
 
 ---
