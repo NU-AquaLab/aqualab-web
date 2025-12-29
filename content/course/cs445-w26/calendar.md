@@ -60,7 +60,7 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- A. Männel et al., [*Lessons learned from operating a large network telescope*](https://dl.acm.org/doi/10.1145/3718958.3754347), SIGCOMM 2025
+- A. Männel et al., [*Lessons learned from operating a large network telescope*](https://dl.acm.org/doi/10.1145/3718958.3754347), SIGCOMM 2025 — {{< reading_tag "review" >}}
 - R. Fontugne et al., [*The Wisdom of the Measurement Crowd: Building the Internet Yellow Pages a Knowledge Graph for the Internet,*](https://dl.acm.org/doi/10.1145/3646547.3688444), IMC 2024 — {{< reading_tag "background" >}}
 
 ### Thu 01/22 — Measurement Approaches & Datasets
@@ -81,8 +81,8 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- Q. Scheitle et al., [*A Long Way to the Top: Significance, Structure, and Stability of Internet Top Lists*](https://dl.acm.org/doi/10.1145/3278532.3278574), IMC 2018
-- L. Salamatian et al., [*What’s in the Dataset? Unboxing the APNIC User Populations*](), IMC 2024
+- Q. Scheitle et al., [*A Long Way to the Top: Significance, Structure, and Stability of Internet Top Lists*](https://dl.acm.org/doi/10.1145/3278532.3278574), IMC 2018 — {{< reading_tag "background" >}}
+- L. Salamatian et al., [*What’s in the Dataset? Unboxing the APNIC User Populations*](), IMC 2024 — {{< reading_tag "question" >}}
 
 ### Thu 01/29 — Weighting and Biases
 
