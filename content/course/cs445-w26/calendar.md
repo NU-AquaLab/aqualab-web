@@ -20,7 +20,7 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 **Readings**
 
 - S. Keshav, [*How to Read a Paper*](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf), SIGCOMM CCR 2007 - {{< reading_tag "background" >}}
-- V. Paxson, [*Strategies for Sound Internet Measurements*](https://dl.acm.org/doi/10.1145/1028788.1028824), IMC 2004 — {{< reading_tag "question" >}}
+- V. Paxson, [*Strategies for Sound Internet Measurements*](https://dl.acm.org/doi/10.1145/1028788.1028824), IMC 2004 — {{< reading_tag "background" >}}
 
 ### Thu 01/08 — Internet Architecture - A Brief Overview
 
