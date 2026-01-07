@@ -12,7 +12,7 @@ layoute: "course_detail"
 ##  Quick Links
 
   - **[WINE (We do INternet Experimentation) 2026](https://northwestern-ise26.hotcrp.com/)**
-  - **Canvas for ISE:** (link via Northwestern Canvas)
+  - **[Canvas for ISE](https://canvas.northwestern.edu/courses/246646)**
 
 ---
 
