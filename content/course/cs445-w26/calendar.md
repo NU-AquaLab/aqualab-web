@@ -103,12 +103,12 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 **Readings**
 
 - P. Sermpezis et al., [*Bias in Internet Measurement Platforms*](https://tma.ifip.org/2023/wp-content/uploads/sites/12/2023/06/tma2023-final28.pdf), TMA 2023 — {{< reading_tag "question" >}}
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Daniel Jang
    - **Slides:** [pdf]
 
 - A. Efstratiou, [*On YouTube Search API Use in Research*](https://dl.acm.org/doi/10.1145/3730567.3764492), IMC 2025 — {{< reading_tag "review" >}} 
    - **Student presenter:** <mark>TBD</mark>
-   - **Slides:** [pdf] 
+   - **Slides:** Liam Strand
 
 </details>
 
@@ -134,11 +134,11 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 **Readings**
 
 - Z. Liu et al., [*Vivisecting Starlink Throughput*](https://dl.acm.org/doi/10.1145/3768971), CoNEXT 2025 — {{< reading_tag "review" >}}  
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Zacaria Nouri
    - **Slides:** [pdf]
   
 - C. Wang et al., [*Calypso’s Voyage: Charting Traceroute Paths Through Submarine Cables*](), (long vesion) SIGCOMM 2025 — {{< reading_tag "review" >}} 
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Liam Strand
    - **Slides:** [pdf]
   
 </details>
@@ -177,7 +177,7 @@ Short presentations + Q&A.
 **Readings**
 
 - E. Liu et al., [*Somesite I Used to Crawl: Protecting Content Creators From AI Crawlers*](https://www.sysnet.ucsd.edu/~voelker/pubs/robots-imc25.pdf), IMC 2025 — {{< reading_tag "review" >}}  
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Ryan Poon
    - **Slides:** [pdf]
   
 - M. Ansar et al., [*Web Crawl Refusals: Insights From Common Crawl*](https://research.utwente.nl/en/publications/web-crawl-refusals-insights-from-common-crawl/), PAM 2025 — {{< reading_tag "question" >}}
@@ -193,7 +193,7 @@ Short presentations + Q&A.
    - **Slides:** [pdf]
    
 - E. Luo et al., [*Canvassing the Fingerprinters: Characterizing Canvas Fingerprinting Use Across the Web*](https://dl.acm.org/doi/10.1145/3730567.3764500), IMC 2025 — {{< reading_tag "review" >}}
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Lianhao Zheng
    - **Slides:** [pdf]
   
 </details>
@@ -208,7 +208,7 @@ Short presentations + Q&A.
 **Readings**
 
 - M. Abdulla et al., [*Edge Caching as Differentiation*](https://dl.acm.org/doi/10.1145/3718958.3754350), SIGCOMM 2025 — {{< reading_tag "review" >}}
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Daniel Jang
    - **Slides:** [pdf]
 
 - Y. Wang et al., [*Games Are Not Equal: Classifying Cloud Gaming Contexts for Effective User Experience Measurement*](https://dl.acm.org/doi/10.1145/3730567.3764455), IMC 2025 — {{< reading_tag "review" >}}
@@ -220,11 +220,11 @@ Short presentations + Q&A.
 **Readings**
 
 - Y. Weil et al., [*An Empirical Analysis of the Nostr Social Network*](https://dl.acm.org/doi/10.1145/3768994), CoNEXT 2025 — {{< reading_tag "review" >}}
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Charles Kozel
    - **Slides:** [pdf]
 
 - R. Shi et al., [*The Decentralization Dilemma: Performance Trade-Offs in IPFS and Breakpoints*](https://dl.acm.org/doi/10.1145/3730567.3764453), IMC 2025  — {{< reading_tag "review" >}}  
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Zacaria Nouri
    - **Slides:** [pdf]
 
 </details>
@@ -243,7 +243,7 @@ Short presentations + Q&A.
    - **Slides:** [pdf]
   
 - F. Holzbauer et al., [*Tracking Internet Disruptions in Ukraine: Insights from Three Years of Active Full Block Scans*](https://dl.acm.org/doi/10.1145/3730567.3764449), IMC 2025 — {{< reading_tag "review" >}}
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Charles Kozel
    - **Slides:** [pdf]
 
 ### Thu 03/05 — Outages, Abuse & Platform Policy
@@ -251,7 +251,7 @@ Short presentations + Q&A.
 **Readings**
 
 - F. Steurer et al., [*Catching Wind in a Net: Effects of the CrowdStrike Outage*](https://ieeexplore.ieee.org/abstract/document/11096993), TMA 2025 — {{< reading_tag "review" >}}
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Mercy Muiruri
    - **Slides:** [pdf]
   
 - B. Degen et al., [*From Scarcity to Opportunity: Abuse of the IPv4 Leasing Market*](https://ieeexplore.ieee.org/abstract/document/11097001), TMA 2025 — {{< reading_tag "review" >}}
@@ -273,7 +273,7 @@ Short presentations + Q&A.
    - **Slides:** [pdf]
   
 - D. Kondo et al., [*Who Did Not Implement Email Security Measures After Google’s New Email Sender Guidelines?: A Large-Scale Measurement Study*](https://tma.ifip.org/2025/wp-content/uploads/sites/14/2025/06/tma2025_paper36.pdf), TMA 2025 — {{< reading_tag "review" >}}  
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Andrew Li
    - **Slides:** [pdf]  
 ### Thu 03/12 — PC Meeting
 
