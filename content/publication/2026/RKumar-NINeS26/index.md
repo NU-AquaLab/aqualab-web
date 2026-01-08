@@ -5,7 +5,7 @@ authors:
   - Fabián E. Bustamante
   - Marcel Flores
 
-date: 2026-02-10
+date: 2026-01-01
 publication: "NINeS '26"
 abstract: ""
 url_pdf: "RKumar-NINeS26.pdf"

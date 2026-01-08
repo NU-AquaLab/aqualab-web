@@ -7,7 +7,7 @@ authors:
   - Fabián E. Bustamante
   - Esteban Carisimo
 
-date: 2026-02-10
+date: 2026-01-01
 publication: "NINeS '26"
 abstract: ""
 url_pdf: "MWeaver-NINeS26.pdf"
