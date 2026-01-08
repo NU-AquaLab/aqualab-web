@@ -189,7 +189,7 @@ Short presentations + Q&A.
 **Readings**
 
 - M. Zollner et al., [*A First Look at Cookies Having Independent Partitioned State*](https://link.springer.com/chapter/10.1007/978-3-031-85960-1_8), PAM 2025 — {{< reading_tag "review" >}} 
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Emma Baumgardner
    - **Slides:** [pdf]
    
 - E. Luo et al., [*Canvassing the Fingerprinters: Characterizing Canvas Fingerprinting Use Across the Web*](https://dl.acm.org/doi/10.1145/3730567.3764500), IMC 2025 — {{< reading_tag "review" >}}
@@ -269,7 +269,7 @@ Short presentations + Q&A.
 **Readings**
 
 - Jens Frieß et al., [*ValidaTor: Domain Validation over Tor*](https://www.usenix.org/conference/nsdi25/presentation/friess), NSDI 2025  — {{< reading_tag "review" >}}
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Maxwell Chen
    - **Slides:** [pdf]
   
 - D. Kondo et al., [*Who Did Not Implement Email Security Measures After Google’s New Email Sender Guidelines?: A Large-Scale Measurement Study*](https://tma.ifip.org/2025/wp-content/uploads/sites/14/2025/06/tma2025_paper36.pdf), TMA 2025 — {{< reading_tag "review" >}}  
