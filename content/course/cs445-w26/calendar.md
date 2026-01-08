@@ -212,7 +212,7 @@ Short presentations + Q&A.
    - **Slides:** [pdf]
 
 - Y. Wang et al., [*Games Are Not Equal: Classifying Cloud Gaming Contexts for Effective User Experience Measurement*](https://dl.acm.org/doi/10.1145/3730567.3764455), IMC 2025 — {{< reading_tag "review" >}}
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Ludi Yu
    - **Slides:** [pdf]
 
 ### Thu 02/26 — Decentralized Infra
