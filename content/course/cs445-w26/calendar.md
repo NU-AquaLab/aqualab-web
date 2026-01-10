@@ -28,8 +28,8 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 **Readings**
 
-- C. Labovitz et al., [*Internet Inter-domain Traffic*](https://dl.acm.org/doi/10.1145/1851275.1851194), SIGCOMM 2010 - {{< reading_tag "background" >}}
-- P. Gigis et al., [*Seven Years in the Life of Hypergiants' Off-Nets*](https://dl.acm.org/doi/10.1145/3452296.3472928), SIGCOMM 2021 - - {{< reading_tag "question" >}}
+- C. Labovitz et al., [*Internet Inter-domain Traffic*](https://dl.acm.org/doi/10.1145/1851275.1851194), SIGCOMM 2010 — {{< reading_tag "background" >}}
+- P. Gigis et al., [*Seven Years in the Life of Hypergiants' Off-Nets*](https://dl.acm.org/doi/10.1145/3452296.3472928), SIGCOMM 2021 — {{< reading_tag "question" >}}
    - **Presenter:** Fabián
    - **Slides:** [pdf]
 </details>
@@ -255,7 +255,7 @@ Short presentations + Q&A.
    - **Slides:** [pdf]
   
 - B. Degen et al., [*From Scarcity to Opportunity: Abuse of the IPv4 Leasing Market*](https://ieeexplore.ieee.org/abstract/document/11097001), TMA 2025 — {{< reading_tag "review" >}}
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Areg Aslanyan
    - **Slides:** [pdf]
 </details>
 
