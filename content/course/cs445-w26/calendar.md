@@ -107,8 +107,8 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
    - **Slides:** [pdf]
 
 - A. Efstratiou, [*On YouTube Search API Use in Research*](https://dl.acm.org/doi/10.1145/3730567.3764492), IMC 2025 — {{< reading_tag "review" >}} 
-   - **Student presenter:** <mark>TBD</mark>
-   - **Slides:** Liam Strand
+   - **Student presenter:**  Liam Strand
+   - **Slides:** [pdf]
 
 </details>
 
