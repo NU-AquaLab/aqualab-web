@@ -157,7 +157,7 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
    - **Slides:** [pdf]
   
 - C. Deccio and B. Tessem, [*On Aggressive Negative Caching in DNS Resolvers*](https://casey.byu.edu/papers/2025_tma_agg_nsec.pdf), TMA 2025 — {{< reading_tag "question" >}}  
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Harut Sargsyan
    - **Slides:** [pdf]
 
 ### Thu 02/12 — Midterm Presentations
