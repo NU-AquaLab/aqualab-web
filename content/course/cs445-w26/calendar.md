@@ -126,7 +126,7 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
    - **Slides:** [pdf]
 
 - C. Selmo et al., [*Learning AS-to-Organization Mappings with Borges*](https://nu-aqualab.github.io/aqualab-web/publication/2025/cselmo-imc25/CSelmo-IMC25.pdf), IMC 2025 — {{< reading_tag "review" >}}
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Anthony Wang
    - **Slides:** [pdf]
 
 ### Thu 02/05 — Underwater and Outer Space
@@ -239,7 +239,7 @@ Short presentations + Q&A.
 **Readings**
 
 - L. Bertholdo et al., [*Analyzing the Effect of an Extreme Weather Event (30 Days of Flooding)*](https://link.springer.com/chapter/10.1007/978-3-031-85960-1_12), PAM 2025 — {{< reading_tag "review" >}}
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Anthony Wang
    - **Slides:** [pdf]
   
 - F. Holzbauer et al., [*Tracking Internet Disruptions in Ukraine: Insights from Three Years of Active Full Block Scans*](https://dl.acm.org/doi/10.1145/3730567.3764449), IMC 2025 — {{< reading_tag "review" >}}
