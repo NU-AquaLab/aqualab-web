@@ -1,27 +1,33 @@
-{{/* Generic tabs for any course under content/course/<course-id> */}}
+{{/* Course tabs, configured per-course via params.course_tabs in the section _index.md */}}
 
 {{- $section := .Page.CurrentSection -}}
-{{- $base := $section.RelPermalink -}}
-{{- $rel := .Page.RelPermalink -}}
+{{- $tabs := $section.Params.course_tabs -}}
+
+{{/* Sensible default if a course forgets to define course_tabs */}}
+{{- if not $tabs -}}
+  {{- $tabs = slice
+      (dict "title" "Syllabus" "page" "_index")
+      (dict "title" "Calendar & Readings" "page" "calendar")
+      (dict "title" "Course Project" "page" "project")
+      (dict "title" "Reading, Reviews & Presentations" "page" "reviews-presenting")
+  -}}
+{{- end -}}
 
 <div class="course-tabs">
-  <a href="{{ $base }}"
-     class="course-tab{{ if or (eq $rel $base) (eq $rel (printf "%s/" $base)) }} course-tab-active{{ end }}">
-    Syllabus
-  </a>
+  {{- range $tabs -}}
+    {{- $title := .title -}}
+    {{- $slug := .page -}}
 
-  <a href="{{ $base }}calendar/"
-     class="course-tab{{ if or (hasSuffix $rel "/calendar/") (hasSuffix $rel "/calendar") }} course-tab-active{{ end }}">
-    Calendar &amp; Readings
-  </a>
+    {{- $p := cond (eq $slug "_index") $section ($section.GetPage $slug) -}}
+    {{- if $p -}}
+      {{- $href := $p.RelPermalink -}}
+      {{- $active := eq $.Page.RelPermalink $href -}}
 
-  <a href="{{ $base }}project/"
-     class="course-tab{{ if or (hasSuffix $rel "/project/") (hasSuffix $rel "/project") }} course-tab-active{{ end }}">
-    Course Project
-  </a>
-
-  <a href="{{ $base }}reviews-presenting/"
-     class="course-tab{{ if or (hasSuffix $rel "/reviews-presenting/") (hasSuffix $rel "/reviews-presenting") }} course-tab-active{{ end }}">
-    Reading, Reviews &amp; Presentations
-  </a>
+      <a href="{{ $href }}"
+         class="course-tab{{ if $active }} course-tab-active{{ end }}">
+        {{ $title }}
+      </a>
+    {{- end -}}
+  {{- end -}}
 </div>
+

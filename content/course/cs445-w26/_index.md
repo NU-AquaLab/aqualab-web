@@ -1,10 +1,20 @@
 ---
-title: "CS 445: Internet-Scale Experimentation -- Winter '26"
+title: "CS 445: Internet-Scale Experimentation — Winter '26"
 linktitle: "Syllabus"
 type: course
 weight: 3
 summary: "Graduate seminar on Internet-scale measurement and experimentation."
-layoute: "course_detail"
+layout: "course_detail"
+
+course_tabs:
+  - title: "Syllabus"
+    page: "_index"
+  - title: "Calendar & Readings"
+    page: "calendar"
+  - title: "Course Project"
+    page: "project"
+  - title: "Reading, Reviews & Presentations"
+    page: "reviews-presenting"
 ---
 
 {{< course_tabs >}}

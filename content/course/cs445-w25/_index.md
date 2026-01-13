@@ -5,6 +5,16 @@ type: course
 weight: 2
 summary: "Graduate seminar on Internet-scale measurement and experimentation."
 layout: "course_detail"
+
+course_tabs:
+  - title: "Syllabus"
+    page: "_index"
+  - title: "Calendar & Readings"
+    page: "calendar"
+  - title: "Course Project"
+    page: "project"
+  - title: "Reading, Reviews & Presentations"
+    page: "reviews-presenting"
 ---
 
 {{< course_tabs >}}
