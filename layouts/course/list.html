@@ -1,0 +1,148 @@
+{{ define "main" }}
+<div class="universal-wrapper course-landing">
+  <div class="section-heading">
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  {{/* HugoBlox courses are branch bundles (sections) */}}
+  {{ $courses := .Sections }}
+
+  {{ if eq (len $courses) 0 }}
+    <p>No courses found under <code>content/course/</code>.</p>
+  {{ else }}
+
+    {{/* Group by academic year */}}
+    {{ $ayGroups := $courses.GroupByParam "academic_year" }}
+    {{ $ayGroups = sort $ayGroups "Key" "desc" }}
+
+    {{ if eq (len $ayGroups) 0 }}
+      <p>
+        Courses found, but none have <code>academic_year</code>.
+        Add e.g. <code>academic_year: "2025-2026"</code> to each course <code>_index.md</code>.
+      </p>
+    {{ else }}
+
+      {{/* ---------- CURRENT ACADEMIC YEAR ---------- */}}
+      {{ $currentGroup := index $ayGroups 0 }}
+      {{ $currentAY := $currentGroup.Key }}
+      {{ $currentPages := $currentGroup.Pages }}
+
+      <section class="course-landing__current">
+        <h2>{{ $currentAY }}</h2>
+
+        {{ $byTerm := $currentPages.GroupByParam "term" }}
+
+        {{ range (slice "Fall" "Winter" "Spring" "Summer") }}
+          {{ $term := . }}
+          {{ $match := where $byTerm "Key" $term }}
+          {{ if gt (len $match) 0 }}
+            {{ $g := index $match 0 }}
+
+            <div class="course-landing__term">
+              <h3>{{ $term }}</h3>
+
+              <ul class="course-landing__term-list">
+                {{ range sort $g.Pages "Params.course_code" "asc" }}
+                  <li class="course-item course-item--current">
+                    <div class="course-row">
+                      {{ with .Params.course_code }}
+                        <div class="course-code">{{ . }}</div>
+                      {{ else }}
+                        <div class="course-code"></div>
+                      {{ end }}
+
+                      <div class="course-main">
+                        <a class="course-title" href="{{ .RelPermalink }}">
+                          {{ or .Params.course_name .Title }}
+                        </a>
+
+                        {{ with .Summary }}
+                          <div class="course-summary">{{ . }}</div>
+                        {{ end }}
+                      </div>
+                    </div>
+                  </li>
+                {{ end }}
+              </ul>
+            </div>
+          {{ end }}
+        {{ end }}
+      </section>
+
+      {{/* ---------- PRIOR YEARS (AGGREGATED) ---------- */}}
+      {{ $priorGroups := after 1 $ayGroups }}
+      {{ if gt (len $priorGroups) 0 }}
+        <section class="course-landing__prior">
+          <h2>Prior years</h2>
+
+          {{ $m := newScratch }}
+
+          {{ range $priorGroups }}
+            {{ $ay := .Key }}
+            {{ range .Pages }}
+              {{ $name := default .Title .Params.course_name }}
+              {{ $key := printf "k:%s" $name }}
+              {{ $list := $m.Get $key | default (slice) }}
+              {{ $list = $list | append (dict "label" $ay "url" .RelPermalink) }}
+              {{ $m.Set $key $list }}
+            {{ end }}
+          {{ end }}
+
+          {{/* stable list of course names */}}
+          {{ $names := slice }}
+          {{ range $priorGroups }}
+            {{ range .Pages }}
+              {{ $name := default .Title .Params.course_name }}
+              {{ if not (in $names $name) }}{{ $names = $names | append $name }}{{ end }}
+            {{ end }}
+          {{ end }}
+          {{ $names = sort $names }}
+
+          <ul class="course-landing__prior-list">
+            {{ range $names }}
+              {{ $name := . }}
+              {{ $key := printf "k:%s" $name }}
+              {{ $items := $m.Get $key | default (slice) }}
+
+              {{/* de-dup by label */}}
+              {{ $uniq := slice }}
+              {{ range $items }}
+                {{ $it := . }}
+                {{ $seen := false }}
+                {{ range $uniq }}
+                  {{ if eq .label $it.label }}{{ $seen = true }}{{ end }}
+                {{ end }}
+                {{ if not $seen }}{{ $uniq = $uniq | append $it }}{{ end }}
+              {{ end }}
+              {{ $uniq = sort $uniq "label" "desc" }}
+
+              <li class="course-item course-item--prior">
+                <div class="course-prior-left">
+                  {{/* pull course code from the first offering */}}
+                  {{ $first := index $uniq 0 }}
+                  {{ $p := site.GetPage $first.url }}
+
+                  {{ with $p.Params.course_code }}
+                    <span class="course-code">{{ . }}</span>
+                    <span class="course-sep">·</span>
+                  {{ end }}
+
+                  <span class="course-name">{{ $name }}</span>
+                </div>
+
+                <div class="course-years">
+                  {{ range $i, $it := $uniq }}
+                    <a class="course-year-pill" href="{{ $it.url }}">{{ $it.label }}</a>
+                  {{ end }}
+                </div>
+              </li>
+            {{ end }}
+          </ul>
+        </section>
+      {{ end }}
+
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}
+
