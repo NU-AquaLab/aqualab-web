@@ -1,5 +1,5 @@
 ---
-title: "Daniel Wang"
+title: "HyunSeok Daniel Jang"
 role: "Ph.D. Student"
 
 user_groups:
