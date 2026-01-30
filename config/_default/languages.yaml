@@ -5,6 +5,9 @@
 # Default language
 en:
   languageCode: en-us
+  title: 'Aqualab - Northwestern University'
+  params:
+    description: 'Computer Science Research Laboratory at Northwestern University'
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
