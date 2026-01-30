@@ -9,6 +9,7 @@ summary: "Weekly schedule, topics, readings, and deadlines."
 
 This schedule may change slightly as the quarter proceeds.  
 Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< reading_tag "question" >}}**, or **{{< reading_tag "review" >}}**.
+Presentation slides can be found in a [Canvas site](https://canvas.northwestern.edu/courses/246646/files/folder/Slides). 
 
 ---
 
@@ -22,7 +23,6 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 - S. Keshav, [*How to Read a Paper*](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf), SIGCOMM CCR 2007 - {{< reading_tag "background" >}}
 - V. Paxson, [*Strategies for Sound Internet Measurements*](https://dl.acm.org/doi/10.1145/1028788.1028824), IMC 2004 — {{< reading_tag "background" >}}
    - **Presenter:** Fabián
-   - **Slides:** [pdf](https://canvas.northwestern.edu/courses/246646/files/folder/Slides?preview=23631161)
 
 ### Thu 01/08 — Internet Architecture - A Brief Overview
 
@@ -31,7 +31,6 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 - C. Labovitz et al., [*Internet Inter-domain Traffic*](https://dl.acm.org/doi/10.1145/1851275.1851194), SIGCOMM 2010 — {{< reading_tag "background" >}}
 - P. Gigis et al., [*Seven Years in the Life of Hypergiants' Off-Nets*](https://dl.acm.org/doi/10.1145/3452296.3472928), SIGCOMM 2021 — {{< reading_tag "question" >}}
    - **Presenter:** Fabián
-   - **Slides:** [pdf]
 </details>
 
 ---
@@ -46,7 +45,6 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 - B. Augustin et al., [*Avoiding Traceroute Anomalies with Paris Traceroute*](https://conferences.sigcomm.org/imc/2006/papers/p15-augustin.pdf), IMC 2006 — {{< reading_tag "background" >}}  
 - E. Fazzion et al., [*RemapRoute: Local Remapping of Internet Path Changes*](https://dl.acm.org/doi/10.1145/3730567.3732923), IMC 2025 (short) — {{< reading_tag "question" >}}
    - **Presenter:** Fabián 
-   - **Slides:** [pdf]
 
 ### Thu 01/15 — Measurement Platforms
 
@@ -55,7 +53,6 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 - V. Bajpai and J. Schönwälder, [*A Survey on Internet Performance Measurement Platforms and Related Standardization Efforts*](https://ieeexplore.ieee.org/document/7076582), IEEE Communications Surveys & Tutorials, 17(3), 2015 {{< reading_tag "background" >}}
 - Z. Durumeric et al., [*Censys: A Map of Internet Hosts and Services*](https://dl.acm.org/doi/10.1145/3718958.3754344), SIGCOMM 2025 — {{< reading_tag "review" >}}
    - **Presenter:** Fabián 
-   - **Slides:** [pdf]
 
 </details>
 
@@ -71,7 +68,6 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 - A. Männel et al., [*Lessons learned from operating a large network telescope*](https://dl.acm.org/doi/10.1145/3718958.3754347), SIGCOMM 2025 — {{< reading_tag "review" >}}
 - R. Fontugne et al., [*The Wisdom of the Measurement Crowd: Building the Internet Yellow Pages a Knowledge Graph for the Internet,*](https://dl.acm.org/doi/10.1145/3646547.3688444), IMC 2024 — {{< reading_tag "background" >}}
    - **Presenter:** Fabián 
-   - **Slides:** [pdf]
 
 ### Thu 01/22 — Measurement Approaches & Datasets
 
@@ -80,7 +76,6 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 - F. de Vocht et al., [*Conceptualizing Natural and Quasi-Experiments in Public Health*](https://pubmed.ncbi.nlm.nih.gov/33573595/), BMC Medical Research Methodology 21(32), 2021  — {{< reading_tag "background" >}}
 - Z. Bischof et al., [*Need, Want, Can Afford: Broadband Markets and the Behavior of Users*](https://nu-aqualab.github.io/aqualab-web/publication/2014/zbischof-imc14/ZBischof-IMC14.pdf), IMC 2014 — {{< reading_tag "question" >}} 
    - **Presenter:** Fabián 
-   - **Slides:** [pdf]
 
 </details>
 
@@ -96,7 +91,6 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 - Q. Scheitle et al., [*A Long Way to the Top: Significance, Structure, and Stability of Internet Top Lists*](https://dl.acm.org/doi/10.1145/3278532.3278574), IMC 2018 — {{< reading_tag "background" >}}
 - L. Salamatian et al., [*What’s in the Dataset? Unboxing the APNIC User Populations*](), IMC 2024 — {{< reading_tag "question" >}}
    - **Presenter:** Fabián 
-   - **Slides:** [pdf]
 
 ### Thu 01/29 — Weighting and Biases
 
@@ -104,11 +98,9 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 - P. Sermpezis et al., [*Bias in Internet Measurement Platforms*](https://tma.ifip.org/2023/wp-content/uploads/sites/12/2023/06/tma2023-final28.pdf), TMA 2023 — {{< reading_tag "question" >}}
    - **Student presenter:** Daniel Jang
-   - **Slides:** [pdf]
 
 - A. Efstratiou, [*On YouTube Search API Use in Research*](https://dl.acm.org/doi/10.1145/3730567.3764492), IMC 2025 — {{< reading_tag "review" >}} 
    - **Student presenter:**  Liam Strand
-   - **Slides:** [pdf]
 
 </details>
 
@@ -122,12 +114,10 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 **Readings**
 
 - K. Tiagarajan et al., [*The Aleph: Decoding DNS PTR Records With LLMs*](https://nu-aqualab.github.io/aqualab-web/publication/2025/kthiagarajan-conext25/KThiagarajan-CoNEXT25.pdf), CoNEXT 2025 — {{< reading_tag "question" >}}
-   - **Student presenter:** <mark>TBD</mark>
-   - **Slides:** [pdf]
+   - **Student presenter:** Kedar Tiagarajan
 
 - C. Selmo et al., [*Learning AS-to-Organization Mappings with Borges*](https://nu-aqualab.github.io/aqualab-web/publication/2025/cselmo-imc25/CSelmo-IMC25.pdf), IMC 2025 — {{< reading_tag "review" >}}
    - **Student presenter:** Anthony Wang
-   - **Slides:** [pdf]
 
 ### Thu 02/05 — Underwater and Outer Space
 
@@ -135,11 +125,9 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 
 - Z. Liu et al., [*Vivisecting Starlink Throughput*](https://dl.acm.org/doi/10.1145/3768971), CoNEXT 2025 — {{< reading_tag "review" >}}  
    - **Student presenter:** Zacaria Nouri
-   - **Slides:** [pdf]
   
 - C. Wang et al., [*Calypso’s Voyage: Charting Traceroute Paths Through Submarine Cables*](), (long vesion) SIGCOMM 2025 — {{< reading_tag "review" >}} 
    - **Student presenter:** Liam Strand
-   - **Slides:** [pdf]
   
 </details>
 
@@ -153,12 +141,10 @@ Required readings are tagged as **{{< reading_tag "background" >}}**, **{{< read
 **Readings**
 
 - P. Sattler et al., [*ECSeptional DNS Data: Evaluating Nameserver ECS Deployments with Response-Aware Scanning*](https://dl.acm.org/doi/10.1145/3730977), CoNEXT 2025 — {{< reading_tag "review" >}}
-   - **Student presenter:** <mark>TBD</mark>
-   - **Slides:** [pdf]
+   - **Student presenter:** Josh Brice
   
 - C. Deccio and B. Tessem, [*On Aggressive Negative Caching in DNS Resolvers*](https://casey.byu.edu/papers/2025_tma_agg_nsec.pdf), TMA 2025 — {{< reading_tag "question" >}}  
    - **Student presenter:** Harut Sargsyan
-   - **Slides:** [pdf]
 
 ### Thu 02/12 — Midterm Presentations
 
@@ -181,7 +167,7 @@ Short presentations + Q&A.
    - **Slides:** [pdf]
   
 - M. Ansar et al., [*Web Crawl Refusals: Insights From Common Crawl*](https://research.utwente.nl/en/publications/web-crawl-refusals-insights-from-common-crawl/), PAM 2025 — {{< reading_tag "question" >}}
-   - **Student presenter:** <mark>TBD</mark>
+   - **Student presenter:** Josh Brice
    - **Slides:** [pdf]
 
 ### Thu 02/19 — Cookies & Fingerprinting
