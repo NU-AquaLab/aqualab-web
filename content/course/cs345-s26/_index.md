@@ -31,8 +31,8 @@ course_tabs:
 Remember to check this site (and Canvas) regularly.
 
 **Quick links:**  
-- Canvas: https://canvas.northwestern.edu/courses/230265  
-- Piazza: https://canvas.northwestern.edu/courses/230265/external_tools/45278  
+- Canvas:   
+- Piazza:   
 
 ---
 
