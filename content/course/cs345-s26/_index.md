@@ -31,8 +31,8 @@ course_tabs:
 Remember to check this site (and Canvas) regularly.
 
 **Quick links:**  
-- Canvas:   
-- Piazza:   
+- Canvas: TBD  
+- Piazza: TBD  
 
 ---
 
@@ -52,7 +52,7 @@ Email: `fabianb@cs...`
 
 ## Location and Time
 
-- **Lectures:** Tue/Thu 11:00–12:20 — Tech L4 (map: https://www.mccormick.northwestern.edu/contact/tech-map-first-floor.html)  
+- **Lectures:** Tue/Thu 11:00–12:20 — Tech L4 [map](https://www.mccormick.northwestern.edu/contact/tech-map-first-floor.html)  
 - **Professor Office Hours:** By appointment  
 - **TA Office Hours:** TBD  
 - **TA / Recitation Session:** Thu 4:00–5:00 PM — Frances Searle 1441  
@@ -67,8 +67,8 @@ Basic principles behind distributed systems (collections of independent componen
 
 ## Course Prerequisites
 
-- CS 213 — Intro to Computer Systems: https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/213-20.html  
-- CS 214 — Data Structures and Algorithms: https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/214.html  
+- CS 213 — [Intro to Computer Systems](https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/213-20.html)  
+- CS 214 — [Data Structures and Algorithms](https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/214.html)  
 
 ---
 
