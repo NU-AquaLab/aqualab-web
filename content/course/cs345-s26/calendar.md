@@ -116,12 +116,13 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Tue 05/12 — Scaling Out Key-Value Stores
 
 **Readings**
-- G. DeCandia et al., *Dynamo: Amazon’s Highly Available Key-value Store*, SOSP 2007 — (Paper)(https://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
+- G. DeCandia et al., *Dynamo: Amazon’s Highly Available Key-value Store*, SOSP 2007 
+  [PDF](https://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
 
 ### Thu 05/14 — Consensus Problem and Impossibility of Consensus
 
 **Readings**
-- M. Fischer, N. Lynch, M. Paterson, *Impossibility of Distributed Consensus with One Faulty Process*, JACM 1985 — [PDF](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)
+- M. Fischer, N. Lynch, M. Paterson, *Impossibility of Distributed Consensus with One Faulty Process*, JACM 1985 [PDF](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)
 
 </details>
 
@@ -155,8 +156,8 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Thu 05/28 — Content Distribution Networks
 
 **Readings**
-- F. Chen et al., *End-User Mapping: Next Generation Request Routing for Content Delivery*, SIGCOMM 2015 — [PDF](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p167.pdf)
-- (Optional) W. Zheng et al., *StarCDN: Moving Content Delivery Networks to Space*, SIGCOMM 2025 - [PDF](https://dl.acm.org/doi/pdf/10.1145/3718958.3754345)
+- F. Chen et al., *End-User Mapping: Next Generation Request Routing for Content Delivery*, SIGCOMM 2015 [PDF](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p167.pdf)
+- (Optional) W. Zheng et al., *StarCDN: Moving Content Delivery Networks to Space*, SIGCOMM 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3718958.3754345)
 
 </details>
 
@@ -168,8 +169,8 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Tue 06/02 — Distributed Transactions
 
 **Readings**
-- J. Corbett et al., *Spanner: Google’s Globally-Distributed Database*, OSDI 2012 — [PDF](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-16.pdf)
-- (Optional) J. Geng et al., *Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks*, SOSP 2025 - [PDF](https://dl.acm.org/doi/10.1145/3731569.3764854)
+- J. Corbett et al., *Spanner: Google’s Globally-Distributed Database*, OSDI 2012 [PDF](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-16.pdf)
+- (Optional) J. Geng et al., *Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks*, SOSP 2025 [PDF](https://dl.acm.org/doi/10.1145/3731569.3764854)
 
 ### Thu 06/04 — New Distributed Systems
 
