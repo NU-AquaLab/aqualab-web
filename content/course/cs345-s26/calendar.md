@@ -8,7 +8,7 @@ summary: "Topics and readings by date. Links to papers live in Canvas unless oth
 {{< course_tabs >}}
 
 This is the intended calendar with topics and readings.  
-Papers (except when tagged as **ref**) may appear in homework/finals questions.
+Papers (except when tagged as *Reference* or *Optional*) may appear in homework/finals questions.
 
 All papers are available in Canvas (Files → “Reading”), unless linked externally.
 
@@ -24,7 +24,7 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 
 **Readings**
 - Google, *Introduction to Distributed System Design* (Canvas)
-- J. Dean and S. Ghemawat, *MapReduce: Simplified Data Processing on Large Clusters*, OSDI 2004 - [PDF](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
+- J. Dean and S. Ghemawat, *MapReduce: Simplified Data Processing on Large Clusters*, OSDI 2004 — [PDF](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
 </details>
 
 ---
@@ -35,12 +35,13 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Tue 04/07 — Networking
 
 **Readings**
-- L. Peterson and B. Davie, *Computer Networks: A Systems Approach*, Chapter 5: End-to-End Protocols [Book](https://book.systemsapproach.org/index.html)
+- (Reference) L. Peterson and B. Davie, *Computer Networks: A Systems Approach*, Chapter 5: End-to-End Protocols — [Book](https://book.systemsapproach.org/index.html)
 
 ### Thu 04/09 — Communication and Organization
 
 **Readings**
-- K. Seemakhupt et al., *A Cloud-Scale Characterization of Remote Procedure Calls*, SOSP 2023 - [PDF](https://dl.acm.org/doi/abs/10.1145/3600006.3613156)
+- K. Seemakhupt et al., *A Cloud-Scale Characterization of Remote Procedure Calls*, SOSP 2023 — [PDF](https://dl.acm.org/doi/abs/10.1145/3600006.3613156)
+
 </details>
 
 ---
@@ -84,7 +85,7 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 
 **Readings**
 - D. Scales et al., *The Design of a Practical System for Fault-Tolerant Virtual Machines*, ACM SIGOPS OSR 2010 — [PDF](https://dl.acm.org/doi/10.1145/1899928.1899932)
-- (Optional) R. van Renesse and F. Schneider, *Chain Replication for Supporting High Throughput and Availability*, USENIX OSDI 2004 - [PDF](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/renesse/renesse.pdf)
+- (Optional) R. van Renesse and F. Schneider, *Chain Replication for Supporting High Throughput and Availability*, USENIX OSDI 2004 — [PDF](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/renesse/renesse.pdf)
 
 ### Thu 04/30 — Midterm 
 
@@ -116,13 +117,12 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Tue 05/12 — Scaling Out Key-Value Stores
 
 **Readings**
-- G. DeCandia et al., *Dynamo: Amazon’s Highly Available Key-value Store*, SOSP 2007 
-  [PDF](https://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
+- G. DeCandia et al., *Dynamo: Amazon’s Highly Available Key-value Store*, SOSP 2007 — [PDF](https://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
 
 ### Thu 05/14 — Consensus Problem and Impossibility of Consensus
 
 **Readings**
-- M. Fischer, N. Lynch, M. Paterson, *Impossibility of Distributed Consensus with One Faulty Process*, JACM 1985 [PDF](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)
+- M. Fischer, N. Lynch, M. Paterson, *Impossibility of Distributed Consensus with One Faulty Process*, JACM 1985 — [PDF](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)
 
 </details>
 
@@ -134,7 +134,7 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Tue 05/19 — Consensus
 
 **Readings**
-- D. Ongaro and J. Ousterhout, *In Search of an Understandable Consensus Algorithm* (Raft), USENIX ATC 2014 — [PDF](https://raft.github.io/raft.pdf)
+- D. Ongaro and J. Ousterhout, *In Search of an Understandable Consensus Algorithm* (Raft), USENIX ATC 2014 — [PDF](https://raft.github.io/raft.pdf)
 
 ### Thu 05/21 — Byzantine Fault Tolerance
 
@@ -156,8 +156,8 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Thu 05/28 — Content Distribution Networks
 
 **Readings**
-- F. Chen et al., *End-User Mapping: Next Generation Request Routing for Content Delivery*, SIGCOMM 2015 [PDF](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p167.pdf)
-- (Optional) W. Zheng et al., *StarCDN: Moving Content Delivery Networks to Space*, SIGCOMM 2025 [PDF](https://dl.acm.org/doi/pdf/10.1145/3718958.3754345)
+- F. Chen et al., *End-User Mapping: Next Generation Request Routing for Content Delivery*, SIGCOMM 2015 — [PDF](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p167.pdf)
+- (Optional) W. Zheng et al., *StarCDN: Moving Content Delivery Networks to Space*, SIGCOMM 2025 — [PDF](https://dl.acm.org/doi/pdf/10.1145/3718958.3754345)
 
 </details>
 
@@ -169,8 +169,8 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Tue 06/02 — Distributed Transactions
 
 **Readings**
-- J. Corbett et al., *Spanner: Google’s Globally-Distributed Database*, OSDI 2012 [PDF](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-16.pdf)
-- (Optional) J. Geng et al., *Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks*, SOSP 2025 [PDF](https://dl.acm.org/doi/10.1145/3731569.3764854)
+- J. Corbett et al., *Spanner: Google’s Globally-Distributed Database*, OSDI 2012 — [PDF](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-16.pdf)
+- (Optional) J. Geng et al., *Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks*, SOSP 2025 — [PDF](https://dl.acm.org/doi/10.1145/3731569.3764854)
 
 ### Thu 06/04 — New Distributed Systems
 

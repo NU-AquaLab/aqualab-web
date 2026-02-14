@@ -47,7 +47,7 @@ The course is organized as a series of lectures and paper discussions, projects,
 - **Readings:** paper reading to prepare for lecture (not as a substitute)
 - **Homework:** mostly “reading enforcers” that force you to actually engage
 - **Projects:** programming projects (in Go) to get hands-on with the ideas
-- **Final exam**
+- **Exams:** A midterm and final exams
 
 ---
 

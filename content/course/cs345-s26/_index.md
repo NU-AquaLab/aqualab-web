@@ -44,8 +44,9 @@ Seely Mudd 3509
 Email: `fabianb@cs...`
 
 **TAs**  
-- [Kedar Thiagarajan](https://www.linkedin.com/in/kedar-thiagarajan) — Seely Mudd — `kedarthiagarajan2028@..`  
-- [Caleb Wang](https://calebwang.info/about) — Seely Mudd — `caleb.wang@..`
+- [Caleb Wang](https://calebwang.info/about) — Seely Mudd — `caleb.wang@....`
+- [Ying Zhang](https://zyalm.github.io/) — Seely Mudd — `yingzhang2024@u....`  
+
 
 ---
 
