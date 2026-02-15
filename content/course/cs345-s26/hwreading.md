@@ -7,12 +7,6 @@ summary: "Reading questions, homeworks"
 
 {{< course_tabs >}}
 
-There are several pre-class reading assignments and multiple homework assignments. These are mostly meant as reading enforcers. There are four programming projects (the first split in two parts) and a final exam.
-
-All assignments (prompts, submission links, rubrics) are posted on **Canvas**.
-
----
-
 ## Pre-class reading
 
 Before most classes, you will be asked to read a designated research paper — at minimum, the abstract, introduction, and conclusion — to get a high-level sense of the work.
