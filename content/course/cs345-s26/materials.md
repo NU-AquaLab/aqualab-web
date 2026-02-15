@@ -1,7 +1,7 @@
 ---
 title: "Materials"
 type: page
-weight: 5
+weight: 6
 summary: "Pointers to paper list and Go resources."
 ---
 

@@ -17,8 +17,10 @@ course_tabs:
     page: "_index"
   - title: "Calendar & Readings"
     page: "calendar"
-  - title: "Assignments"
-    page: "assignments"
+  - title: "HW and Readings"
+    page: "hwreading"
+  - title: "Projects"
+    page: "projects"
   - title: "Materials"
     page: "materials"
 
