@@ -45,9 +45,9 @@ Correctness in this class is not defined solely by passing tests. It is defined 
 
 Writing design documents is not busywork. It is central to learning distributed systems.
 
-Distributed systems are not primarily about writing code. They are about designing protocols that behave correctly under uncertainty, concurrency, and failure. Correctness emerges from design; code is the final artifact.
+Distributed systems are not primarily about writing code. They are about designing protocols that behave correctly under uncertainty, concurrency, and failure. Correctness emerges from design; your code is the final artifact.
 
-In a single-machine program, you can often debug your way to correctness. In a distributed system, that approach fails. Subtle mistakes in assumptions about ordering, timing, or failure can produce rare, non-deterministic behaviors that are extremely difficult to reproduce. Many real-world outages are caused not by syntax errors, but by flawed protocol reasoning.
+While in a single-machine program, you can often debug your way to correctness, in a distributed system, that approach fails. Subtle mistakes in assumptions about ordering, timing, or failure can produce rare, non-deterministic behaviors that are extremely difficult to reproduce. Many real-world outages are caused not by syntax errors, but by flawed protocol reasoning.
 
 A design document forces you to:
 - Define the fault model you are handling.
@@ -63,8 +63,6 @@ Professional distributed systems engineers write specifications before implement
 
 The design document is your opportunity to demonstrate that you understand the protocol, not just the program. It makes your reasoning visible. Code can conceal misunderstandings; a design document cannot.
 
-In this course, correctness is not defined solely by passing tests. It is defined by whether your protocol is logically sound under the specified fault model.
-
 ---
 
 ### Why We Run Experiments in This Class
@@ -73,9 +71,9 @@ In addition to design documents, each project requires a small set of experiment
 
 Passing the provided tests demonstrates that your implementation satisfies specific correctness checks. It does not demonstrate that you understand how your system behaves.
 
-Distributed systems often behave correctly but inefficiently, or correctly but unstably, or correctly under one configuration but poorly under another. Understanding those behaviors is part of systems engineering.
+Distributed systems often behave correctly but inefficiently, or correctly but unstably, or correctly under one configuration but poorly under another. Understanding those behaviors is part of systems engineering. 
 
-Experiments in this class are not open-ended research projects. They are focused, targeted investigations meant to answer specific questions about your own implementation.
+The experiments in this class are focused, targeted investigations meant to answer specific questions about your own implementation.
 
 Through experiments, you will:
 
@@ -85,10 +83,7 @@ Through experiments, you will:
 - Evaluate overhead introduced by coordination mechanisms.
 - Compare expected behavior (from your design document) with observed behavior.
 
-The goal is not to produce polished research plots. The goal is to connect: Design → Implementation → Behavior.
+The goal is not to produce polished research plots, but to connect: Design --> Implementation --> Behavior of your system.
 
-If your measurements contradict your expectations, that is not a failure. It is an opportunity to refine your understanding.
-
-In distributed systems, the most important skill is not merely implementing a protocol, but explaining why it behaves the way it does under real execution conditions.
-
-Experiments make that understanding visible.
+If your measurements do not match your expectations, consider this not as a failure but as an opportunity to refine your understanding.
+In distributed systems, and in systems in general, the most important skill is not merely implementing a protocol but explaining why it behaves as it does under real-world execution conditions.
