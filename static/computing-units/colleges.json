@@ -1,5 +1,19 @@
 [
   {
+    "university": "University of Texas at Austin",
+    "unit": "School of Computing",
+    "year": 2026,
+    "prior": "Dept of Computer Science, iSchool, Dept of Statistics & Data Sciences merged within College of Natural Sciences",
+    "admin": "school within College of Natural Sciences",
+    "departments": "Computer Science; Information; Statistics and Data Sciences",
+    "scope": "CS, Data Science, Statistics, Information, AI, Robotics",
+    "naming": "None",
+    "faculty": "~140 + 50 new hires planned",
+    "notes": "Approved by UT System Board of Regents Feb 2026, opening Fall 2026. Unites three existing units. Peter Stone (CS chair, Texas Robotics founder) named Special Adviser for School Formation. Designed as university-wide resource for interdisciplinary collaboration across arts, liberal arts, business, medicine, law, and engineering.",
+    "source": "UT Austin News (Feb 19, 2026)",
+    "url": "https://news.utexas.edu/2026/02/19/ut-launches-new-school-of-computing-uniting-computer-and-data-science-statistics-information-disciplines/"
+  },
+  {
     "university": "Carnegie Mellon University",
     "unit": "School of Computer Science",
     "year": 1988,
