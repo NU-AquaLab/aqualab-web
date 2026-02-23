@@ -9,7 +9,7 @@
     "scope": "CS, Data Science, Statistics, Information, AI, Robotics",
     "naming": "None",
     "faculty": "~140 + 50 new hires planned",
-    "notes": "Approved by UT System Board of Regents Feb 2026, opening Fall 2026. Unites three existing units. Peter Stone (CS chair, Texas Robotics founder) named Special Adviser for School Formation. Designed as university-wide resource for interdisciplinary collaboration across arts, liberal arts, business, medicine, law, and engineering.",
+    "notes": "Approved by UT System Board of Regents Feb 2026, opening Fall 2026. Unites three existing units. Peter Stone (CS chair, Texas Robotics founder) named Special Adviser for School Formation. Designed as university-wide resource for interdisciplinary collaboration across arts, liberal arts, business, medicine, law, and engineering. Transitioned from Engineering to Natural Sciences. Greater autonomy via MOU with dean in ~2005.",
     "source": "UT Austin News (Feb 19, 2026)",
     "url": "https://news.utexas.edu/2026/02/19/ut-launches-new-school-of-computing-uniting-computer-and-data-science-statistics-information-disciplines/"
   },
@@ -96,20 +96,6 @@
     "notes": "Historic role in computer graphics (Utah Teapot, ARPANET). School within College of Engineering with significant autonomy via MOU.",
     "source": "CRA White Paper (2019); Wikipedia",
     "url": "https://www.cs.utah.edu/"
-  },
-  {
-    "university": "University of Texas at Austin",
-    "unit": "Department of Computer Science",
-    "year": 2005,
-    "prior": "CS moved from College of Engineering to College of Natural Sciences; gained School-level status ~2005",
-    "admin": "within_sci",
-    "departments": "Computer Science",
-    "scope": "CS, AI, ML, Systems, Theory",
-    "naming": "N/A",
-    "faculty": "~70",
-    "notes": "Transitioned from Engineering to Natural Sciences. Greater autonomy via MOU with dean. One of the largest CS programs nationally.",
-    "source": "CRA White Paper (2019)",
-    "url": "https://www.cs.utexas.edu/"
   },
   {
     "university": "University of Massachusetts Amherst",
@@ -266,6 +252,20 @@
     "url": "https://provost.utsa.edu/ai-cyber-computing/"
   },
   {
+    "university": "University of California, Irvine",
+    "unit": "Donald Bren School of Information and Computer Sciences (ICS)",
+    "year": 2002,
+    "prior": "Department of Information and Computer Science (est. 1968; originated as Program in Information and Communication Science, 1966)",
+    "admin": "standalone",
+    "departments": "Computer Science; Informatics; Statistics",
+    "scope": "CS, AI/ML, Software Engineering, HCI, Data Science, Statistics, Networked Systems, Cybersecurity",
+    "naming": "Donald Bren ($20M gift, 2004); Donald Bren Hall opened 2007",
+    "faculty": "~100 tenure-track faculty; ~60 in Computer Science dept alone",
+    "notes": "First independent computing school in the University of California system and one of the first in the nation. ~4,000 undergraduates, ~600 master's students, ~400 Ph.D. students/postdocs, 17,000+ alumni. The naming gift came in 2004.",
+    "source": "ICS Facts & Figures; ICS Mission & History; UCI General Catalogue; Wikipedia",
+    "url": "https://ics.uci.edu/"
+   },
+  {
     "university": "University of Wisconsin–Madison",
     "unit": "College of Computing and Artificial Intelligence (CAI)",
     "year": 2026,
@@ -280,7 +280,7 @@
     "url": "https://cai.wisc.edu/"
   },
   {
-    "university": "University at Albany (SUNY)",
+    "university": "University at Albany - State University of New York (SUNY)",
     "unit": "Artificial Intelligence & Society College",
     "year": 2025,
     "prior": "AI Plus Institute; CS and ECE depts remain in existing colleges",
