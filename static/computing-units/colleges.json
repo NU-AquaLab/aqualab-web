@@ -13,6 +13,48 @@
     "source": "UT Austin News (Feb 19, 2026)",
     "url": "https://news.utexas.edu/2026/02/19/ut-launches-new-school-of-computing-uniting-computer-and-data-science-statistics-information-disciplines/"
   },
+{
+    "university": "University of Georgia",
+    "unit": "School of Computing",
+    "year": 2022,
+    "prior": "Department of Computer Science (est. 1984, within Franklin College of Arts and Sciences)",
+    "admin": "hybrid",
+    "departments": "Single-school unit — no sub-departments; houses CS programs with affiliated Institutes (AI, Cybersecurity & Privacy)",
+    "scope": "CS, AI, Cybersecurity, Data Science, Software Engineering",
+    "naming": "None",
+    "faculty": "~30 faculty (including courtesy appointments from Engineering, Genetics, etc.)",
+    "notes": "Effective July 1, 2022. Jointly administered by Franklin College of Arts & Sciences and College of Engineering — an unusual dual-college governance model. Stemmed from a 7-member Task Force on the Future of Computing charged by the Provost. Inaugural director Gagan Agrawal (formerly Augusta Univ.) appointed July 2023 after national search. CS was UGA's 3rd-most-enrolled and fastest-growing major; undergrad enrollment grew 22% in a single year (614→751, 2014–15). Connected to UGA's Presidential Hiring initiative in Data Science and AI.",
+    "source": "UGA Franklin College News; UGA College of Engineering News; Wikipedia",
+    "url": "https://computing.uga.edu/"
+},
+{
+    "university": "Nanyang Technological University, Singapore (NTU)",
+    "unit": "College of Computing and Data Science (CCDS)",
+    "year": 2024,
+    "prior": "School of Computer Science and Engineering (SCSE, renamed 2016; orig. School of Applied Science est. 1988, then School of Computer Engineering)",
+    "admin": "standalone",
+    "departments": "Three academic divisions: AI; Data Science; Computing",
+    "scope": "CS, Computer Engineering, AI, Data Science, Cybersecurity",
+    "naming": "None",
+    "faculty": "257 faculty members (2024)",
+    "notes": "Announced Feb 2024, operational May 2024. NTU's 6th academic college. Formed by reorganising SCSE and consolidating computing-related disciplines previously under College of Engineering. Founding Dean: Luke Ong (also newly created VP for AI & Digital Economy; Chief Scientist, AI Singapore). 4,227 UG + 1,078 grad students + 578 research staff. New programs launched alongside: Bachelor of Computing in AI and Society, Turing AI Scholars Programme, Minor in AI for all NTU undergraduates. Aligned with Singapore's refreshed national AI strategy to triple AI talent pool.",
+    "source": "NTU News; EurekAlert; NTU CCDS History page; Wikipedia",
+    "url": "https://www.ntu.edu.sg/computing"
+},
+{
+    "university": "Korea Advanced Institute of Science and Technology (KAIST)",
+    "unit": "College of AI",
+    "year": 2026,
+    "prior": "Kim Jaechul Graduate School of AI (est. 2019, graduate-only; first in Korea to offer MS/PhD in AI) + Department of Computer Science",
+    "admin": "standalone",
+    "departments": "AI Computing; AI Systems; AX (AI Transformation — 4 tracks: Data & Content, Manufacturing & Physical, Bio & Materials, Sustainability); AI Futures (ethics, policy, governance)",
+    "scope": "AI algorithms/generative AI/multimodal AI, AI semiconductors & hardware, AI industrial applications, AI ethics & policy",
+    "naming": "None (Ministry of Science and ICT funded)",
+    "faculty": "20 initial full-time (5 per department), planned expansion; existing GSAI has 20 core + 43 affiliated + 7 adjunct faculty",
+    "notes": "KAIST board approved Dec 11, 2025. UG programs begin spring 2026; graduate programs fall 2026. 300 new students/year (100 UG, 150 MS, 50 PhD) — entirely new enrollment slots. First Korean university to elevate AI to independent college-level unit. Part of broader national policy: similar AI colleges planned at GIST, DGIST, and UNIST by 2027, each aligned with regional strategic industries. KAIST ranked #39 worldwide in AI (ShanghaiRanking 2025). KAIST operates a department-free first year; sophomores choose among the 4 AI majors.",
+    "source": "Korea Herald; Asia Business Daily; KAIST website",
+    "url": "https://aicollege.kaist.ac.kr/"
+},
   {
     "university": "Carnegie Mellon University",
     "unit": "School of Computer Science",
