@@ -21,7 +21,7 @@ url_dataset: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-# url_project: "https://aqualab.cs.northwestern.edu/project/consolidation-watch/"
+url_project: "https://aqualab.cs.northwestern.edu/project/consolidation-watch/"
 external_link: "https://aqualab.cs.northwestern.edu/project/consolidation-watch/"
 publishDate: "2026-03-06T00:00:00Z"
 
