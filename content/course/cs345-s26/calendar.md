@@ -24,8 +24,10 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 
 **Readings**
 - Google, *Introduction to Distributed System Design* (Canvas)
+
 - J. Dean and S. Ghemawat, *MapReduce: Simplified Data Processing on Large Clusters*, OSDI 2004 — [PDF](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
 </details>
+
 
 ---
 
@@ -58,6 +60,9 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 
 **Readings**
 - M. Chandy and L. Lamport, *Distributed Snapshots: Determining Global States of Distributed Systems*, TOCS 1985 — [PDF](https://lamport.azurewebsites.net/pubs/chandy.pdf)
+
+- (Optional) Alibaba Cloud, *Fault Tolerance in Flink: How Chandy-Lamport Powers Modern Stream Processing*, — [Post](https://www.alibabacloud.com/blog/flink-course-series-4-fault-tolerance-in-flink_597985)
+
 </details>
 
 ---
@@ -73,7 +78,11 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Thu 04/23 — Failure and Failure Detection
 
 **Readings**
-- J. Leners et al., *Detecting failures in distributed systems with the FALCON spy network*, SOSP 2011 — [PDF](https://www.cs.utexas.edu/falcon/papers/falcon-sosp11.pdf)
+
+- N. Hayashibara et al., *The Phi Accrual Failure Detector*, SRDS 2004 — [PDF](https://www.computer.org/csdl/proceedings-article/srds/2004/22390066/12OmNvT2phv)
+
+- (Optional) Datastax, *How Apache Cassandra Uses the Phi Accrual Failure Detector* — [Post](https://www.datastax.com/blog/phi-accrual-failure-detector)
+
 </details>
 
 ---
@@ -85,7 +94,8 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 
 **Readings**
 - D. Scales et al., *The Design of a Practical System for Fault-Tolerant Virtual Machines*, ACM SIGOPS OSR 2010 — [PDF](https://dl.acm.org/doi/10.1145/1899928.1899932)
-- (Optional) R. van Renesse and F. Schneider, *Chain Replication for Supporting High Throughput and Availability*, USENIX OSDI 2004 — [PDF](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/renesse/renesse.pdf)
+
+- (Optional) Confluent, *Kafka Replication: How ISR-Based Primary-Backup Replication Works in Practice*— [Post](https://docs.confluent.io/kafka/design/replication.html)
 
 ### Thu 04/30 — Midterm 
 
@@ -99,7 +109,8 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Tue 05/05 — Eventual Consistency
 
 **Readings**
-- D. Terry et al., *Managing Update Conflicts in Bayou, a Weakly Connected Replicated Storage System*, SOSP 1995 — [PDF](https://dl.acm.org/doi/10.1145/224056.224070)
+
+- W. Lloyd et al., *Don't Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS*, SOSP 2011 - [PDF](https://www.cs.cmu.edu/~dga/papers/cops-sosp2011.pdf)
 
 
 ### Thu 05/07 —  Overlay Networks
@@ -117,7 +128,7 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Tue 05/12 — Scaling Out Key-Value Stores
 
 **Readings**
-- G. DeCandia et al., *Dynamo: Amazon’s Highly Available Key-value Store*, SOSP 2007 — [PDF](https://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
+- M. Elhemali et al., *Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service*, USENIX ATC 2022 - [PDF](https://www.usenix.org/system/files/atc22-elhemali.pdf)
 
 ### Thu 05/14 — Consensus Problem and Impossibility of Consensus
 
@@ -136,10 +147,13 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 **Readings**
 - D. Ongaro and J. Ousterhout, *In Search of an Understandable Consensus Algorithm* (Raft), USENIX ATC 2014 — [PDF](https://raft.github.io/raft.pdf)
 
-### Thu 05/21 — Byzantine Fault Tolerance
+### Thu 05/21 — Byzantine Fault Tolerance and Blockchain Consensus
 
 **Readings**
 - M. Castro and B. Liskov, *Practical Byzantine Fault Tolerance*, OSDI 1999 — [PDF](https://pmg.csail.mit.edu/papers/osdi99.pdf)
+- (Optional) M. Yin et al., *HotStuff: BFT Consensus with Linearity and Responsiveness*, PODC 2019 — [PDF](https://arxiv.org/pdf/1803.05069.pdf)
+
+>PBFT established the foundations of practical BFT, but its O(n²) message complexity limits scalability. HotStuff, which underlies Meta's Diem/LibraBFT and several production blockchains, achieves linear message complexity by introducing a chained, pipelined voting structure. Reading both papers together illustrates why blockchain consensus is not simply "BFT applied to a ledger" but required a new generation of protocol design.
 
 </details>
 
@@ -156,8 +170,9 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Thu 05/28 — Content Distribution Networks
 
 **Readings**
-- F. Chen et al., *End-User Mapping: Next Generation Request Routing for Content Delivery*, SIGCOMM 2015 — [PDF](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p167.pdf)
-- (Optional) W. Zheng et al., *StarCDN: Moving Content Delivery Networks to Space*, SIGCOMM 2025 — [PDF](https://dl.acm.org/doi/pdf/10.1145/3718958.3754345)
+
+- F. Y. Yan et al., *Learning in situ: A Randomized Experiment in Video Streaming*, USENIX NSDI 2020 — [PDF](https://www.usenix.org/system/files/nsdi20-paper-yan.pdf)
+- (Optional) W. Zheng et al., *StarCDN: Moving Content Delivery Networks to Space*, SIGCOMM 2025 - [PDF](https://dl.acm.org/doi/pdf/10.1145/3718958.3754345)
 
 </details>
 
@@ -170,10 +185,11 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 
 **Readings**
 - J. Corbett et al., *Spanner: Google’s Globally-Distributed Database*, OSDI 2012 — [PDF](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-16.pdf)
-- (Optional) J. Geng et al., *Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks*, SOSP 2025 — [PDF](https://dl.acm.org/doi/10.1145/3731569.3764854)
+- (Optional) *Google Cloud Blog, Strict Serializability and External Consistency in Spanner* — [Post](https://cloud.google.com/blog/products/databases/strict-serializability-and-external-consistency-in-spanner)
 
 ### Thu 06/04 — New Distributed Systems
 
 **Readings**
-- D. Trautwein et al., *Design and Evaluation of IPFS: A Storage Layer for the Decentralized Web*, SIGCOMM 2022 — [PDF](https://gipplab.org/wp-content/papercite-data/pdf/trautwein2022a.pdf)
+- L. Balduf et al., *The Cloud Strikes Back: Investigating the Decentralization of IPFS*, IMC 2023 - [PDF](https://dl.acm.org/doi/10.1145/3618257.3624797)
+
 </details>
