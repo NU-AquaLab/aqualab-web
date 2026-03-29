@@ -1,14 +1,15 @@
 ---
 title: "Rashna Kumar"
-role: "Ph.D. Student"
+role: "PhD (2026)"
 
 user_groups:
-  - "Lab Member"
+  - "PhD Alumni"
 
 organizations:
   - name: "Northwestern University"
 
 last_name: "Kumar"
+grad_year: 2026
 
 avatar: "avatar.jpg"
 
@@ -21,5 +22,5 @@ social:
 
 draft: false
 ---
-Rashna is a Ph.D. student working on Internet measurement and networked systems.
+Thesis: Consolidation and Consequence in Web Delivery Infrastructure.
 

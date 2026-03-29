@@ -64,7 +64,7 @@
         {{ if gt (len $members) 0 }}
           <section class="people-section-group">
             <h2 class="people-section-heading">{{ $section.label }}</h2>
-            <div class="people-listing layout-hover">
+            <div class="people-listing layout-alumni">
               {{/* PhD Alumni: sort by graduation year (most recent first); others: by last name */}}
               {{ $sorted := sort $members "Params.last_name" }}
               {{ if eq $section.key "PhD Alumni" }}

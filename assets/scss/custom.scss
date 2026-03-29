@@ -312,6 +312,41 @@ span.pub-title {
 }
 
 /* -----------------------------------------------------
+   Layout D: Alumni – small circle photo, text beside it, grid
+----------------------------------------------------- */
+
+.layout-alumni {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem 2rem;
+
+  .people-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.4rem 0;
+  }
+
+  .people-avatar {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+  }
+
+  .people-info {
+    min-width: 0;
+  }
+
+  h5.people-name {
+    font-size: 0.95rem;
+  }
+
+  .people-role {
+    font-size: 0.8rem;
+  }
+}
+
+/* -----------------------------------------------------
    Layout C: Hover Card – invisible cards, shadow on hover
 ----------------------------------------------------- */
 
