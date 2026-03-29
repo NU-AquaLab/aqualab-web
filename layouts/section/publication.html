@@ -15,50 +15,26 @@
 
   {{ if gt (len $pubPages) 0 }}
 
-{{/* Group by year (YYYY) and sort years descending */}}
-{{ $groups := $pubPages.GroupByDate "2006" }}
-{{ range sort $groups "Key" "desc" }}
-  {{ $year := .Key }}
+    {{/* Group by year (YYYY) and sort years descending */}}
+    {{ $groups := $pubPages.GroupByDate "2006" }}
+    {{ range sort $groups "Key" "desc" }}
+      {{ $year := .Key }}
 
-      <section class="pub-year mb-4" id="pub-{{ $year }}">
-        <h2 class="h4 pub-year-heading">{{ $year }}</h2>
+      <section class="pub-year" id="pub-{{ $year }}">
+        <h2 class="pub-year-heading">{{ $year }}</h2>
 
-        <ul class="list-unstyled mb-0">
+        <ul class="pub-list">
           {{/* Sort publications within the year by date desc */}}
           {{ range sort .Pages "Date" "desc" }}
             {{ $p := . }}
 
-            <li class="pub-item mb-3">
+            <li class="pub-item">
 
-              <div class="pub-meta">
-                <span class="pub-title fw-semibold">{{ $p.Title }}</span>
-
-                {{ with $p.Params.authors }}
-                  <span class="pub-authors d-block">
-                    {{ delimit . ", " }}
-                  </span>
-                {{ end }}
-
-                {{ with $p.Params.publication }}
-                  <span class="pub-venue d-block fst-italic">
-                    {{ . }}
-                  </span>
-                {{ end }}
-
-		{{ with .Params.award }}
-    		  <span class="pub-award-badge">🏆 {{ . }}</span>
-  		{{ end }}
-              </div>
-
-              {{/* ---------- PDF LINK ---------- */}}
+              {{/* ── Title (links to PDF if available, otherwise plain) ── */}}
               {{ $pdf := "" }}
-
-              {{/* 1) Prefer explicit url_pdf param */}}
               {{ with $p.Params.url_pdf }}
                 {{ $pdf = . }}
               {{ end }}
-
-              {{/* 2) Fallback: first *.pdf in the page bundle */}}
               {{ if eq $pdf "" }}
                 {{ with $p.Resources.GetMatch "*.pdf" }}
                   {{ $pdf = .RelPermalink }}
@@ -66,28 +42,85 @@
               {{ end }}
 
               {{ if ne $pdf "" }}
-                {{/* Absolute URL (http/https) or site-absolute (/...) vs bundle-relative file */}}
                 {{ $isAbs := or (hasPrefix $pdf "http") (hasPrefix $pdf "/") }}
                 {{ $href := cond $isAbs $pdf (printf "%s%s" $p.RelPermalink $pdf) }}
-
-                <div class="pub-links mt-1">
-                  <a class="btn btn-sm btn-outline-primary" href="{{ $href }}">PDF</a>
-                </div>
+                <a class="pub-title" href="{{ $href }}">{{ $p.Title }}</a>
+              {{ else }}
+                <span class="pub-title">{{ $p.Title }}</span>
               {{ end }}
 
-              {{/* ---------- ABSTRACT TOGGLE ---------- */}}
-              {{ $abs := "" }}
+              {{/* ── Authors ── */}}
+              {{ with $p.Params.authors }}
+                <span class="pub-authors">{{ delimit . ", " }}</span>
+              {{ end }}
 
+              {{/* ── Venue + Award (inline) ── */}}
+              {{ with $p.Params.publication }}
+                <span class="pub-venue">
+                  {{ . }}
+                  {{ with $p.Params.award }}
+                    <span class="pub-award-badge">🏆 {{ . }}</span>
+                  {{ end }}
+                </span>
+              {{ end }}
+
+              {{/* ── Action links (plain text style) ── */}}
+              <span class="pub-links">
+                {{ if ne $pdf "" }}
+                  {{ $isAbs := or (hasPrefix $pdf "http") (hasPrefix $pdf "/") }}
+                  {{ $href := cond $isAbs $pdf (printf "%s%s" $p.RelPermalink $pdf) }}
+                  <a href="{{ $href }}">[Paper]</a>
+                {{ end }}
+                {{ with $p.Params.url_code }}
+                  <a href="{{ . }}">[Code]</a>
+                {{ end }}
+                {{ with $p.Params.url_slides }}
+                  <a href="{{ . }}">[Slides]</a>
+                {{ end }}
+                {{ with $p.Params.url_video }}
+                  <a href="{{ . }}">[Video]</a>
+                {{ end }}
+
+                {{/* ── Cite toggle ── */}}
+                {{ $citeID := $p.File.ContentBaseName }}
+                <a href="#" class="pub-cite-toggle" data-target="cite-{{ $citeID }}">[Cite]</a>
+              </span>
+
+              {{/* ── BibTeX block (hidden by default) ── */}}
+              {{/* Use cite.bib from page bundle if available, otherwise auto-generate */}}
+              <div class="pub-bibtex" id="cite-{{ $p.File.ContentBaseName }}" style="display:none;">
+                {{ $bibFile := $p.Resources.GetMatch "cite.bib" }}
+                {{ if $bibFile }}
+                  <pre>{{ $bibFile.Content }}</pre>
+                {{ else }}
+                  {{ $year := $p.Date.Format "2006" }}
+                  {{ $firstAuthor := "Unknown" }}
+                  {{ with $p.Params.authors }}
+                    {{ $firstAuthor = index . 0 }}
+                  {{ end }}
+                  {{ $lastParts := split $firstAuthor " " }}
+                  {{ $lastName := index $lastParts (sub (len $lastParts) 1) }}
+                  {{ $key := printf "%s%s" $lastName $year }}
+                  <pre>@inproceedings{{ "{" }}{{ $key }},
+  title     = {{ "{" }}{{ $p.Title }}{{ "}" }},
+  author    = {{ "{" }}{{ with $p.Params.authors }}{{ delimit . " and " }}{{ end }}{{ "}" }},
+  booktitle = {{ "{" }}{{ with $p.Params.publication }}{{ . }}{{ end }}{{ "}" }},
+  year      = {{ "{" }}{{ $year }}{{ "}" }}
+{{ "}" }}</pre>
+                {{ end }}
+                <button class="pub-copy-btn" title="Copy to clipboard">Copy</button>
+              </div>
+
+              {{/* ── Abstract toggle (kept) ── */}}
+              {{ $abs := "" }}
               {{ with $p.Params.abstract }}
                 {{ $abs = . }}
               {{ end }}
-
               {{ if eq $abs "" }}
                 {{ with $p.Params.summary }}
                   {{ $abs = . }}
                 {{ end }}
               {{ end }}
-
               {{ if eq $abs "" }}
                 {{ with $p.Summary }}
                   {{ $abs = . }}
@@ -96,12 +129,10 @@
 
               {{ if ne $abs "" }}
                 {{ $html := $abs | markdownify }}
-
-                {{/* If the abstract already contains its own <details>, just render it. */}}
                 {{ if in $html "<details" }}
                   {{ $html | safeHTML }}
                 {{ else }}
-                  <details class="pub-abstract mt-1">
+                  <details class="pub-abstract">
                     <summary>Abstract</summary>
                     <div class="abstract-content">
                       {{ $html | safeHTML }}
@@ -122,5 +153,32 @@
   {{ end }}
 
 </main>
-{{ end }}
 
+<script>
+(function() {
+  // Toggle BibTeX blocks
+  document.querySelectorAll('.pub-cite-toggle').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      var target = document.getElementById(link.dataset.target);
+      if (target) {
+        target.style.display = target.style.display === 'none' ? 'block' : 'none';
+      }
+    });
+  });
+
+  // Copy BibTeX to clipboard
+  document.querySelectorAll('.pub-copy-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var pre = btn.previousElementSibling;
+      if (pre) {
+        navigator.clipboard.writeText(pre.textContent).then(function() {
+          btn.textContent = 'Copied!';
+          setTimeout(function() { btn.textContent = 'Copy'; }, 1500);
+        });
+      }
+    });
+  });
+})();
+</script>
+{{ end }}

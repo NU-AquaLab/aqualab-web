@@ -5,7 +5,11 @@
   </div>
 
   {{/* HugoBlox courses are branch bundles (sections) */}}
-  {{ $courses := .Sections }}
+  {{ $allCourses := .Sections }}
+
+  {{/* Separate regular courses from tutorials/short courses */}}
+  {{ $courses := where $allCourses "Params.course_type" "ne" "tutorial" }}
+  {{ $tutorials := where $allCourses "Params.course_type" "tutorial" }}
 
   {{ if eq (len $courses) 0 }}
     <p>No courses found under <code>content/course/</code>.</p>
@@ -143,6 +147,30 @@
 
     {{ end }}
   {{ end }}
+
+  {{/* ---------- SHORT COURSES & TUTORIALS ---------- */}}
+  {{ if gt (len $tutorials) 0 }}
+    <section class="course-landing__tutorials">
+      <h2>Short Courses &amp; Tutorials</h2>
+      <ul class="course-landing__tutorial-list">
+        {{ range sort $tutorials "Params.year" "desc" }}
+          <li class="course-item course-item--tutorial">
+            <div class="course-tutorial-row">
+              <span class="course-tutorial-year">{{ .Params.year }}</span>
+              <div class="course-tutorial-main">
+                <a class="course-title" href="{{ .RelPermalink }}">
+                  {{ or .Params.course_name .Title }}
+                </a>
+                {{ with .Params.summary }}
+                  <div class="course-summary">{{ . }}</div>
+                {{ end }}
+              </div>
+            </div>
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+
 </div>
 {{ end }}
-

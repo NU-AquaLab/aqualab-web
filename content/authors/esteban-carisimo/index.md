@@ -3,11 +3,11 @@
 title: "Esteban Carisimo"
 
 # Role in the lab
-role: "Postdoctoral Fellow"
+role: "Postdoctoral Fellow (2020–2025)"
 
 # Research group classification
 user_groups:
-  - "Lab Member"
+  - "Postdoc Alumni"
 
 # Organization
 organizations:

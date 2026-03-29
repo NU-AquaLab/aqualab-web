@@ -1,60 +1,158 @@
 /* ------------------------------------------------------------
-   Global Publication Page Styling
+   Publications – Year sections
    ------------------------------------------------------------ */
 
-.year-block {
-  border-top: 1px solid #e0e0e0;
-  padding-top: 0.75rem;
-  margin-top: 1.5rem;
+.pub-year {
+  margin-bottom: 2rem;
 }
 
-.year-block h2 {
-  font-size: 1.3rem;
-  margin-bottom: 0.75rem;
-}
-
-.pub-item {
-  margin-bottom: 1.4rem;
-  font-size: 1.05rem;
-  line-height: 1.45;
-}
-
-.pub-title {
+.pub-year-heading {
+  font-size: 1.2rem;
   font-weight: 600;
-}
-
-.pub-venue em {
-  font-style: italic;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
   color: #333;
 }
 
 /* ------------------------------------------------------------
-   PDF Button
+   Publications – List & items
    ------------------------------------------------------------ */
 
-.pdf-wrapper {
-  margin-top: 0.25rem;
+.pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.pdf-btn {
-  display: inline-block;
-  font-size: 0.8rem !important;
-  padding: 0.15rem 0.5rem !important;
+.pub-item {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+/* Title – clickable link to PDF when available */
+.pub-title {
+  display: block;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #0056b3;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+span.pub-title {
+  color: #222;
+}
+
+/* Authors */
+.pub-authors {
+  display: block;
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.15rem;
+}
+
+/* Venue (italic) */
+.pub-venue {
+  display: block;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #555;
+  margin-top: 0.1rem;
 }
 
 /* ------------------------------------------------------------
-   Abstract Toggle (<details>/<summary>)
+   Publications – Awards (inline badge after venue)
+   ------------------------------------------------------------ */
+
+.pub-award-badge {
+  display: inline-block;
+  background-color: #ffd54f;
+  color: #000;
+  padding: 1px 6px;
+  margin-left: 6px;
+  font-size: 0.75em;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+/* ------------------------------------------------------------
+   Publications – Action links (plain text [Paper] style)
+   ------------------------------------------------------------ */
+
+.pub-links {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+
+  a {
+    color: #0056b3;
+    text-decoration: none;
+    margin-right: 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* ------------------------------------------------------------
+   Publications – BibTeX cite block
+   ------------------------------------------------------------ */
+
+.pub-bibtex {
+  margin-top: 0.4rem;
+  position: relative;
+
+  pre {
+    background: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+    font-size: 0.78rem;
+    line-height: 1.4;
+    overflow-x: auto;
+    margin: 0;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+}
+
+.pub-copy-btn {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.72rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+  cursor: pointer;
+  color: #444;
+
+  &:hover {
+    background: #f0f0f0;
+  }
+}
+
+/* ------------------------------------------------------------
+   Publications – Abstract toggle
    ------------------------------------------------------------ */
 
 .pub-abstract {
   margin-top: 0.3rem;
-  margin-bottom: 0.3rem;
+  font-size: 0.85rem;
 }
 
 .pub-abstract > summary {
   cursor: pointer;
-  font-size: 0.9rem;
-  color: #444;
+  font-size: 0.85rem;
+  color: #555;
   list-style: none;
   padding-left: 0;
 }
@@ -65,7 +163,7 @@
 
 .pub-abstract > summary::before {
   content: "▶ ";
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   margin-right: 0.1rem;
   color: #666;
 }
@@ -76,177 +174,178 @@
 
 .abstract-content {
   margin-top: 0.3rem;
-  margin-left: 1.2rem;
-  font-size: 0.8rem;
-  line-height: 1.4;
+  margin-left: 1rem;
+  font-size: 0.85rem;
+  line-height: 1.45;
   color: #555;
 }
 
-/* ------------------------------------------------------------
-   Awards
-   ------------------------------------------------------------ */
-
-.pub-award-badge {
-  display: inline-block;
-  background-color: #ffd54f;   /* soft yellow like ETH */
-  color: #000;
-  padding: 2px 6px;
-  margin-left: 6px;
-  font-size: 0.65em;
-  font-weight: 600;
-  border-radius: 4px;
-}
-
-/* ------------------------------------------------------------
-   Spacing Consistency
-   ------------------------------------------------------------ */
-
-.author-links {
-  display: flex;
-  gap: 12px;      // this is what you want
-  align-items: center;
-}
-
-ul.list-unstyled {
-  margin-left: 0;
-  padding-left: 0;
-}
-
-/* --- PUBLICATION LIST TYPOGRAPHY TIGHTENING --- */
-
-.pub-item {
-  font-size: 1rem;            /* was ~1.25–1.3rem depending on theme */
-  line-height: 1.35;
-  margin-bottom: 1.75rem;
-}
-
-.pub-item p {
-  margin: 0.2rem 0;
-}
-
-.pub-item em {
-  font-size: 0.98rem;         /* keep italics slightly smaller */
-}
-
-.pub-authors, .pub-title, .pub-venue {
-  font-size: 1rem;
-  line-height: 1.35;
-}
-
-/* Make the Abstract toggle smaller */
-.pub-abstract summary {
-  font-size: 0.95rem;
-  cursor: pointer;
-}
-
-/* PDF button smaller + tighter margin */
-.pub-pdf-btn {
-  font-size: 0.8rem !important;
-  padding: 2px 6px !important;
-  margin-top: 0.25rem !important;
-}
-
 /* -----------------------------------------------------
-   Tighten typography for publications page
+   People – Layout Switcher (dev toolbar)
 ----------------------------------------------------- */
 
-/* Year heading (e.g., 2025, 2024...) */
-.year-block h2 {
-  font-size: 1.1rem !important;
-  margin-top: 1.5rem;
-  margin-bottom: 0.6rem;
-}
+.people-layout-switcher {
+  margin: 0.5rem 0 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
 
-/* Each publication block */
-.pub-item {
-  font-size: 0.9rem !important;
-  line-height: 1.35 !important;
-  margin-bottom: 1.2rem !important;
-}
+  span { color: #666; }
 
-/* Venue text (often italic) */
-.pub-item em {
-  font-size: 0.9rem !important;
-  color: #444;
-}
+  button {
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 0.8rem;
 
-/* Abstract toggle line */
-.pub-abstract > summary {
-  font-size: 0.85rem !important;
-  color: #555 !important;
-  cursor: pointer;
-  margin-top: 0.3rem;
-}
-
-/* Collapsed abstract body */
-.pub-abstract {
-  font-size: 0.85rem !important;
-  margin-left: 1rem;
-  margin-top: 0.3rem;
-}
-
-/* PDF button */
-.pdf-wrapper {
-  margin-top: 0.2rem !important;
-}
-
-.pdf-btn {
-  font-size: 0.7rem !important;
-  padding: 0.1rem 0.4rem !important;
-  border-radius: 3px !important;
+    &.active {
+      background: #0056b3;
+      color: #fff;
+      border-color: #0056b3;
+    }
+  }
 }
 
 /* -----------------------------------------------------
-   People
+   People – Section groups (NSG-style)
+----------------------------------------------------- */
+
+.people-section-group {
+  margin-bottom: 2.5rem;
+}
+
+.people-section-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.25rem;
+  color: #333;
+}
+
+/* -----------------------------------------------------
+   People – Shared base styles
+----------------------------------------------------- */
+
+.people-listing {
+  margin-top: 1rem;
+}
+
+.people-listing .people-avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.people-listing h5.people-name {
+  margin: 0;
+  font-size: 1rem;
+  white-space: nowrap !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  hyphens: none !important;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    &:hover { color: #0056b3; }
+  }
+}
+
+.people-listing .people-role {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0.15rem 0 0;
+}
+
+/* -----------------------------------------------------
+   Layout A: Minimal – avatar + text, no card chrome
+----------------------------------------------------- */
+
+.layout-minimal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: flex-start;
+
+  .people-item {
+    width: 150px;
+    text-align: center;
+  }
+
+  .people-avatar {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 0.6rem;
+  }
+}
+
+/* -----------------------------------------------------
+   Layout B: Compact – horizontal list / directory style
+----------------------------------------------------- */
+
+.layout-compact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 700px;
+
+  .people-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  .people-avatar {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+  }
+
+  .people-name { font-size: 0.95rem; }
+  .people-role { font-size: 0.8rem; }
+}
+
+/* -----------------------------------------------------
+   Layout C: Hover Card – invisible cards, shadow on hover
+----------------------------------------------------- */
+
+.layout-hover {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1.5rem;
+
+  .people-item {
+    text-align: center;
+    padding: 1.25rem 0.75rem;
+    border-radius: 8px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+  }
+
+  .people-avatar {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 0.75rem;
+  }
+}
+
+/* -----------------------------------------------------
+   People – Legacy / profile styles (kept for author pages)
 ----------------------------------------------------- */
 
 .people-section {
   max-width: 1100px;
   margin: 0 auto;
-}
-
-.people-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 1.5rem;
-}
-
-.person-card {
-  width: 160px;
-  text-align: center;
-}
-
-.person-card a {
-  text-decoration: none;
-}
-
-.person-avatar {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 0.75rem auto;
-}
-
-.person-name {
-  font-weight: 600;
-  margin-bottom: 0.25rem;
-}
-
-.person-role {
-  font-size: 0.9rem;
-  color: #666;
-}
-
-.people-avatar {
-  width: 160px;      // pick a size you like
-  height: 160px;     // same as width → square
-  border-radius: 50%;
-  object-fit: cover; // crop to fill without distortion
-  display: block;
-  margin: 0 auto 1rem auto; // center in card
 }
 
 .person-profile {
@@ -414,5 +513,51 @@ body[data-wc-page-id="3a079e7dad19be978a318345a7749d34"] .page-body > main.conta
 
 .course-item--prior .course-year-pill:hover {
   text-decoration: none;
+}
+
+/* SHORT COURSES & TUTORIALS */
+.course-landing__tutorials {
+  margin-top: 2.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.course-landing__tutorial-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0;
+}
+
+.course-item--tutorial {
+  margin: 0.7rem 0;
+}
+
+.course-tutorial-row {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  column-gap: 1.25rem;
+  align-items: start;
+}
+
+.course-tutorial-year {
+  font-weight: 600;
+  opacity: 0.85;
+  line-height: 1.35;
+}
+
+.course-item--tutorial .course-title {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.course-item--tutorial .course-title:hover {
+  text-decoration: underline;
+}
+
+.course-item--tutorial .course-summary {
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+  opacity: 0.85;
+  line-height: 1.4;
 }
 

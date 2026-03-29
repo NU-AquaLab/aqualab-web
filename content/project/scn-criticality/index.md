@@ -16,7 +16,7 @@ date: "2018-11-15T00:00:00Z"
 lastmod: "2025-12-06T00:00:00Z"
 
 # --- Resource Links ---
-url_project: ""      # This page is the project “home”, so you can usually leave this empty.
+url_project: “https://www.calypso.voyage/”
 url_news: ""         # Or point to a tag/category listing of related news if you have one.
 publishDate: "2018-11-15T00:00:00Z"
 
@@ -94,6 +94,24 @@ In the IEEE Transactions on Networking Article, ***Take the Long Way Home: Dista
 >}}
 In our SIGCOMM 2025 short paper ***Threading the Ocean: Mapping Digital Routes Across
 Submarine Cables using Calypso,*** with Caleb Wang, Ying Zhang, Qianli Dong, Esteban Carisimo, and Ramakrishnan Durairajan we outlined the core ideas behind Calypso, a framework for mapping traceroute paths onto the submarine cables they likely traverse. The paper introduces the key components—Chartbook, a curated view of submarine and inland infrastructure, and Navigator, an inference approach that respects physical constraints, routing artifacts, and operator practices—and demonstrates how these pieces make cable-level reasoning possible. As a short paper, it highlights the feasibility and value of this direction rather than providing the full system or complete results, setting the stage for the broader Calypso effort.
+{{< /paperblock >}}
+
+{{< paperblock
+    title="Calypso's Voyage: Charting Traceroute Paths Through Submarine Cables"
+    img="/project/scn-criticality/submarine_map.png"
+    alt="Calypso system overview"
+    paper="https://aqualab.cs.northwestern.edu/publication/2026/cwang-imc26/CWang-IMC26.pdf"
+>}}
+In our IMC 2026 paper ***Calypso's Voyage: Charting Traceroute Paths Through Submarine Cables,*** with Caleb Wang, Ying Zhang, Qianli Dong, Esteban Carisimo, Ramakrishnan Durairajan we present the full Calypso system. Calypso integrates ownership records, routing metadata, and geographic constraints to infer cable usage despite the opacity of the SCN and challenges such as route virtualization and inland infrastructure. It also defines Route Stress, a traceroute-derived metric for estimating the relative importance of submarine cables. Through expert validation, failure analysis, and regional case studies, we demonstrate Calypso's utility in revealing SCN dependencies and informing resilience efforts.
+{{< /paperblock >}}
+
+{{< paperblock
+    title="Monitoring Latency on Submarine Cables: Limitations and Opportunities"
+    img="/project/scn-criticality/submarine_map.png"
+    alt="Submarine cable latency monitoring"
+    paper="https://aqualab.cs.northwestern.edu/publication/2026/mweaver-nines26/MWeaver-NINeS26.pdf"
+>}}
+In our NINeS 2026 paper ***Monitoring Latency on Submarine Cables: Limitations and Opportunities,*** with Mia Weaver, Darryl Veitch, Paul Barford, and Esteban Carisimo we describe a methodology to extract packet latency information on submarine segments using existing deployed infrastructure collecting standard traceroute measurements. We demonstrate the efficacy of our method using perfSONAR deployments as ground truth, providing a clear view of the inherent limitations of existing infrastructure and revealing that such infrastructure cannot hope, in general, to access dynamic latency metrics such as latency variability arising from congestion.
 {{< /paperblock >}}
 
 

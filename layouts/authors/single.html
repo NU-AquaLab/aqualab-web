@@ -26,7 +26,7 @@
         {{ end }}
       {{ end }}
 
-      {{ if or .Params.website .Params.email (gt (len .Params.social) 0) }}
+      {{ if or .Params.website .Params.email .Params.social }}
         <div class="person-links mt-3 mb-3">
           {{ with .Params.website }}
             <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary me-2">
