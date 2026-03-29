@@ -6,6 +6,7 @@ user_groups:
 organizations:
   - name: "Northwestern University"
 last_name: "Bischof"
+grad_year: 2016
 avatar: "avatar.jpg"
 email: ""
 draft: false

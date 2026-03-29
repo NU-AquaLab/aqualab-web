@@ -6,6 +6,7 @@ user_groups:
 organizations:
   - name: "Northwestern University"
 last_name: "Birrer"
+grad_year: 2007
 avatar: "avatar.jpg"
 email: ""
 draft: false

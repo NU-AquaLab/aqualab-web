@@ -6,6 +6,7 @@ user_groups:
 organizations:
   - name: "Northwestern University"
 last_name: "Jun"
+grad_year: 2023
 avatar: "avatar.jpeg"
 email: ""
 draft: false
