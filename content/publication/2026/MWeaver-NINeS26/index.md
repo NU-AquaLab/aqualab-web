@@ -12,6 +12,7 @@ publication: "NINeS '26"
 abstract: ""
 url_pdf: "MWeaver-NINeS26.pdf"
 featured: false
+nugget: "The cables carrying most of the world's Internet traffic are largely unmonitored — we show what today's measurement infrastructure can and cannot see."
 ---
 
 {{< spoiler text="Abstract" >}}

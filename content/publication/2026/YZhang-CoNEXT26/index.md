@@ -10,6 +10,7 @@ publication: "CoNEXT '26"
 abstract: ""
 url_pdf: "YZhang-CoNEXT26.pdf"
 featured: false
+nugget: "Behind every seamless TikTok scroll is a surprisingly intricate failover architecture; we're the first to characterize it at global scale."
 ---
 
 {{< spoiler text="Abstract" >}}

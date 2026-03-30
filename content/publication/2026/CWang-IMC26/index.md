@@ -13,6 +13,7 @@ publication: "IMC '26"
 abstract: ""
 url_pdf: "CWang-IMC26.pdf"
 featured: false
+nugget: "You can't protect critical infrastructure you can't see — we map Internet traffic onto the submarine cables it actually traverses."
 ---
 
 {{< spoiler text="Abstract" >}}

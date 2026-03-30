@@ -64,6 +64,11 @@
                 </span>
               {{ end }}
 
+              {{/* ── Nugget (one-sentence summary) ── */}}
+              {{ with $p.Params.nugget }}
+                <span class="pub-nugget">{{ . }}</span>
+              {{ end }}
+
               {{/* ── Action links (plain text style) ── */}}
               <span class="pub-links">
                 {{ if ne $pdf "" }}

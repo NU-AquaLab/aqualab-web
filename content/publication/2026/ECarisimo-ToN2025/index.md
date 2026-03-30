@@ -13,6 +13,7 @@ publication: "IEEE Trans. Netw. 34: 398-410 (2026)"
 abstract: ""
 url_pdf: "ECarisimo-ToN2025.pdf"
 featured: false
+nugget: "Even with cloud datacenters everywhere, one in five networks still peers thousands of kilometers away — often crossing oceans to reach North America."
 ---
 
 {{< spoiler text="Abstract" >}}
