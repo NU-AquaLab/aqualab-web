@@ -32,9 +32,8 @@ course_tabs:
 
 Remember to check this site (and Canvas) regularly.
 
-**Quick links:**  
-- Canvas: TBD  
-- Piazza: TBD  
+**Quick links:**
+- [Canvas](https://canvas.northwestern.edu/courses/251163)
 
 ---
 
