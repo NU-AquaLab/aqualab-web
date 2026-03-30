@@ -11,6 +11,7 @@ publication: "ACM SIGCOMM Computer Communication Review, 54(4)"
 abstract: ""
 url_pdf: "FBustamante-CCR25.pdf"
 featured: false
+nugget: "Built to decentralize video, PeerTube is quietly centralizing: over half its content sits on just seven networks, with 92% of videos stored without any backup."
 ---
 
 {{< spoiler text="Abstract" >}}

@@ -13,6 +13,7 @@ abstract: ""
 url_pdf: "CSelmo-IMC25.pdf"
 
 featured: false
+nugget: "The Internet's corporate structure is hidden in scattered records — we taught AI to piece it together, uncovering 192 million users no existing map accounted for."
 ---
 
 {{< spoiler text="Abstract" >}}

@@ -13,6 +13,7 @@ publication: "PoPETS '25"
 abstract: ""
 url_pdf: "JHe-popets-2025.pdf"
 featured: false
+nugget: "Commercial services promise to scrub your personal data from the web — we find they can't remove most of what they find, and much of what they find isn't even yours."
 ---
 
 {{< spoiler text="Abstract" >}}

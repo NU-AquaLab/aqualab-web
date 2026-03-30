@@ -9,6 +9,7 @@ publication: "CoNEXT '25"
 abstract: ""
 url_pdf: "KThiagarajan-CoNEXT25.pdf"
 featured: false
+nugget: "Network operators embed geographic clues in device names, but in formats only humans were meant to read — we show LLMs can decode them at scale."
 ---
 {{< spoiler text="Abstract" >}}
 

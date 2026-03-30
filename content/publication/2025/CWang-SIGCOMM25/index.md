@@ -15,6 +15,7 @@ abstract: ""
 url_pdf: "CWang-SIGCOMM25.pdf"
 
 featured: false
+nugget: "We introduce a framework that maps Internet traffic to the submarine cables it traverses, making the ocean floor's hidden infrastructure visible."
 ---
 {{< spoiler text="Abstract" >}}
 
