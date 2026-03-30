@@ -97,7 +97,10 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 
 - (Optional) Confluent, *Kafka Replication: How ISR-Based Primary-Backup Replication Works in Practice*— [Post](https://docs.confluent.io/kafka/design/replication.html)
 
-### Thu 04/30 — Midterm 
+### Thu 04/30 — Midterm
+
+> Midterm covers material through failure detection (Week 4).
+> We conclude the first half of the course by understanding what distributed systems can (and cannot) observe—time, state, and failures. The second half focuses on how systems operate under these limits.
 
 </details>
 
