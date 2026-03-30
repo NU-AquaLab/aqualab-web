@@ -10,7 +10,7 @@ publication: "NINeS '26"
 abstract: ""
 url_pdf: "RKumar-NINeS26.pdf"
 featured: false
-nugget: "A small number of DNS resolvers now quietly control which server delivers most of the Internet's content, with consequences for latency, resilience, and sovereignty."
+nugget: "Most CDNs rely on DNS resolvers to determine which replica delivers content, making replica selection increasingly opaque and quietly concentrating control in a small number of resolvers, with consequences for latency, resilience, and sovereignty."
 ---
 
 {{< spoiler text="Abstract" >}}
