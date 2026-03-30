@@ -144,16 +144,16 @@ If anything, each new system (including Calypso) mostly clarifies **better quest
 
 ## People
 
-**Lead & PIs**
+**PIs**
 
 - [Fabián E. Bustamante]({{< relref "authors/fabian-e-bustamante" >}}) (Northwestern University)
 - [Paul Barford](https://pages.cs.wisc.edu/~pb/) (University of Wisconsin, Madison)
-- [Ram Darairajan](https://ix.cs.uoregon.edu/~ram/) (University of Oregon)
 
 **Collaborators**
 
-- [Zachary S. Bischof](https://www.zbischof.com/)  
-- [Romain Fontugne](https://www.iijlab.net/en/members/romain.html)  
+- [Ram Durairajan](https://ix.cs.uoregon.edu/~ram/) (University of Oregon)
+- [Zachary S. Bischof](https://www.zbischof.com/)
+- [Romain Fontugne](https://www.iijlab.net/en/members/romain.html)
 - [Esteban Carisimo]({{< relref "authors/esteban-carisimo" >}})
 
 **Students and partners**
