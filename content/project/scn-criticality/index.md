@@ -80,7 +80,7 @@ long-haul infrastructure,*** with Esteban Carisimo, Caleb Wang, Mia Weaver, and 
     title="Take the Long Way Home: Distant Peering to the Cloud"
     img="/project/scn-criticality/cloud-peering.png"
     alt="Submarine Cable Map as of 2018 (Source: Telegeography)"
-    paper="https://aqualab.cs.northwestern.edu/publication/2025/ecarisimo-ton2025/ECarisimo-ToN2025.pdf"
+    paper="https://aqualab.cs.northwestern.edu/publication/2026/ecarisimo-ton2025/ECarisimo-ToN2025.pdf"
 >}}
 In the IEEE Transactions on Networking Article, ***Take the Long Way Home: Distant Peering to the Cloud,*** with Esteban Carisimo, Mia Weaver, and Paul Barford we uncover a striking pattern: even in a world where cloud providers have planted datacenters everywhere, a non-trivial share of networks still take the long way home—crossing oceans over submarine cables to peer with the cloud thousands of kilometers away. Using a cloud-wide traceroute campaign, the paper shows that while many networks connect close to home, more than 20% stretch their paths by 6,700 km or more, sometimes nearing 19,000 km, often detouring to North America.
 {{< /paperblock >}}

@@ -6,9 +6,9 @@ authors:
   - Fabián E. Bustamante
   - Paul Barford
 
-date: 2025-01-01
+date: 2026-01-01
 
-publication: "IEEE Transactions on Networking"
+publication: "IEEE Trans. Netw. 34: 398-410 (2026)"
 
 abstract: ""
 url_pdf: "ECarisimo-ToN2025.pdf"
