@@ -1,0 +1,36 @@
+{
+  "model": "claude-opus-4-6",
+  "environment": null,
+  "environment_model": null,
+  "duration_ms": 245885,
+  "tokens": {
+    "input": 1224,
+    "output": 11254,
+    "total": 12478,
+    "cache_read": 1696465,
+    "cache_creation": 178126
+  },
+  "models_used": {
+    "claude-opus-4-6": {
+      "inputTokens": 1224,
+      "outputTokens": 11254,
+      "cacheReadInputTokens": 1696465,
+      "cacheCreationInputTokens": 178126,
+      "webSearchRequests": 0,
+      "costUSD": 2.24899,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 32000,
+      "numApiCalls": 31
+    }
+  },
+  "costs": {
+    "total_cost_usd": 2.24899,
+    "by_model": {
+      "claude-opus-4-6": {
+        "cost_usd": 2.24899,
+        "source": "cli",
+        "cost_percent": 100.0
+      }
+    }
+  }
+}

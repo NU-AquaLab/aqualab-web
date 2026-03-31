@@ -1,5 +1,5 @@
 ---
-title: "A Comparative Analysis of Glboal Mobile Network Aggregators"
+title: "A Comparative Analysis of Global Mobile Network Aggregators"
 authors:
   - Sergi Alcalá-Marín
   - Weili Wu

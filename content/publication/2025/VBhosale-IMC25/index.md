@@ -2,19 +2,22 @@
 title: "Assessing LEO Satellite Networks for National Emergency Failover"
 authors:
   - Vaibhav Bhosale
-  - Anastasia Tumanova
-  - Jack Schlicht
-  - Shreya Gupta
-  - David Kim
-  - Ramakrishnan Durairajan
+  - Ying Zhang
+  - Sameer Kapoor
+  - Robin Kim
+  - Miguel Schlicht
+  - Muskaan Gupta
+  - Ekaterina Tumanova
+  - Zachary S. Bischof
+  - Fabián E. Bustamante
   - Alberto Dainotti
   - Ahmed Saeed
-  - Fabián E. Bustamante
 date: 2025-11-01
 publication: "IMC '25"
 abstract: ""
 url_pdf: "VBhosale-IMC25.pdf"
 featured: false
+nugget: ""
 ---
 {{< spoiler text="Abstract" >}}
 
