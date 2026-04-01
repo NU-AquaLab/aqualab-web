@@ -11,6 +11,7 @@ publication: "ICNP '24 Posters and Demos"
 abstract: ""
 url_pdf: "EMoghadam-ICNPPoster24.pdf"
 featured: false
+nugget: "The Internet's routing system has never been stress-tested the way we test bridges and buildings — we design a simulation testbench to start."
 ---
 
 {{< spoiler text="Abstract" >}}

@@ -17,7 +17,7 @@ publication: "IMC '25"
 abstract: ""
 url_pdf: "VBhosale-IMC25.pdf"
 featured: false
-nugget: ""
+nugget: "Governments are betting on LEO satellites as backup for submarine cable failures — we find they can replace at most 15% of lost capacity, even under ideal conditions."
 ---
 {{< spoiler text="Abstract" >}}
 

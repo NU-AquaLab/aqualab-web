@@ -12,6 +12,7 @@ publication: "IFIP Networking '25"
 abstract: ""
 url_pdf: "MWeaver-Networking25.pdf"
 featured: false
+nugget: "Submarine cables are assumed to be stable conduits — we find their latency, loss, and reliability vary wildly, with some paths far less constant than others."
 ---
 {{< spoiler text="Abstract" >}}
 

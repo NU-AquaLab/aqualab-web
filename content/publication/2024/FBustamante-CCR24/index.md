@@ -15,6 +15,7 @@ publication: "ACM SIGCOMM Computer Communication Review, 54(2)"
 abstract: ""
 url_pdf: "FBustamante-CCR24.pdf"
 featured: false
+nugget: "The Internet was never engineered to survive catastrophic failures — this workshop charts a research agenda to change that."
 ---
 
 {{< spoiler text="Abstract" >}}

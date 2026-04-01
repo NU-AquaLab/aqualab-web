@@ -14,6 +14,7 @@ publication: "IMC '24"
 abstract: ""
 url_pdf: "RKumar-IMC24.pdf"
 featured: false
+nugget: "Governments worldwide depend on commercial clouds to serve their citizens — we map these hidden dependencies across 61 countries and find stark sovereignty trade-offs."
 ---
 
 {{< spoiler text="Abstract" >}}

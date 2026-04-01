@@ -9,6 +9,7 @@ publication: "SIGCOMM '24 Posters and Demos"
 abstract: ""
 url_pdf: "KThiagarajan-SIGCOMMPoster24.pdf"
 featured: false
+nugget: "Geolocating Internet devices is hard because operators encode locations in cryptic naming schemes — we show LLMs can learn to decode them."
 ---
 
 {{< spoiler text="Abstract" >}}

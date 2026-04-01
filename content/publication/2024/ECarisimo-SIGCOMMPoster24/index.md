@@ -11,6 +11,7 @@ publication: "SIGCOMM '24 Posters and Demos"
 abstract: ""
 url_pdf: "ECarisimo-SIGCOMMPoster24.pdf"
 featured: false
+nugget: "Networks often bypass nearby connection points to peer thousands of kilometers away — we measure this hidden 'stretch' and its sovereignty implications."
 ---
 
 {{< spoiler text="Abstract" >}}

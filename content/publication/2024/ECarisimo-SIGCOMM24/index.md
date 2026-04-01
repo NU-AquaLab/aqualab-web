@@ -11,6 +11,7 @@ publication: "SIGCOMM '24"
 abstract: ""
 url_pdf: "ECarisimo-SIGCOMM24.pdf"
 featured: false
+nugget: "A decade of political crisis left Venezuela's Internet frozen in time — bandwidth stagnant, infrastructure shrinking, and latency far above its neighbors."
 ---
 
 {{< spoiler text="Abstract" >}}
