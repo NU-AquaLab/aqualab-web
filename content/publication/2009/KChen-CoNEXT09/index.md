@@ -1,9 +1,15 @@
 ---
-title: "Where the SidewalkEnds:"
+title: "Where the Sidewalk Ends: Extending the Internet AS Graph Using Traceroutes From P2P Users"
 authors:
-  - ""
+  - Kai Chen
+  - David R. Choffnes
+  - Rahul Potharaju
+  - Yan Chen
+  - Fabián E. Bustamante
+  - Dan Pei
+  - Yao Zhao
 date: 2009-01-01
-publication: ""
+publication: "CoNEXT '09"
 abstract: ""
 url_pdf: "KChen-CoNEXT09.pdf"
 featured: false

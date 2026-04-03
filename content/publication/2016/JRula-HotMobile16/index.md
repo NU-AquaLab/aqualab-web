@@ -1,5 +1,5 @@
 ---
-title: "When IPs Fly: A Case for Redeﬁning Airline Communication"
+title: "When IPs Fly: A Case for Redefining Airline Communication"
 authors:
   - John P. Rula
   - Fabián E. Bustamante

@@ -1,9 +1,10 @@
 ---
-title: "SwarmScreen: Privacy Through PlausibleDeniabilityinP2P"
+title: "SwarmScreen: Privacy Through Plausible Deniability in P2P Systems"
 authors:
-  - ""
+  - David R. Choffnes
+  - Fabián E. Bustamante
 date: 2009-01-01
-publication: ""
+publication: "Northwestern EECS Tech Report"
 abstract: ""
 url_pdf: "DChoffnes-NU-EECS-TR09.pdf"
 featured: false

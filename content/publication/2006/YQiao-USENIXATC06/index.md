@@ -1,9 +1,10 @@
 ---
-title: "Structured and unstructured overlays under the microscope"
+title: "Structured and Unstructured Overlays Under the Microscope"
 authors:
-  - ""
+  - Yi Qiao
+  - Fabián E. Bustamante
 date: 2006-01-01
-publication: ""
+publication: "USENIX ATC '06"
 abstract: ""
 url_pdf: "YQiao-USENIXATC06.pdf"
 featured: false

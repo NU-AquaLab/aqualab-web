@@ -1,14 +1,14 @@
 ---
-title: "User behavior and change - File-sharers and copyright laws"
+title: "User Behavior and Change: File-sharers and Copyright Laws"
 authors:
   - Arnau Gavalda-Miralles
   - John S. Otto
   - Fabián E. Bustamante
-  - Luis A. N. Amaral
+  - Luís A. N. Amaral
   - Jordi Duch
   - Roger Guimera
 date: 2014-12-02
-publication: "Proc.International Conference on Emerging Networking Experiments And Technologies (CoNEXT)"
+publication: "Proc. of CoNEXT"
 abstract: ""
 url_pdf: "AGavalda-Miralles-CoNEXT14.pdf"
 featured: false

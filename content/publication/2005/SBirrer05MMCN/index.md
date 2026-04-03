@@ -1,9 +1,10 @@
 ---
-title: "Resilient Peer-to-Peer Multicast without the Cost"
+title: "Nemo: Resilient Peer-to-Peer Multicast without the Cost"
 authors:
-  - ""
+  - Stefan Birrer
+  - Fabián E. Bustamante
 date: 2005-01-01
-publication: ""
+publication: "MMCN '05"
 abstract: ""
 url_pdf: "SBirrer05MMCN.pdf"
 featured: false

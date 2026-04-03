@@ -1,9 +1,10 @@
 ---
-title: "Computer Science Department"
+title: "On the Representativeness of ICMP Measurements"
 authors:
-  - ""
+  - Stefan Birrer
+  - Fabián E. Bustamante
 date: 2004-01-01
-publication: ""
+publication: "Northwestern CS Tech Report NWU-CS-04-48"
 abstract: ""
 url_pdf: "SBirrer-NWU-CS-04-48.pdf"
 featured: false

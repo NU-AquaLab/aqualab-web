@@ -1,9 +1,11 @@
 ---
-title: "Greg Eisenhauer"
+title: "Publish-Subscribe for High-Performance Computing"
 authors:
-  - ""
+  - Greg Eisenhauer
+  - Fabián E. Bustamante
+  - Karsten Schwan
 date: 2006-01-01
-publication: ""
+publication: "IEEE Internet Computing, 10(1), Jan/Feb 2006"
 abstract: ""
 url_pdf: "GEisenhauer-IEEEIC06.pdf"
 featured: false

@@ -1,9 +1,11 @@
 ---
-title: "Network Positioning from the Edge"
+title: "Network Positioning from the Edge: An Empirical Study of the Effectiveness of Network Positioning in P2P Systems"
 authors:
-  - ""
+  - David R. Choffnes
+  - Mario A. Sanchez
+  - Fabián E. Bustamante
 date: 2010-01-01
-publication: ""
+publication: "INFOCOM '10"
 abstract: ""
 url_pdf: "DChoffnes-INFOCOM10.pdf"
 featured: false

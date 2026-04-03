@@ -1,9 +1,14 @@
 ---
-title: "Environmental noise mapping using measurements in"
+title: "Environmental Noise Mapping Using Measurements in Transit"
 authors:
-  - ""
+  - Gareth Bennett
+  - Eoin A. King
+  - Jan Curn
+  - Vinny Cahill
+  - Fabián E. Bustamante
+  - Henry J. Rice
 date: 2010-01-01
-publication: ""
+publication: "ISMA '10"
 abstract: ""
 url_pdf: "GBennett-ISMA10.pdf"
 featured: false

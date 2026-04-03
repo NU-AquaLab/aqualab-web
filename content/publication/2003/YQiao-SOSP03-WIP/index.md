@@ -1,8 +1,10 @@
 ---
-title: "YQiao-SOSP03-WIP"
-authors: []
+title: "Elders Know Best: Lifespan-Based Ideas in P2P Systems"
+authors:
+  - Yi Qiao
+  - Fabián E. Bustamante
 date: 2003-01-01
-publication: ""
+publication: "SOSP '03 (Work-in-Progress)"
 abstract: ""
 url_pdf: "YQiao-SOSP03-WIP.pdf"
 featured: false

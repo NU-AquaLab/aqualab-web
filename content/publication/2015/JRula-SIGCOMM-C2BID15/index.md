@@ -1,5 +1,5 @@
 ---
-title: "Second Chance: Understanding Diversity in Broadband Access Newtork Performance"
+title: "Second Chance: Understanding Diversity in Broadband Access Network Performance"
 authors:
   - John P. Rula
   - Zachary S. Bischof

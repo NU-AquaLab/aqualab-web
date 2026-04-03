@@ -1,9 +1,11 @@
 ---
-title: "Crowdsourcing Service-Level Network Event Monitoring"
+title: "Crowdsourcing Service-Level Network Event Detection"
 authors:
-  - ""
+  - David R. Choffnes
+  - Fabián E. Bustamante
+  - Zihui Gao
 date: 2010-01-01
-publication: ""
+publication: "SIGCOMM '10"
 abstract: ""
 url_pdf: "DChoffnes-SIGCOMM10.pdf"
 featured: false

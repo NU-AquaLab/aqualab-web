@@ -7,7 +7,7 @@ authors:
   - Patrick Widener
 
 date: 2001-01-01
-publication: "Proceedings the International Symposium on High-Performance Distributed Computing (HPDC)"
+publication: "Proceedings of the International Symposium on High-Performance Distributed Computing (HPDC)"
 abstract: ""
 url_pdf: "FBustamante-HPDC01.pdf"
 featured: false

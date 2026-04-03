@@ -1,9 +1,13 @@
 ---
-title: "On Blind Mice and the Elephant"
+title: "On Blind Mice and the Elephant: Understanding the Network Impact of a Large Distributed System"
 authors:
-  - ""
+  - John S. Otto
+  - Mario A. Sanchez
+  - David R. Choffnes
+  - Fabián E. Bustamante
+  - Georgos Siganos
 date: 2011-01-01
-publication: ""
+publication: "SIGCOMM '11"
 abstract: ""
 url_pdf: "JOtto-SIGCOMM11.pdf"
 featured: false

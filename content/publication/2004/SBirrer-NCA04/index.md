@@ -1,9 +1,10 @@
 ---
-title: "NCA’04, August 30 - September 1, 2004, Cambridge, MA, USA."
+title: "Resilient Peer-to-Peer Multicast from the Ground Up"
 authors:
-  - ""
+  - Stefan Birrer
+  - Fabián E. Bustamante
 date: 2004-01-01
-publication: ""
+publication: "NCA ‘04"
 abstract: ""
 url_pdf: "SBirrer-NCA04.pdf"
 featured: false

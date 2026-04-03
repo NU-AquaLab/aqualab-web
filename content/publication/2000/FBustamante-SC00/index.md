@@ -1,5 +1,5 @@
 ---
-title: "Efﬁcient Wire Formats for High Performance Computing"
+title: "Efficient Wire Formats for High Performance Computing"
 
 authors:
   - Fabian E. Bustamante

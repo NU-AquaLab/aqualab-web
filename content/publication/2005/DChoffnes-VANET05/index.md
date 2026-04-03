@@ -1,9 +1,10 @@
 ---
-title: "AnIntegratedMobility and TrafﬁcModel forVehicular"
+title: "An Integrated Mobility and Traffic Model for Vehicular Ad Hoc Networks"
 authors:
-  - ""
+  - David R. Choffnes
+  - Fabián E. Bustamante
 date: 2005-01-01
-publication: ""
+publication: "VANET '05"
 abstract: ""
 url_pdf: "DChoffnes-VANET05.pdf"
 featured: false

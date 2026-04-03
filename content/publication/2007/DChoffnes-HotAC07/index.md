@@ -1,9 +1,10 @@
 ---
 title: "Exploiting Emergent Behavior for Inter-Vehicle Communication"
 authors:
-  - ""
+  - David R. Choffnes
+  - Fabián E. Bustamante
 date: 2007-01-01
-publication: ""
+publication: "HotAC '07"
 abstract: ""
 url_pdf: "DChoffnes-HotAC07.pdf"
 featured: false

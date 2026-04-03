@@ -9,13 +9,13 @@ authors:
   - Fabian E. Bustamante
   - Greg Eisenhauer
   - Jeremy Heiner
-  - Viyaykumar Krishnaswamy
+  - Vijaykumar Krishnaswamy
   - Todd Rose
   - Beth Schroeder
   - Dong Zhou
  
 date: 1997-01-01
-publication: "Proceedings of OOPSLA Workshop onJava Based Paradigms for Mobile Agent Facilities"
+publication: "Proceedings of OOPSLA Workshop on Java Based Paradigms for Mobile Agent Facilities"
 
 # No abstract here — it will live inside the collapsible block below
 abstract: ""

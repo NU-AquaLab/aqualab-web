@@ -1,9 +1,10 @@
 ---
-title: "1"
+title: "Magnolia: A Novel DHT Architecture for Keyword-Based Searching"
 authors:
-  - ""
+  - Abhishek Gupta
+  - Fabián E. Bustamante
 date: 2005-01-01
-publication: ""
+publication: "NSDI '05 (Poster)"
 abstract: ""
 url_pdf: "AGupta-NSDI05-Poster.pdf"
 featured: false

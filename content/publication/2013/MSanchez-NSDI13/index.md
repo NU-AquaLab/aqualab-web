@@ -1,9 +1,15 @@
 ---
 title: "Dasu: Pushing Experiments to the Internet’s Edge"
 authors:
-  - ""
+  - Mario A. Sanchez
+  - John S. Otto
+  - Zachary S. Bischof
+  - David R. Choffnes
+  - Fabián E. Bustamante
+  - Balachander Krishnamurthy
+  - Walter Willinger
 date: 2013-01-01
-publication: ""
+publication: "Proc. of USENIX NSDI"
 abstract: ""
 url_pdf: "MSanchez-NSDI13.pdf"
 featured: false

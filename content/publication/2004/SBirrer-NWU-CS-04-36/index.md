@@ -1,9 +1,13 @@
 ---
-title: "Computer Science Department"
+title: "FatNemo: Building a Resilient Multi-Source Multicast Fat-Tree"
 authors:
-  - ""
+  - Stefan Birrer
+  - Dong Lu
+  - Fabián E. Bustamante
+  - Yi Qiao
+  - Peter Dinda
 date: 2004-01-01
-publication: ""
+publication: "Northwestern CS Tech Report NWU-CS-04-36"
 abstract: ""
 url_pdf: "SBirrer-NWU-CS-04-36.pdf"
 featured: false

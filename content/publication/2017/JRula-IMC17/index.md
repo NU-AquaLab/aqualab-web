@@ -1,5 +1,5 @@
 ---
-title: "Cell Spotting: Studying the Role of Cellular Networks in the Internet"
+title: "Cell Spotting - Studying the Role of Cellular Networks in the Internet"
 authors:
   - John P. Rula
   - Fabián E. Bustamante

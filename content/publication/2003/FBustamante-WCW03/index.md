@@ -1,8 +1,10 @@
 ---
-title: "FBustamante-WCW03"
-authors: []
+title: "Friendships that Last: Peer Lifespan and Its Role in P2P Protocols"
+authors:
+  - Fabián E. Bustamante
+  - Yi Qiao
 date: 2003-01-01
-publication: ""
+publication: "WCW '03"
 abstract: ""
 url_pdf: "FBustamante-WCW03.pdf"
 featured: false

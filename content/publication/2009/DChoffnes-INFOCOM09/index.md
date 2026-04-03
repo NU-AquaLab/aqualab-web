@@ -1,9 +1,10 @@
 ---
-title: "On the Effectiveness of Measurement Reuse for"
+title: "On the Effectiveness of Measurement Reuse for Performance-Based Detouring"
 authors:
-  - ""
+  - David R. Choffnes
+  - Fabián E. Bustamante
 date: 2009-01-01
-publication: ""
+publication: "INFOCOM '09"
 abstract: ""
 url_pdf: "DChoffnes-INFOCOM09.pdf"
 featured: false

@@ -1,9 +1,11 @@
 ---
-title: "Electrical Engineering and Computer Science Department"
+title: "Crowdsourcing Cloud Monitoring"
 authors:
-  - ""
+  - David R. Choffnes
+  - Fabián E. Bustamante
+  - Zihui Gao
 date: 2009-01-01
-publication: ""
+publication: "Northwestern EECS Tech Report 09-19"
 abstract: ""
 url_pdf: "NWU-EECS-09-19.pdf"
 featured: false

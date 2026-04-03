@@ -7,7 +7,7 @@ authors:
   - Fabián E. Bustamante
 
 date: 2013-01-01
-publication: "Proc.PAM"
+publication: "Proc. of the Passive and Active Measurement Conference (PAM)"
 abstract: ""
 url_pdf: "MSanchez-PAM13.pdf"
 featured: false

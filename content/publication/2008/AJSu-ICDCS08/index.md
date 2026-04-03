@@ -1,9 +1,12 @@
 ---
-title: "1"
+title: "Relative Network Positioning via CDN Redirections"
 authors:
-  - ""
+  - Ao-Jan Su
+  - David R. Choffnes
+  - Aleksandar Kuzmanovic
+  - Fabián E. Bustamante
 date: 2008-01-01
-publication: ""
+publication: "ICDCS '08"
 abstract: ""
 url_pdf: "AJSu-ICDCS08.pdf"
 featured: false

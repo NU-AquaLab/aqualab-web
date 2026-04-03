@@ -5,7 +5,7 @@ authors:
   - Fabián E. Bustamante
 
 date: 2013-01-01
-publication: "Proc.the IEEE International Conference on Peer-to-Peer Computing"
+publication: "Proc. of the IEEE International Conference on Peer-to-Peer Computing (P2P)"
 abstract: ""
 url_pdf: "JOtto-P2P13.pdf"
 featured: false

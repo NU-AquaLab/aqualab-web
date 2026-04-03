@@ -1,9 +1,13 @@
 ---
-title: "FatNemo: Building a Resilient Multi-source Multicast"
+title: "FatNemo: Building a Resilient Multi-Source Multicast Fat-Tree"
 authors:
-  - ""
+  - Stefan Birrer
+  - Dong Lu
+  - Fabián E. Bustamante
+  - Yi Qiao
+  - Peter Dinda
 date: 2004-01-01
-publication: ""
+publication: "WCW '04"
 abstract: ""
 url_pdf: "SBirrer-WCW04.pdf"
 featured: false

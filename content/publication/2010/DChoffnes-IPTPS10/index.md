@@ -1,9 +1,14 @@
 ---
-title: "Strange Bedfellows: Community Identiﬁcation in BitTorrent"
+title: "Strange Bedfellows: Communities in BitTorrent"
 authors:
-  - ""
+  - David R. Choffnes
+  - Jordi Duch
+  - Dean Malmgren
+  - Roger Guimera
+  - Fabián E. Bustamante
+  - Luis Amaral
 date: 2010-01-01
-publication: ""
+publication: "IPTPS '10"
 abstract: ""
 url_pdf: "DChoffnes-IPTPS10.pdf"
 featured: false

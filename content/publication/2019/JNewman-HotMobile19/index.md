@@ -1,5 +1,5 @@
 ---
-title: "Scaling Up Your Web Experience, Everywhere"
+title: "Scaling Up Your Experience, Everywhere"
 authors:
   - James Newman
   - Robert H. Belson

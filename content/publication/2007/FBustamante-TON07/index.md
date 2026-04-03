@@ -1,9 +1,10 @@
 ---
-title: "1"
+title: "Designing Less-structured P2P Systems for the Expected High Churn"
 authors:
-  - ""
+  - Fabián E. Bustamante
+  - Yi Qiao
 date: 2007-01-01
-publication: ""
+publication: "IEEE/ACM Trans. Networking, 16(3), June 2008"
 abstract: ""
 url_pdf: "FBustamante-TON07.pdf"
 featured: false

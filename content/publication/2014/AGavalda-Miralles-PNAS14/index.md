@@ -6,7 +6,7 @@ authors:
   - John S. Otto
   - Mario A. Sanchez
   - Fabián E. Bustamante
-  - Luis A. N. Amaral
+  - Luís A. N. Amaral
   - Jordi Duch
   - Roger Guimera
 

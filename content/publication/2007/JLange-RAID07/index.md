@@ -1,9 +1,11 @@
 ---
-title: "Vortex: Enabling Cooperative Selective"
+title: "Vortex: Enabling Cooperative Selective Wormholing for Network Security Systems"
 authors:
-  - ""
+  - Jack Lange
+  - Peter Dinda
+  - Fabián E. Bustamante
 date: 2007-01-01
-publication: ""
+publication: "RAID '07"
 abstract: ""
 url_pdf: "JLange-RAID07.pdf"
 featured: false

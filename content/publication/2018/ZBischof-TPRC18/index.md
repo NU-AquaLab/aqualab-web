@@ -1,12 +1,12 @@
 ---
-title: "Characterizing and Improving the Reliability of Broadband Internet Access"
+title: "The Growing Importance of Being Always On - A First Look at the Reliability of Broadband Internet Access"
 authors:
   - Zachary S. Bischof
   - Fabián E. Bustamante
   - Nick Feamster 
 
 date: 2018-01-01
-publication: "TPRC '18"
+publication: "Proc. of TPRC46"
 abstract: ""
 url_pdf: "ZBischof-TPRC18.pdf"
 featured: false

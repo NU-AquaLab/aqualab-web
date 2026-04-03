@@ -1,9 +1,10 @@
 ---
-title: "PitfallsforTestbedEvaluations of Internet Systems"
+title: "Pitfalls for Testbed Evaluations of Internet Systems"
 authors:
-  - ""
+  - David R. Choffnes
+  - Fabián E. Bustamante
 date: 2010-01-01
-publication: ""
+publication: "ACM SIGCOMM CCR, 40(2), April 2010"
 abstract: ""
 url_pdf: "DChoffnes-CCR10.pdf"
 featured: false

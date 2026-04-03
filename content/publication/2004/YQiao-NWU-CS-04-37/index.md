@@ -1,9 +1,12 @@
 ---
-title: "Computer Science Department"
+title: "Looking at the Server-Side of Peer-to-Peer Systems"
 authors:
-  - ""
+  - Yi Qiao
+  - Dong Lu
+  - Fabián E. Bustamante
+  - Peter Dinda
 date: 2004-01-01
-publication: ""
+publication: "Northwestern CS Tech Report NWU-CS-04-37"
 abstract: ""
 url_pdf: "YQiao-NWU-CS-04-37.pdf"
 featured: false

@@ -1,9 +1,12 @@
 ---
 title: "Characterizing and Predicting TCP Throughput on the Wide Area Network"
 authors:
-  - ""
+  - Dong Lu
+  - Yi Qiao
+  - Peter Dinda
+  - Fabián E. Bustamante
 date: 2005-01-01
-publication: ""
+publication: "ICDCS '05"
 abstract: ""
 url_pdf: "DLu-ICDCS05.pdf"
 featured: false

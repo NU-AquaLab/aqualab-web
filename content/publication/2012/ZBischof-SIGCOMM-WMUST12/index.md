@@ -1,9 +1,11 @@
 ---
-title: "Up, Down and Around the Stack:"
+title: "Up, Down and Around the Stack: ISP Characterization from Network Intensive Applications"
 authors:
-  - ""
+  - Zachary S. Bischof
+  - John S. Otto
+  - Fabián E. Bustamante
 date: 2012-01-01
-publication: ""
+publication: "W-MUST '12"
 abstract: ""
 url_pdf: "ZBischof-SIGCOMM-WMUST12.pdf"
 award: "Best Paper"

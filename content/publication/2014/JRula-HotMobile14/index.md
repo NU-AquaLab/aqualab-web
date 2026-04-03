@@ -5,9 +5,9 @@ authors:
   - Vishnu Navda
   - Fabián E. Bustamante
   - Ranjita Bhagwan 
-  - Saikat Uha
+  - Saikat Guha
 date: 2014-02-26
-publication: "Proc.International Workshop on Mobile Computing Systems and Applications (HotMobile)"
+publication: "Proc. of HotMobile"
 abstract: ""
 url_pdf: "JRula-HotMobile14.pdf"
 featured: false

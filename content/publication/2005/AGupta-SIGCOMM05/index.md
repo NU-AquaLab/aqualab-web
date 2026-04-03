@@ -1,9 +1,11 @@
 ---
 title: "Distributed Popularity Indices"
 authors:
-  - ""
+  - Abhishek Gupta
+  - Peter Dinda
+  - Fabián E. Bustamante
 date: 2005-01-01
-publication: ""
+publication: "SIGCOMM '05 (Poster)"
 abstract: ""
 url_pdf: "AGupta-SIGCOMM05.pdf"
 featured: false

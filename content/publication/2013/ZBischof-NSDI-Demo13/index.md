@@ -1,9 +1,13 @@
 ---
 title: "Characterizing Broadband Services with Dasu"
 authors:
-  - ""
+  - Zachary S. Bischof
+  - Mario A. Sanchez
+  - John S. Otto
+  - John P. Rula
+  - Fabián E. Bustamante
 date: 2013-01-01
-publication: ""
+publication: "Proc. of USENIX NSDI - Poster"
 abstract: ""
 url_pdf: "ZBischof-NSDI-Demo13.pdf"
 featured: false

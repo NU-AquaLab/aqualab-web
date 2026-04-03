@@ -1,9 +1,10 @@
 ---
-title: "Elders Know Best - Handling Churn in Less Structured P2P Systems"
+title: "Elders Know Best: Handling Churn in Less Structured P2P Systems"
 authors:
-  - ""
+  - Yi Qiao
+  - Fabián E. Bustamante
 date: 2005-01-01
-publication: ""
+publication: "IEEE P2P '05"
 abstract: ""
 url_pdf: "YQiao-ICPP05.pdf"
 featured: false

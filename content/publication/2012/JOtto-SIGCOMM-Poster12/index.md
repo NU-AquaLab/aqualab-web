@@ -1,9 +1,13 @@
 ---
-title: "namehelp : Intelligent Client-Side DNS Resolution"
+title: "namehelp: Intelligent, Client-Side DNS Resolution"
 authors:
-  - ""
+  - John S. Otto
+  - Mario A. Sanchez
+  - John P. Rula
+  - Ted Stein
+  - Fabián E. Bustamante
 date: 2012-01-01
-publication: ""
+publication: "SIGCOMM '12 (Demo)"
 abstract: ""
 url_pdf: "JOtto-SIGCOMM-Poster12.pdf"
 featured: false

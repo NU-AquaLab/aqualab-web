@@ -1,7 +1,7 @@
 ---
-title: "eXploring Xﬁnity - A First Look at Provider-Enabled Community Networks"
+title: "eXploring Xfinity: A First Look at Provider-enabled Communication Networks"
 authors:
-  - Dipendra K. Jha
+  - Dipendra Jha
   - John P. Rula
   - Fabián E. Bustamante
 date: 2016-01-01

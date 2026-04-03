@@ -7,7 +7,7 @@ authors:
 
 date: 2000-01-01
 
-publication: "Proceedings the International Symposium on High-Performance Distributed Computing (HPDC)"
+publication: "Proceedings of the International Symposium on High Performance Distributed Computing (HPDC)"
 
 abstract: ""
 

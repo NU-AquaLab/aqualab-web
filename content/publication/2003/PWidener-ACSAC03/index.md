@@ -1,8 +1,11 @@
 ---
-title: "PWidener-ACSAC03"
-authors: []
+title: "Differential Data Protection for Dynamic Distributed Applications"
+authors:
+  - Patrick Widener
+  - Karsten Schwan
+  - Fabián E. Bustamante
 date: 2003-01-01
-publication: ""
+publication: "ACSAC '03"
 abstract: ""
 url_pdf: "PWidener-ACSAC03.pdf"
 featured: false

@@ -1,9 +1,10 @@
 ---
-title: "TheFeasibilityof DHT-based StreamingMulticast"
+title: "The Feasibility of DHT-based Streaming Multicast"
 authors:
-  - ""
+  - Stefan Birrer
+  - Fabián E. Bustamante
 date: 2005-01-01
-publication: ""
+publication: "MASCOTS '05"
 abstract: ""
 url_pdf: "SBirrer-MASCOTS05.pdf"
 featured: false

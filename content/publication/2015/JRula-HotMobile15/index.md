@@ -1,11 +1,11 @@
 ---
 title: "Mobile AD(D) - Estimating Mobile App Session Times for Better Ads"
 authors:
-  - John P. Rula
-  - Byungjin Jun 
+  - John Rula
+  - Byungjin Jun
   - Fabián E. Bustamante
 date: 2015-02-12
-publication: "HotMobile '17"
+publication: "HotMobile '15"
 abstract: ""
 url_pdf: "JRula-HotMobile15.pdf"
 featured: false

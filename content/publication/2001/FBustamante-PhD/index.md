@@ -1,9 +1,9 @@
 ---
 title: "The Active Streams Approach To Adaptive Distributed Applications and Services"
 authors:
-  - ""
+  - Fabián E. Bustamante
 date: 2001-01-01
-publication: "Ph.D. Dissertation"
+publication: "Ph.D. Dissertation, Georgia Institute of Technology"
 abstract: ""
 url_pdf: "FBustamante-PhD.pdf"
 featured: false

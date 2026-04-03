@@ -1,9 +1,12 @@
 ---
 title: "Content Delivery and the Natural Evolution of DNS"
 authors:
-  - ""
+  - John S. Otto
+  - Mario A. Sanchez
+  - John P. Rula
+  - Fabián E. Bustamante
 date: 2012-01-01
-publication: ""
+publication: "IMC '12"
 abstract: ""
 url_pdf: "JOtto-IMC12.pdf"
 featured: false

@@ -1,9 +1,12 @@
 ---
-title: "1"
+title: "Modeling and Taming Parallel TCP on the Wide Area Network"
 authors:
-  - ""
+  - Dong Lu
+  - Yi Qiao
+  - Peter Dinda
+  - Fabián E. Bustamante
 date: 2005-01-01
-publication: ""
+publication: "IPDPS '05"
 abstract: ""
 url_pdf: "DLu-IPDPS05.pdf"
 featured: false

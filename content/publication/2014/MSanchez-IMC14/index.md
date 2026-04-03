@@ -1,14 +1,14 @@
 ---
-title: "Inter-Domain Trafﬁc Estimation for the Outsider"
+title: "Internet Inter-Domain Traffic Estimation for the Outsider"
 authors:
   - Mario A. Sanchez
   - Fabián E. Bustamante
   - Balachander Krishnamurthy
   - Walter Willinger
   - Georgios Smaragdakis 
-  - Jeffrey Ernman
+  - Jeffery Erman
 date: 2014-11-05
-publication: "Proc.the ACM Internet Measurement Conference (IMC)"
+publication: "Proc. of IMC"
 abstract: ""
 url_pdf: "MSanchez-IMC14.pdf"
 featured: false

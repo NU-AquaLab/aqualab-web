@@ -1,9 +1,12 @@
 ---
-title: "DraftingBehindAkamai∗"
+title: "Drafting Behind Akamai (Travelocity-Based Detouring)"
 authors:
-  - ""
+  - Ao-Jan Su
+  - David R. Choffnes
+  - Aleksandar Kuzmanovic
+  - Fabián E. Bustamante
 date: 2006-01-01
-publication: ""
+publication: "SIGCOMM '06"
 abstract: ""
 url_pdf: "AJSu-SIGCOMM06.pdf"
 featured: false

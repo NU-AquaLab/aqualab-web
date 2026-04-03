@@ -4,11 +4,11 @@ authors:
   - John P. Rula
   - James Newman
   - Fabián E. Bustamante
-  - Arash Molavi Kakhki
+  - Arash Molavi Kahki
   - David R. Choffnes
 
 date: 2018-04-10
-publication: "WWW '18"
+publication: "Proc. of the International Web Conference (WWW)"
 abstract: ""
 url_pdf: "JRula-WWW18.pdf"
 featured: false

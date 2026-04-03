@@ -1,9 +1,10 @@
 ---
-title: "Compute r Science Department"
+title: "STRAW: An Integrated Mobility and Traffic Model for VANETs"
 authors:
-  - ""
+  - David R. Choffnes
+  - Fabián E. Bustamante
 date: 2005-01-01
-publication: ""
+publication: "Northwestern CS Tech Report NWU-CS-05-03"
 abstract: ""
 url_pdf: "DChoffnes-NWU-CS-05-03.pdf"
 featured: false

@@ -1,8 +1,10 @@
 ---
-title: "SBirrer-NWU-CS-03-22"
-authors: []
+title: "Nemo: Resilient Peer-to-Peer Multicast"
+authors:
+  - Stefan Birrer
+  - Fabián E. Bustamante
 date: 2003-01-01
-publication: ""
+publication: "Northwestern CS Tech Report NWU-CS-03-22"
 abstract: ""
 url_pdf: "SBirrer-NWU-CS-03-22.pdf"
 featured: false

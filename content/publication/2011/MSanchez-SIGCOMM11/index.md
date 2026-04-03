@@ -1,9 +1,12 @@
 ---
-title: "Dasu - ISP Characterization from the Edge"
+title: "Dasu: ISP Characterization from the Edge, A BitTorrent Implementation"
 authors:
-  - ""
+  - Mario A. Sanchez
+  - John S. Otto
+  - Zachary S. Bischof
+  - Fabián E. Bustamante
 date: 2011-01-01
-publication: ""
+publication: "SIGCOMM '11 (Demo)"
 abstract: ""
 url_pdf: "MSanchez-SIGCOMM11.pdf"
 featured: false

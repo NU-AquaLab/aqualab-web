@@ -1,9 +1,12 @@
 ---
-title: "Looking at the Server Side of Peer-to-PeerSystems"
+title: "Looking at the Server-Side of Peer-to-Peer Systems"
 authors:
-  - ""
+  - Yi Qiao
+  - Dong Lu
+  - Fabián E. Bustamante
+  - Peter Dinda
 date: 2004-01-01
-publication: ""
+publication: "LCR '04"
 abstract: ""
 url_pdf: "YQiao-LCR04.pdf"
 featured: false

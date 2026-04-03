@@ -1,9 +1,11 @@
 ---
-title: "Applications ofSRPT Scheduling with Inaccurate Information"
+title: "Applications of SRPT Scheduling"
 authors:
-  - ""
+  - Dong Lu
+  - Peter Dinda
+  - Fabián E. Bustamante
 date: 2004-01-01
-publication: ""
+publication: "MASCOTS '04"
 abstract: ""
 url_pdf: "DLu-MASCOTS04.pdf"
 featured: false

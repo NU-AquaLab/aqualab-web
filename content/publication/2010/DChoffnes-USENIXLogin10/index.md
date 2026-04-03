@@ -1,9 +1,10 @@
 ---
-title: ";LOGIN: February 2010 Tam ING T he T Orre NT 51da v i d  C h o F Fn eS a n d"
+title: "Taming the Torrent"
 authors:
-  - ""
+  - David R. Choffnes
+  - Fabián E. Bustamante
 date: 2010-01-01
-publication: ""
+publication: "USENIX ;login:, Feb 2010"
 abstract: ""
 url_pdf: "DChoffnes-USENIXLogin10.pdf"
 featured: false

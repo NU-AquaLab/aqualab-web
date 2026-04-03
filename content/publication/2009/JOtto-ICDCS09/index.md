@@ -1,9 +1,11 @@
 ---
-title: "Down the Block and Around the Corner"
+title: "Down the Block and Around the Corner: The Impact of Radio Propagation on Inter-vehicle Wireless Communication"
 authors:
-  - ""
+  - John S. Otto
+  - Fabián E. Bustamante
+  - Randall Berry
 date: 2009-01-01
-publication: ""
+publication: "ICDCS '09"
 abstract: ""
 url_pdf: "JOtto-ICDCS09.pdf"
 featured: false

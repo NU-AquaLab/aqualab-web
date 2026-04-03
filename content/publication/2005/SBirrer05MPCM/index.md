@@ -1,9 +1,10 @@
 ---
-title: "Magellan: Performance-based,CooperativeMulticast"
+title: "Magellan: Performance-based, Cooperative Multicast"
 authors:
-  - ""
+  - Stefan Birrer
+  - Fabián E. Bustamante
 date: 2005-01-01
-publication: ""
+publication: "WCW '05"
 abstract: ""
 url_pdf: "SBirrer05MPCM.pdf"
 featured: false

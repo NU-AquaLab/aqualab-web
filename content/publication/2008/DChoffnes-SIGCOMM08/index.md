@@ -1,9 +1,10 @@
 ---
-title: "Tamingthe Torrent"
+title: "Taming the Torrent: A Practical Approach to Reducing Cross-ISP Traffic in Peer-to-Peer Systems"
 authors:
-  - ""
+  - David R. Choffnes
+  - Fabián E. Bustamante
 date: 2008-01-01
-publication: ""
+publication: "SIGCOMM '08"
 abstract: ""
 url_pdf: "DChoffnes-SIGCOMM08.pdf"
 featured: false

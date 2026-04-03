@@ -1,9 +1,10 @@
 ---
 title: "Resilience in Overlay Multicast Protocols"
 authors:
-  - ""
+  - Stefan Birrer
+  - Fabián E. Bustamante
 date: 2006-01-01
-publication: ""
+publication: "MASCOTS '06"
 abstract: ""
 url_pdf: "SBirrer-MASCOTS06.pdf"
 featured: false

@@ -1,9 +1,11 @@
 ---
 title: "Wayback: A User-level Versioning File System for Linux"
 authors:
-  - ""
+  - Brian Cornell
+  - Peter A. Dinda
+  - Fabián E. Bustamante
 date: 2004-01-01
-publication: ""
+publication: "USENIX ATC '04 (Freenix Track)"
 abstract: ""
 url_pdf: "BCornell-ATCFreeinx04.pdf"
 award: "Best Paper"

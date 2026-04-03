@@ -7,7 +7,7 @@ authors:
   - David R. Choffnes
   - Fabián E. Bustamante
   - Balachander Krishnamurthy
-  - Walter Winnger
+  - Walter Willinger
 date: 2015-12-01
 publication: "IEEE/ACM Transactions on Networking, 23(6)"
 abstract: ""

@@ -1,9 +1,10 @@
 ---
-title: "IEEE JOURNAL ON SELECTED AREAS IN COMMUNICATIONS, VOL. , NO. , MONTH YEAR 1"
+title: "A Comparison of Resilient Overlay Multicast Approaches"
 authors:
-  - ""
+  - Stefan Birrer
+  - Fabián E. Bustamante
 date: 2007-01-01
-publication: ""
+publication: "IEEE JSAC, 25(9), Dec 2007"
 abstract: ""
 url_pdf: "SBirrer-JSAC07.pdf"
 featured: false

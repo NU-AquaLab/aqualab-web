@@ -1,9 +1,10 @@
 ---
-title: "Distributed or Centralized Trafﬁc Advisory"
+title: "Distributed or Centralized Traffic Advisory Systems -- The Application's Take"
 authors:
-  - ""
+  - John S. Otto
+  - Fabián E. Bustamante
 date: 2009-01-01
-publication: ""
+publication: "IEEE SECON '09"
 abstract: ""
 url_pdf: "JOtto-SECON09.pdf"
 featured: false

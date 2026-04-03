@@ -1,9 +1,14 @@
 ---
-title: "End-to-end Inference of Router Packet Forwarding"
+title: "End-to-end Inference of Router Packet Forwarding Priority"
 authors:
-  - ""
+  - Guohan Lu
+  - Yan Chen
+  - Stefan Birrer
+  - Fabián E. Bustamante
+  - Chin Yin Cheung
+  - Xing Li
 date: 2007-01-01
-publication: ""
+publication: "INFOCOM '07"
 abstract: ""
 url_pdf: "GLu-INFOCOM07.pdf"
 featured: false
