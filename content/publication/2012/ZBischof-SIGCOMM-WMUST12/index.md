@@ -6,6 +6,8 @@ date: 2012-01-01
 publication: ""
 abstract: ""
 url_pdf: "ZBischof-SIGCOMM-WMUST12.pdf"
+award: "Best Paper"
+award_icon: "award"
 featured: false
 ---
 

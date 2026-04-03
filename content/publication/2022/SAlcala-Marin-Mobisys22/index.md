@@ -2,7 +2,7 @@
 title: "Global Mobile Network Aggregators: Taxonomy, Roaming Performance and Optimization"
 authors:
   - Sergi Alcalá-Marín
-  - Aravnidh Raman
+  - Aravindh Raman
   - Weili Wu
   - Andra Lutu
   - Marcelo Bagnulo

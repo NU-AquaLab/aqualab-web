@@ -1,5 +1,5 @@
 ---
-title: "Who Holds the Steering Wheel? Opacity and Consolidatio in CDN Replica Selection"
+title: "Who Holds the Steering Wheel? Opacity and Consolidation in CDN Replica Selection"
 authors:
   - Rashna Kumar
   - Fabián E. Bustamante

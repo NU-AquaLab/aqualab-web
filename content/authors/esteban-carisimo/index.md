@@ -29,5 +29,5 @@ social:
 # Important: must NOT be a draft
 draft: false
 ---
-Esteban works on Internet measurement, network systems, and infrastructure resilience. 
+Esteban works on Internet measurement, network systems, and infrastructure resilience. Now Software Engineer at Cloudflare.
 

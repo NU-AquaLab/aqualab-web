@@ -14,7 +14,8 @@ publication: "Proceedings of the ACM/IEEE Conference on Supercomputing"
 abstract: ""
 
 url_pdf: "FBustamante-SC00.pdf"
-
+award: "Runner-up for Best Student Paper"
+award_icon: "award"
 featured: false
 ---
 

@@ -6,6 +6,8 @@ date: 2004-01-01
 publication: ""
 abstract: ""
 url_pdf: "BCornell-ATCFreeinx04.pdf"
+award: "Best Paper"
+award_icon: "award"
 featured: false
 ---
 

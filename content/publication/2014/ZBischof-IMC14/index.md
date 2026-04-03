@@ -8,6 +8,8 @@ date: 2014-11-05
 publication: "Proc.the ACM Internet Measurement Conference (IMC)"
 abstract: ""
 url_pdf: "ZBischof-IMC14.pdf"
+award: "Runner-up for Best Paper"
+award_icon: "award"
 featured: false
 ---
 

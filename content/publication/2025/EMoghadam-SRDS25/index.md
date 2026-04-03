@@ -1,7 +1,7 @@
 ---
 title: "Towards Stress Testing the Internet Inter-Domain Routing System 'in Silico' with Domino"
 authors:
-  - Elhamm Ehsani Moghadam
+  - Elham Ehsani Moghadam
   - Fabián E. Bustamante
   - Adrian Perrig
   - Walter Willinger

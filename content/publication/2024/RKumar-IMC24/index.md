@@ -4,7 +4,7 @@ authors:
   - Rashna Kumar
   - Esteban Carisimo
   - Lukas De Angelis Riva
-  - Mauricio BUzzone
+  - Mauricio Buzzone
   - Fabián E. Bustamante
   - Ihsan Ayyub Qazi
   - Mariano G. Beiro
