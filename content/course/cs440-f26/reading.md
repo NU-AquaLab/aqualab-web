@@ -19,7 +19,7 @@ A blog post is not a homework submission — it is a piece of writing with an au
 
 We provide a GitHub Pages template you can fork and have running in five minutes:
 
-**→ [cs440-reading-blog template](https://github.com/aqualab-nu/cs440-reading-blog)**
+**→ [cs440-reading-blog template](https://github.com/NU-AquaLab/cs440-reading-blog)**
 
 1. Fork the template repository (or click "Use this template").
 2. Rename your copy to `cs440-blog` (or any name you like).
