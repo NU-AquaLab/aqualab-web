@@ -26,55 +26,60 @@
       </p>
     {{ else }}
 
-      {{/* ---------- CURRENT ACADEMIC YEAR ---------- */}}
-      {{ $currentGroup := index $ayGroups 0 }}
-      {{ $currentAY := $currentGroup.Key }}
-      {{ $currentPages := $currentGroup.Pages }}
+      {{/* ---------- CURRENT ACADEMIC YEARS ---------- */}}
+      {{/* Show the two most recent academic years as current */}}
+      {{ $numCurrent := cond (ge (len $ayGroups) 2) 2 1 }}
+      {{ $currentGroups := first $numCurrent $ayGroups }}
 
-      <section class="course-landing__current">
-        <h2>{{ $currentAY }}</h2>
+      {{ range $currentGroups }}
+        {{ $currentAY := .Key }}
+        {{ $currentPages := .Pages }}
 
-        {{ $byTerm := $currentPages.GroupByParam "term" }}
+        <section class="course-landing__current">
+          <h2>{{ $currentAY }}</h2>
 
-        {{ range (slice "Fall" "Winter" "Spring" "Summer") }}
-          {{ $term := . }}
-          {{ $match := where $byTerm "Key" $term }}
-          {{ if gt (len $match) 0 }}
-            {{ $g := index $match 0 }}
+          {{ $byTerm := $currentPages.GroupByParam "term" }}
 
-            <div class="course-landing__term">
-              <h3>{{ $term }}</h3>
+          {{ range (slice "Fall" "Winter" "Spring" "Summer") }}
+            {{ $term := . }}
+            {{ $match := where $byTerm "Key" $term }}
+            {{ if gt (len $match) 0 }}
+              {{ $g := index $match 0 }}
 
-              <ul class="course-landing__term-list">
-                {{ range sort $g.Pages "Params.course_code" "asc" }}
-                  <li class="course-item course-item--current">
-                    <div class="course-row">
-                      {{ with .Params.course_code }}
-                        <div class="course-code">{{ . }}</div>
-                      {{ else }}
-                        <div class="course-code"></div>
-                      {{ end }}
+              <div class="course-landing__term">
+                <h3>{{ $term }}</h3>
 
-                      <div class="course-main">
-                        <a class="course-title" href="{{ .RelPermalink }}">
-                          {{ or .Params.course_name .Title }}
-                        </a>
-
-                        {{ with .Summary }}
-                          <div class="course-summary">{{ . }}</div>
+                <ul class="course-landing__term-list">
+                  {{ range sort $g.Pages "Params.course_code" "asc" }}
+                    <li class="course-item course-item--current">
+                      <div class="course-row">
+                        {{ with .Params.course_code }}
+                          <div class="course-code">{{ . }}</div>
+                        {{ else }}
+                          <div class="course-code"></div>
                         {{ end }}
+
+                        <div class="course-main">
+                          <a class="course-title" href="{{ .RelPermalink }}">
+                            {{ or .Params.course_name .Title }}
+                          </a>
+
+                          {{ with .Summary }}
+                            <div class="course-summary">{{ . }}</div>
+                          {{ end }}
+                        </div>
                       </div>
-                    </div>
-                  </li>
-                {{ end }}
-              </ul>
-            </div>
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
           {{ end }}
-        {{ end }}
-      </section>
+        </section>
+      {{ end }}
 
       {{/* ---------- PRIOR YEARS (AGGREGATED) ---------- */}}
-      {{ $priorGroups := after 1 $ayGroups }}
+      {{ $priorGroups := after $numCurrent $ayGroups }}
       {{ if gt (len $priorGroups) 0 }}
         <section class="course-landing__prior">
           <h2>Previous Terms</h2>
