@@ -7,7 +7,7 @@ summary: "Topics and readings by week."
 
 {{< course_tabs >}}
 
-**[B]** = background paper (no blog post required) · **[R]** = research paper (blog post required) · **★** = AquaLab paper
+**[B]** = background paper (no blog post required) · **[R]** = research paper (blog post required)
 
 ---
 
@@ -281,7 +281,7 @@ S. Sengupta, H. Kim, D. Jubas, M. Apostolaki, J. Rexford — NINeS 2026
 
 {{< week n="10" >}}
 
-{{< day date="Tue" topic="CDN architecture & Internet infrastructure ★" note="Edge Fabric shows how content leaves a major network; this paper asks who controls which CDN replica serves you — and argues that consolidation is making that answer increasingly opaque." >}}
+{{< day date="Tue" topic="CDN architecture & Internet infrastructure" note="Edge Fabric shows how content leaves a major network; this paper asks who controls which CDN replica serves you — and argues that consolidation is making that answer increasingly opaque." >}}
 
 **Background**
 [Engineering Egress with Edge Fabric,](https://dl.acm.org/doi/10.1145/3098822.3098853)
@@ -289,9 +289,9 @@ B. Schlinker, H. Kim, T. Cunha et al., SIGCOMM 2017
 
 **Research paper**
 [Who Holds the Steering Wheel? Opacity and Consolidation in CDN Replica Selection,](https://nines-conference.org/papers/p023-Kumar.pdf)
-R. Kumar, F. E. Bustamante ★, M. Flores — NINeS 2026
+R. Kumar, F. E. Bustamante, M. Flores — NINeS 2026
 
-*Companion reading (★): M. Weaver, D. Veitch, P. Barford, F. E. Bustamante, E. Carisimo, [Monitoring Latency on Submarine Cables](https://nines-conference.org/papers/p016-Weaver.pdf), NINeS 2026.*
+*Companion reading: M. Weaver, D. Veitch, P. Barford, F. E. Bustamante, E. Carisimo, [Monitoring Latency on Submarine Cables](https://nines-conference.org/papers/p016-Weaver.pdf), NINeS 2026.*
 
 *Presenter: Fabián.*
 
@@ -363,4 +363,4 @@ All teams present (15 min + Q&A).
 | R15 | Larrea, Shreedhar, Niemi, Sefiane, Marina — *BISCAY: Radio KPI Driven CC* | NINeS 2026 | 8 Thu |
 | R16 | Ikram, Habib, Ali, Uzmi — *Don't get caught, keep your Onions in a Vault* | NINeS 2026 | 9 Tue |
 | R17 | Sengupta, Kim, Jubas, Apostolaki, Rexford — *Passive Telemetry for BGP Hijacks* | NINeS 2026 | 9 Thu |
-| R18 | Kumar, Bustamante, Flores — *Who Holds the Steering Wheel?* ★ | NINeS 2026 | 10 Tue |
+| R18 | Kumar, Bustamante, Flores — *Who Holds the Steering Wheel?* | NINeS 2026 | 10 Tue |
