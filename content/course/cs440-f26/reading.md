@@ -25,7 +25,7 @@ We provide a GitHub Pages template you can fork and have running in five minutes
 2. Rename your copy to `cs440-blog` (or any name you like).
 3. Go to **Settings → Pages** and set the source to the `main` branch.
 4. Edit `_config.yml` — change `author` to your name.
-5. **Add the instructor as a collaborator:** Settings → Collaborators → add `fabianb-nu`.
+5. **Add the instructor as a collaborator:** Settings → Collaborators → add `fabianeb`.
 6. Your blog will be live at `https://<your-username>.github.io/cs440-blog/`.
 
 Your repo may be **public or private** — that is up to you. GitHub Pages works with private repos on free student accounts (via [GitHub Education](https://education.github.com/)). The instructor will see your posts as a collaborator either way.
