@@ -1,7 +1,7 @@
 ---
-title: “NSF Workshop: Towards Re-architecting Today’s Internet for Survivability”
-date: “2023-10-23T15:58:20”
-draft: False
+title: "NSF Workshop: Towards Re-architecting Today's Internet for Survivability"
+date: 2023-10-23T15:58:20
+draft: false
 categories:
   - Blog
 tags:
