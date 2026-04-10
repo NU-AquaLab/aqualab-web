@@ -32,23 +32,19 @@ Your repo may be **public or private** — that is up to you. GitHub Pages works
 
 ### Post structure
 
-Each post should address the following:
+Each post should address three things:
 
-1. **Problem.** What problem is the paper solving? What was the state of the world before it?
-2. **Key idea.** What is the main contribution? What is the core technical insight?
-3. **Evaluation.** How did the authors evaluate their work? Is the evaluation sound?
-4. **Critique.** What do you find convincing or unconvincing? What is missing?
-5. **Connections.** How does this paper relate to others we have read? Link to your earlier posts where relevant.
-6. **Takeaway.** One or two sentences — what will you remember from this paper in a year?
+1. **Key idea.** What problem is the paper solving and what is the core contribution? (2–3 sentences)
+2. **Critique.** What is convincing, what is not, what is missing? (2–3 sentences)
+3. **Connections.** How does this relate to earlier readings? Link to your previous posts where relevant. (1–2 sentences)
 
-The template repository includes an example post on Misa et al., *"There is More to Internet Invariants Than Meets the Eye"* (NINeS 2026) to show the expected depth and tone.
+That's it — roughly 150–200 words. The template repository includes an example post on Misa et al., *"There is More to Internet Invariants Than Meets the Eye"* (NINeS 2026).
 
 ### Logistics
 
 - **Due by 9:00 PM the evening before class.**
 - One skip allowed per quarter without penalty.
-- Posts should be roughly half a page to a page (~300–500 words).
-- No critique is required for background papers — only the research paper marked **[R]** on the calendar.
+- No blog post is required for background papers — only the research paper marked **[R]** on the calendar.
 
 ---
 

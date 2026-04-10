@@ -53,22 +53,13 @@ Email: `fabianb@cs...`
 
 ---
 
-## Course Design & Positioning
+## About This Course
 
-CS 440 is part of a three-course arc, each asking a distinct question about networked systems:
+CS 440 asks: *what are the hard design problems in networking, and what does the research frontier look like?* The lens is **systems design** — protocols, architectures, tradeoffs, and implementation choices that make real networks work at scale. Papers are drawn from SIGCOMM, NSDI, CoNEXT, and NINeS. The project asks you to reproduce a published systems result and write a structured critique of the original paper's claims.
 
-**CS 340 — Introduction to Computer Networking** *(prerequisite)*
-Teaches you *what* networks do. Using the Kurose & Ross top-down approach, you learn how the layers of the Internet stack function: HTTP, DNS, TCP, UDP, IP, routing algorithms, and link-layer protocols. The course is conceptual and textbook-based, giving you a mental model of the Internet as it is described.
+CS 440 pairs with **CS 445 (Internet-Scale Experimentation)**, which focuses on measurement methodology. CS 440 asks what we should build; CS 445 asks what is actually out there. You can take them in either order after CS 340.
 
-**CS 440 — Advanced Networking** *(this course)*
-Asks: *what are the hard design problems in networking, and what does the research frontier look like?* The lens is **systems design** — protocols, architectures, tradeoffs, and implementation choices that make real networks actually work at scale. Papers are drawn from SIGCOMM, NSDI, CoNEXT, and NINeS, the primary venues for systems and design contributions in networking. The project asks you to reproduce a published systems result and then — informed by that experience — write a structured critique of the original paper's claims.
-
-**CS 445 — Internet-Scale Experimentation** *(companion course)*
-Asks: *how do we rigorously observe and measure what the Internet actually does, and how do we know when our measurements are trustworthy?* The lens is **empirical methodology** — measurement tools and platforms, dataset biases, quasi-experimental design, and the challenges of inference at Internet scale. Papers come from IMC, TMA, PAM, and measurement tracks across venues.
-
-**How they fit together.** CS 440 asks what we should build; CS 445 asks what is actually out there. They are not redundant — you can take them in either order after CS 340, and many students benefit from taking both. If you are primarily interested in building and understanding systems, take CS 440 first. If you are primarily interested in empirical research and measurement methodology, take CS 445 first.
-
-**A note on NINeS.** This edition of CS 440 includes papers from the inaugural NINeS (New Ideas in Networked Systems, 2026), a new highly selective conference that explicitly favors bold new ideas, fundamental open questions, and approaches that re-frame or debunk current practice. All accepted paper talks are freely available at [nines-conference.org](https://nines-conference.org/).
+**A note on NINeS.** This edition includes papers from the inaugural [NINeS](https://nines-conference.org/) (New Ideas in Networked Systems, 2026), a new highly selective conference that favors bold new ideas and fundamental open questions. All accepted paper talks are freely available online.
 
 ## Course Prerequisites
 
