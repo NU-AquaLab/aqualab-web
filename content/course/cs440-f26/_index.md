@@ -26,24 +26,34 @@ course_tabs:
 
 {{< course_tabs >}}
 
-## ADMINISTRATIVE INFORMATION
+## Announcements
 
-#### [Fabián E. Bustamante](http://www.cs.northwestern.edu/~fabianb)
+Remember to check this site (and Canvas) regularly.
+
+**Quick links:**
+- [Canvas](TBD)
+
+---
+
+## Staff
+
+**Instructor**
+[Fabián E. Bustamante](http://www.cs.northwestern.edu/~fabianb)
 Seely Mudd 3509
-+1 847 491-2745
-[fabianb@cs...](http://aqualab.cs.northwestern.edu/)
+Email: `fabianb@cs...`
 
-## LOCATION AND TIME
+---
 
-**Lectures:** Tuesdays and Thursdays, 11:00–12:20 PM | TBD
+## Location and Time
 
-**Professor Office Hours:** by appointment
-
-**Canvas:** [TBD] · **Piazza:** [TBD]
+- **Lectures:** Tue/Thu 11:00–12:20 — TBD
+- **Professor Office Hours:** By appointment
 
 **Note:** Session dates will be confirmed once the Fall 2026 Northwestern academic calendar is published. The paper list is final.
 
-## COURSE DESIGN & POSITIONING
+---
+
+## Course Design & Positioning
 
 CS 440 is part of a three-course arc, each asking a distinct question about networked systems:
 
@@ -60,17 +70,15 @@ Asks: *how do we rigorously observe and measure what the Internet actually does,
 
 **A note on NINeS.** This edition of CS 440 includes papers from the inaugural NINeS (New Ideas in Networked Systems, 2026), a new highly selective conference that explicitly favors bold new ideas, fundamental open questions, and approaches that re-frame or debunk current practice. All accepted paper talks are freely available at [nines-conference.org](https://nines-conference.org/).
 
-## COURSE PREREQUISITES
+## Course Prerequisites
 
 The course assumes a basic understanding of topics in networking, such as packet-switching, routing, socket programming, and congestion control, as covered in [CS 340 "Introduction to Computer Networking"](https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/340.html).
 
 If you have taken a similar course somewhere else, please contact me.
 
-In compliance with Section 504 of the 1973 Rehabilitation Act and the Americans with Disabilities Act, Northwestern University is committed to providing equal access to all programming. Students with disabilities seeking accommodations are encouraged to contact the office of Services for Students with Disabilities (SSD) at +1 847 467-5530 or [ssd@northwestern.edu](mailto:ssd@northwestern.edu). SSD is located in the basement of Scott Hall.
-
 ---
 
-## TOPICS
+## Topics
 
 - Network design principles and architecture
 - Internet routing and BGP
@@ -88,11 +96,11 @@ In compliance with Section 504 of the 1973 Rehabilitation Act and the Americans 
 - BGP security and routing integrity
 - CDN architecture and Internet infrastructure
 
-## COURSE ORGANIZATION
+## Course Organization
 
 Most class meetings are centered on one research topic. Each session pairs a **background paper** — usually a foundational or classic work — with a recent **research paper**. Every student is responsible for one to two conference-style presentations during the quarter. You must submit a reading blog post on the **research paper** before each class.
 
-## GRADING
+## Grading
 
 | Component | Weight |
 | --------- | ------ |
@@ -101,6 +109,12 @@ Most class meetings are centered on one research topic. Each session pairs a **b
 | Paper presentation | 20% |
 | Reproduction project | 50% |
 
-## ACADEMIC INTEGRITY
+## Academic Integrity
 
 All work submitted must be your own. Blog posts may not be written collaboratively. For the reproduction project, teams may discuss ideas with other teams, but all writing and implementation must be the team's own work. Any use of AI writing tools must be disclosed.
+
+---
+
+## Accessibility
+
+In compliance with Section 504 of the 1973 Rehabilitation Act and the Americans with Disabilities Act, Northwestern University is committed to providing equal access to all programming. Students with disabilities seeking accommodations are encouraged to contact Services for Students with Disabilities (SSD) at +1 847 467-5530 or ssd@northwestern.edu. SSD is located in the basement of Scott Hall. Additionally, I am available to discuss disability-related needs during office hours or by appointment.
