@@ -1,0 +1,20 @@
+{{/*
+  week shortcode — renders a two-column card row for one week.
+
+  Usage:
+    {{< week n="1" >}}
+      {{< day date="Tue 9/23" topic="Course intro: reading, reviewing, presenting" >}}
+        ... markdown content ...
+      {{< /day >}}
+      {{< day date="Thu 9/25" topic="Network design & architecture" >}}
+        ... markdown content ...
+      {{< /day >}}
+    {{< /week >}}
+*/}}
+
+<div class="week-row">
+  <div class="week-label">Week {{ .Get "n" }}</div>
+  <div class="week-cards">
+    {{ .Inner }}
+  </div>
+</div>

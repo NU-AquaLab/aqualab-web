@@ -1,0 +1,25 @@
+{{/*
+  day shortcode — one card inside a {{< week >}}.
+
+  Params:
+    date   — e.g. "Tue 9/23"
+    topic  — session title
+    due    — (optional) due items, separated by " | "
+    note   — (optional) editorial rationale shown as a callout
+*/}}
+
+<details class="day-card">
+  <summary class="day-card__summary">
+    <span class="day-card__date">{{ .Get "date" }}</span>
+    <span class="day-card__topic">{{ .Get "topic" }}</span>
+    {{ with .Get "due" }}<span class="day-card__due-badge">{{ . }}</span>{{ end }}
+  </summary>
+  <div class="day-card__body">
+    {{ .Inner | markdownify }}
+  </div>
+  {{ with .Get "note" }}
+  <div class="day-card__note">
+    {{ . }}
+  </div>
+  {{ end }}
+</details>
