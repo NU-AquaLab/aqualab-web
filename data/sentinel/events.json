@@ -1,5 +1,38 @@
 [
   {
+    "cable_name": "R100 North",
+    "event_start": "2026-03-22",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "Between Evie and Westray, Orkney Islands",
+    "affected_countries": [
+      "United Kingdom"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ispreview.co.uk/index.php/2026/03/subsea-cable-break-knocks-out-broadband-and-mobile-for-part-of-orkney.html",
+        "title": "Subsea Cable Break Knocks Out Broadband and Mobile for Part of Orkney",
+        "source_name": "ISPreview"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/subsea-cable-linking-orkney-islands-breaks/",
+        "title": "Subsea cable linking Orkney Islands breaks",
+        "source_name": "DCD"
+      },
+      {
+        "url": "https://www.silicon.co.uk/networks/broadband/broadband-outage-orkney-629175",
+        "title": "Orkney Broadband Outage Declared 'Major Incident'",
+        "source_name": "Silicon UK"
+      }
+    ]
+  },
+  {
     "cable_name": "EAC-C2C",
     "event_start": "2026-03-17",
     "event_type": "Cut",
@@ -310,6 +343,35 @@
     ]
   },
   {
+    "cable_name": "Southeast Asia-Japan Cable 2 (SJC2)",
+    "event_start": "2025-12-25",
+    "event_type": "Cut",
+    "cause": "Earthquake",
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "S1.4 Segment, 2600km from Chikura, Japan",
+    "affected_countries": [
+      "Taiwan",
+      "Japan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://moda.gov.tw/en/press/press-releases/18412",
+        "title": "Submarines Cables Damaged after Earthquake, MODA: Backup and Emergency Response Promptly Activated",
+        "source_name": "Taiwan MODA"
+      },
+      {
+        "url": "https://thediplomat.com/2025/01/another-severed-submarine-cable-raises-alarm-in-taiwan/",
+        "title": "Another Severed Submarine Cable Raises Alarm in Taiwan",
+        "source_name": "The Diplomat"
+      }
+    ]
+  },
+  {
     "cable_name": "EAC-C2C",
     "event_start": "2025-12-24",
     "event_type": "Cut",
@@ -330,6 +392,34 @@
         "url": "https://www.submarinenetworks.com/en/systems/intra-asia/eac-c2c",
         "title": "EAC-C2C Cable System",
         "source_name": "Submarine Networks"
+      }
+    ]
+  },
+  {
+    "cable_name": "Pacific Light Cable Network (PLCN)",
+    "event_start": "2025-12-24",
+    "event_type": "Cut",
+    "cause": "Earthquake",
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "S2, 348km from Toucheng, Yilan, Taiwan",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Trans-Pacific"
+    ],
+    "sources": [
+      {
+        "url": "https://moda.gov.tw/en/press/press-releases/18412",
+        "title": "Submarines Cables Damaged after Earthquake, MODA: Backup and Emergency Response Promptly Activated",
+        "source_name": "Taiwan MODA"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2025/3/10/as-undersea-cables-break-down-proving-sabotage-a-difficult-task",
+        "title": "As undersea cables break off Europe and Taiwan, proving sabotage is tough",
+        "source_name": "Al Jazeera"
       }
     ]
   },
@@ -1189,6 +1279,30 @@
     ],
     "event_end": "2025-02-03",
     "repair_duration_days": 31
+  },
+  {
+    "cable_name": "Asia Africa Europe-1 (AAE-1)",
+    "event_start": "2025-01-03",
+    "event_type": "Cut",
+    "cause": "Shunt fault",
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "Off the coast of Doha, Qatar",
+    "affected_countries": [
+      "Qatar",
+      "Pakistan"
+    ],
+    "affected_regions": [
+      "Europe-Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.dawn.com/news/1665046",
+        "title": "PTCL says 'alternative bandwidth channels arranged' after fault in submarine cable",
+        "source_name": "Dawn"
+      }
+    ]
   },
   {
     "cable_name": "Tata TGN-Intra Asia (TGN-IA)",
@@ -2126,6 +2240,93 @@
     "repair_duration_days": 54
   },
   {
+    "cable_name": "Baltica (Kingisepp-Kaliningrad System)",
+    "event_start": "2023-10-07",
+    "event_type": "Cut",
+    "cause": "External influence (anchor drag by NewNew Polar Bear)",
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Baltic Sea, alongside Balticconnector gas pipeline",
+    "affected_countries": [
+      "Russia",
+      "Finland",
+      "Estonia"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2024_Baltic_Sea_submarine_cable_disruptions",
+        "title": "2024 Baltic Sea submarine cable disruptions",
+        "source_name": "Wikipedia"
+      },
+      {
+        "url": "https://www.lrt.lt/en/news-in-english/19/2472575/eleven-damaged-cables-in-15-months-what-is-happening-in-baltic-sea",
+        "title": "Eleven damaged cables in 15 months: what is happening in Baltic Sea?",
+        "source_name": "LRT"
+      },
+      {
+        "url": "https://www.newsweek.com/russian-cable-under-nato-lake-damaged-through-external-influence-moscow-2028631",
+        "title": "Russian cable under NATO lake damaged through 'external influence': Moscow",
+        "source_name": "Newsweek"
+      }
+    ]
+  },
+  {
+    "cable_name": "Asia Africa Europe-1 (AAE-1)",
+    "event_start": "2023-09-27",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "S1H.1 branch to Hong Kong",
+    "affected_countries": [
+      "Hong Kong",
+      "Pakistan"
+    ],
+    "affected_regions": [
+      "Europe-Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/aae-1-fault-repairs-not-anticipated-until-november/",
+        "title": "AAE-1 Fault Repairs Not Anticipated Until November",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/aae-1-cable-cut-causes-widespread-outages-in-europe-east-africa-middle-east-and-south-asia/",
+        "title": "AAE-1 cable cut causes widespread outages",
+        "source_name": "DCD"
+      }
+    ]
+  },
+  {
+    "cable_name": "South American Crossing (SAC)",
+    "event_start": "2023-09-11",
+    "event_type": "Cut",
+    "cause": "Anchor",
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Off the coast of Rio de Janeiro",
+    "affected_countries": [
+      "Brazil"
+    ],
+    "affected_regions": [
+      "Latin America"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bnamericas.com/en/news/cirion-working-to-restore-sac-cables-rio-de-janeiro-fortaleza-route",
+        "title": "Cirion working to restore SAC cable's Rio de Janeiro-Fortaleza route",
+        "source_name": "BNamericas"
+      }
+    ]
+  },
+  {
     "cable_name": "Africa Coast to Europe (ACE)",
     "event_start": "2023-08-07",
     "event_type": "Cut",
@@ -2295,6 +2496,29 @@
     "repair_duration_days": 36
   },
   {
+    "cable_name": "South America-1 (SAm-1)",
+    "event_start": "2023-03-04",
+    "event_type": "Cut",
+    "cause": "Wear and age (cable is 23 years old)",
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "30km off the coast of Salvador, Bahia, at 1500-2000m depth",
+    "affected_countries": [
+      "Brazil"
+    ],
+    "affected_regions": [
+      "Latin America"
+    ],
+    "sources": [
+      {
+        "url": "https://www.minhaoperadora.com.br/2023/03/telxius-fara-manutencao-do-cabo-submarino-rompido-na-bahia.html",
+        "title": "Telxius far\u00e1 manuten\u00e7\u00e3o do cabo submarino rompido na Bahia",
+        "source_name": "Minha Operadora (Portuguese)"
+      }
+    ]
+  },
+  {
     "cable_name": "SeaMeWe-3",
     "event_start": "2023-02-22",
     "event_type": "Cut",
@@ -2438,6 +2662,30 @@
     "repair_duration_days": 79
   },
   {
+    "cable_name": "Asia Pacific Gateway (APG)",
+    "event_start": "2022-12-26",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "S6 branch, off Hong Kong landing station",
+    "affected_countries": [
+      "Vietnam",
+      "Hong Kong"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://vietnamnet.vn/en/four-undersea-cable-routes-to-be-fixed-soon-2120106.html",
+        "title": "Four undersea cable routes to be fixed soon",
+        "source_name": "VietnamNet"
+      }
+    ]
+  },
+  {
     "cable_name": "SeaMeWe-5",
     "event_start": "2022-10-29",
     "event_type": "Cut",
@@ -2520,6 +2768,30 @@
     "repair_duration_days": 36
   },
   {
+    "cable_name": "Asia Pacific Gateway (APG)",
+    "event_start": "2022-09-15",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "S9 segment to Singapore",
+    "affected_countries": [
+      "Vietnam",
+      "Singapore"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/two-of-three-damaged-cables-in-vietnam-repaired/",
+        "title": "Two of Three Damaged Cables In Vietnam Repaired",
+        "source_name": "SubTel Forum"
+      }
+    ]
+  },
+  {
     "cable_name": "Kumul Domestic Submarine Cable System",
     "event_start": "2022-09-11",
     "event_type": "Cut",
@@ -2543,6 +2815,96 @@
     ],
     "event_end": "2022-12-01",
     "repair_duration_days": 81
+  },
+  {
+    "cable_name": "PIPE Pacific Cable-1 (PPC-1)",
+    "event_start": "2022-09-11",
+    "event_type": "Cut",
+    "cause": "Earthquake (M7.6)",
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "17km to 170km outside Madang, Papua New Guinea",
+    "affected_countries": [
+      "Papua New Guinea"
+    ],
+    "affected_regions": [
+      "Oceania"
+    ],
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/papua-new-guinea-suffers-suspected-cable-break-after-earthquake/",
+        "title": "Papua New Guinea suffers suspected cable break after earthquake",
+        "source_name": "DCD"
+      },
+      {
+        "url": "https://subtelforum.com/png-earthquake-causing-multiple-cable-disruptions/",
+        "title": "PNG Earthquake Causing Multiple Cable Disruptions",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://subtelforum.com/subcom-to-repair-pcc-1-earthquake-damage/",
+        "title": "SubCom to Repair PCC-1 Earthquake Damage",
+        "source_name": "SubTel Forum"
+      }
+    ]
+  },
+  {
+    "cable_name": "Greenland Connect",
+    "event_start": "2022-08-21",
+    "event_type": "Degradation",
+    "cause": "Power failure on the cable",
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Off Narsaq, settlements south of Nuuk affected",
+    "affected_countries": [
+      "Greenland"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/greenland-connect-repair-to-start-this-month/",
+        "title": "Greenland Connect Repair to Start This Month",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://subtelforum.com/greenland-connect-repairs-have-been-completed/",
+        "title": "Greenland Connect Repairs Have Been Completed",
+        "source_name": "SubTel Forum"
+      }
+    ]
+  },
+  {
+    "cable_name": "Asia Pacific Gateway (APG)",
+    "event_start": "2022-07-26",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "S3 branch, 427km from China",
+    "affected_countries": [
+      "Vietnam",
+      "China"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://vietnamnews.vn/society/1441707/submarine-internet-cable-apg-sees-disruptions-for-fourth-time-in-2022.html",
+        "title": "Submarine internet cable APG sees disruptions for fourth time in 2022",
+        "source_name": "Vietnam News"
+      },
+      {
+        "url": "https://en.vietnamplus.vn/submarine-internet-cable-sees-disruptions-for-fourth-time-in-2022/246192.vnp",
+        "title": "Submarine internet cable sees disruptions for fourth time in 2022",
+        "source_name": "VietnamPlus"
+      }
+    ]
   },
   {
     "cable_name": "Asia-America Gateway (AAG)",
@@ -2619,6 +2981,73 @@
     ],
     "event_end": "2022-07-15",
     "repair_duration_days": 38
+  },
+  {
+    "cable_name": "Coral Sea Cable System (CS2)",
+    "event_start": "2022-05-22",
+    "event_type": "Degradation",
+    "cause": "Shunt fault detected in early 2021",
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Between Port Moresby and Sydney, planned repair outage deferred to October 2022",
+    "affected_countries": [
+      "Papua New Guinea",
+      "Australia"
+    ],
+    "affected_regions": [
+      "Oceania"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/coral-sea-cable-system-shunt-fault-repair-rescheduled/",
+        "title": "Coral Sea Cable System Shunt Fault Repair Rescheduled",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://www.pngbusinessnews.com/articles/2022/5/planned-outtage-on-coral-sea-cable-system",
+        "title": "Planned Outage On Coral Sea Cable System",
+        "source_name": "PNG Business News"
+      },
+      {
+        "url": "https://www.thenational.com.pg/dataco-plans-outage-to-fix-coral-sea-cable-system/",
+        "title": "DataCo plans outage to fix Coral Sea cable system",
+        "source_name": "The National (PNG)"
+      }
+    ]
+  },
+  {
+    "cable_name": "Bass Strait-1/Bass Strait-2",
+    "event_start": "2022-03-01",
+    "event_type": "Cut",
+    "cause": "Civil works in Melbourne and roadworks in Doctors Rocks",
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Dual cable cuts: auger damage in Frankston Melbourne + roadworks near Devonport",
+    "affected_countries": [
+      "Australia"
+    ],
+    "affected_regions": [
+      "Oceania"
+    ],
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/tasmania-loses-internet-connectivity-for-several-hours-after-cable-cuts/",
+        "title": "Tasmania loses Internet connectivity for several hours after cable cuts",
+        "source_name": "DCD"
+      },
+      {
+        "url": "https://ia.acs.org.au/article/2022/internet-outage-cuts-tasmania-off-from-the-world.html",
+        "title": "Internet outage cuts Tasmania off from the world",
+        "source_name": "Information Age"
+      },
+      {
+        "url": "https://www.itnews.com.au/news/tasmanian-data-services-hit-by-twin-telstra-fibre-cuts-576723",
+        "title": "Tasmanian data services hit by twin Telstra fibre cuts",
+        "source_name": "iTnews"
+      }
+    ]
   },
   {
     "cable_name": "Transworld (TW1)",
@@ -2801,6 +3230,58 @@
     "repair_duration_days": 67
   },
   {
+    "cable_name": "Asia Pacific Gateway (APG)",
+    "event_start": "2021-12-13",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "125km from Hong Kong CLS",
+    "affected_countries": [
+      "Vietnam",
+      "Hong Kong"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/apg-experiencing-loss-of-service-from-fault/",
+        "title": "APG Experiencing Loss of Service From Fault",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://en.vietnamplus.vn/faulty-undersea-cable-to-slow-internet-speed-in-vietnam-post225159.vnp",
+        "title": "Faulty undersea cable to slow internet speed in Vietnam",
+        "source_name": "VietnamPlus"
+      }
+    ]
+  },
+  {
+    "cable_name": "Asia Pacific Gateway (APG)",
+    "event_start": "2021-10-29",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "S3 segment",
+    "affected_countries": [
+      "Vietnam"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/aag-still-not-fixed-and-apg-now-has-another-fault/",
+        "title": "AAG Still Not Fixed And APG Now Has Another Fault",
+        "source_name": "SubTel Forum"
+      }
+    ]
+  },
+  {
     "cable_name": "Asia-America Gateway (AAG)",
     "event_start": "2021-10-22",
     "event_type": "Cut",
@@ -2948,6 +3429,121 @@
     ],
     "event_end": "2021-02-01",
     "repair_duration_days": 52
+  },
+  {
+    "cable_name": "COBRAcable",
+    "event_start": "2020-09-30",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Between Eemshaven, Netherlands and Endrup, Denmark",
+    "affected_countries": [
+      "Netherlands",
+      "Denmark"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://www.offshore-energy.biz/cobracable-back-in-business/",
+        "title": "COBRAcable back in business",
+        "source_name": "Offshore Energy"
+      }
+    ]
+  },
+  {
+    "cable_name": "Eastern Africa Submarine System (EASSy)",
+    "event_start": "2020-07-26",
+    "event_type": "Cut",
+    "cause": "Ship anchor (MSC Alice)",
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "27km offshore Mogadishu, Somalia, 600m depth",
+    "affected_countries": [
+      "Somalia"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/somalia-internet-restored-temporarily/",
+        "title": "Somalia Internet Restored Temporarily",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://aptantech.com/2020/08/06/eassy-cable-restores-service-in-somalia-following-outage/",
+        "title": "EASSy cable restores service in Somalia following outage",
+        "source_name": "Aptantech"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/somalia-is-losing-millions-due-to-damaged-network-cable/",
+        "title": "Somalia is losing millions due to damaged network cable",
+        "source_name": "DCD"
+      }
+    ]
+  },
+  {
+    "cable_name": "Asia Africa Europe-1 (AAE-1)",
+    "event_start": "2020-06-03",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Off Hong Kong",
+    "affected_countries": [
+      "Hong Kong",
+      "Vietnam"
+    ],
+    "affected_regions": [
+      "Europe-Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.submarinenetworks.com/en/systems/intra-asia/apg/aae-1-and-apg-submarine-cables-disrupted,-impacting-vietnam%E2%80%99s-internet",
+        "title": "AAE-1 and APG submarine cables disrupted, impacting Vietnam's Internet",
+        "source_name": "Submarine Networks"
+      },
+      {
+        "url": "https://vietnamnet.vn/en/aae-1-and-apg-submarine-cables-disrupted-impacting-vietnam-s-internet-2348411.html",
+        "title": "AAE-1 and APG submarine cables disrupted, impacting Vietnam's Internet",
+        "source_name": "VietnamNet"
+      }
+    ]
+  },
+  {
+    "cable_name": "Asia Pacific Gateway (APG)",
+    "event_start": "2020-05-23",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Between Vietnam and Singapore",
+    "affected_countries": [
+      "Vietnam",
+      "Singapore"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/cable-faults-impact-internet-in-vietnam-cambodia-laos/",
+        "title": "Cable Faults Impact Internet in Vietnam, Cambodia & Laos",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/submarine-cable-fault-hits-vietnam-international-internet-capacity-5044430.html",
+        "title": "Submarine cable fault hits Vietnam international Internet capacity",
+        "source_name": "VnExpress International"
+      }
+    ]
   },
   {
     "cable_name": "Asia-America Gateway (AAG)",
@@ -3140,6 +3736,124 @@
   },
   {
     "cable_name": "Asia-America Gateway (AAG)",
+    "event_start": "2019-08-15",
+    "event_type": "Cut",
+    "cause": "Shunt fault",
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "125km off Vung Tau, Vietnam, on HCM-HK section",
+    "affected_countries": [
+      "Vietnam"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/aag-cable-fault-impacts-vietnam-internet-again/",
+        "title": "AAG Cable Fault Impacts Vietnam Internet Again",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://www.submarinenetworks.com/en/systems/trans-pacific/aag/aag-cable-breaks-and-restoration",
+        "title": "AAG Cable Breaks and Restoration",
+        "source_name": "Submarine Networks"
+      },
+      {
+        "url": "https://international.viettel.vn/news-detail/aag-submarine-cable-fixed-internet-in-vietnam-back-to-normal",
+        "title": "AAG submarine cable fixed, Internet in Vietnam back to normal",
+        "source_name": "Viettel"
+      }
+    ]
+  },
+  {
+    "cable_name": "Asia Pacific Gateway (APG)",
+    "event_start": "2019-05-27",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "132km from Danang, Vietnam",
+    "affected_countries": [
+      "Vietnam"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://vietnamnews.vn/society/426976/asia-pacific-gateway-submarine-cable-problem-fixed.html",
+        "title": "Asia-Pacific Gateway submarine cable problem fixed",
+        "source_name": "Vietnam News"
+      },
+      {
+        "url": "https://www.malaysianwireless.com/2019/03/apg-submarine-repair-time/",
+        "title": "APG Submarine Cable System Under Maintenance",
+        "source_name": "Malaysian Wireless"
+      }
+    ]
+  },
+  {
+    "cable_name": "Asia Pacific Gateway (APG)",
+    "event_start": "2019-02-27",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Off Hong Kong, China",
+    "affected_countries": [
+      "Vietnam",
+      "Hong Kong"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/apg-submarine-cable-system-under-maintenance/",
+        "title": "APG Submarine Cable System Under Maintenance",
+        "source_name": "SubTel Forum"
+      }
+    ]
+  },
+  {
+    "cable_name": "Tonga Cable System",
+    "event_start": "2019-01-20",
+    "event_type": "Cut",
+    "cause": "Ship anchor (suspected)",
+    "severity": "Critical",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Two breaks on international cable, two breaks on domestic cable",
+    "affected_countries": [
+      "Tonga"
+    ],
+    "affected_regions": [
+      "Oceania"
+    ],
+    "sources": [
+      {
+        "url": "https://www.aljazeera.com/news/2019/1/23/tonga-facing-absolute-disaster-after-internet-cable-blackout",
+        "title": "Tonga facing 'absolute disaster' after internet cable blackout",
+        "source_name": "Al Jazeera"
+      },
+      {
+        "url": "https://matangitonga.to/2019/01/30/reliance-finds-second-fault-tonga-fibre-optic-cable",
+        "title": "'Reliance' finds second fault on Tonga fibre optic cable",
+        "source_name": "Matangi Tonga"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2019/2/4/operator-of-tongas-internet-cable-cannot-rule-out-sabotage",
+        "title": "Operator of Tonga's internet cable cannot rule out sabotage",
+        "source_name": "Al Jazeera"
+      }
+    ]
+  },
+  {
+    "cable_name": "Asia-America Gateway (AAG)",
     "event_start": "2018-08-23",
     "event_type": "Degradation",
     "cause": "Power leakage",
@@ -3194,6 +3908,67 @@
     "repair_duration_days": 27
   },
   {
+    "cable_name": "Africa Coast to Europe (ACE)",
+    "event_start": "2018-03-30",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Off Nouakchott, Mauritania",
+    "affected_countries": [
+      "Mauritania",
+      "Sierra Leone",
+      "Gambia",
+      "Guinea-Bissau",
+      "Guinea"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/ace-submarine-cable-cut-impact/",
+        "title": "ACE Submarine Cable Cut Impacts Ten Countries",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://gigazine.net/gsc_news/en/20180411-ace-submarine-cable-cut",
+        "title": "ACE submarine cable cut \u2014 large-scale network failure",
+        "source_name": "GIGAZINE"
+      }
+    ]
+  },
+  {
+    "cable_name": "Bharat Lanka Cable System",
+    "event_start": "2018-02-01",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "5.8 km off Tuticorin, India",
+    "affected_countries": [
+      "India",
+      "Sri Lanka"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/optical-fibre-company-repairs-undersea-cable-facility/",
+        "title": "Optical Fibre Company Repairs Undersea Cable Facility",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://www.dailypioneer.com/2019/india/optical-fibre-company-repairs-undersea-net-cable-facility-to-sl.html",
+        "title": "Optical fibre company repairs undersea net cable facility to SL",
+        "source_name": "Daily Pioneer"
+      }
+    ]
+  },
+  {
     "cable_name": "Asia-America Gateway (AAG)",
     "event_start": "2017-08-27",
     "event_type": "Cut",
@@ -3225,6 +4000,77 @@
     "repair_duration_days": 35
   },
   {
+    "cable_name": "SAT-3/WASC",
+    "event_start": "2017-07-12",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Off Melkbosstrand, South Africa",
+    "affected_countries": [
+      "South Africa"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://techcentral.co.za/cable-break-downs-sat-3/198329/",
+        "title": "Cable break downs SAT-3",
+        "source_name": "TechCentral"
+      }
+    ]
+  },
+  {
+    "cable_name": "Eastern Africa Submarine System (EASSy)",
+    "event_start": "2017-06-23",
+    "event_type": "Cut",
+    "cause": "Ship/anchor",
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Near Mombasa, Kenya",
+    "affected_countries": [
+      "Kenya",
+      "Tanzania",
+      "Rwanda"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://theworld.org/stories/2017/05/13/mombasa-high-speed-internet-connection-disrupted-ships-anchor",
+        "title": "Mombasa: High-speed internet connection disrupted by ship's anchor",
+        "source_name": "The World (PRX)"
+      }
+    ]
+  },
+  {
+    "cable_name": "West Africa Cable System (WACS)",
+    "event_start": "2017-06-09",
+    "event_type": "Cut",
+    "cause": "Ship/anchor",
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "Off Point-Noire, Congo, Rep.",
+    "affected_countries": [
+      "Congo"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/congo-brazzaville-facing-major-submarine-cable-outage/",
+        "title": "Congo-Brazzaville Facing Major Submarine Cable Outage",
+        "source_name": "SubTel Forum"
+      }
+    ]
+  },
+  {
     "cable_name": "Asia-America Gateway (AAG)",
     "event_start": "2017-02-18",
     "event_type": "Cut",
@@ -3249,6 +4095,35 @@
     ],
     "event_end": "2017-04-06",
     "repair_duration_days": 47
+  },
+  {
+    "cable_name": "Glo-1",
+    "event_start": "2017-02-16",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Repaired",
+    "confidence": "High",
+    "fault_description": "In UK territorial waters",
+    "affected_countries": [
+      "Nigeria",
+      "United Kingdom"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/asn-marine-to-repair-glo-1-subsea-cable/",
+        "title": "ASN Marine to Repair GLO-1 Subsea Cable",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://www.offshore-energy.biz/asn-marine-to-repair-glo-1-subsea-cable/",
+        "title": "ASN Marine to Repair GLO-1 Subsea Cable",
+        "source_name": "Offshore Energy"
+      }
+    ]
   },
   {
     "cable_name": "Asia-America Gateway (AAG)",
