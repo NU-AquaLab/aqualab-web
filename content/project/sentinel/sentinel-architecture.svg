@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#58a6ff"/>
+    </marker>
+    <marker id="arrow-muted" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#8b949e"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="460" rx="8" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" fill="#c9d1d9" font-size="16" font-weight="600">Sentinel Architecture</text>
+
+  <!-- ============================================================ -->
+  <!-- ROW 1: Sources → Monitor → Extract → Store                   -->
+  <!-- ============================================================ -->
+
+  <!-- Sources column -->
+  <rect x="20" y="60" width="150" height="180" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="95" y="82" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="600">SOURCES</text>
+  <rect x="32" y="94" width="126" height="28" rx="4" fill="#1c2333" stroke="#30363d"/>
+  <text x="95" y="113" text-anchor="middle" fill="#c9d1d9" font-size="11">SubTelForum</text>
+  <rect x="32" y="130" width="126" height="28" rx="4" fill="#1c2333" stroke="#30363d"/>
+  <text x="95" y="149" text-anchor="middle" fill="#c9d1d9" font-size="11">TeleGeography</text>
+  <rect x="32" y="166" width="126" height="28" rx="4" fill="#1c2333" stroke="#30363d"/>
+  <text x="95" y="185" text-anchor="middle" fill="#c9d1d9" font-size="11">Regional Press</text>
+  <rect x="32" y="202" width="126" height="28" rx="4" fill="#1c2333" stroke="#30363d"/>
+  <text x="95" y="221" text-anchor="middle" fill="#c9d1d9" font-size="11">General News</text>
+
+  <!-- Monitor -->
+  <rect x="210" y="100" width="140" height="100" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+  <text x="280" y="125" text-anchor="middle" fill="#58a6ff" font-size="12" font-weight="600">sentinel-monitor</text>
+  <text x="280" y="148" text-anchor="middle" fill="#8b949e" font-size="10">Source registry</text>
+  <text x="280" y="163" text-anchor="middle" fill="#8b949e" font-size="10">RSS / web fetch</text>
+  <text x="280" y="178" text-anchor="middle" fill="#8b949e" font-size="10">Document dedup</text>
+
+  <!-- Arrow: Sources → Monitor -->
+  <line x1="170" y1="150" x2="205" y2="150" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Extract -->
+  <rect x="390" y="80" width="140" height="140" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+  <text x="460" y="105" text-anchor="middle" fill="#58a6ff" font-size="12" font-weight="600">sentinel-extract</text>
+  <text x="460" y="128" text-anchor="middle" fill="#8b949e" font-size="10">Keyword filter</text>
+  <text x="460" y="143" text-anchor="middle" fill="#8b949e" font-size="10">(EN/FR/PT/ES)</text>
+  <text x="460" y="163" text-anchor="middle" fill="#8b949e" font-size="10">LLM extraction</text>
+  <text x="460" y="183" text-anchor="middle" fill="#8b949e" font-size="10">Corroboration</text>
+  <text x="460" y="198" text-anchor="middle" fill="#8b949e" font-size="10">Incident tracking</text>
+
+  <!-- Arrow: Monitor → Extract -->
+  <line x1="350" y1="150" x2="385" y2="150" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Cables (helper, below Extract) -->
+  <rect x="390" y="250" width="140" height="50" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="460" y="272" text-anchor="middle" fill="#c9d1d9" font-size="11" font-weight="600">sentinel-cables</text>
+  <text x="460" y="288" text-anchor="middle" fill="#8b949e" font-size="10">Fuzzy matching</text>
+
+  <!-- Arrow: Cables → Extract -->
+  <line x1="460" y1="250" x2="460" y2="225" stroke="#8b949e" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrow-muted)"/>
+
+  <!-- Store -->
+  <rect x="575" y="110" width="140" height="80" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+  <text x="645" y="138" text-anchor="middle" fill="#58a6ff" font-size="12" font-weight="600">sentinel-store</text>
+  <text x="645" y="158" text-anchor="middle" fill="#8b949e" font-size="10">SQLite: events,</text>
+  <text x="645" y="173" text-anchor="middle" fill="#8b949e" font-size="10">sources, measurements</text>
+
+  <!-- Arrow: Extract → Store -->
+  <line x1="530" y1="150" x2="570" y2="150" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ============================================================ -->
+  <!-- TOP RIGHT: Calypso + Web (readers of the store)              -->
+  <!-- ============================================================ -->
+
+  <!-- Calypso (top, above web) -->
+  <rect x="755" y="60" width="125" height="55" rx="6" fill="#161b22" stroke="#8b949e" stroke-dasharray="4,3"/>
+  <text x="817" y="83" text-anchor="middle" fill="#c9d1d9" font-size="12" font-weight="600">Calypso</text>
+  <text x="817" y="101" text-anchor="middle" fill="#8b949e" font-size="10">SCN inference</text>
+
+  <!-- Arrow: Store → Calypso (goes up-right, no crossing) -->
+  <path d="M 690 110 L 690 87 L 750 87" fill="none" stroke="#8b949e" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrow-muted)"/>
+
+  <!-- Web dashboard -->
+  <rect x="755" y="140" width="125" height="55" rx="6" fill="#161b22" stroke="#3fb950" stroke-width="1.5"/>
+  <text x="817" y="163" text-anchor="middle" fill="#3fb950" font-size="12" font-weight="600">sentinel-web</text>
+  <text x="817" y="181" text-anchor="middle" fill="#8b949e" font-size="10">Events by year</text>
+
+  <!-- Arrow: Store → Web -->
+  <line x1="715" y1="165" x2="750" y2="165" stroke="#3fb950" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- ============================================================ -->
+  <!-- BOTTOM RIGHT: Notifications + Bridge                         -->
+  <!-- ============================================================ -->
+
+  <!-- Notification fan-out -->
+  <rect x="575" y="250" width="140" height="110" rx="6" fill="#161b22" stroke="#d29922" stroke-width="1.5"/>
+  <text x="645" y="272" text-anchor="middle" fill="#d29922" font-size="12" font-weight="600">Notifications</text>
+  <rect x="587" y="284" width="116" height="22" rx="3" fill="#1c2333" stroke="#30363d"/>
+  <text x="645" y="300" text-anchor="middle" fill="#c9d1d9" font-size="10">Email alerts</text>
+  <rect x="587" y="310" width="116" height="22" rx="3" fill="#1c2333" stroke="#30363d"/>
+  <text x="645" y="326" text-anchor="middle" fill="#c9d1d9" font-size="10">Webhooks</text>
+  <rect x="587" y="336" width="116" height="22" rx="3" fill="#1c2333" stroke="#30363d"/>
+  <text x="645" y="352" text-anchor="middle" fill="#c9d1d9" font-size="10">File drop</text>
+
+  <!-- Arrow: Extract → Notifications -->
+  <path d="M 530 180 L 552 180 L 552 300 L 570 300" fill="none" stroke="#d29922" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Bridge -->
+  <rect x="755" y="260" width="125" height="80" rx="6" fill="#161b22" stroke="#d29922" stroke-width="1.5"/>
+  <text x="817" y="285" text-anchor="middle" fill="#d29922" font-size="12" font-weight="600">sentinel-bridge</text>
+  <text x="817" y="305" text-anchor="middle" fill="#8b949e" font-size="10">Traceroute-based</text>
+  <text x="817" y="320" text-anchor="middle" fill="#8b949e" font-size="10">path discovery</text>
+
+  <!-- Arrow: Notifications → Bridge -->
+  <line x1="715" y1="305" x2="750" y2="300" stroke="#d29922" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Feedback arrow: Bridge → Store (goes up along right side) -->
+  <path d="M 780 260 L 780 220 L 700 220 L 700 195" fill="none" stroke="#8b949e" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrow-muted)"/>
+  <text x="740" y="216" text-anchor="middle" fill="#8b949e" font-size="9">feedback</text>
+
+  <!-- ============================================================ -->
+  <!-- Legend                                                        -->
+  <!-- ============================================================ -->
+  <rect x="20" y="400" width="860" height="45" rx="6" fill="#161b22" stroke="#30363d"/>
+  <line x1="40" y1="423" x2="70" y2="423" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="78" y="427" fill="#8b949e" font-size="10">Data flow</text>
+  <line x1="170" y1="423" x2="200" y2="423" stroke="#8b949e" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrow-muted)"/>
+  <text x="208" y="427" fill="#8b949e" font-size="10">Feedback / read</text>
+  <rect x="340" y="414" width="16" height="16" rx="3" fill="none" stroke="#58a6ff" stroke-width="1.5"/>
+  <text x="362" y="427" fill="#8b949e" font-size="10">Core pipeline</text>
+  <rect x="470" y="414" width="16" height="16" rx="3" fill="none" stroke="#d29922" stroke-width="1.5"/>
+  <text x="492" y="427" fill="#8b949e" font-size="10">Notification / integration</text>
+  <rect x="650" y="414" width="16" height="16" rx="3" fill="none" stroke="#3fb950" stroke-width="1.5"/>
+  <text x="672" y="427" fill="#8b949e" font-size="10">Dashboard</text>
+  <rect x="760" y="414" width="16" height="16" rx="3" fill="none" stroke="#8b949e" stroke-dasharray="4,3"/>
+  <text x="782" y="427" fill="#8b949e" font-size="10">External system</text>
+</svg>

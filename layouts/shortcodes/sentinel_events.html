@@ -1,0 +1,98 @@
+{{/* Renders Sentinel events grouped by year, collapsible. */}}
+{{/* Data source: data/sentinel/events.json */}}
+
+{{ $events := site.Data.sentinel.events }}
+{{ $total := len $events }}
+
+{{/* Collect unique years */}}
+{{ $yearSet := slice }}
+{{ range $events }}
+  {{ $dateStr := .event_start | default .first_detected | default "" }}
+  {{ $year := "Unknown" }}
+  {{ if ge (len $dateStr) 4 }}
+    {{ $year = substr $dateStr 0 4 }}
+  {{ end }}
+  {{ if not (in $yearSet $year) }}
+    {{ $yearSet = append $year $yearSet }}
+  {{ end }}
+{{ end }}
+
+{{ $years := sort $yearSet "value" "desc" }}
+{{ $numYears := len $years }}
+
+<p class="text-muted">{{ $total }} event{{ if ne $total 1 }}s{{ end }} across {{ $numYears }} year{{ if ne $numYears 1 }}s{{ end }}</p>
+
+{{ if eq $total 0 }}
+  <p><em>No events recorded yet. Events will appear here once Sentinel begins monitoring.</em></p>
+{{ end }}
+
+{{ $currentYear := now.Format "2006" }}
+
+{{ range $years }}
+  {{ $year := . }}
+  {{/* Filter events for this year */}}
+  {{ $yearEvents := slice }}
+  {{ range $events }}
+    {{ $dateStr := .event_start | default .first_detected | default "" }}
+    {{ $eventYear := "Unknown" }}
+    {{ if ge (len $dateStr) 4 }}
+      {{ $eventYear = substr $dateStr 0 4 }}
+    {{ end }}
+    {{ if eq $eventYear $year }}
+      {{ $yearEvents = append . $yearEvents }}
+    {{ end }}
+  {{ end }}
+
+  <details{{ if eq $year $currentYear }} open{{ end }}>
+    <summary>
+      <strong>{{ $year }}</strong>
+      <span class="badge bg-secondary ms-1">{{ len $yearEvents }}</span>
+    </summary>
+    <div class="table-responsive mt-2 mb-3">
+      <table class="table table-sm table-hover">
+        <thead>
+          <tr>
+            <th>Cable</th>
+            <th>Type</th>
+            <th>Severity</th>
+            <th>Status</th>
+            <th>Confidence</th>
+            <th>Countries</th>
+            <th>Date</th>
+            <th>Sources</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range $yearEvents }}
+            <tr>
+              <td><strong>{{ .cable_name }}</strong></td>
+              <td>{{ .event_type }}</td>
+              <td>
+                {{ if eq .severity "Critical" }}<span class="badge bg-danger">{{ .severity }}</span>
+                {{ else if eq .severity "Major" }}<span class="badge bg-warning text-dark">{{ .severity }}</span>
+                {{ else if eq .severity "Minor" }}<span class="badge bg-success">{{ .severity }}</span>
+                {{ else }}<span class="badge bg-secondary">{{ .severity }}</span>
+                {{ end }}
+              </td>
+              <td>{{ .status }}</td>
+              <td>{{ .confidence }}</td>
+              <td>{{ delimit .affected_countries ", " }}</td>
+              <td>
+                {{ $d := .event_start | default .first_detected | default "—" }}
+                {{ if ge (len $d) 10 }}{{ substr $d 0 10 }}{{ else }}{{ $d }}{{ end }}
+              </td>
+              <td>
+                {{ $sources := .sources | default slice }}
+                {{ range $sources }}
+                  {{ $title := .title | default .source_name | default "source" }}
+                  <a href="{{ .url }}" target="_blank" rel="noopener">{{ $title }}</a>{{ if not (eq . (index $sources (sub (len $sources) 1))) }}, {{ end }}
+                {{ end }}
+                {{ if eq (len $sources) 0 }}—{{ end }}
+              </td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </details>
+{{ end }}
