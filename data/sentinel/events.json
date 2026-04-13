@@ -1,0 +1,1987 @@
+[
+  {
+    "cable_name": "EAC-C2C",
+    "event_start": "2026-03-17",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "27.9km from Bali, New Taipei City",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://focustaiwan.tw/sci-tech/202509020025",
+        "title": "Chunghwa Telecom reassures cable services unaffected after failure reports",
+        "source_name": "Focus Taiwan"
+      }
+    ]
+  },
+  {
+    "cable_name": "Asia Pacific Gateway (APG)",
+    "event_start": "2026-03-15",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "S1.9 segment, 60km from Kuantan, Malaysia",
+    "affected_countries": [
+      "Malaysia"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.submarinenetworks.com/en/systems/intra-asia/apg",
+        "title": "APG Cable System",
+        "source_name": "Submarine Networks"
+      }
+    ]
+  },
+  {
+    "cable_name": "Taiwan Penghu Kinmen Matsu No.2 (TPKM2)",
+    "event_start": "2026-03-07",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "23.6km from Tamsui and Shalun",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://globaltaiwan.org/2025/06/taiwans-digital-vulnerabilities/",
+        "title": "Taiwan's Digital Vulnerabilities",
+        "source_name": "Global Taiwan Institute"
+      }
+    ]
+  },
+  {
+    "cable_name": "Taiwan Penghu Kinmen Matsu No.3 (TPKM3)",
+    "event_start": "2026-02-25",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "14.7km off the coast of Beimen, Tainan",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.voanews.com/a/chinese-vessel-suspected-of-damaging-undersea-cable-near-taiwan/7926977.html",
+        "title": "Chinese vessel suspected of damaging undersea cable near Taiwan",
+        "source_name": "VOA News"
+      }
+    ]
+  },
+  {
+    "cable_name": "Asia Africa Europe-1 (AAE-1)",
+    "event_start": "2026-02-15",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "off the coast of Thailand",
+    "affected_countries": [
+      "Thailand"
+    ],
+    "affected_regions": [
+      "Europe-Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.submarinenetworks.com/en/systems/intra-asia/apg/aae-1-and-apg-submarine-cables-disrupted,-impacting-vietnam%E2%80%99s-internet",
+        "title": "AAE-1 and APG submarine cables disrupted, impacting Vietnam's Internet",
+        "source_name": "Submarine Networks"
+      }
+    ]
+  },
+  {
+    "cable_name": "Trans-Pacific Express (TPE)",
+    "event_start": "2026-02-01",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "706km from Qingdao, China",
+    "affected_countries": [
+      "China"
+    ],
+    "affected_regions": [
+      "Trans-Pacific"
+    ],
+    "sources": [
+      {
+        "url": "https://thediplomat.com/2025/01/another-severed-submarine-cable-raises-alarm-in-taiwan/",
+        "title": "Another Severed Submarine Cable Raises Alarm in Taiwan",
+        "source_name": "The Diplomat"
+      }
+    ],
+    "event_end": "2026-03-01",
+    "repair_duration_days": 28
+  },
+  {
+    "cable_name": "EAC-C2C",
+    "event_start": "2026-01-26",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Minor",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.submarinenetworks.com/en/systems/intra-asia/eac-c2c",
+        "title": "EAC-C2C Cable System",
+        "source_name": "Submarine Networks"
+      }
+    ],
+    "event_end": "2026-01-26"
+  },
+  {
+    "cable_name": "INDIGO-West",
+    "event_start": "2026-01-20",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "",
+    "affected_countries": [
+      "Australia",
+      "Singapore"
+    ],
+    "affected_regions": [
+      "Oceania"
+    ],
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/indigo-west-subsea-cable-undergoing-repairs/",
+        "title": "Indigo West subsea cable undergoing repairs",
+        "source_name": "DCD"
+      },
+      {
+        "url": "https://www.neptune.net.au/news/update-on-routes-to-singapore-and-southeast-asia",
+        "title": "Update on routes to Singapore and Southeast Asia",
+        "source_name": "Neptune Internet"
+      }
+    ]
+  },
+  {
+    "cable_name": "West Africa Cable System (WACS)",
+    "event_start": "2026-01-14",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "1H between Pointe Noire (CG) and Muanda (DRC)",
+    "affected_countries": [
+      "Congo",
+      "DRC"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/wacs-cable-undergoes-repairs-off-african-coast/",
+        "title": "WACS Cable Undergoes Repairs Off African Coast",
+        "source_name": "SubTel Forum"
+      }
+    ]
+  },
+  {
+    "cable_name": "Apricot",
+    "event_start": "2026-01-03",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "S6 Section, 47.7km from Toucheng, Yilan",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://globaltaiwan.org/2025/06/taiwans-digital-vulnerabilities/",
+        "title": "Taiwan's Digital Vulnerabilities",
+        "source_name": "Global Taiwan Institute"
+      }
+    ]
+  },
+  {
+    "cable_name": "FLAG North Asia Loop/REACH North Asia Loop",
+    "event_start": "2025-12-28",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "160km from Toucheng, Yilan",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.aljazeera.com/news/2025/12/24/china-probe-finds-taiwanese-men-controlled-ship-that-cut-undersea-cables",
+        "title": "China probe finds Taiwanese men controlled ship that cut undersea cables",
+        "source_name": "Al Jazeera"
+      }
+    ]
+  },
+  {
+    "cable_name": "EAC-C2C",
+    "event_start": "2025-12-26",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "Section 2B1 (Taiwan-Philippines), 323km from Bali, New Taipei City",
+    "affected_countries": [
+      "Taiwan",
+      "Philippines"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://focustaiwan.tw/sci-tech/202509020025",
+        "title": "Chunghwa Telecom reassures cable services unaffected after failure reports",
+        "source_name": "Focus Taiwan"
+      }
+    ]
+  },
+  {
+    "cable_name": "Trans-Pacific Express (TPE)",
+    "event_start": "2025-12-25",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "S1S Segment in Chongming District, 72.3km from Chongming Island",
+    "affected_countries": [
+      "China"
+    ],
+    "affected_regions": [
+      "Trans-Pacific"
+    ],
+    "sources": [
+      {
+        "url": "https://thediplomat.com/2025/01/another-severed-submarine-cable-raises-alarm-in-taiwan/",
+        "title": "Another Severed Submarine Cable Raises Alarm in Taiwan",
+        "source_name": "The Diplomat"
+      }
+    ]
+  },
+  {
+    "cable_name": "EAC-C2C",
+    "event_start": "2025-12-24",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "Seg C line towards Hong Kong (563km from TW CLS)",
+    "affected_countries": [
+      "Taiwan",
+      "Hong Kong"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.submarinenetworks.com/en/systems/intra-asia/eac-c2c",
+        "title": "EAC-C2C Cable System",
+        "source_name": "Submarine Networks"
+      }
+    ]
+  },
+  {
+    "cable_name": "APCN-2",
+    "event_start": "2025-12-21",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "S4A segment to mainland China",
+    "affected_countries": [
+      "China"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://moda.gov.tw/en/press/press-releases/18412",
+        "title": "Submarines Cables Damaged after Earthquake, MODA: Backup Activated",
+        "source_name": "Taiwan MODA"
+      }
+    ],
+    "event_end": "2026-01-08",
+    "repair_duration_days": 18
+  },
+  {
+    "cable_name": "Asia Pacific Gateway (APG)",
+    "event_start": "2025-12-15",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "S9 Segment",
+    "affected_countries": [
+      "Singapore"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/aag-still-not-fixed-and-apg-now-has-another-fault/",
+        "title": "AAG Still Not Fixed And APG Now Has Another Fault",
+        "source_name": "SubTel Forum"
+      }
+    ]
+  },
+  {
+    "cable_name": "INDIGO-West",
+    "event_start": "2025-12-02",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "between two subsea repeaters around 725km from Singapore",
+    "affected_countries": [
+      "Australia",
+      "Singapore"
+    ],
+    "affected_regions": [
+      "Oceania"
+    ],
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/indigo-west-subsea-cable-undergoing-repairs/",
+        "title": "Indigo West subsea cable undergoing repairs",
+        "source_name": "DCD"
+      },
+      {
+        "url": "https://www.vibewire.com.au/?p=327722",
+        "title": "Indigo-West Submarine Cable System Fault (Perth to Singapore)",
+        "source_name": "VibeWire"
+      },
+      {
+        "url": "https://www.neptune.net.au/news/update-on-routes-to-singapore-and-southeast-asia",
+        "title": "Update on routes to Singapore and Southeast Asia",
+        "source_name": "Neptune Internet"
+      }
+    ],
+    "event_end": "2026-01-20",
+    "repair_duration_days": 49
+  },
+  {
+    "cable_name": "Taiwan Strait Express-1 (TSE-1)",
+    "event_start": "2025-10-27",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "156km from Tamsui",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://globaltaiwan.org/2025/06/taiwans-digital-vulnerabilities/",
+        "title": "Taiwan's Digital Vulnerabilities",
+        "source_name": "Global Taiwan Institute"
+      }
+    ]
+  },
+  {
+    "cable_name": "Taiwan Penghu Kinmen Matsu No.2 (TPKM2)",
+    "event_start": "2025-10-07",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "180km from Danshui Shalun",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://globaltaiwan.org/2025/06/taiwans-digital-vulnerabilities/",
+        "title": "Taiwan's Digital Vulnerabilities",
+        "source_name": "Global Taiwan Institute"
+      }
+    ]
+  },
+  {
+    "cable_name": "SHEFA-2",
+    "event_start": "2025-10-03",
+    "event_type": "Cut",
+    "cause": "Storm Amy",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "",
+    "affected_countries": [
+      "United Kingdom"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ispreview.co.uk/index.php/2025/10/broadband-outages-on-shetland-after-second-subsea-fibre-break-in-3-months.html",
+        "title": "Broadband Outages on Shetland After Second Subsea Fibre Break",
+        "source_name": "ISPreview"
+      },
+      {
+        "url": "https://www.shetlandtimes.co.uk/news/customers-abandon-internet-providers-after-learning-shetland-416503/",
+        "title": "Shetland internet customers told Shefa-2 cable could take two weeks to repair",
+        "source_name": "Shetland Times"
+      }
+    ],
+    "event_end": "2025-10-29",
+    "repair_duration_days": 26
+  },
+  {
+    "cable_name": "BT Highlands and Islands Submarine Cable System",
+    "event_start": "2025-10-03",
+    "event_type": "Cut",
+    "cause": "Storm Amy",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "",
+    "affected_countries": [
+      "United Kingdom"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ispreview.co.uk/index.php/2025/10/broadband-outages-on-shetland-after-second-subsea-fibre-break-in-3-months.html",
+        "title": "Broadband Outages on Shetland After Second Subsea Fibre Break",
+        "source_name": "ISPreview"
+      }
+    ],
+    "event_end": "2025-11-18",
+    "repair_duration_days": 46
+  },
+  {
+    "cable_name": "Chennai-Andaman & Nicobar Islands Cable (CANI)",
+    "event_start": "2025-09-20",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "Car Nicobar-Kamorta segment",
+    "affected_countries": [
+      "India"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://nicobartimes.com/local-news/cani-submarine-cable-outage-in-car-nicobar-kamorta-segment-highlights-need-for-secondary-backup-cable-to-ensure-uninterrupted-connectivity/",
+        "title": "CANI Submarine Cable Outage in Car Nicobar-Kamorta Segment",
+        "source_name": "Nicobar Times"
+      },
+      {
+        "url": "https://subtelforum.com/asean-restorer-to-repair-cani-cable-near-nicobar/",
+        "title": "ASEAN Restorer to Repair CANI Cable Near Nicobar",
+        "source_name": "SubTel Forum"
+      }
+    ],
+    "event_end": "2025-10-22",
+    "repair_duration_days": 32
+  },
+  {
+    "cable_name": "FLAG North Asia Loop/REACH North Asia Loop",
+    "event_start": "2025-09-15",
+    "event_type": "Cut",
+    "cause": "Cable deterioration",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "40km from Toucheng",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://globaltaiwan.org/2025/06/taiwans-digital-vulnerabilities/",
+        "title": "Taiwan's Digital Vulnerabilities",
+        "source_name": "Global Taiwan Institute"
+      }
+    ],
+    "event_end": "2025-10-31",
+    "repair_duration_days": 46
+  },
+  {
+    "cable_name": "Europe India Gateway (EIG)",
+    "event_start": "2025-09-09",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "off the coast of Yemen",
+    "affected_countries": [
+      "Yemen"
+    ],
+    "affected_regions": [
+      "Europe-Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.euronews.com/next/2025/09/08/what-do-we-know-about-internet-disruptions-from-cut-subsea-cables-in-the-red-sea",
+        "title": "What do we know about internet disruptions from cut subsea cables in the Red Sea",
+        "source_name": "Euronews"
+      },
+      {
+        "url": "https://complexdiscovery.com/red-sea-cable-cuts-disrupt-connectivity-and-expose-global-infrastructure-risks/",
+        "title": "Red Sea Cable Cuts Disrupt Connectivity and Expose Global Infrastructure Risks",
+        "source_name": "ComplexDiscovery"
+      }
+    ],
+    "event_end": "2026-03-01",
+    "repair_duration_days": 173
+  },
+  {
+    "cable_name": "FALCON",
+    "event_start": "2025-09-08",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "near Jeddah, Saudi Arabia",
+    "affected_countries": [
+      "Saudi Arabia"
+    ],
+    "affected_regions": [
+      "Middle East"
+    ],
+    "sources": [
+      {
+        "url": "https://gulfbusiness.com/en/2025/tech/internet-slowdown-why-red-seas-smw4-imewe-cables-matter/",
+        "title": "Internet slowdown: Why the Red Sea's SMW4 and IMEWE cables matter",
+        "source_name": "Gulf Business"
+      }
+    ],
+    "event_end": "2026-02-05",
+    "repair_duration_days": 150
+  },
+  {
+    "cable_name": "SeaMeWe-4",
+    "event_start": "2025-09-06",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "near Jeddah, Saudi Arabia",
+    "affected_countries": [
+      "Saudi Arabia"
+    ],
+    "affected_regions": [
+      "Europe-Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nbcnews.com/world/middle-east/internet-disrupted-undersea-cables-cut-red-sea-internet-asia-mideast-rcna229608",
+        "title": "Undersea cables cut in the Red Sea, disrupting internet access",
+        "source_name": "NBC News"
+      },
+      {
+        "url": "https://www.tomshardware.com/tech-industry/red-sea-cable-cut-takes-azure-routes-down",
+        "title": "Multiple undersea cable cuts in the Red Sea",
+        "source_name": "Tom's Hardware"
+      },
+      {
+        "url": "https://www.networkworld.com/article/4052813/red-sea-cable-cuts-trigger-latency-for-azure-cloud-services-across-asia-and-the-middle-east.html",
+        "title": "Red Sea cable cuts trigger latency for Azure, cloud services",
+        "source_name": "Network World"
+      }
+    ]
+  },
+  {
+    "cable_name": "IMEWE",
+    "event_start": "2025-09-06",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "near Jeddah, Saudi Arabia",
+    "affected_countries": [
+      "Saudi Arabia"
+    ],
+    "affected_regions": [
+      "Europe-Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://gulfbusiness.com/en/2025/tech/internet-slowdown-why-red-seas-smw4-imewe-cables-matter/",
+        "title": "Internet slowdown: Why the Red Sea's SMW4 and IMEWE cables matter",
+        "source_name": "Gulf Business"
+      },
+      {
+        "url": "https://www.nbcnews.com/world/middle-east/internet-disrupted-undersea-cables-cut-red-sea-internet-asia-mideast-rcna229608",
+        "title": "Undersea cables cut in the Red Sea, disrupting internet access",
+        "source_name": "NBC News"
+      },
+      {
+        "url": "https://subtelforum.com/submarine-cable-cuts-disrupt-internet-services-in-pakistan/",
+        "title": "Submarine Cable Cuts Disrupt Internet Services in Pakistan",
+        "source_name": "SubTel Forum"
+      }
+    ],
+    "event_end": "2026-02-05",
+    "repair_duration_days": 152
+  },
+  {
+    "cable_name": "EAC-C2C",
+    "event_start": "2025-09-01",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "Section 2A1 (Hong Kong-Singapore) disconnected 2,850km from HKG CLS",
+    "affected_countries": [
+      "Hong Kong",
+      "Singapore"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.digitimes.com/news/a20250902PD235/taiwan-disruption-cht-cables-asia.html",
+        "title": "Submarine cable disruption affects Taiwan-Singapore traffic",
+        "source_name": "DigiTimes"
+      }
+    ],
+    "event_end": "2026-01-04",
+    "repair_duration_days": 125
+  },
+  {
+    "cable_name": "EAC-C2C",
+    "event_start": "2025-07-28",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "C2C segment, 65km from Fangshan",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://focustaiwan.tw/sci-tech/202509020025",
+        "title": "Chunghwa Telecom reassures cable services unaffected after failure reports",
+        "source_name": "Focus Taiwan"
+      }
+    ],
+    "event_end": "2025-10-09",
+    "repair_duration_days": 73
+  },
+  {
+    "cable_name": "SHEFA-2",
+    "event_start": "2025-07-26",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "9km off the coast of Orkney",
+    "affected_countries": [
+      "United Kingdom"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ispreview.co.uk/index.php/2025/07/broadband-disrupted-for-shetland-and-orkney-by-subsea-fibre-break.html",
+        "title": "Broadband Disrupted for Shetland and Orkney by Subsea Fibre Break",
+        "source_name": "ISPreview"
+      },
+      {
+        "url": "https://thefishingdaily.com/latest-news/fishing-vessel-blamed-in-orkney-faroe-subsea-cable-disruption/",
+        "title": "Fishing Vessel Blamed in Orkney-Faroe Subsea Cable Disruption",
+        "source_name": "The Fishing Daily"
+      }
+    ],
+    "event_end": "2025-08-07",
+    "repair_duration_days": 12
+  },
+  {
+    "cable_name": "Alaska United Southeast (AU-SE)",
+    "event_start": "2025-03-13",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "10 miles from Angoon",
+    "affected_countries": [
+      "United States"
+    ],
+    "affected_regions": [
+      "Other"
+    ],
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/subsea-cable-repaired-after-outage-in-sitka-alaska/",
+        "title": "Subsea cable repaired after outage in Sitka, Alaska",
+        "source_name": "DCD"
+      }
+    ],
+    "event_end": "2025-03-17",
+    "repair_duration_days": 4
+  },
+  {
+    "cable_name": "PEACE Cable",
+    "event_start": "2025-03-04",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "in the Red Sea, 1,450km from Zafarana",
+    "affected_countries": [
+      "Egypt"
+    ],
+    "affected_regions": [
+      "Europe-Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.submarinenetworks.com/en/systems/asia-europe-africa/peace/peace-cable-cut-in-the-red-sea,-repair-to-be-prolonged",
+        "title": "PEACE Cable Cut in the Red Sea",
+        "source_name": "Submarine Networks"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/peace-subsea-cable-cut-in-the-red-sea-repair-to-take-months/",
+        "title": "Peace subsea cable cut in the Red Sea",
+        "source_name": "DCD"
+      },
+      {
+        "url": "https://techweez.com/2025/03/06/peace-submarine-cable-cut/",
+        "title": "PEACE Submarine Cable Cut Disrupts East Africa",
+        "source_name": "Techweez"
+      }
+    ],
+    "event_end": "2025-03-26",
+    "repair_duration_days": 22
+  },
+  {
+    "cable_name": "NorthStar",
+    "event_start": "2025-02-28",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "",
+    "affected_countries": [
+      "United States"
+    ],
+    "affected_regions": [
+      "Other"
+    ],
+    "sources": [
+      {
+        "url": "https://www.alaskacommunications.com/-/media/Files/Press-Releases/2025/NEWS-RELEASE---Northstar-PFE-Completion-vFinal-Web.pdf",
+        "title": "Alaska Communications completes key upgrades on Northstar submarine fiberoptic",
+        "source_name": "Alaska Communications"
+      }
+    ],
+    "event_end": "2025-03-17",
+    "repair_duration_days": 17
+  },
+  {
+    "cable_name": "C-Lion1",
+    "event_start": "2025-02-19",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "Sweden Economic Zone",
+    "affected_countries": [
+      "Finland",
+      "Germany"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2025-02-21/sweden-reports-another-damaged-submarine-cable-in-baltic-sea",
+        "title": "Sweden Reports Another Damaged Submarine Cable in Baltic Sea",
+        "source_name": "Bloomberg"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2025/2/21/finland-sweden-probe-suspected-sabotage-of-undersea-telecoms-cable",
+        "title": "Finland, Sweden probe suspected sabotage of undersea telecoms cable",
+        "source_name": "Al Jazeera"
+      }
+    ],
+    "event_end": "2025-03-15",
+    "repair_duration_days": 24
+  },
+  {
+    "cable_name": "Kingisepp-Kaliningrad System (Baltika)",
+    "event_start": "2025-02-08",
+    "event_type": "Cut",
+    "cause": "External impact",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "",
+    "affected_countries": [
+      "Russia"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://militarnyi.com/en/news/russian-cable-to-kaliningrad-damaged-in-the-baltic-sea/",
+        "title": "Russian cable to Kaliningrad damaged in the Baltic Sea",
+        "source_name": "Militarnyi"
+      },
+      {
+        "url": "https://interfax.com/newsroom/top-stories/109804/",
+        "title": "Rostelecom completes repairs of submarine cable in Baltic Sea",
+        "source_name": "Interfax"
+      }
+    ],
+    "event_end": "2025-02-14",
+    "repair_duration_days": 6
+  },
+  {
+    "cable_name": "Asia Pacific Gateway (APG)",
+    "event_start": "2025-02-01",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "S1.9 branch",
+    "affected_countries": [
+      "Malaysia"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/aag-still-not-fixed-and-apg-now-has-another-fault/",
+        "title": "AAG Still Not Fixed And APG Now Has Another Fault",
+        "source_name": "SubTel Forum"
+      }
+    ],
+    "event_end": "2025-04-30",
+    "repair_duration_days": 88
+  },
+  {
+    "cable_name": "Darwin-Jakarta-Singapore Cable (DJSC)",
+    "event_start": "2025-01-28",
+    "event_type": "Cut",
+    "cause": "Anchor",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "off the coast of Port Hedland",
+    "affected_countries": [
+      "Australia"
+    ],
+    "affected_regions": [
+      "Oceania"
+    ],
+    "sources": [
+      {
+        "url": "https://www.vocus.com.au/vocus-blog/ship-happens-repairing-australias-submarine-internet-lifelines",
+        "title": "Ship Happens: Repairing Australia's Submarine Internet Lifelines",
+        "source_name": "Vocus"
+      }
+    ],
+    "event_end": "2025-03-02",
+    "repair_duration_days": 33
+  },
+  {
+    "cable_name": "North-West Cable System",
+    "event_start": "2025-01-28",
+    "event_type": "Cut",
+    "cause": "Anchor",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "",
+    "affected_countries": [
+      "Australia"
+    ],
+    "affected_regions": [
+      "Oceania"
+    ],
+    "sources": [
+      {
+        "url": "https://www.vocus.com.au/vocus-blog/ship-happens-repairing-australias-submarine-internet-lifelines",
+        "title": "Ship Happens: Repairing Australia's Submarine Internet Lifelines",
+        "source_name": "Vocus"
+      }
+    ],
+    "event_end": "2025-02-28",
+    "repair_duration_days": 31
+  },
+  {
+    "cable_name": "Sweden-Latvia",
+    "event_start": "2025-01-26",
+    "event_type": "Cut",
+    "cause": "External force",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "between Latvian town of Ventspils to Sweden's Gotland island within Sweden's exclusive economic zone",
+    "affected_countries": [
+      "Sweden",
+      "Latvia"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://edition.cnn.com/2025/01/26/europe/latvia-baltic-undersea-cable-intl-latam",
+        "title": "Baltic undersea cable likely damaged by external force, Latvia says",
+        "source_name": "CNN"
+      },
+      {
+        "url": "https://www.euronews.com/my-europe/2025/01/26/damage-to-a-cable-between-sweden-and-latvia-von-der-leyen-infrastructure-safety-a-priority",
+        "title": "Sweden-Latvia undersea data cable damaged",
+        "source_name": "Euronews"
+      },
+      {
+        "url": "https://www.france24.com/en/europe/20250126-another-data-cable-damaged-in-baltic-sea-latvia-dispatches-warship",
+        "title": "Sweden launches sabotage probe after another data cable damaged in Baltic Sea",
+        "source_name": "France 24"
+      }
+    ],
+    "event_end": "2025-02-28",
+    "repair_duration_days": 33
+  },
+  {
+    "cable_name": "Taiwan Penghu Kinmen Matsu No.2 (TPKM2)",
+    "event_start": "2025-01-22",
+    "event_type": "Cut",
+    "cause": "Natural deterioration",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "between Taiwan and Matsu",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cnn.com/2025/01/09/china/undersea-cable-taiwan-intl-hnk/index.html",
+        "title": "A cut undersea internet cable is making Taiwan worried about 'gray zone' tactics",
+        "source_name": "CNN"
+      }
+    ],
+    "event_end": "2025-03-14",
+    "repair_duration_days": 51
+  },
+  {
+    "cable_name": "Taiwan Penghu Kinmen Matsu No.3 (TPKM3)",
+    "event_start": "2025-01-15",
+    "event_type": "Cut",
+    "cause": "Natural deterioration",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "between Taiwan and Matsu",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://thediplomat.com/2025/01/another-severed-submarine-cable-raises-alarm-in-taiwan/",
+        "title": "Another Severed Submarine Cable Raises Alarm in Taiwan",
+        "source_name": "The Diplomat"
+      },
+      {
+        "url": "https://www.voanews.com/a/chinese-vessel-suspected-of-damaging-undersea-cable-near-taiwan/7926977.html",
+        "title": "Chinese vessel suspected of damaging undersea cable near Taiwan",
+        "source_name": "VOA News"
+      }
+    ],
+    "event_end": "2025-03-02",
+    "repair_duration_days": 46
+  },
+  {
+    "cable_name": "Quintillion Subsea Cable Network",
+    "event_start": "2025-01-10",
+    "event_type": "Cut",
+    "cause": "Ice scour",
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "near Prudhoe Bay",
+    "affected_countries": [
+      "United States"
+    ],
+    "affected_regions": [
+      "Other"
+    ],
+    "sources": [
+      {
+        "url": "https://alaskapublic.org/news/2025-01-21/internet-disruptions-reported-in-western-alaska-due-to-apparent-subsea-cable-break",
+        "title": "Internet disruptions reported in Northwest Alaska due to subsea cable break",
+        "source_name": "Alaska Public Media"
+      },
+      {
+        "url": "https://broadbandbreakfast.com/at-last-quintillion-completes-arctic-cable-repair/",
+        "title": "At Last, Quintillion Completes Arctic Cable Repair",
+        "source_name": "Broadband Breakfast"
+      },
+      {
+        "url": "https://alaskapublic.org/news/economy/2025-08-19/severed-subsea-internet-line-near-prudhoe-bay-to-be-repaired",
+        "title": "Severed subsea internet line near Prudhoe Bay to be repaired",
+        "source_name": "Alaska Public Media"
+      }
+    ],
+    "event_end": "2025-10-17",
+    "repair_duration_days": 280
+  },
+  {
+    "cable_name": "FALCON",
+    "event_start": "2025-01-04",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "",
+    "affected_countries": [
+      "Kuwait",
+      "Saudi Arabia"
+    ],
+    "affected_regions": [
+      "Middle East"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/kuwait-internet-restored-after-submarine-cable-disruption/",
+        "title": "Kuwait Internet Restored After Submarine Cable Disruption",
+        "source_name": "SubTel Forum"
+      }
+    ],
+    "event_end": "2025-01-18",
+    "repair_duration_days": 14
+  },
+  {
+    "cable_name": "Trans-Pacific Express (TPE)",
+    "event_start": "2025-01-03",
+    "event_type": "Cut",
+    "cause": "Ship/anchor",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "close to the port of Keelung on Taiwan's north coast",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Trans-Pacific"
+    ],
+    "sources": [
+      {
+        "url": "https://www.washingtontimes.com/news/2025/jan/6/taiwan-says-chinese-owned-ship-damaged-undersea-in/",
+        "title": "Taiwan says Chinese-owned ship damaged undersea internet cable",
+        "source_name": "Washington Times"
+      },
+      {
+        "url": "https://www.voanews.com/a/chinese-vessel-suspected-of-damaging-undersea-cable-near-taiwan/7926977.html",
+        "title": "Chinese vessel suspected of damaging undersea cable near Taiwan",
+        "source_name": "VOA News"
+      },
+      {
+        "url": "https://www.nbcnews.com/news/world/undersea-cables-are-cut-suspicion-falls-russian-chinese-vessels-rcna187105",
+        "title": "When American allies' undersea cables are severed, suspicion falls on Russia and China",
+        "source_name": "NBC News"
+      },
+      {
+        "url": "https://www.twz.com/news-features/taiwan-coast-guard-blames-chinese-owned-ship-for-cutting-undersea-communications-cable",
+        "title": "Taiwan Coast Guard Blames Chinese-Owned Ship For Cutting Undersea Cable",
+        "source_name": "The War Zone"
+      }
+    ],
+    "event_end": "2025-02-03",
+    "repair_duration_days": 31
+  },
+  {
+    "cable_name": "Tata TGN-Intra Asia (TGN-IA)",
+    "event_start": "2024-12-26",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "S1 branch between Vietnam and Singapore; 190km from Singapore CLS",
+    "affected_countries": [
+      "Vietnam",
+      "Singapore"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.tanocable.com/news/tgn-ia-submarine-cable-system.html",
+        "title": "TGN-IA Submarine Cable System Malfunction in Singapore-Vietnam Section",
+        "source_name": "TanoCable"
+      },
+      {
+        "url": "https://subtelforum.com/repairs-to-vietnam-submarine-cables-rescheduled/",
+        "title": "Repairs to Vietnam Submarine Cables Rescheduled",
+        "source_name": "SubTel Forum"
+      }
+    ],
+    "event_end": "2025-02-28",
+    "repair_duration_days": 64
+  },
+  {
+    "cable_name": "C-Lion1",
+    "event_start": "2024-12-26",
+    "event_type": "Cut",
+    "cause": "Ship/anchor",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "Gulf of Finland, southeast of Porkkalanniemi",
+    "affected_countries": [
+      "Finland",
+      "Estonia"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://www.npr.org/2024/12/31/nx-s1-5243302/finland-russia-severed-undersea-cable-shadow-fleet",
+        "title": "What to know about Finland, Russia's shadow fleet and a severed undersea cable",
+        "source_name": "NPR"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2024/12/27/did-a-russian-shadow-ship-cut-the-finland-estonia-undersea-baltic-cable",
+        "title": "Did a Russian shadow ship cut the Finland-Estonia undersea Baltic cable?",
+        "source_name": "Al Jazeera"
+      },
+      {
+        "url": "https://www.cbsnews.com/news/eagle-s-baltic-cut-cable-investigation-russia-ties-60-minutes/",
+        "title": "Authorities investigate possible Russian hybrid warfare after oil tanker cuts undersea cables",
+        "source_name": "CBS News"
+      },
+      {
+        "url": "https://www.submarinenetworks.com/en/nv/insights/finland-charges-russian-linked-ship-officers-over-baltic-sea-cable-sabotage",
+        "title": "Finland Charges Russian-Linked Ship Officers Over Baltic Sea Cable Sabotage",
+        "source_name": "Submarine Networks"
+      }
+    ],
+    "event_end": "2025-01-07",
+    "repair_duration_days": 12
+  },
+  {
+    "cable_name": "Baltic Sea Submarine Cable",
+    "event_start": "2024-12-26",
+    "event_type": "Cut",
+    "cause": "Ship/anchor",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "between Finland and Estonia in the Gulf of Finland",
+    "affected_countries": [
+      "Finland",
+      "Estonia"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://www.npr.org/2024/12/27/g-s1-40114/finland-russia-vessel-undersea-cables",
+        "title": "Finland detains Russia-linked vessel over damaged undersea power cable in Baltic Sea",
+        "source_name": "NPR"
+      },
+      {
+        "url": "https://www.nbcnews.com/news/world/finland-russia-tanker-undersea-cut-nato-baltics-rcna185530",
+        "title": "Finland seizes Russia-linked tanker suspected of cutting vital undersea cables",
+        "source_name": "NBC News"
+      }
+    ],
+    "event_end": "2025-01-07",
+    "repair_duration_days": 12
+  },
+  {
+    "cable_name": "Finland Estonia Connection 1 (FEC-1)",
+    "event_start": "2024-12-26",
+    "event_type": "Cut",
+    "cause": "Ship/anchor",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "between Finland and Estonia in the Gulf of Finland",
+    "affected_countries": [
+      "Finland",
+      "Estonia"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2024_Estlink_2_incident",
+        "title": "2024 Estlink 2 incident",
+        "source_name": "Wikipedia"
+      },
+      {
+        "url": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/how-the-baltic-sea-nations-have-tackled-suspicious-cable-cuts/",
+        "title": "How the Baltic Sea nations have tackled suspicious cable cuts",
+        "source_name": "Atlantic Council"
+      }
+    ],
+    "event_end": "2025-01-06",
+    "repair_duration_days": 11
+  },
+  {
+    "cable_name": "Interchange Cable Network 1 (ICN1)",
+    "event_start": "2024-12-17",
+    "event_type": "Cut",
+    "cause": "Fire at Vanuatu landing station following 7.3 earthquake",
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "Port Vila, Vanuatu",
+    "affected_countries": [
+      "Vanuatu"
+    ],
+    "affected_regions": [
+      "Oceania"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2024_Port_Vila_earthquake",
+        "title": "2024 Port Vila earthquake",
+        "source_name": "Wikipedia"
+      },
+      {
+        "url": "https://maritime-executive.com/editorials/vanuatu-illustrates-risks-of-thin-subsea-cable-infrastructure",
+        "title": "Vanuatu Illustrates Risks of Thin Subsea Cable Infrastructure",
+        "source_name": "Maritime Executive"
+      }
+    ],
+    "event_end": "2024-12-27",
+    "repair_duration_days": 10
+  },
+  {
+    "cable_name": "Asia Pacific Gateway (APG)",
+    "event_start": "2024-12-01",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "S1.9 branch to Malaysia",
+    "affected_countries": [
+      "Malaysia"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/aag-still-not-fixed-and-apg-now-has-another-fault/",
+        "title": "AAG Still Not Fixed And APG Now Has Another Fault",
+        "source_name": "SubTel Forum"
+      }
+    ],
+    "event_end": "2025-04-30",
+    "repair_duration_days": 150
+  },
+  {
+    "cable_name": "C-Lion1",
+    "event_start": "2024-11-18",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "between Finland and Germany",
+    "affected_countries": [
+      "Finland",
+      "Germany"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cnn.com/2024/11/18/europe/undersea-cable-disrupted-germany-finland-intl/index.html",
+        "title": "Two undersea cables in Baltic Sea disrupted",
+        "source_name": "CNN"
+      },
+      {
+        "url": "https://www.washingtonpost.com/world/2024/11/19/germany-undersea-internet-cables-cut-baltic/",
+        "title": "Germany suspects sabotage after undersea internet cables damaged in Baltic",
+        "source_name": "Washington Post"
+      },
+      {
+        "url": "https://www.nbcnews.com/news/world/undersea-cables-cut-baltic-sea-hybrid-warfare-russia-germany-finland-rcna180742",
+        "title": "Undersea cables cut in Baltic Sea; U.S. allies warn of hybrid warfare",
+        "source_name": "NBC News"
+      },
+      {
+        "url": "https://www.cinia.fi/en/news/a-fault-in-the-cinia-c-lion1-submarine-cable-between-finland-and-germany",
+        "title": "A fault in the Cinia C-Lion1 submarine cable",
+        "source_name": "Cinia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2024_Baltic_Sea_submarine_cable_disruptions",
+        "title": "2024 Baltic Sea submarine cable disruptions",
+        "source_name": "Wikipedia"
+      }
+    ],
+    "event_end": "2024-11-28",
+    "repair_duration_days": 10
+  },
+  {
+    "cable_name": "BCS East-West Interlink",
+    "event_start": "2024-11-17",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "",
+    "affected_countries": [
+      "Lithuania",
+      "Sweden"
+    ],
+    "affected_regions": [
+      "Europe"
+    ],
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/bcs-east-subsea-cable-connecting-latvia-and-lithuania-damaged/",
+        "title": "BCS East subsea cable connecting Latvia and Lithuania damaged",
+        "source_name": "DCD"
+      },
+      {
+        "url": "https://totaltele.com/baltic-subsea-cable-cuts-feared-to-be-act-of-hybrid-warfare/",
+        "title": "Baltic subsea cable cuts feared to be act of hybrid warfare",
+        "source_name": "Total Telecom"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/2024_Baltic_Sea_submarine_cable_disruptions",
+        "title": "2024 Baltic Sea submarine cable disruptions",
+        "source_name": "Wikipedia"
+      }
+    ],
+    "event_end": "2024-11-28",
+    "repair_duration_days": 11
+  },
+  {
+    "cable_name": "FALCON",
+    "event_start": "2024-09-25",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "between Kuwait and Al-Khobar, Saudi Arabia",
+    "affected_countries": [
+      "Kuwait",
+      "Saudi Arabia"
+    ],
+    "affected_regions": [
+      "Middle East"
+    ],
+    "sources": [
+      {
+        "url": "https://www.kuna.net.kw/ArticleDetails.aspx?id=3184003&language=en",
+        "title": "CITRA: Outage in International cable Falcon causes Internet issues",
+        "source_name": "KUNA"
+      },
+      {
+        "url": "https://subtelforum.com/kuwait-internet-restored-after-submarine-cable-disruption/",
+        "title": "Kuwait Internet Restored After Submarine Cable Disruption",
+        "source_name": "SubTel Forum"
+      }
+    ],
+    "event_end": "2024-09-29",
+    "repair_duration_days": 4
+  },
+  {
+    "cable_name": "Taiwan Penghu Kinmen Matsu No.2 (TPKM2)",
+    "event_start": "2024-09-22",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "",
+    "affected_countries": [
+      "Taiwan"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://globaltaiwan.org/2025/06/taiwans-digital-vulnerabilities/",
+        "title": "Taiwan's Digital Vulnerabilities",
+        "source_name": "Global Taiwan Institute"
+      }
+    ],
+    "event_end": "2025-03-14",
+    "repair_duration_days": 173
+  },
+  {
+    "cable_name": "Alaska United East (AU-East)",
+    "event_start": "2024-08-29",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "30 miles off Sitka",
+    "affected_countries": [
+      "United States"
+    ],
+    "affected_regions": [
+      "Other"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/alaska-communications-subsea-cable-breaks-in-southeast-alaska/",
+        "title": "Alaska Communications' Subsea Cable Breaks in Southeast Alaska",
+        "source_name": "SubTel Forum"
+      }
+    ]
+  },
+  {
+    "cable_name": "Tonga Domestic Cable Extension (TDCE)",
+    "event_start": "2024-06-29",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Reported",
+    "confidence": "High",
+    "fault_description": "",
+    "affected_countries": [
+      "Tonga"
+    ],
+    "affected_regions": [
+      "Oceania"
+    ],
+    "sources": [
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/tongas-only-domestic-subsea-suffers-another-outage-could-take-weeks-to-repair/",
+        "title": "Tonga's only domestic subsea cable suffers another outage",
+        "source_name": "DCD"
+      },
+      {
+        "url": "https://developingtelecoms.com/telecom-technology/optical-fixed-networks/16989-tonga-suffers-internet-disruptions-after-domestic-subsea-cable-break.html",
+        "title": "Tonga suffers internet disruptions after domestic subsea cable break",
+        "source_name": "Developing Telecoms"
+      }
+    ]
+  },
+  {
+    "cable_name": "Maya-1",
+    "event_start": "2024-06-21",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "between Isla Mujeres and Cozumel",
+    "affected_countries": [
+      "Mexico",
+      "Cayman Islands"
+    ],
+    "affected_regions": [
+      "Latin America"
+    ],
+    "sources": [
+      {
+        "url": "https://www.caymancompass.com/2024/09/13/caymans-connectivity-now-at-full-strength-following-maya-1-repairs/",
+        "title": "Cayman's connectivity now at full strength following Maya-1 repairs",
+        "source_name": "Cayman Compass"
+      },
+      {
+        "url": "https://blackboxinsight.org/finance-committee-approves-4-4-million-for-submarine-cable-consultation-while-ofreg-shares-further-details-on-damage-to-maya-1-submarine-cable-during-2024/",
+        "title": "OfReg Shares Further Details On Damage To MAYA-1 Submarine Cable During 2024",
+        "source_name": "Blackbox Insights"
+      }
+    ],
+    "event_end": "2024-09-11",
+    "repair_duration_days": 82
+  },
+  {
+    "cable_name": "Tata TGN-Intra Asia (TGN-IA)",
+    "event_start": "2024-06-13",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "S1 and S5 branches",
+    "affected_countries": [
+      "Vietnam",
+      "Singapore"
+    ],
+    "affected_regions": [
+      "Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/repairs-to-vietnam-submarine-cables-rescheduled/",
+        "title": "Repairs to Vietnam Submarine Cables Rescheduled",
+        "source_name": "SubTel Forum"
+      }
+    ],
+    "event_end": "2024-09-30",
+    "repair_duration_days": 109
+  },
+  {
+    "cable_name": "Asia Africa Europe-1 (AAE-1)",
+    "event_start": "2024-06-12",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Major",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "S1H3 branch connecting Cambodia and Vietnam",
+    "affected_countries": [
+      "Cambodia",
+      "Vietnam"
+    ],
+    "affected_regions": [
+      "Europe-Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.submarinenetworks.com/en/systems/intra-asia/apg/aae-1-and-apg-submarine-cables-disrupted,-impacting-vietnam%E2%80%99s-internet",
+        "title": "AAE-1 and APG submarine cables disrupted, impacting Vietnam's Internet",
+        "source_name": "Submarine Networks"
+      }
+    ],
+    "event_end": "2024-09-15",
+    "repair_duration_days": 95
+  },
+  {
+    "cable_name": "West Africa Cable System (WACS)",
+    "event_start": "2024-03-14",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "off Ivory Coast",
+    "affected_countries": [
+      "Ivory Coast",
+      "South Africa",
+      "Nigeria"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://blog.cloudflare.com/undersea-cable-failures-cause-internet-disruptions-across-africa-march-14-2024/",
+        "title": "Undersea cable failures cause Internet disruptions for multiple African countries",
+        "source_name": "Cloudflare"
+      },
+      {
+        "url": "https://www.internetsociety.org/resources/doc/2024/2024-west-africa-submarine-cable-outage-report/",
+        "title": "2024 West Africa Submarine Cable Outage Report",
+        "source_name": "Internet Society"
+      },
+      {
+        "url": "https://blog.telegeography.com/march-2024-west-africa-cable-faults",
+        "title": "Beyond the Red Sea Blues: West Africa Faces Fresh Cable Faults",
+        "source_name": "TeleGeography"
+      }
+    ],
+    "event_end": "2024-05-01",
+    "repair_duration_days": 48
+  },
+  {
+    "cable_name": "SAT-3/WASC",
+    "event_start": "2024-03-14",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "off Ivory Coast / Congo Canyon",
+    "affected_countries": [
+      "Ivory Coast",
+      "South Africa"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://blog.cloudflare.com/undersea-cable-failures-cause-internet-disruptions-across-africa-march-14-2024/",
+        "title": "Undersea cable failures cause Internet disruptions for multiple African countries",
+        "source_name": "Cloudflare"
+      },
+      {
+        "url": "https://african.business/2024/03/apo-newsfeed/disruption-to-international-submarine-cables-off-the-west-african-coast-west-africa-cable-system-wacs-south-atlantic-3-sat-3-mainone-africa-coast-to-europe-ace",
+        "title": "Disruption to international submarine cables off the West African coast",
+        "source_name": "African Business"
+      }
+    ],
+    "event_end": "2024-04-06",
+    "repair_duration_days": 23
+  },
+  {
+    "cable_name": "MainOne",
+    "event_start": "2024-03-14",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "Atlantic Ocean offshore Ivory Coast",
+    "affected_countries": [
+      "Nigeria",
+      "Ghana",
+      "Ivory Coast"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://www.channelstv.com/2024/03/16/internet-disruption-submarine-cable-repair-may-take-two-weeks-says-mainone/",
+        "title": "Submarine Cable Repair May Take Two Weeks, Says MainOne",
+        "source_name": "Channels TV"
+      },
+      {
+        "url": "https://mainone.net/mainone-announces-successful-repair-of-submarine-cable-restates-commitment-to-powering-west-africas-digital-ecosystem/",
+        "title": "MainOne Announces Successful Repair of Submarine Cable",
+        "source_name": "MainOne"
+      },
+      {
+        "url": "https://www.usnews.com/news/technology/articles/2024-03-15/african-internet-outage-was-caused-by-subsea-cable-break-mainone-says",
+        "title": "African Internet Outage Was Caused by Subsea Cable Break",
+        "source_name": "U.S. News"
+      }
+    ],
+    "event_end": "2024-04-15",
+    "repair_duration_days": 32
+  },
+  {
+    "cable_name": "Africa Coast to Europe (ACE)",
+    "event_start": "2024-03-14",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "off Ivory Coast",
+    "affected_countries": [
+      "Ivory Coast"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://blog.cloudflare.com/undersea-cable-failures-cause-internet-disruptions-across-africa-march-14-2024/",
+        "title": "Undersea cable failures cause Internet disruptions for multiple African countries",
+        "source_name": "Cloudflare"
+      }
+    ],
+    "event_end": "2024-04-20",
+    "repair_duration_days": 37
+  },
+  {
+    "cable_name": "Asia Africa Europe-1 (AAE-1)",
+    "event_start": "2024-02-24",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "Red Sea, Yemen",
+    "affected_countries": [
+      "Yemen"
+    ],
+    "affected_regions": [
+      "Europe-Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.kentik.com/blog/what-caused-the-red-sea-submarine-cable-cuts/",
+        "title": "What Caused the Red Sea Submarine Cable Cuts?",
+        "source_name": "Kentik"
+      },
+      {
+        "url": "https://blog.telegeography.com/what-we-know-and-dont-about-multiple-cable-faults-in-the-red-sea",
+        "title": "What We Know About Multiple Cable Faults in the Red Sea",
+        "source_name": "TeleGeography"
+      },
+      {
+        "url": "https://www.cnn.com/2024/03/04/business/red-sea-cables-cut-internet/index.html",
+        "title": "Red Sea cables have been damaged, disrupting internet traffic",
+        "source_name": "CNN"
+      }
+    ],
+    "event_end": "2024-07-20",
+    "repair_duration_days": 147
+  },
+  {
+    "cable_name": "Seacom/TGN-Eurasia",
+    "event_start": "2024-02-24",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "Red Sea, Yemen",
+    "affected_countries": [
+      "Yemen"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://www.kentik.com/blog/what-caused-the-red-sea-submarine-cable-cuts/",
+        "title": "What Caused the Red Sea Submarine Cable Cuts?",
+        "source_name": "Kentik"
+      },
+      {
+        "url": "https://subtelforum.com/houthis-hit-underwater-communications-cables/",
+        "title": "Houthis Hit Underwater Communications Cables",
+        "source_name": "SubTel Forum"
+      }
+    ],
+    "event_end": "2024-07-17",
+    "repair_duration_days": 144
+  },
+  {
+    "cable_name": "Europe India Gateway (EIG)",
+    "event_start": "2024-02-24",
+    "event_type": "Cut",
+    "cause": null,
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "Red Sea, Yemen",
+    "affected_countries": [
+      "Yemen"
+    ],
+    "affected_regions": [
+      "Europe-Asia"
+    ],
+    "sources": [
+      {
+        "url": "https://www.kentik.com/blog/what-caused-the-red-sea-submarine-cable-cuts/",
+        "title": "What Caused the Red Sea Submarine Cable Cuts?",
+        "source_name": "Kentik"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/at-least-one-subsea-fiber-cable-damaged-in-the-red-sea-some-reports-blame-houthi-rebels/",
+        "title": "Subsea fiber cable damaged in the Red Sea",
+        "source_name": "DCD"
+      }
+    ],
+    "event_end": "2024-07-17",
+    "repair_duration_days": 144
+  },
+  {
+    "cable_name": "West Africa Cable System (WACS)",
+    "event_start": "2023-08-06",
+    "event_type": "Cut",
+    "cause": "Rock fall/slope displacement",
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "Congo Canyon, between DRC and Cameroon",
+    "affected_countries": [
+      "DRC",
+      "Cameroon",
+      "South Africa"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/south-africa-undersea-cables-break/",
+        "title": "South Africa Undersea Cables Break",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://blog.apnic.net/2023/09/20/dual-subsea-cable-cuts-disrupt-african-internet/",
+        "title": "Dual subsea cable cuts disrupt African Internet",
+        "source_name": "APNIC Blog"
+      },
+      {
+        "url": "https://technext24.com/2023/08/08/rocks-fall-break-undersea-cables/",
+        "title": "Damaged West African and South Atlantic 3 undersea cables could take months to fix",
+        "source_name": "TechNext"
+      }
+    ],
+    "event_end": "2023-10-15",
+    "repair_duration_days": 70
+  },
+  {
+    "cable_name": "SAT-3/WASC",
+    "event_start": "2023-08-06",
+    "event_type": "Cut",
+    "cause": "Rock fall/slope displacement",
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "Congo Canyon, between DRC and Cameroon",
+    "affected_countries": [
+      "DRC",
+      "South Africa"
+    ],
+    "affected_regions": [
+      "Africa"
+    ],
+    "sources": [
+      {
+        "url": "https://subtelforum.com/south-africa-undersea-cables-break/",
+        "title": "South Africa Undersea Cables Break",
+        "source_name": "SubTel Forum"
+      },
+      {
+        "url": "https://technext24.com/2023/08/08/rocks-fall-break-undersea-cables/",
+        "title": "Damaged undersea cables could take months to fix",
+        "source_name": "TechNext"
+      }
+    ],
+    "event_end": "2023-10-01",
+    "repair_duration_days": 56
+  },
+  {
+    "cable_name": "Tonga Cable System",
+    "event_start": "2022-01-15",
+    "event_type": "Cut",
+    "cause": "Hunga Tonga volcanic eruption",
+    "severity": "Critical",
+    "status": "Resolved",
+    "confidence": "High",
+    "fault_description": "37km offshore from Nuku'alofa",
+    "affected_countries": [
+      "Tonga"
+    ],
+    "affected_regions": [
+      "Oceania"
+    ],
+    "sources": [
+      {
+        "url": "https://www.npr.org/2022/01/18/1073863310/an-undersea-cable-fault-could-cut-tonga-from-the-rest-of-the-world-for-weeks",
+        "title": "An undersea cable fault could cut Tonga from the rest of the world for weeks",
+        "source_name": "NPR"
+      },
+      {
+        "url": "https://www.submarinenetworks.com/en/systems/australia-usa/tonga-cable/tonga-cable-cuts-after-volcano-eruption",
+        "title": "Tonga Cables cut after volcano eruption",
+        "source_name": "Submarine Networks"
+      },
+      {
+        "url": "https://www.voanews.com/a/volcano-damage-to-tonga-undersea-cable-worse-than-expected-/6443686.html",
+        "title": "Volcano Damage to Tonga Undersea Cable Worse Than Expected",
+        "source_name": "VOA"
+      },
+      {
+        "url": "https://news.berkeley.edu/2024/05/09/submarine-communications-cables/",
+        "title": "A volcanic eruption severed communications in Tonga",
+        "source_name": "Berkeley News"
+      }
+    ],
+    "event_end": "2022-02-22",
+    "repair_duration_days": 38
+  }
+]
