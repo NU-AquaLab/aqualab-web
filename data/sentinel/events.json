@@ -148,7 +148,7 @@
     ]
   },
   {
-    "cable_name": "Trans-Pacific Express (TPE)",
+    "cable_name": "Trans-Pacific Express (TPE) Cable System",
     "event_start": "2026-02-01",
     "event_type": "Cut",
     "cause": null,
@@ -171,30 +171,6 @@
     ],
     "event_end": "2026-03-01",
     "repair_duration_days": 28
-  },
-  {
-    "cable_name": "EAC-C2C",
-    "event_start": "2026-01-26",
-    "event_type": "Cut",
-    "cause": null,
-    "severity": "Minor",
-    "status": "Resolved",
-    "confidence": "High",
-    "fault_description": "",
-    "affected_countries": [
-      "Taiwan"
-    ],
-    "affected_regions": [
-      "Asia"
-    ],
-    "sources": [
-      {
-        "url": "https://www.submarinenetworks.com/en/systems/intra-asia/eac-c2c",
-        "title": "EAC-C2C Cable System",
-        "source_name": "Submarine Networks"
-      }
-    ],
-    "event_end": "2026-01-26"
   },
   {
     "cable_name": "INDIGO-West",
@@ -320,7 +296,7 @@
     ]
   },
   {
-    "cable_name": "Trans-Pacific Express (TPE)",
+    "cable_name": "Trans-Pacific Express (TPE) Cable System",
     "event_start": "2025-12-25",
     "event_type": "Cut",
     "cause": null,
@@ -1241,7 +1217,7 @@
     "repair_duration_days": 14
   },
   {
-    "cable_name": "Trans-Pacific Express (TPE)",
+    "cable_name": "Trans-Pacific Express (TPE) Cable System",
     "event_start": "2025-01-03",
     "event_type": "Cut",
     "cause": "Ship/anchor",
@@ -1683,7 +1659,7 @@
     ]
   },
   {
-    "cable_name": "Maya-1",
+    "cable_name": "Maya-1.2",
     "event_start": "2024-06-21",
     "event_type": "Cut",
     "cause": null,
@@ -1795,27 +1771,6 @@
     ],
     "event_end": "2024-09-15",
     "repair_duration_days": 95
-  },
-  {
-    "cable_name": "Africa Coast to Europe (ACE)",
-    "event_start": "2024-06-07",
-    "event_type": "Degradation",
-    "cause": "Shunt fault",
-    "severity": "Major",
-    "status": "Reported",
-    "confidence": "High",
-    "fault_description": "shunt fault",
-    "affected_countries": [],
-    "affected_regions": [
-      "Africa"
-    ],
-    "sources": [
-      {
-        "url": "https://subtelforum.com/category/cable-faults-maintenance/",
-        "title": "Cable Faults & Maintenance",
-        "source_name": "SubTel Forum"
-      }
-    ]
   },
   {
     "cable_name": "Eastern Africa Submarine System (EASSy)",
@@ -2089,7 +2044,7 @@
     "repair_duration_days": 147
   },
   {
-    "cable_name": "Seacom/TGN-Eurasia",
+    "cable_name": "SEACOM/Tata TGN-Eurasia",
     "event_start": "2024-02-24",
     "event_type": "Cut",
     "cause": null,
@@ -2240,7 +2195,7 @@
     "repair_duration_days": 54
   },
   {
-    "cable_name": "Baltica (Kingisepp-Kaliningrad System)",
+    "cable_name": "Kingisepp-Kaliningrad System (Baltika)",
     "event_start": "2023-10-07",
     "event_type": "Cut",
     "cause": "External influence (anchor drag by NewNew Polar Bear)",
@@ -2461,7 +2416,7 @@
     "repair_duration_days": 99
   },
   {
-    "cable_name": "Coral Sea Cable System (CS2)",
+    "cable_name": "Coral Sea Cable System (CS²)",
     "event_start": "2023-05-10",
     "event_type": "Cut",
     "cause": "Ship anchor (Fu Kuon No 808)",
@@ -2513,7 +2468,7 @@
     "sources": [
       {
         "url": "https://www.minhaoperadora.com.br/2023/03/telxius-fara-manutencao-do-cabo-submarino-rompido-na-bahia.html",
-        "title": "Telxius far\u00e1 manuten\u00e7\u00e3o do cabo submarino rompido na Bahia",
+        "title": "Telxius fará manutenção do cabo submarino rompido na Bahia",
         "source_name": "Minha Operadora (Portuguese)"
       }
     ]
@@ -2632,7 +2587,7 @@
     "repair_duration_days": 78
   },
   {
-    "cable_name": "Asia-America Gateway (AAG)",
+    "cable_name": "Asia-America Gateway (AAG) Cable System",
     "event_start": "2023-01-15",
     "event_type": "Cut",
     "cause": null,
@@ -2907,7 +2862,7 @@
     ]
   },
   {
-    "cable_name": "Asia-America Gateway (AAG)",
+    "cable_name": "Asia-America Gateway (AAG) Cable System",
     "event_start": "2022-06-30",
     "event_type": "Cut",
     "cause": null,
@@ -2983,7 +2938,7 @@
     "repair_duration_days": 38
   },
   {
-    "cable_name": "Coral Sea Cable System (CS2)",
+    "cable_name": "Coral Sea Cable System (CS²)",
     "event_start": "2022-05-22",
     "event_type": "Degradation",
     "cause": "Shunt fault detected in early 2021",
@@ -3017,7 +2972,7 @@
     ]
   },
   {
-    "cable_name": "Bass Strait-1/Bass Strait-2",
+    "cable_name": "Bass Strait-1",
     "event_start": "2022-03-01",
     "event_type": "Cut",
     "cause": "Civil works in Melbourne and roadworks in Doctors Rocks",
@@ -3048,31 +3003,6 @@
         "source_name": "iTnews"
       }
     ]
-  },
-  {
-    "cable_name": "Transworld (TW1)",
-    "event_start": "2022-02-21",
-    "event_type": "Cut",
-    "cause": "Vessel anchor",
-    "severity": "Major",
-    "status": "Resolved",
-    "confidence": "High",
-    "fault_description": "",
-    "affected_countries": [
-      "Pakistan"
-    ],
-    "affected_regions": [
-      "Middle East"
-    ],
-    "sources": [
-      {
-        "url": "https://subtelforum.com/category/cable-faults-maintenance/",
-        "title": "Cable Faults & Maintenance",
-        "source_name": "SubTel Forum"
-      }
-    ],
-    "event_end": "2022-04-01",
-    "repair_duration_days": 39
   },
   {
     "cable_name": "FALCON",
@@ -3160,7 +3090,7 @@
     "repair_duration_days": 545
   },
   {
-    "cable_name": "Tonga Cable System",
+    "cable_name": "Tonga Cable",
     "event_start": "2022-01-15",
     "event_type": "Cut",
     "cause": "Hunga Tonga volcanic eruption",
@@ -3282,7 +3212,7 @@
     ]
   },
   {
-    "cable_name": "Asia-America Gateway (AAG)",
+    "cable_name": "Asia-America Gateway (AAG) Cable System",
     "event_start": "2021-10-22",
     "event_type": "Cut",
     "cause": null,
@@ -3335,7 +3265,7 @@
     "repair_duration_days": 41
   },
   {
-    "cable_name": "Asia-America Gateway (AAG)",
+    "cable_name": "Asia-America Gateway (AAG) Cable System",
     "event_start": "2021-07-02",
     "event_type": "Cut",
     "cause": null,
@@ -3381,54 +3311,6 @@
     ],
     "event_end": "2021-07-01",
     "repair_duration_days": 37
-  },
-  {
-    "cable_name": "Europe India Gateway (EIG)",
-    "event_start": "2021-05-25",
-    "event_type": "Degradation",
-    "cause": "Equipment failure",
-    "severity": "Major",
-    "status": "Resolved",
-    "confidence": "High",
-    "fault_description": "",
-    "affected_countries": [],
-    "affected_regions": [
-      "Europe-Asia"
-    ],
-    "sources": [
-      {
-        "url": "https://subtelforum.com/category/cable-faults-maintenance/",
-        "title": "Cable Faults & Maintenance",
-        "source_name": "SubTel Forum"
-      }
-    ],
-    "event_end": "2021-06-20",
-    "repair_duration_days": 26
-  },
-  {
-    "cable_name": "Eastern Caribbean Fiber System (ECFS)",
-    "event_start": "2020-12-11",
-    "event_type": "Cut",
-    "cause": "Ship/anchor",
-    "severity": "Major",
-    "status": "Resolved",
-    "confidence": "High",
-    "fault_description": "",
-    "affected_countries": [
-      "Caribbean"
-    ],
-    "affected_regions": [
-      "Latin America"
-    ],
-    "sources": [
-      {
-        "url": "https://subtelforum.com/category/cable-faults-maintenance/",
-        "title": "Cable Faults & Maintenance",
-        "source_name": "SubTel Forum"
-      }
-    ],
-    "event_end": "2021-02-01",
-    "repair_duration_days": 52
   },
   {
     "cable_name": "COBRAcable",
@@ -3546,7 +3428,7 @@
     ]
   },
   {
-    "cable_name": "Asia-America Gateway (AAG)",
+    "cable_name": "Asia-America Gateway (AAG) Cable System",
     "event_start": "2020-04-02",
     "event_type": "Cut",
     "cause": null,
@@ -3595,29 +3477,6 @@
     ],
     "event_end": "2020-04-20",
     "repair_duration_days": 24
-  },
-  {
-    "cable_name": "Africa Coast to Europe (ACE)",
-    "event_start": "2020-03-06",
-    "event_type": "Cut",
-    "cause": null,
-    "severity": "Major",
-    "status": "Resolved",
-    "confidence": "High",
-    "fault_description": "",
-    "affected_countries": [],
-    "affected_regions": [
-      "Africa"
-    ],
-    "sources": [
-      {
-        "url": "https://subtelforum.com/category/cable-faults-maintenance/",
-        "title": "Cable Faults & Maintenance",
-        "source_name": "SubTel Forum"
-      }
-    ],
-    "event_end": "2020-04-15",
-    "repair_duration_days": 40
   },
   {
     "cable_name": "SAT-3/WASC",
@@ -3687,29 +3546,6 @@
     "repair_duration_days": 105
   },
   {
-    "cable_name": "FLAG Europe-Asia (FEA)",
-    "event_start": "2020-01-09",
-    "event_type": "Cut",
-    "cause": "Ship/anchor",
-    "severity": "Major",
-    "status": "Resolved",
-    "confidence": "High",
-    "fault_description": "",
-    "affected_countries": [],
-    "affected_regions": [
-      "Europe-Asia"
-    ],
-    "sources": [
-      {
-        "url": "https://subtelforum.com/category/cable-faults-maintenance/",
-        "title": "Cable Faults & Maintenance",
-        "source_name": "SubTel Forum"
-      }
-    ],
-    "event_end": "2020-02-15",
-    "repair_duration_days": 37
-  },
-  {
     "cable_name": "FALCON",
     "event_start": "2020-01-09",
     "event_type": "Cut",
@@ -3735,7 +3571,7 @@
     "repair_duration_days": 23
   },
   {
-    "cable_name": "Asia-America Gateway (AAG)",
+    "cable_name": "Asia-America Gateway (AAG) Cable System",
     "event_start": "2019-08-15",
     "event_type": "Cut",
     "cause": "Shunt fault",
@@ -3820,7 +3656,7 @@
     ]
   },
   {
-    "cable_name": "Tonga Cable System",
+    "cable_name": "Tonga Cable",
     "event_start": "2019-01-20",
     "event_type": "Cut",
     "cause": "Ship anchor (suspected)",
@@ -3853,7 +3689,7 @@
     ]
   },
   {
-    "cable_name": "Asia-America Gateway (AAG)",
+    "cable_name": "Asia-America Gateway (AAG) Cable System",
     "event_start": "2018-08-23",
     "event_type": "Degradation",
     "cause": "Power leakage",
@@ -3883,7 +3719,7 @@
     "repair_duration_days": 28
   },
   {
-    "cable_name": "Asia-America Gateway (AAG)",
+    "cable_name": "Asia-America Gateway (AAG) Cable System",
     "event_start": "2018-06-16",
     "event_type": "Cut",
     "cause": null,
@@ -3934,7 +3770,7 @@
       },
       {
         "url": "https://gigazine.net/gsc_news/en/20180411-ace-submarine-cable-cut",
-        "title": "ACE submarine cable cut \u2014 large-scale network failure",
+        "title": "ACE submarine cable cut — large-scale network failure",
         "source_name": "GIGAZINE"
       }
     ]
@@ -3969,7 +3805,7 @@
     ]
   },
   {
-    "cable_name": "Asia-America Gateway (AAG)",
+    "cable_name": "Asia-America Gateway (AAG) Cable System",
     "event_start": "2017-08-27",
     "event_type": "Cut",
     "cause": "Typhoon Hato / Tropical Storm Pakhar",
@@ -4071,7 +3907,7 @@
     ]
   },
   {
-    "cable_name": "Asia-America Gateway (AAG)",
+    "cable_name": "Asia-America Gateway (AAG) Cable System",
     "event_start": "2017-02-18",
     "event_type": "Cut",
     "cause": null,
@@ -4126,7 +3962,7 @@
     ]
   },
   {
-    "cable_name": "Asia-America Gateway (AAG)",
+    "cable_name": "Asia-America Gateway (AAG) Cable System",
     "event_start": "2017-01-08",
     "event_type": "Cut",
     "cause": null,
