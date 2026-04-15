@@ -85,7 +85,7 @@
     "cause": null,
     "severity": "Major",
     "status": "Reported",
-    "confidence": "High",
+    "confidence": "Low",
     "fault_description": "23.6km from Tamsui and Shalun",
     "affected_countries": [
       "Taiwan"
@@ -93,13 +93,7 @@
     "affected_regions": [
       "Asia"
     ],
-    "sources": [
-      {
-        "url": "https://globaltaiwan.org/2025/06/taiwans-digital-vulnerabilities/",
-        "title": "Taiwan's Digital Vulnerabilities",
-        "source_name": "Global Taiwan Institute"
-      }
-    ]
+    "sources": []
   },
   {
     "cable_name": "Taiwan Penghu Kinmen Matsu No.3 (TPKM3)",
@@ -232,7 +226,7 @@
     "cause": null,
     "severity": "Major",
     "status": "Reported",
-    "confidence": "High",
+    "confidence": "Low",
     "fault_description": "S6 Section, 47.7km from Toucheng, Yilan",
     "affected_countries": [
       "Taiwan"
@@ -240,13 +234,7 @@
     "affected_regions": [
       "Asia"
     ],
-    "sources": [
-      {
-        "url": "https://globaltaiwan.org/2025/06/taiwans-digital-vulnerabilities/",
-        "title": "Taiwan's Digital Vulnerabilities",
-        "source_name": "Global Taiwan Institute"
-      }
-    ]
+    "sources": []
   },
   {
     "cable_name": "FLAG North Asia Loop/REACH North Asia Loop",
@@ -490,7 +478,7 @@
     "cause": null,
     "severity": "Major",
     "status": "Reported",
-    "confidence": "High",
+    "confidence": "Low",
     "fault_description": "156km from Tamsui",
     "affected_countries": [
       "Taiwan"
@@ -498,13 +486,7 @@
     "affected_regions": [
       "Asia"
     ],
-    "sources": [
-      {
-        "url": "https://globaltaiwan.org/2025/06/taiwans-digital-vulnerabilities/",
-        "title": "Taiwan's Digital Vulnerabilities",
-        "source_name": "Global Taiwan Institute"
-      }
-    ]
+    "sources": []
   },
   {
     "cable_name": "Taiwan Penghu Kinmen Matsu No.2 (TPKM2)",
@@ -513,7 +495,7 @@
     "cause": null,
     "severity": "Major",
     "status": "Reported",
-    "confidence": "High",
+    "confidence": "Low",
     "fault_description": "180km from Danshui Shalun",
     "affected_countries": [
       "Taiwan"
@@ -521,13 +503,7 @@
     "affected_regions": [
       "Asia"
     ],
-    "sources": [
-      {
-        "url": "https://globaltaiwan.org/2025/06/taiwans-digital-vulnerabilities/",
-        "title": "Taiwan's Digital Vulnerabilities",
-        "source_name": "Global Taiwan Institute"
-      }
-    ]
+    "sources": []
   },
   {
     "cable_name": "SHEFA-2",
@@ -621,7 +597,7 @@
     "cause": "Cable deterioration",
     "severity": "Major",
     "status": "Resolved",
-    "confidence": "High",
+    "confidence": "Low",
     "fault_description": "40km from Toucheng",
     "affected_countries": [
       "Taiwan"
@@ -629,13 +605,7 @@
     "affected_regions": [
       "Asia"
     ],
-    "sources": [
-      {
-        "url": "https://globaltaiwan.org/2025/06/taiwans-digital-vulnerabilities/",
-        "title": "Taiwan's Digital Vulnerabilities",
-        "source_name": "Global Taiwan Institute"
-      }
-    ],
+    "sources": [],
     "event_end": "2025-10-31",
     "repair_duration_days": 46
   },
