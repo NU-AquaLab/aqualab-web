@@ -904,31 +904,6 @@
     "repair_duration_days": 22
   },
   {
-    "cable_name": "NorthStar",
-    "event_start": "2025-02-28",
-    "event_type": "Cut",
-    "cause": null,
-    "severity": "Major",
-    "status": "Resolved",
-    "confidence": "High",
-    "fault_description": "",
-    "affected_countries": [
-      "United States"
-    ],
-    "affected_regions": [
-      "Other"
-    ],
-    "sources": [
-      {
-        "url": "https://www.alaskacommunications.com/-/media/Files/Press-Releases/2025/NEWS-RELEASE---Northstar-PFE-Completion-vFinal-Web.pdf",
-        "title": "Alaska Communications completes key upgrades on Northstar submarine fiberoptic",
-        "source_name": "Alaska Communications"
-      }
-    ],
-    "event_end": "2025-03-17",
-    "repair_duration_days": 17
-  },
-  {
     "cable_name": "C-Lion1",
     "event_start": "2025-02-19",
     "event_type": "Cut",
@@ -1189,32 +1164,6 @@
     ],
     "event_end": "2025-10-17",
     "repair_duration_days": 280
-  },
-  {
-    "cable_name": "FALCON",
-    "event_start": "2025-01-04",
-    "event_type": "Cut",
-    "cause": null,
-    "severity": "Major",
-    "status": "Resolved",
-    "confidence": "High",
-    "fault_description": "",
-    "affected_countries": [
-      "Kuwait",
-      "Saudi Arabia"
-    ],
-    "affected_regions": [
-      "Middle East"
-    ],
-    "sources": [
-      {
-        "url": "https://subtelforum.com/kuwait-internet-restored-after-submarine-cable-disruption/",
-        "title": "Kuwait Internet Restored After Submarine Cable Disruption",
-        "source_name": "SubTel Forum"
-      }
-    ],
-    "event_end": "2025-01-18",
-    "repair_duration_days": 14
   },
   {
     "cable_name": "Trans-Pacific Express (TPE) Cable System",
@@ -1581,31 +1530,6 @@
     ],
     "event_end": "2024-09-29",
     "repair_duration_days": 4
-  },
-  {
-    "cable_name": "Taiwan Penghu Kinmen Matsu No.2 (TPKM2)",
-    "event_start": "2024-09-22",
-    "event_type": "Cut",
-    "cause": null,
-    "severity": "Major",
-    "status": "Resolved",
-    "confidence": "High",
-    "fault_description": "",
-    "affected_countries": [
-      "Taiwan"
-    ],
-    "affected_regions": [
-      "Asia"
-    ],
-    "sources": [
-      {
-        "url": "https://globaltaiwan.org/2025/06/taiwans-digital-vulnerabilities/",
-        "title": "Taiwan's Digital Vulnerabilities",
-        "source_name": "Global Taiwan Institute"
-      }
-    ],
-    "event_end": "2025-03-14",
-    "repair_duration_days": 173
   },
   {
     "cable_name": "Alaska United East (AU-East)",
@@ -3035,31 +2959,6 @@
     "repair_duration_days": 4
   },
   {
-    "cable_name": "FALCON",
-    "event_start": "2022-01-20",
-    "event_type": "Cut",
-    "cause": "Fishing trawler",
-    "severity": "Major",
-    "status": "Resolved",
-    "confidence": "High",
-    "fault_description": "",
-    "affected_countries": [
-      "Yemen"
-    ],
-    "affected_regions": [
-      "Middle East"
-    ],
-    "sources": [
-      {
-        "url": "https://subtelforum.com/falcon-cable-fault-believed-to-be-from-air-strike/",
-        "title": "Falcon Cable Fault Believed To Be From Air Strike",
-        "source_name": "SubTel Forum"
-      }
-    ],
-    "event_end": "2022-02-15",
-    "repair_duration_days": 26
-  },
-  {
     "cable_name": "Tonga Domestic Cable Extension (TDCE)",
     "event_start": "2022-01-16",
     "event_type": "Cut",
@@ -3544,31 +3443,6 @@
     ],
     "event_end": "2020-04-30",
     "repair_duration_days": 105
-  },
-  {
-    "cable_name": "FALCON",
-    "event_start": "2020-01-09",
-    "event_type": "Cut",
-    "cause": "Ship/anchor",
-    "severity": "Major",
-    "status": "Resolved",
-    "confidence": "High",
-    "fault_description": "",
-    "affected_countries": [
-      "Kuwait"
-    ],
-    "affected_regions": [
-      "Middle East"
-    ],
-    "sources": [
-      {
-        "url": "https://subtelforum.com/kuwait-internet-restored-after-submarine-cable-disruption/",
-        "title": "Kuwait Internet Restored After Submarine Cable Disruption",
-        "source_name": "SubTel Forum"
-      }
-    ],
-    "event_end": "2020-02-01",
-    "repair_duration_days": 23
   },
   {
     "cable_name": "Asia-America Gateway (AAG) Cable System",
