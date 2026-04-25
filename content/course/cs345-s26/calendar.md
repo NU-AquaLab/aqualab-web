@@ -131,7 +131,7 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 ### Tue 05/12 — Scaling Out Key-Value Stores
 
 **Readings**
-- M. Elhemali et al., *Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service*, USENIX ATC 2022 - [PDF](https://www.usenix.org/system/files/atc22-elhemali.pdf)
+- G. DeCandia et al., *Dynamo: Amazon's Highly Available Key-value Store*, SOSP 2007 - [PDF](https://www.allthingsdistributed.com/2007/10/amazons_dynamo.html)
 
 ### Thu 05/14 — Consensus Problem and Impossibility of Consensus
 
