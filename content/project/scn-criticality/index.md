@@ -121,9 +121,10 @@ In our NINeS 2026 paper ***Monitoring Latency on Submarine Cables: Limitations a
 
 This project is very much **not** “done”—Calypso gives us a sharper lens, but many core questions remain open:
 
-- **Failure characterization at scale**  
+- **Failure characterization at scale**
   - Systematically aligning cable faults (cuts, repairs, reconfigurations) with changes in latency, routing, and reachability.
   - Distinguishing hard failures (complete outages) from **soft failures** (path detours, chronic degradation, asymmetric impacts).
+  - [Sentinel](/project/sentinel/) — our multilingual event extraction system that monitors news and operator sources for cable failures, building a structured database of incidents for analysis and active measurement.
 
 - **Multi-layer resilience and counterfactuals**  
   - Understanding how AS-level routing, cable ownership/leasing, and inland fiber interact during disruptions.
@@ -167,6 +168,7 @@ If anything, each new system (including Calypso) mostly clarifies **better quest
 
 ## 🔗 Related Links
 
+- [Sentinel — Cable Failure Monitoring](/project/sentinel/)
 - [AquaLab Research Group](https://aqualab.cs.northwestern.edu/)
 - [NU-AquaLab Projects](https://aqualab.cs.northwestern.edu/project/)
 
