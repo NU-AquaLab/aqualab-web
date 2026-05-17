@@ -174,8 +174,8 @@ Northwestern Monday schedule: classes scheduled to meet on Mondays meet on this 
 
 **Readings**
 
-- F. Y. Yan et al., *Learning in situ: A Randomized Experiment in Video Streaming*, USENIX NSDI 2020 — [PDF](https://www.usenix.org/system/files/nsdi20-paper-yan.pdf)
-- (Optional) W. Zheng et al., *StarCDN: Moving Content Delivery Networks to Space*, SIGCOMM 2025 - [PDF](https://dl.acm.org/doi/pdf/10.1145/3718958.3754345)
+- R. Kumar, F. E. Bustamante, and M. Flores, *Who Holds the Steering Wheel? Opacity and Consolidation in CDN Replica Selection*, NINeS '26 — [PDF](https://aqualab.cs.northwestern.edu/publication/2026/rkumar-nines26/RKumar-NINeS26.pdf)
+
 
 </details>
 
