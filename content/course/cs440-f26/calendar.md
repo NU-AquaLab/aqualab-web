@@ -7,13 +7,33 @@ summary: "Topics and readings by week."
 
 {{< course_tabs >}}
 
+<!--
+  Shortcode conventions used in this file
+  ────────────────────────────────────────
+  {{< week n="N" >}} … {{< /week >}}
+    Wraps all class meetings for week N (1-10) or the special "Finals" week.
+
+  {{< day date="Dow M/D" topic="…" [note="…"] [due="…"] >}} … {{< /day >}}
+    Renders a single class-meeting card.
+      date  — weekday abbreviation + slash-date, e.g. "Tue 9/29" or "Thu 10/1".
+               Leave empty (date="") for the finals card whose date is TBD.
+      topic — headline topic shown on the card header.
+      note  — optional one-sentence framing note displayed below the topic.
+      due   — optional deliverable due that session (shown as a badge).
+
+  Paper types listed inside a {{< day >}} block:
+    **Background** — [B] papers; reading required, no blog post.
+    **Research paper** — [R] papers; blog post required.
+    *Alt: …*       — swap-in option if a team prefers an alternative paper.
+-->
+
 **[B]** = background paper (no blog post required) · **[R]** = research paper (blog post required)
 
 ---
 
 {{< week n="1" >}}
 
-{{< day date="Tue" topic="Course introduction" due="Form teams" >}}
+{{< day date="Thu 9/24" topic="Course introduction" due="Form teams" >}}
 
 **Background**
 [How to Read a Paper,](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)
@@ -29,7 +49,7 @@ S. Peyton Jones et al., SIGPLAN 1993
 
 {{< /day >}}
 
-{{< day date="Thu" topic="Network design & architecture" note="Opens the course with a foundational provocation: what properties of the Internet can we actually rely on? Watch the pre-recorded NINeS talk before class." due="Team formation confirmed" >}}
+{{< day date="Tue 9/29" topic="Network design & architecture" note="Opens the course with a foundational provocation: what properties of the Internet can we actually rely on? Watch the pre-recorded NINeS talk before class." due="Team formation confirmed" >}}
 
 **Background**
 [The Design Philosophy of the DARPA Internet Protocols,](https://dl.acm.org/doi/10.1145/52325.52336)
@@ -47,7 +67,7 @@ C. Misa, W. Willinger, R. Durairajan, R. Rejaie — NINeS 2026
 
 {{< week n="2" >}}
 
-{{< day date="Tue" topic="Internet routing & reachability" note="From policy design (Gao-Rexford) to an underexplored question: not all reachability failures are total. What do partial failures reveal about routing system design?" >}}
+{{< day date="Thu 10/1" topic="Internet routing & reachability" note="From policy design (Gao-Rexford) to an underexplored question: not all reachability failures are total. What do partial failures reveal about routing system design?" >}}
 
 **Background**
 [Stable Internet Routing Without Global Coordination,](https://www.cs.princeton.edu/~jrex/papers/sigmetrics00.pdf)
@@ -59,7 +79,7 @@ G. Baltra, T. Saluja, Y. Pradkin, J. Heidemann — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Thu" topic="WAN architecture & traffic engineering" due="Paper selection + project proposal" >}}
+{{< day date="Tue 10/6" topic="WAN architecture & traffic engineering" due="Paper selection + project proposal" >}}
 
 **Background**
 [B4: Experience with a Globally-Deployed Software Defined WAN,](https://dl.acm.org/doi/10.1145/2486001.2486019)
@@ -75,7 +95,7 @@ B. Arzani, S. Taheri, P. Namyar, R. Beckett, S. K. Kakarla, E. Jalilipour — SI
 
 {{< week n="3" >}}
 
-{{< day date="Tue" topic="SDN & programmable networks" >}}
+{{< day date="Thu 10/8" topic="SDN & programmable networks" >}}
 
 **Background**
 [The Road to SDN: An Intellectual History of Programmable Networks,](https://dl.acm.org/doi/10.1145/2602204.2602219)
@@ -87,7 +107,7 @@ Y. Liu, Y. Xiao, X. Zhang et al. — NSDI 2025
 
 {{< /day >}}
 
-{{< day date="Thu" topic="Network verification & formal methods" >}}
+{{< day date="Tue 10/13" topic="Network verification & formal methods" >}}
 
 **Background**
 [Header Space Analysis: Static Checking for Networks,](https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/kazemian)
@@ -103,7 +123,7 @@ Z. Li, P. Zhang, Y. Zhang, H. Yang — NSDI 2025 *(Outstanding Paper Award)*
 
 {{< week n="4" >}}
 
-{{< day date="Tue" topic="Congestion control: signals & theory" note="Argues no single in-network congestion signal can satisfy all desiderata simultaneously. Dukkipati also delivers a NINeS keynote on CC — watch both paper and talk." >}}
+{{< day date="Thu 10/15" topic="Congestion control: signals & theory" note="Argues no single in-network congestion signal can satisfy all desiderata simultaneously. Dukkipati also delivers a NINeS keynote on CC — watch both paper and talk." >}}
 
 **Background**
 [Beyond Jain's Fairness Index,](https://dl.acm.org/doi/10.1145/3365609.3365855)
@@ -117,7 +137,7 @@ S. McClure, N. Dukkipati, S. Ratnasamy, S. Shenker — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Thu" topic="Transport & QUIC" due="In-class proposal pitches (5 min per team)" >}}
+{{< day date="Tue 10/20" topic="Transport & QUIC" due="In-class proposal pitches (5 min per team)" >}}
 
 **Background**
 [QUIC at Google: Deployed at Scale,](https://dl.acm.org/doi/10.1145/3098822.3098842)
@@ -133,7 +153,7 @@ J. Mücke, M. Nawrocki, R. Hiesgen et al. — CoNEXT 2025
 
 {{< week n="5" >}}
 
-{{< day date="Tue" topic="Datacenter transport: rethinking the model" note="Proposes that endpoints simulate network behavior before committing to a send rate — a genuine departure from reactive transport design." >}}
+{{< day date="Thu 10/22" topic="Datacenter transport: rethinking the model" note="Proposes that endpoints simulate network behavior before committing to a send rate — a genuine departure from reactive transport design." >}}
 
 **Background**
 [A Scalable, Commodity Data Center Network Architecture,](https://dl.acm.org/doi/10.1145/1402958.1402967)
@@ -145,7 +165,7 @@ D. Straussman, I. Keslassy, A. Shpiner, L. Liss — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Thu" topic="RDMA & high-performance datacenter networking" >}}
+{{< day date="Tue 10/27" topic="RDMA & high-performance datacenter networking" >}}
 
 **Background**
 [DCTCP: Data Center TCP,](https://dl.acm.org/doi/10.1145/1851275.1851192)
@@ -161,7 +181,7 @@ W. Li, X. Liu, Y. Zhang et al. — SIGCOMM 2025 *(Best Student Paper, Honorable 
 
 {{< week n="6" >}}
 
-{{< day date="Tue" topic="ML training networks" due="Midpoint report" >}}
+{{< day date="Thu 10/29" topic="ML training networks" due="Midpoint report" >}}
 
 **Background**
 [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM,](https://dl.acm.org/doi/10.1145/3458817.3476209)
@@ -175,7 +195,7 @@ C. Shou, G. Liu, H. Nie et al. — SIGCOMM 2025
 
 {{< /day >}}
 
-{{< day date="Thu" topic="Sustainable & energy-efficient networking" >}}
+{{< day date="Tue 11/3" topic="Sustainable & energy-efficient networking" >}}
 
 **Background**
 [The Datacenter as a Computer](https://doi.org/10.2200/S00874ED3V01Y201906CAC046) (power and energy chapters),
@@ -193,7 +213,7 @@ K. Xu, D. Sun, H. Tian, J. Zhang, K. Chen — NSDI 2025
 
 {{< week n="7" >}}
 
-{{< day date="Tue" topic="Naming & DNS infrastructure" note="Akamai DNS shows naming at scale for the current Internet; OpenFLAME asks what naming should look like for future networked systems — location-aware, federated, built for IoT and physical spaces." >}}
+{{< day date="Thu 11/5" topic="Naming & DNS infrastructure" note="Akamai DNS shows naming at scale for the current Internet; OpenFLAME asks what naming should look like for future networked systems — location-aware, federated, built for IoT and physical spaces." >}}
 
 **Background**
 [Akamai DNS: Providing Authoritative Answers to the World's Queries,](https://dl.acm.org/doi/10.1145/3387514.3405881)
@@ -205,7 +225,7 @@ S. Bharadwaj, Z. Ma, I. Liang, M. Farb, A. Rowe, S. Seshan — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Thu" topic="LEO satellites & new access infrastructure" note="A systems paper: rather than measuring LEO performance, LeoCC proposes a new CC algorithm aware of satellite-induced path changes." >}}
+{{< day date="Tue 11/10" topic="LEO satellites & new access infrastructure" note="A systems paper: rather than measuring LEO performance, LeoCC proposes a new CC algorithm aware of satellite-induced path changes." >}}
 
 **Background**
 [Analyzing Starlink from the Ground,](https://dl.acm.org/doi/10.1145/3544216.3544237)
@@ -223,7 +243,7 @@ Z. Lai, Z. Li, Q. Wu et al. — SIGCOMM 2025
 
 {{< week n="8" >}}
 
-{{< day date="Tue" topic="Video QoE & real-time congestion control" note="Argues TCP-style CC is architecturally too slow for real-time video. Watch the pre-recorded NINeS talk before class." >}}
+{{< day date="Thu 11/12" topic="Video QoE & real-time congestion control" note="Argues TCP-style CC is architecturally too slow for real-time video. Watch the pre-recorded NINeS talk before class." >}}
 
 **Background**
 [Video Stream Quality Impacts Viewer Behavior,](https://dl.acm.org/doi/10.1145/2398776.2398799)
@@ -235,7 +255,7 @@ P. Karimi, S. Fouladi, V. Sivaraman, M. Alizadeh — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Thu" topic="Mobile & wireless systems design" note="BBR uses network-layer signals to estimate state; BISCAY adds radio-layer KPIs as an additional signal source — extending model-based CC into the mobile context." >}}
+{{< day date="Tue 11/17" topic="Mobile & wireless systems design" note="BBR uses network-layer signals to estimate state; BISCAY adds radio-layer KPIs as an additional signal source — extending model-based CC into the mobile context." >}}
 
 **Background**
 [BBR: Congestion-Based Congestion Control,](https://dl.acm.org/doi/10.1145/3012426.3022184)
@@ -253,7 +273,7 @@ J. Larrea, T. Shreedhar, A. Niemi, A. Sefiane, M. K. Marina — NINeS 2026
 
 {{< week n="9" >}}
 
-{{< day date="Tue" topic="Anonymity & privacy infrastructure" note="From the original Tor design to a new approach to anonymity infrastructure. Discussion should address both the systems design choices and the ethical implications." >}}
+{{< day date="Thu 11/19" topic="Anonymity & privacy infrastructure" note="From the original Tor design to a new approach to anonymity infrastructure. Discussion should address both the systems design choices and the ethical implications." >}}
 
 **Background**
 [Tor: The Second-Generation Onion Router,](https://www.usenix.org/conference/13th-usenix-security-symposium/tor-second-generation-onion-router)
@@ -265,7 +285,7 @@ H. Ikram, R. Habib, M. Ali, Z. A. Uzmi — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Thu" topic="BGP security & routing integrity" note="The background paper asks how secure BGP security proposals are; this paper proposes bypassing the BGP control plane entirely for hijack detection using in-band telemetry. Note the Rexford co-authorship across both papers — 15 years of progress on the same problem." due="Final report (including critique section)" >}}
+{{< day date="Tue 11/24" topic="BGP security & routing integrity" note="The background paper asks how secure BGP security proposals are; this paper proposes bypassing the BGP control plane entirely for hijack detection using in-band telemetry. Note the Rexford co-authorship across both papers — 15 years of progress on the same problem." due="Final report (including critique section)" >}}
 
 **Background**
 [How Secure Are Secure Interdomain Routing Protocols?,](https://dl.acm.org/doi/10.1145/1851182.1851198)
@@ -281,7 +301,7 @@ S. Sengupta, H. Kim, D. Jubas, M. Apostolaki, J. Rexford — NINeS 2026
 
 {{< week n="10" >}}
 
-{{< day date="Tue" topic="CDN architecture & Internet infrastructure" note="Edge Fabric shows how content leaves a major network; this paper asks who controls which CDN replica serves you — and argues that consolidation is making that answer increasingly opaque." >}}
+{{< day date="Tue 12/1" topic="CDN architecture & Internet infrastructure" note="Edge Fabric shows how content leaves a major network; this paper asks who controls which CDN replica serves you — and argues that consolidation is making that answer increasingly opaque." >}}
 
 **Background**
 [Engineering Egress with Edge Fabric,](https://dl.acm.org/doi/10.1145/3098822.3098853)
@@ -297,7 +317,7 @@ R. Kumar, F. E. Bustamante, M. Flores — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Thu" topic="Student project presentations" due="Blog posts due" >}}
+{{< day date="Thu 12/3" topic="Student project presentations" due="Blog posts due" >}}
 
 All teams present (15 min + Q&A).
 
@@ -320,47 +340,47 @@ All teams present (15 min + Q&A).
 
 | # | Paper | Venue | Week |
 | --- | --- | --- | --- |
-| B1 | Keshav, *How to Read a Paper* | SIGCOMM CCR 2007 | 1 Tue |
-| B2 | Roscoe, *Writing Reviews for Systems Conferences* | SOSP 2007 | 1 Tue |
-| B3 | Peyton Jones et al., *How to Give a Great Research Talk* | SIGPLAN 1993 | 1 Tue |
-| B4 | Clark, *Design Philosophy of the DARPA Internet Protocols* | SIGCOMM 1988 | 1 Thu |
-| B5 | Gao & Rexford, *Stable Internet Routing Without Global Coordination* | SIGMETRICS 2000 | 2 Tue |
-| B6 | Jain et al., *B4: Globally-Deployed Software Defined WAN* | SIGCOMM 2013 | 2 Thu |
-| B7 | Feamster, Rexford, Zegura, *The Road to SDN* | SIGCOMM CCR 2014 | 3 Tue |
-| B8 | Kazemian, Varghese, McKeown, *Header Space Analysis* | NSDI 2012 | 3 Thu |
-| B9 | Ware et al., *Beyond Jain's Fairness Index* | HotNets 2019 | 4 Tue |
-| B10 | Langley et al., *QUIC at Google: Deployed at Scale* | SIGCOMM 2017 | 4 Thu |
-| B11 | Al-Fares, Loukissas, Vahdat, *Scalable Commodity Datacenter Architecture* | SIGCOMM 2008 | 5 Tue |
-| B12 | Alizadeh et al., *DCTCP: Data Center TCP* | SIGCOMM 2010 | 5 Thu |
-| B13 | Narayanan et al., *Efficient LLM Training: Megatron-LM* | SC 2021 | 6 Tue |
-| B14 | Barroso, Hölzle, Ranganathan, *The Datacenter as a Computer* (power ch.) | Book 2019 | 6 Thu |
-| B15 | Schomp et al., *Akamai DNS* | SIGCOMM 2020 | 7 Tue |
-| B16 | Michel et al., *Analyzing Starlink from the Ground* | SIGCOMM 2022 | 7 Thu |
-| B17 | Krishnan & Sitaraman, *Video Stream Quality Impacts Viewer Behavior* | IMC 2012 | 8 Tue |
-| B18 | Cardwell et al., *BBR: Congestion-Based Congestion Control* | ACM Queue 2016 | 8 Thu |
-| B19 | Dingledine, Mathewson, Syverson, *Tor: The Second-Generation Onion Router* | USENIX Sec. 2004 | 9 Tue |
-| B20 | Goldberg, Schapira, Hummon, Rexford, *How Secure Are Secure Routing Protocols?* | SIGCOMM 2010 | 9 Thu |
+| B1 | Keshav, *How to Read a Paper* | SIGCOMM CCR 2007 | 1 Thu |
+| B2 | Roscoe, *Writing Reviews for Systems Conferences* | SOSP 2007 | 1 Thu |
+| B3 | Peyton Jones et al., *How to Give a Great Research Talk* | SIGPLAN 1993 | 1 Thu |
+| B4 | Clark, *Design Philosophy of the DARPA Internet Protocols* | SIGCOMM 1988 | 1 Tue |
+| B5 | Gao & Rexford, *Stable Internet Routing Without Global Coordination* | SIGMETRICS 2000 | 2 Thu |
+| B6 | Jain et al., *B4: Globally-Deployed Software Defined WAN* | SIGCOMM 2013 | 2 Tue |
+| B7 | Feamster, Rexford, Zegura, *The Road to SDN* | SIGCOMM CCR 2014 | 3 Thu |
+| B8 | Kazemian, Varghese, McKeown, *Header Space Analysis* | NSDI 2012 | 3 Tue |
+| B9 | Ware et al., *Beyond Jain's Fairness Index* | HotNets 2019 | 4 Thu |
+| B10 | Langley et al., *QUIC at Google: Deployed at Scale* | SIGCOMM 2017 | 4 Tue |
+| B11 | Al-Fares, Loukissas, Vahdat, *Scalable Commodity Datacenter Architecture* | SIGCOMM 2008 | 5 Thu |
+| B12 | Alizadeh et al., *DCTCP: Data Center TCP* | SIGCOMM 2010 | 5 Tue |
+| B13 | Narayanan et al., *Efficient LLM Training: Megatron-LM* | SC 2021 | 6 Thu |
+| B14 | Barroso, Hölzle, Ranganathan, *The Datacenter as a Computer* (power ch.) | Book 2019 | 6 Tue |
+| B15 | Schomp et al., *Akamai DNS* | SIGCOMM 2020 | 7 Thu |
+| B16 | Michel et al., *Analyzing Starlink from the Ground* | SIGCOMM 2022 | 7 Tue |
+| B17 | Krishnan & Sitaraman, *Video Stream Quality Impacts Viewer Behavior* | IMC 2012 | 8 Thu |
+| B18 | Cardwell et al., *BBR: Congestion-Based Congestion Control* | ACM Queue 2016 | 8 Tue |
+| B19 | Dingledine, Mathewson, Syverson, *Tor: The Second-Generation Onion Router* | USENIX Sec. 2004 | 9 Thu |
+| B20 | Goldberg, Schapira, Hummon, Rexford, *How Secure Are Secure Routing Protocols?* | SIGCOMM 2010 | 9 Tue |
 | B21 | Schlinker et al., *Engineering Egress with Edge Fabric* | SIGCOMM 2017 | 10 Tue |
 
 ### Research papers (blog post required)
 
 | # | Paper | Venue | Week |
 | --- | --- | --- | --- |
-| R1 | Misa, Willinger, Durairajan, Rejaie — *Internet Invariants* | NINeS 2026 | 1 Thu |
-| R2 | Baltra, Saluja, Pradkin, Heidemann — *Partial Reachability in the Internet Core* | NINeS 2026 | 2 Tue |
-| R3 | Arzani et al. — *Raha: Analyzing WAN Degradation* | SIGCOMM 2025 | 2 Thu |
-| R4 | Liu, Xiao, Zhang et al. — *Unlocking ECMP Programmability* | NSDI 2025 | 3 Tue |
-| R5 | Li, Zhang, Zhang, Yang — *NDD: Network Decision Diagram* *(Outstanding Paper)* | NSDI 2025 | 3 Thu |
-| R6 | McClure, Dukkipati, Ratnasamy, Shenker — *No Signal to Rule Them All* | NINeS 2026 | 4 Tue |
-| R7 | Mücke, Nawrocki, Hiesgen et al. — *Waiting for QUIC* | CoNEXT 2025 | 4 Thu |
-| R8 | Straussman, Keslassy, Shpiner, Liss — *Simulate Before Sending* | NINeS 2026 | 5 Tue |
-| R9 | Li, Liu, Zhang et al. — *Revisiting RDMA Reliability* *(Best Student Paper HM)* | SIGCOMM 2025 | 5 Thu |
-| R10 | Shou, Liu, Nie et al. — *InfiniteHBD: Optical Circuit Switching for LLM* | SIGCOMM 2025 | 6 Tue |
-| R11 | Xu, Sun, Tian, Zhang, Chen — *GREEN: Carbon-Efficient Scheduling for ML Clusters* | NSDI 2025 | 6 Thu |
-| R12 | Bharadwaj, Ma, Liang, Farb, Rowe, Seshan — *OpenFLAME: Federated Spatial Naming* | NINeS 2026 | 7 Tue |
-| R13 | Lai, Li, Wu et al. — *LeoCC: CC Robust to LEO Dynamics* | SIGCOMM 2025 | 7 Thu |
-| R14 | Karimi, Fouladi, Sivaraman, Alizadeh — *Tight Loops, Smooth Streams* | NINeS 2026 | 8 Tue |
-| R15 | Larrea, Shreedhar, Niemi, Sefiane, Marina — *BISCAY: Radio KPI Driven CC* | NINeS 2026 | 8 Thu |
-| R16 | Ikram, Habib, Ali, Uzmi — *Don't get caught, keep your Onions in a Vault* | NINeS 2026 | 9 Tue |
-| R17 | Sengupta, Kim, Jubas, Apostolaki, Rexford — *Passive Telemetry for BGP Hijacks* | NINeS 2026 | 9 Thu |
+| R1 | Misa, Willinger, Durairajan, Rejaie — *Internet Invariants* | NINeS 2026 | 1 Tue |
+| R2 | Baltra, Saluja, Pradkin, Heidemann — *Partial Reachability in the Internet Core* | NINeS 2026 | 2 Thu |
+| R3 | Arzani et al. — *Raha: Analyzing WAN Degradation* | SIGCOMM 2025 | 2 Tue |
+| R4 | Liu, Xiao, Zhang et al. — *Unlocking ECMP Programmability* | NSDI 2025 | 3 Thu |
+| R5 | Li, Zhang, Zhang, Yang — *NDD: Network Decision Diagram* *(Outstanding Paper)* | NSDI 2025 | 3 Tue |
+| R6 | McClure, Dukkipati, Ratnasamy, Shenker — *No Signal to Rule Them All* | NINeS 2026 | 4 Thu |
+| R7 | Mücke, Nawrocki, Hiesgen et al. — *Waiting for QUIC* | CoNEXT 2025 | 4 Tue |
+| R8 | Straussman, Keslassy, Shpiner, Liss — *Simulate Before Sending* | NINeS 2026 | 5 Thu |
+| R9 | Li, Liu, Zhang et al. — *Revisiting RDMA Reliability* *(Best Student Paper HM)* | SIGCOMM 2025 | 5 Tue |
+| R10 | Shou, Liu, Nie et al. — *InfiniteHBD: Optical Circuit Switching for LLM* | SIGCOMM 2025 | 6 Thu |
+| R11 | Xu, Sun, Tian, Zhang, Chen — *GREEN: Carbon-Efficient Scheduling for ML Clusters* | NSDI 2025 | 6 Tue |
+| R12 | Bharadwaj, Ma, Liang, Farb, Rowe, Seshan — *OpenFLAME: Federated Spatial Naming* | NINeS 2026 | 7 Thu |
+| R13 | Lai, Li, Wu et al. — *LeoCC: CC Robust to LEO Dynamics* | SIGCOMM 2025 | 7 Tue |
+| R14 | Karimi, Fouladi, Sivaraman, Alizadeh — *Tight Loops, Smooth Streams* | NINeS 2026 | 8 Thu |
+| R15 | Larrea, Shreedhar, Niemi, Sefiane, Marina — *BISCAY: Radio KPI Driven CC* | NINeS 2026 | 8 Tue |
+| R16 | Ikram, Habib, Ali, Uzmi — *Don't get caught, keep your Onions in a Vault* | NINeS 2026 | 9 Thu |
+| R17 | Sengupta, Kim, Jubas, Apostolaki, Rexford — *Passive Telemetry for BGP Hijacks* | NINeS 2026 | 9 Tue |
 | R18 | Kumar, Bustamante, Flores — *Who Holds the Steering Wheel?* | NINeS 2026 | 10 Tue |
