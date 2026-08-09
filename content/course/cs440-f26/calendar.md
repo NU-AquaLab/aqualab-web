@@ -10,10 +10,10 @@ summary: "Topics and readings by week."
 <!--
   Shortcode conventions used in this file
   ────────────────────────────────────────
-  {{< week n="N" >}} … {{< /week >}}
+  {{</* week n="N" */>}} … {{</* /week */>}}
     Wraps all class meetings for week N (1-10) or the special "Finals" week.
 
-  {{< day date="Dow M/D" topic="…" [note="…"] [due="…"] >}} … {{< /day >}}
+  {{</* day date="Dow M/D" topic="…" [note="…"] [due="…"] */>}} … {{</* /day */>}}
     Renders a single class-meeting card.
       date  — weekday abbreviation + slash-date, e.g. "Tue 9/29" or "Thu 10/1".
                Leave empty (date="") for the finals card whose date is TBD.
@@ -21,7 +21,7 @@ summary: "Topics and readings by week."
       note  — optional one-sentence framing note displayed below the topic.
       due   — optional deliverable due that session (shown as a badge).
 
-  Paper types listed inside a {{< day >}} block:
+  Paper types listed inside a {{</* day */>}} block:
     **Background** — [B] papers; reading required, no blog post.
     **Research paper** — [R] papers; blog post required.
     *Alt: …*       — swap-in option if a team prefers an alternative paper.
