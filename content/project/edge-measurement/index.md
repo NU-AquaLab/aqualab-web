@@ -68,22 +68,15 @@ backbone monitor would see them.
 
 ## Characterizing Broadband, then Opening the Platform
 
-Dasu began as an ISP characterization tool and became something more general.
-Its first job was to measure the broadband service a user was actually getting,
-from inside the home, at scale, across many providers and countries — the kind
-of question that regulators and users care about and that is nearly impossible
-to answer from a testbed.
+That approach became a project in its own right. **[Dasu]({{< relref "project/dasu" >}})**
+began as an ISP characterization tool — measuring the broadband service a user
+actually received, from inside the home, across many providers and countries —
+and then became something more general: a platform that could host *other
+researchers'* experiments from tens of thousands of real access links, with the
+scheduling and safeguards that hosting implies when the machine belongs to a
+volunteer.
 
-The more consequential turn was making Dasu a platform. Once a measurement
-client is running on tens of thousands of real access links, that vantage point
-is valuable to researchers other than its authors. Dasu was designed to host
-other people's experiments, with the resource limits, scheduling, and safeguards
-that hosting implies when the machine belongs to a volunteer and the connection
-is one a family depends on. *Dasu: Pushing Experiments to the Internet's Edge*
-is the paper about that platform; the ToN article is its fullest treatment.
-
-Dasu also shipped as a Vuze/Azureus plugin, alongside the other systems from
-that era.
+It is documented on its own page.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Dasu"
-subtitle: "A measurement experimentation platform at the Internet's edge."
+subtitle: "A platform for measurement experimentation and broadband characterization."
 summary: "Dasu answered a question users cared about — is my ISP giving me what I pay for? — and used the adoption that earned to build something researchers needed: a measurement platform running on tens of thousands of real home connections, able to host other people's experiments."
 authors:
   - "Mario A. Sanchez"
@@ -20,7 +20,6 @@ date: "2010-05-30T00:00:00Z"
 lastmod: "2026-08-14T00:00:00Z"
 publishDate: "2010-05-30T00:00:00Z"
 
-parent: edge-measurement
 status: past
 active_years: "2010–2015"
 
@@ -150,6 +149,7 @@ earthquake and the Internet shutdowns in Egypt and Libya.
 
 ## Related Links
 
-- [Measurement and Experimentation from the Edge]({{< relref "project/edge-measurement" >}}) — the project Dasu was built for
+- [Measurement and Experimentation from the Edge]({{< relref "project/edge-measurement" >}}) — the wider thread this belongs to
+- [NEWS]({{< relref "project/news-early-warning" >}}) — the earlier system that established the approach
 
 </div>
