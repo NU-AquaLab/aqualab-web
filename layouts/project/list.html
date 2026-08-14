@@ -1,0 +1,46 @@
+{{/*
+  Projects index, split into current and past work.
+
+  A project is "past" when its front matter carries `status: past`. Finished
+  projects stay in content/project/ and are flagged rather than moved, so their
+  URLs never change -- see CONTENT-GUIDE.md. Anything without the flag is
+  treated as current.
+
+  Cards are rendered with the theme's own view partial, so this override changes
+  the grouping and nothing about how an individual project looks. Grouping also
+  removes the pagination that was pushing the oldest projects onto a second page.
+*/}}
+
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+    <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  {{ $past := where .Pages "Params.status" "eq" "past" }}
+  {{ $current := complement $past .Pages }}
+
+  {{ with $current }}
+    <h2 class="mt-4 mb-3">Current projects</h2>
+    {{ range $index, $item := . }}
+      {{ partial "functions/render_view" (dict "page" $ "item" $item "view" "compact" "index" $index) }}
+    {{ end }}
+  {{ end }}
+
+  {{ with $past }}
+    <h2 class="mt-5 mb-2">Past projects</h2>
+    <div class="article-style mb-3">
+      <p>Completed work, kept here for the record. Each page collects the
+      question the project set out to answer, the software it produced, its
+      publications, and any press coverage.</p>
+    </div>
+    {{ range $index, $item := . }}
+      {{ partial "functions/render_view" (dict "page" $ "item" $item "view" "compact" "index" $index) }}
+    {{ end }}
+  {{ end }}
+</div>
+
+{{- end -}}
