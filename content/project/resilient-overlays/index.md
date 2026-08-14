@@ -87,7 +87,7 @@ all when churn is the normal condition rather than the exception.
 
 - **Nemo** — reference implementation of a structurally resilient,
   performance-centric overlay multicast protocol for streaming applications.
-  [Project page](http://www.oldaqualab.cs.northwestern.edu/projects/nemo/index.html)
+  [Archived page](https://web.archive.org/web/20060504061543/http://www.aqualab.cs.northwestern.edu/projects/nemo/)
 - **FatNemo and FatScribe** — fat-tree overlays addressing the bandwidth
   constraints of conventional tree multicast.
   [Project page](http://oldaqualab.cs.northwestern.edu/running-code?id=139)
@@ -98,7 +98,8 @@ all when churn is the normal condition rather than the exception.
   [Project page](http://oldaqualab.cs.northwestern.edu/running-code/9-projects/137-streaming-overlay-multicast)
 
 These predate our move to GitHub; the pages above are on an archival server that
-is HTTP only, and the Nemo page is already gone.
+is HTTP only; the Nemo page is gone from it entirely, so that link goes to an
+Internet Archive snapshot.
 
 ---
 
