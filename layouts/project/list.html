@@ -6,6 +6,10 @@
   URLs never change -- see CONTENT-GUIDE.md. Anything without the flag is
   treated as current.
 
+  A project may also declare `parent: <slug>`, meaning it is part of a larger
+  effort rather than a peer of it. Such pages keep their own URL but are left
+  out of this index, since the parent's page links to them.
+
   Cards are rendered with the theme's own view partial, so this override changes
   the grouping and nothing about how an individual project looks. Grouping also
   removes the pagination that was pushing the oldest projects onto a second page.
@@ -20,8 +24,15 @@
     <div class="article-style">{{ . }}</div>
   {{ end }}
 
-  {{ $past := where .Pages "Params.status" "eq" "past" }}
-  {{ $current := complement $past .Pages }}
+  {{/* Pages that belong to a larger project are reached from it, not listed beside it. */}}
+  {{ $nested := slice }}
+  {{ range $p := .Pages }}
+    {{ if $p.Params.parent }}{{ $nested = $nested | append $p }}{{ end }}
+  {{ end }}
+  {{ $top := complement $nested .Pages }}
+
+  {{ $past := where $top "Params.status" "eq" "past" }}
+  {{ $current := complement $past $top }}
 
   {{ with $current }}
     <h2 class="mt-4 mb-3">Current projects</h2>

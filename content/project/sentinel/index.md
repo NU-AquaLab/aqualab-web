@@ -17,6 +17,10 @@ lastmod: "2026-04-13T00:00:00Z"
 
 url_project: ""
 url_news: ""
+
+# Part of the submarine cable criticality project rather than a peer of it.
+# Keeps its own URL; listed under its parent on the projects index.
+parent: scn-criticality
 publishDate: "2025-12-01T00:00:00Z"
 
 type: project
