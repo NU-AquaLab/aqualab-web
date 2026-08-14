@@ -31,6 +31,8 @@ image:
 
 ## Project Overview
 
+*Part of our wider work on [Internet resilience]({{< relref "project/internet-resilience" >}}).*
+
 Ninety-nine percent of all international data rides a mesh of submarine cables on the ocean floor. Over the last decade, that mesh has exploded in scale and complexity: hundreds of systems, more than 1.8 million kilometers of fiber, and a growing mix of carriers, content providers, and tenants. Yet in much of networked systems research, this infrastructure still appears as a black box connecting continents.
 
 This project began in 2018 with our HotNets paper — a call to arms and a research agenda challenging the community to treat the submarine cable network (SCN) as a first-class component of modern networked systems. We argued that we cannot reason about Internet routing, resilience, sovereignty, or global connectivity without understanding the physical infrastructure that underpins them.

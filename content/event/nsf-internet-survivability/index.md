@@ -2,7 +2,7 @@
 title: "NSF Workshop: Towards Re-architecting Today’s Internet for Survivability"
 
 event: "NSF Workshop"
-event_url: "https://www.aqualab.cs.northwestern.edu/nsf-internet-survivability/"
+event_url: "https://aqualab.cs.northwestern.edu/event/nsf-internet-survivability/"
 
 location: "Orrington Hotel"
 address:
