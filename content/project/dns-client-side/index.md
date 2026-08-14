@@ -19,9 +19,7 @@ date: "2012-06-01T00:00:00Z"
 lastmod: "2026-08-14T00:00:00Z"
 publishDate: "2012-06-01T00:00:00Z"
 
-# This phase of the DNS work is finished; the thread continues -- see Related Links.
-status: past
-active_years: "2012–2014"
+active_years: "2012–present"
 
 type: project
 image:
@@ -115,10 +113,16 @@ France, Turkey, Brazil, Vietnam, Poland, and Russia.
 
 ---
 
-## Related Links
+## Ongoing Work
 
-This work is the early part of a longer thread. The questions it raised about
-naming, privacy, and where resolution should happen continue in:
+The questions namehelp raised — where resolution should happen, and what it
+costs the user when it happens somewhere else — are still open, and two efforts
+currently under submission continue them: **Onoma**, and a study of **hidden DNS
+resolvers**. Both have been presented as posters.
+
+---
+
+## Related Links
 
 - [Decentralization, Privacy and Performance for DNS]({{< relref "publication/2021/RKumar-DNS-Poster" >}}) — SIGCOMM 2021
 - [The Aleph]({{< relref "project/thealeph" >}}) — decoding geographic information from DNS records
