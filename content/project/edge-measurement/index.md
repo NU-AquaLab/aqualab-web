@@ -89,18 +89,14 @@ that era.
 
 ## Software
 
-- **Dasu** — an extension for the Vuze/Azureus BitTorrent client providing ISP
-  characterization and hosting third-party measurement experiments.
-  [Project page](http://www.oldaqualab.cs.northwestern.edu/projects/Dasu.html)
-- **NEWS** — a Network Early Warning System implemented as a Vuze/Azureus
-  plugin, detecting events from ordinary peer-to-peer traffic.
-  [Project page](http://www.oldaqualab.cs.northwestern.edu/projects/NEWS.html)
-- **The Nixes Tool Set** — bash scripts to install, maintain, control, and
-  monitor applications on PlanetLab.
-  [Project page](http://oldaqualab.cs.northwestern.edu/projects/149-nixes-tool-set)
-
-These predate our move to GitHub; the pages above are on an archival server that
-is HTTP only.
+- **[Dasu]({{< relref "project/dasu" >}})** — ISP characterization and a
+  platform hosting third-party measurement experiments, shipped as a Vuze plugin
+  and later a standalone client.
+- **[NEWS]({{< relref "project/news-early-warning" >}})** — a Network Early
+  Warning System detecting events from ordinary peer-to-peer traffic, run by
+  hundreds of thousands of users.
+- **[The Nixes Tool Set]({{< relref "project/nixes" >}})** — bash scripts to
+  install, maintain, control and monitor applications on PlanetLab.
 
 ---
 

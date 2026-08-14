@@ -68,13 +68,9 @@ against the privacy gained.
 
 ## Software
 
-- **SwarmScreen** — an extension for the Vuze/Azureus BitTorrent client that
-  makes users' downloading behaviour difficult to classify from connection
-  patterns.
-  [Project page](http://www.oldaqualab.cs.northwestern.edu/projects/SwarmScreen.html)
-
-This predates our move to GitHub; the page above is on an archival server that
-is HTTP only.
+- **[SwarmScreen]({{< relref "project/swarmscreen" >}})** — a Vuze extension
+  making downloading behaviour difficult to classify from connection patterns,
+  with a tunable privacy/performance trade-off.
 
 ---
 

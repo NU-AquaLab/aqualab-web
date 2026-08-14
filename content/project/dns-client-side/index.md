@@ -81,12 +81,9 @@ deployable by an individual user rather than by agreement among providers.
 
 ## Software
 
-- **namehelp** — an extensible proxying DNS server that keeps the benefits of
-  third-party DNS while avoiding the performance penalty for CDN-hosted content.
-  [Project page](http://oldaqualab.cs.northwestern.edu/projects/namehelp)
-
-This predates our move to GitHub; the page above is on an archival server that
-is HTTP only.
+- **[namehelp]({{< relref "project/namehelp" >}})** — a proxying DNS server that
+  keeps the benefits of third-party DNS while avoiding the performance penalty
+  for CDN-hosted content. Ten thousand users within a month of release.
 
 ---
 

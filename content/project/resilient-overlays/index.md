@@ -86,20 +86,17 @@ all when churn is the normal condition rather than the exception.
 ## Software
 
 - **Nemo** — reference implementation of a structurally resilient,
-  performance-centric overlay multicast protocol for streaming applications.
-  [Archived page](https://web.archive.org/web/20060504061543/http://www.aqualab.cs.northwestern.edu/projects/nemo/)
-- **FatNemo and FatScribe** — fat-tree overlays addressing the bandwidth
-  constraints of conventional tree multicast.
-  [Project page](http://oldaqualab.cs.northwestern.edu/running-code?id=139)
-- **NUPastry** — reference implementation of a resilient distributed hash table.
-  [Project page](http://oldaqualab.cs.northwestern.edu/running-code/9-projects/137-streaming-overlay-multicast)
-- **NUScribe** — resilient DHT-based multicast, with a work-in-progress
-  NUSplitStreaming providing many of the proposed SplitStream features.
-  [Project page](http://oldaqualab.cs.northwestern.edu/running-code/9-projects/137-streaming-overlay-multicast)
-
-These predate our move to GitHub; the pages above are on an archival server that
-is HTTP only; the Nemo page is gone from it entirely, so that link goes to an
-Internet Archive snapshot.
+  performance-centric overlay multicast protocol for streaming applications. Its
+  own page is long gone; an
+  [Internet Archive snapshot](https://web.archive.org/web/20060504061543/http://www.aqualab.cs.northwestern.edu/projects/nemo/)
+  survives.
+- **[FatNemo and FatScribe]({{< relref "project/fatnemo" >}})** — fat-tree
+  overlays addressing the bandwidth constraints of conventional tree multicast.
+- **[NUPastry and NUScribe]({{< relref "project/nupastry-nuscribe" >}})** — a
+  resilient distributed hash table and DHT-based multicast, with a
+  work-in-progress NUSplitStream.
+- **[The Nixes Tool Set]({{< relref "project/nixes" >}})** — the PlanetLab
+  scripts these wide-area experiments were deployed with.
 
 ---
 

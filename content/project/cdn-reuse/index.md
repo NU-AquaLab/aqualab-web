@@ -101,14 +101,12 @@ the hands of ordinary users rather than a testbed.
 
 ## Software
 
-- **Ono** — a Vuze/Azureus plugin implementing CDN-based peer selection.
-  [Project page](http://www.oldaqualab.cs.northwestern.edu/projects/Ono.html)
-- **SideStep / DraFTP** — detouring by reusing CDN measurements, plus an
-  open-source FTP suite built on it.
-  [Project page](http://www.oldaqualab.cs.northwestern.edu/projects/SideStep.html)
-
-Both predate our move to GitHub; the pages above are on an archival server that
-is HTTP only.
+- **[Ono]({{< relref "project/ono" >}})** — a Vuze/Azureus plugin implementing
+  CDN-based peer selection. Over 100,000 users; cut latency on selected paths by
+  two orders of magnitude and raised download rates by up to 207%.
+- **[SideStep and DraFTP]({{< relref "project/sidestep" >}})** — detouring by
+  reusing CDN measurements, plus an open-source FTP suite built on it. Improved
+  performance more than half the time, and never made it worse.
 
 ---
 

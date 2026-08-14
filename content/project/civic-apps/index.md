@@ -66,15 +66,10 @@ Transportation Round — first among the not-for-profit entries.
 
 ## Software
 
-- **FixIt!** — crowdsourced reporting and report-validation of issues requiring
-  city attention.
-  [Project page](http://oldaqualab.cs.northwestern.edu/projects/fixit)
-- **TrailBlaze Chicago** — crowdsourced planning and status reporting for bike
-  paths.
-  [Project page](http://oldaqualab.cs.northwestern.edu/projects/trailblaze-chicago)
-
-These predate our move to GitHub; the pages above are on an archival server that
-is HTTP only.
+- **[FixIt!]({{< relref "project/fixit" >}})** — crowdsourced reporting and
+  report-validation of issues requiring city attention.
+- **[TrailBlaze Chicago]({{< relref "project/trailblaze-chicago" >}})** —
+  crowdsourced planning and status reporting for bike paths.
 
 ---
 
