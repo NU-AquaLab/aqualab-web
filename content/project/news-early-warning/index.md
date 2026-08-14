@@ -17,7 +17,6 @@ date: "2008-05-07T00:00:00Z"
 lastmod: "2026-08-14T00:00:00Z"
 publishDate: "2008-05-07T00:00:00Z"
 
-parent: edge-measurement
 status: past
 active_years: "2008–2010"
 
@@ -117,6 +116,7 @@ NEWS was covered by RedOrbit, Slashdot, and *The Hindu* in 2008.
 
 ## Related Links
 
-- [Measurement and Experimentation from the Edge]({{< relref "project/edge-measurement" >}}) — the project NEWS was built for
+- [Measurement and Experimentation from the Edge]({{< relref "project/edge-measurement" >}}) — the wider thread this belongs to
+- [Dasu]({{< relref "project/dasu" >}}) — the platform that grew out of the same approach
 
 </div>

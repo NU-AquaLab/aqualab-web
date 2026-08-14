@@ -50,46 +50,41 @@ being a good guest on someone else's connection.
 
 ---
 
-## Detecting Events by Watching Traffic
+## Two Projects
 
-NEWS came first. Its premise was that a peer-to-peer application already
-maintains connections to many peers across many networks, and already knows how
-those connections are performing. That is, in effect, a continuous distributed
-measurement of the network — one that is generated for free as a side effect of
-normal use.
+The thread produced two efforts substantial enough to stand on their own.
 
-By looking for correlated performance changes across a peer's connections, NEWS
-could detect service-level network events from the edge, without probes and
-without infrastructure. Because the signal came from users' own traffic, the
-detections reflected problems as users experienced them, rather than as a
-backbone monitor would see them.
+**[NEWS]({{< relref "project/news-early-warning" >}})** came first. Its premise
+was that a peer-to-peer application already maintains connections to many peers
+across many networks, and already knows how those connections are performing —
+in effect a continuous distributed measurement of the network, generated for
+free as a side effect of normal use. By looking for correlated performance
+changes across a peer's connections, and corroborating across users in the same
+ISP or country, NEWS detected service-level network events from the edge with no
+probes and no infrastructure.
 
----
-
-## Characterizing Broadband, then Opening the Platform
-
-That approach became a project in its own right. **[Dasu]({{< relref "project/dasu" >}})**
-began as an ISP characterization tool — measuring the broadband service a user
-actually received, from inside the home, across many providers and countries —
-and then became something more general: a platform that could host *other
+**[Dasu]({{< relref "project/dasu" >}})** carried the approach into
+experimentation. It began as an ISP characterization tool — measuring the
+broadband service a user actually received, from inside the home, across many
+providers and countries — and became a platform that could host *other
 researchers'* experiments from tens of thousands of real access links, with the
 scheduling and safeguards that hosting implies when the machine belongs to a
 volunteer.
 
-It is documented on its own page.
+Both are documented on their own pages; what follows is the tooling that
+supported them.
 
 ---
 
 ## Software
 
-- **[Dasu]({{< relref "project/dasu" >}})** — ISP characterization and a
-  platform hosting third-party measurement experiments, shipped as a Vuze plugin
-  and later a standalone client.
-- **[NEWS]({{< relref "project/news-early-warning" >}})** — a Network Early
-  Warning System detecting events from ordinary peer-to-peer traffic, run by
-  hundreds of thousands of users.
 - **[The Nixes Tool Set]({{< relref "project/nixes" >}})** — bash scripts to
-  install, maintain, control and monitor applications on PlanetLab.
+  install, maintain, control and monitor applications on PlanetLab, used to
+  deploy the wide-area experiments behind this work.
+
+The measurement clients themselves — the Vuze plugins and the Dasu standalone
+client — are described on the [NEWS]({{< relref "project/news-early-warning" >}})
+and [Dasu]({{< relref "project/dasu" >}}) pages.
 
 ---
 
