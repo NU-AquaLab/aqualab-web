@@ -49,22 +49,29 @@ This project measured that interaction at scale and then did something about it.
 
 ## Measuring the Interaction
 
-*Content Delivery and the Natural Evolution of DNS* examined how the growth of
-remote DNS services was reshaping replica selection, and how CDNs and resolvers
-were adapting to each other. The finding that mattered was not that third-party
-DNS is bad — its benefits are real — but that the performance cost falls
-unevenly and invisibly, on precisely the content that CDNs work hardest to
-place well.
+*Content Delivery and the Natural Evolution of DNS* measured the end-to-end cost
+of remote DNS on CDN performance, and gave the first evaluation of the
+industry's answer to it: the EDNS client-subnet extension, which attaches a
+truncated client address to the query so a CDN can steer on the client rather
+than on the resolver.
+
+The extension works where it is deployed. The difficulty is that it requires
+both the resolver and the CDN to participate, and adoption was thin — so the
+performance cost kept falling, unevenly and invisibly, on precisely the content
+CDNs work hardest to place well. That gap is what made a client-side answer
+worth building.
 
 ---
 
 ## namehelp
 
-namehelp is the response: a proxying DNS server that runs on the user's own
-machine. It keeps a third-party resolver for general resolution, so users keep
-the reliability and speed they chose it for, while resolving CDN-hosted names in
-a way that preserves proximity — recovering the replica selection that remote
-resolution had given away.
+namehelp is the response, built on what the paper calls Direct Resolution: a
+proxying DNS server on the user's own machine that keeps a third-party resolver
+for general queries — so users keep the reliability and speed they chose it for
+— while resolving CDN-hosted names directly, so the query carries the client's
+own network position rather than the resolver's. It recovers most of the
+performance that remote resolution gives away, and it needs neither the CDN nor
+the resolver to agree to anything.
 
 Running at the client is the point. It needs no cooperation from the CDN, no
 change at the resolver, and no support from the ISP, which is what made it
