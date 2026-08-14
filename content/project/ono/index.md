@@ -48,6 +48,9 @@ measurement.
 
 ## Results
 
+![Global map of Ono users, shaded by country](coverage-map.jpg)
+*Ono's coverage map: users in nearly every country, shaded by concentration.*
+
 From results collected across participating users — well over 100,000 of them —
 Ono located peers along paths with **two orders of magnitude lower latency** and
 **30% lower loss rates** than those BitTorrent picked at random.

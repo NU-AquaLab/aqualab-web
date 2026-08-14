@@ -32,6 +32,8 @@ image:
 
 <div class="article-style">
 
+![The Dasu logo](dasu-logo.jpg)
+
 ## The Short Story
 
 Dasu was a measurement experimentation platform for the Internet's edge. It

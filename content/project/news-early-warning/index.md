@@ -47,6 +47,10 @@ same problem in the same place, it raised an alarm.
 The approach's virtue was its cost: monitoring traffic the client was generating
 anyway made detection extremely lightweight.
 
+![Global map of NEWS users, shaded by country](coverage-map.jpg)
+*NEWS coverage. Detection depended on having enough users inside the same ISP or
+country to corroborate a suspected problem.*
+
 ## Why the Edge
 
 The Internet increasingly carried services — VoIP, content distribution, IPTV —

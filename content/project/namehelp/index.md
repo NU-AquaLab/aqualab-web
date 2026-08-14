@@ -78,6 +78,14 @@ It installed as a local system service — users pointed their machine at
 `127.0.0.1` — with browser extensions for Chrome and Firefox providing a
 dashboard.
 
+![namehelp dashboard showing DNS latency: namehelp 9.51 ms against a network default of 148.28 ms, a personalized benchmark of 344.43 ms and a generic benchmark of 881.09 ms](dns-performance.png)
+*The dashboard's DNS view. In this example namehelp resolved in 9.51 ms against
+the network default's 148.28 ms.*
+
+![Bar chart of the top CDN domains where namehelp improved HTTP performance, led by www.update.microsoft.com.nsatc.net at 24.1 ms](http-performance.png)
+*Where the gain came from: the CDN-hosted domains for which namehelp found a
+nearer replica.*
+
 ## Reception
 
 The first release went out on **9 October 2012** for Windows, macOS and

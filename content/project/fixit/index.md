@@ -48,6 +48,15 @@ value comes from reconciling many.
 
 It took **5th place** in the Apps 4 Metro Chicago Challenge, Community Round.
 
+## The App
+
+![FixIt! report screen: choosing a report type of "Maintenance request", with the location marked on a map of downtown Chicago](screenshot-report.png)
+![FixIt! details screen for describing the issue](screenshot-details.png)
+![FixIt! confirmation request, asking a nearby user to confirm or refute someone else's report](screenshot-confirmation.png)
+
+Reporting, describing, and — the part that mattered — being asked to confirm
+somebody else's report.
+
 ---
 
 ## Related Work
