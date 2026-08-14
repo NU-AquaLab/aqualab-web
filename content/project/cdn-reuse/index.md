@@ -3,7 +3,9 @@ title: "Reusing CDN Measurements"
 subtitle: "Borrowing the view of the network that content delivery networks already have."
 summary: "Content delivery networks continuously measure the Internet to decide which replica should serve each client. This project asked whether the rest of us could read those decisions as a free, always-on measurement service — and used the answer to build systems for detouring, network positioning, and peer selection, including Ono, a BitTorrent plugin that cut cross-ISP traffic while making downloads faster."
 authors:
+  - "Ao-Jan Su"
   - "David R. Choffnes"
+  - "Aleksandar Kuzmanovic"
   - "Fabián E. Bustamante"
 
 tags:
@@ -129,18 +131,17 @@ in 2008.
 
 ## People
 
-**Lead & PI**
+This was a joint project with Aleksandar Kuzmanovic's group at Northwestern.
+
+**Faculty**
 
 - [Fabián E. Bustamante]({{< relref "authors/fabian-e-bustamante" >}}) (Northwestern University)
+- [Aleksandar Kuzmanovic](https://networks.cs.northwestern.edu/website/index-b.html) (Northwestern University)
 
 **Students**
 
 - [David R. Choffnes]({{< relref "authors/david-choffnes" >}})
-- Ao-Jan Su
-
-**Collaborators**
-
-- Aleksandar Kuzmanovic (Northwestern University)
+- Ao-Jan Su (advised by Aleksandar Kuzmanovic)
 
 ---
 
