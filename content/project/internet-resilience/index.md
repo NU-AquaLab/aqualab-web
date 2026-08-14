@@ -4,6 +4,7 @@ subtitle: "What the Internet survives, what it does not, and how we would know."
 summary: "The Internet is treated as critical infrastructure but was not designed as such, and much of what makes it hold together — or fail — is invisible from the outside. This is the agenda tying that work together: mapping the physical infrastructure paths depend on, stress-testing the routing system, studying how platforms engineer around failure, and arguing for what a survivable Internet would have to look like."
 authors:
   - "Fabián E. Bustamante"
+  - "Walter Willinger"
 
 tags:
   - Internet Resilience
@@ -46,8 +47,8 @@ build to find out before it does?
 
 ## Re-architecting for Survivability
 
-In November 2023 we convened a two-day NSF workshop in Evanston with Walter
-Willinger — [*Towards Re-architecting Today's Internet for
+In November 2023 we convened a two-day NSF workshop in Evanston —
+[*Towards Re-architecting Today's Internet for
 Survivability*]({{< relref "event/nsf-internet-survivability" >}}) — bringing
 together researchers across networking, control theory and security to ask what
 a survivable Internet would require, and what research agenda would get us
@@ -113,9 +114,10 @@ The submarine cable publications are listed on
 
 ## People
 
-**Lead & PI**
+**Leads**
 
 - [Fabián E. Bustamante]({{< relref "authors/fabian-e-bustamante" >}}) (Northwestern University)
+- Walter Willinger (Northwestern University)
 
 **Students**
 
@@ -125,7 +127,6 @@ The submarine cable publications are listed on
 
 **Collaborators**
 
-- Walter Willinger (NIKSUN)
 - Adrian Perrig (ETH Zürich)
 
 ---
