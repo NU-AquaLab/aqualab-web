@@ -86,18 +86,24 @@ two vehicles can hear each other.
 
 ## Software
 
+All three shipped together as the **SWANS++** project on SourceForge, which is
+still up — the distribution is `straw1_2_1.tar.gz`. It is the only one of the
+group's systems from this era that can still be downloaded.
+
 - **STRAW** — an integrated mobility and traffic model for VANETs, implemented
   for the JiST/SWANS discrete-event simulator.
-  [Archived page](https://web.archive.org/web/2006/http://aqualab.cs.northwestern.edu/projects/STRAW/)
+  [SourceForge](https://sourceforge.net/projects/straw/) ·
+  [archived project page](https://web.archive.org/web/2006/http://aqualab.cs.northwestern.edu/projects/STRAW/)
 - **SWANS++** — extensions to JiST/SWANS, including re-implementations of
   well-known protocols, mobility models, and a steering and visualization tool.
-  [Archived page](https://web.archive.org/web/2006/http://aqualab.cs.northwestern.edu/projects/swans++/)
+  [SourceForge](https://sourceforge.net/projects/straw/) ·
+  [archived project page](https://web.archive.org/web/2006/http://aqualab.cs.northwestern.edu/projects/swans++/)
 - **Ceratias** — real-time visualization for JiST/SWANS, supporting interaction
   with and online modification of a running simulation.
-  [SourceForge](http://sourceforge.net/projects/straw/)
+  [SourceForge](https://sourceforge.net/projects/straw/)
 
-The first two project pages are gone from our servers; the links above go to
-Internet Archive snapshots.
+Our own project pages for these are gone; the links above go to Internet Archive
+snapshots of them.
 
 ---
 
