@@ -45,17 +45,19 @@ links to the project it came out of, where the design and results are described.
 
 ---
 
-## What Is and Is Not Here
+## A Note on This List
 
-This page lists software you can run on your own data, or could when it was
-distributed. It does not list the per-paper repositories that accompany
-individual publications — those reproduce a specific result and are linked from
-the publication itself. The distinction, and what a repository needs before it
-belongs here, is set out in `CONTENT-GUIDE.md` in the site repository.
+Everything here is software meant to be run on your own data — or that was,
+while it was distributed. Code accompanying a particular paper, which
+reproduces that paper's results rather than serving as a general tool, is linked
+from the [publication]({{< relref "publication" >}}) itself instead.
 
-The Vuze plugins are gone because the plugin ecosystem they depended on is gone,
-along with the hosts that served them. Their descriptions, results and press are
-preserved on the pages linked above. STRAW is the one system from that era still
-downloadable.
+The BitTorrent plugins are gone: the Vuze plugin ecosystem they depended on no
+longer exists, and neither do the hosts that served them. What they did, what
+they measured and how they were received is preserved on the pages linked above.
+STRAW is the one system from that era still downloadable.
+
+If you are looking for something you cannot find here, or want to use one of
+these systems, please [get in touch]({{< relref "contact" >}}).
 
 </div>
