@@ -194,7 +194,10 @@ let currentFilter = "All";
 
 async function init() {
   try {
-    const r = await fetch("colleges.json");
+    // Revalidate rather than reuse a cached copy: the page and its data are
+    // cached separately, so a stale colleges.json can pair with fresh HTML
+    // after a deploy and render wrong totals. Costs a 304 when unchanged.
+    const r = await fetch("colleges.json", {cache: "no-cache"});
     if (!r.ok) throw new Error("HTTP " + r.status);
     allData = await r.json();
   } catch (err) {
