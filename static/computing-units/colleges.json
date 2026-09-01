@@ -1,338 +1,1184 @@
 [
   {
-    "university": "University of Texas at Austin",
-    "unit": "School of Computing",
-    "year": 2026,
-    "prior": "Dept of Computer Science, iSchool, Dept of Statistics & Data Sciences merged within College of Natural Sciences",
-    "admin": "school within College of Natural Sciences",
-    "departments": "Computer Science; Information; Statistics and Data Sciences",
-    "scope": "CS, Data Science, Statistics, Information, AI, Robotics",
-    "naming": "None",
-    "faculty": "~140 + 50 new hires planned",
-    "notes": "Approved by UT System Board of Regents Feb 2026, opening Fall 2026. Unites three existing units. Peter Stone (CS chair, Texas Robotics founder) named Special Adviser for School Formation. Designed as university-wide resource for interdisciplinary collaboration across arts, liberal arts, business, medicine, law, and engineering. Transitioned from Engineering to Natural Sciences. Greater autonomy via MOU with dean in ~2005.",
-    "source": "UT Austin News (Feb 19, 2026)",
-    "url": "https://news.utexas.edu/2026/02/19/ut-launches-new-school-of-computing-uniting-computer-and-data-science-statistics-information-disciplines/"
+    "university": "Northeastern University",
+    "unit": "Khoury College of Computer Sciences",
+    "year": 1982,
+    "prior": "CS formed from Math (College of Arts & Sciences) and Industrial Engineering",
+    "admin": "standalone",
+    "departments": "Single college; programs in CS, Data Science, Cybersecurity, AI, Health Informatics",
+    "scope": "CS, Data Science, Cybersecurity, AI, Informatics",
+    "naming": "Amin and Julie Khoury $50M — announced Dec 17, 2018; college formally named April 2019",
+    "faculty": "~90",
+    "notes": "One of the earliest standalone computing colleges in the US (1982), and among the first named ones. Pioneered 'combined majors' (CS + X). Co-op program central to its identity.",
+    "url": "https://www.khoury.northeastern.edu/",
+    "refs": [
+      {
+        "t": "Northeastern establishes the Khoury College of Computer Sciences (Dec 17, 2018)",
+        "u": "https://news.northeastern.edu/2018/12/17/northeastern-establishes-the-khoury-college-of-computer-and-information-sciences/"
+      },
+      {
+        "t": "Northeastern officially names the Khoury College (Apr 10, 2019)",
+        "u": "https://news.northeastern.edu/2019/04/10/northeastern-officially-names-the-khoury-college-of-computer-sciences-in-honor-of-amin-and-julie-khoury/"
+      },
+      {
+        "t": "CRA, Creating Institutional Homes for Computing (2019)",
+        "u": "https://cra.org/resources/creating-institutional-homes-for-computing/"
+      }
+    ],
+    "gift_m": 50,
+    "gift_label": "Amin and Julie Khoury, 2018"
   },
-{
-    "university": "University of Georgia",
-    "unit": "School of Computing",
-    "year": 2022,
-    "prior": "Department of Computer Science (est. 1984, within Franklin College of Arts and Sciences)",
+  {
+    "university": "George Mason University",
+    "unit": "College of Engineering and Computing (CEC)",
+    "year": 1985,
+    "prior": "Founded 1985 as the School of Information Technology and Engineering; later the Volgenau School of Engineering",
     "admin": "hybrid",
-    "departments": "Single-school unit — no sub-departments; houses CS programs with affiliated Institutes (AI, Cybersecurity & Privacy)",
-    "scope": "CS, AI, Cybersecurity, Data Science, Software Engineering",
-    "naming": "None",
-    "faculty": "~30 faculty (including courtesy appointments from Engineering, Genetics, etc.)",
-    "notes": "Effective July 1, 2022. Jointly administered by Franklin College of Arts & Sciences and College of Engineering — an unusual dual-college governance model. Stemmed from a 7-member Task Force on the Future of Computing charged by the Provost. Inaugural director Gagan Agrawal (formerly Augusta Univ.) appointed July 2023 after national search. CS was UGA's 3rd-most-enrolled and fastest-growing major; undergrad enrollment grew 22% in a single year (614→751, 2014–15). Connected to UGA's Presidential Hiring initiative in Data Science and AI.",
-    "source": "UGA Franklin College News; UGA College of Engineering News; Wikipedia",
-    "url": "https://computing.uga.edu/"
-},
-{
-    "university": "Nanyang Technological University, Singapore (NTU)",
-    "unit": "College of Computing and Data Science (CCDS)",
-    "year": 2024,
-    "prior": "School of Computer Science and Engineering (SCSE, renamed 2016; orig. School of Applied Science est. 1988, then School of Computer Engineering)",
-    "admin": "standalone",
-    "departments": "Three academic divisions: AI; Data Science; Computing",
-    "scope": "CS, Computer Engineering, AI, Data Science, Cybersecurity",
-    "naming": "None",
-    "faculty": "257 faculty members (2024)",
-    "notes": "Announced Feb 2024, operational May 2024. NTU's 6th academic college. Formed by reorganising SCSE and consolidating computing-related disciplines previously under College of Engineering. Founding Dean: Luke Ong (also newly created VP for AI & Digital Economy; Chief Scientist, AI Singapore). 4,227 UG + 1,078 grad students + 578 research staff. New programs launched alongside: Bachelor of Computing in AI and Society, Turing AI Scholars Programme, Minor in AI for all NTU undergraduates. Aligned with Singapore's refreshed national AI strategy to triple AI talent pool.",
-    "source": "NTU News; EurekAlert; NTU CCDS History page; Wikipedia",
-    "url": "https://www.ntu.edu.sg/computing"
-},
-{
-    "university": "Korea Advanced Institute of Science and Technology (KAIST)",
-    "unit": "College of AI",
-    "year": 2026,
-    "prior": "Kim Jaechul Graduate School of AI (est. 2019, graduate-only; first in Korea to offer MS/PhD in AI) + Department of Computer Science",
-    "admin": "standalone",
-    "departments": "AI Computing; AI Systems; AX (AI Transformation — 4 tracks: Data & Content, Manufacturing & Physical, Bio & Materials, Sustainability); AI Futures (ethics, policy, governance)",
-    "scope": "AI algorithms/generative AI/multimodal AI, AI semiconductors & hardware, AI industrial applications, AI ethics & policy",
-    "naming": "None (Ministry of Science and ICT funded)",
-    "faculty": "20 initial full-time (5 per department), planned expansion; existing GSAI has 20 core + 43 affiliated + 7 adjunct faculty",
-    "notes": "KAIST board approved Dec 11, 2025. UG programs begin spring 2026; graduate programs fall 2026. 300 new students/year (100 UG, 150 MS, 50 PhD) — entirely new enrollment slots. First Korean university to elevate AI to independent college-level unit. Part of broader national policy: similar AI colleges planned at GIST, DGIST, and UNIST by 2027, each aligned with regional strategic industries. KAIST ranked #39 worldwide in AI (ShanghaiRanking 2025). KAIST operates a department-free first year; sophomores choose among the 4 AI majors.",
-    "source": "Korea Herald; Asia Business Daily; KAIST website",
-    "url": "https://aicollege.kaist.ac.kr/"
-},
+    "departments": "Includes the Department of Computer Science and the School of Computing alongside engineering departments",
+    "scope": "CS, Cybersecurity, Data Engineering, Information Sciences, Engineering",
+    "naming": "None currently (previously named for Ernst Volgenau)",
+    "faculty": "Not verified",
+    "notes": "An unusually early mover — Mason built an IT-and-engineering school in 1985, before most universities had separated computing at all. The State Council of Higher Education for Virginia approved the current College of Engineering and Computing name in 2021, putting computing in the college's title. Counted here at its 1985 founding, not the rename.",
+    "url": "https://cec.gmu.edu/",
+    "refs": [
+      {
+        "t": "A Brief History of the College (George Mason CEC)",
+        "u": "https://cec.gmu.edu/about/news-and-information/brief-history-college"
+      },
+      {
+        "t": "George Mason College of Engineering and Computing",
+        "u": "https://cec.gmu.edu/"
+      }
+    ]
+  },
+  {
+    "university": "Florida International University",
+    "unit": "Knight Foundation School of Computing and Information Sciences",
+    "year": 1987,
+    "prior": "Computing programs within FIU's engineering unit; SCIS dates to 1987",
+    "admin": "within_eng",
+    "departments": "Single school within the College of Engineering & Computing",
+    "scope": "CS, IT, Cybersecurity, AI, Data Science, Bioinformatics, Digital Forensics",
+    "naming": "John S. and James L. Knight Foundation $10M (Feb 24, 2021)",
+    "faculty": "Not verified; 4,300+ students as of 2022",
+    "notes": "Named in Feb 2021 as part of a Knight Foundation push to grow Miami's tech ecosystem. One of the few units on this list where the naming donor is a foundation with a regional economic-development agenda rather than an alumnus.",
+    "url": "https://www.cis.fiu.edu/",
+    "refs": [
+      {
+        "t": "Knight Foundation, FIU to accelerate growth of Miami's tech ecosystem, name School of Computing and Information Sciences (FIU News, Feb 2021)",
+        "u": "https://news.fiu.edu/2021/knight-foundation,-fiu-to-accelerate-growth-of-miamis-tech-ecosystem,-name-school-of-computing-and-information-sciences"
+      },
+      {
+        "t": "Knight Foundation School of Computing and Information Sciences (FIU CEC)",
+        "u": "https://cec.fiu.edu/about/schools-departments/computing-information-sciences/"
+      }
+    ],
+    "gift_m": 10,
+    "gift_label": "Knight Foundation, 2021"
+  },
   {
     "university": "Carnegie Mellon University",
     "unit": "School of Computer Science",
     "year": 1988,
-    "prior": "CS dept in College of Science",
+    "prior": "CS department within the College of Science",
     "admin": "standalone",
-    "departments": "Computer Science; Machine Learning; Robotics; Language Technologies; HCI; Software Research; Computational Biology",
+    "departments": "Computer Science; Machine Learning; Robotics; Language Technologies; HCI; Software and Societal Systems; Computational Biology",
     "scope": "CS, AI/ML, Robotics, HCI, Computational Biology",
-    "naming": "None (building gifts)",
+    "naming": "None for the school itself (major building gifts only)",
     "faculty": "~250",
-    "notes": "One of the first standalone CS schools. Porous dept boundaries — faculty can supervise PhD students in any dept.",
-    "source": "CRA White Paper (2019); Wikipedia",
-    "url": "https://www.cs.cmu.edu/"
+    "notes": "One of the first standalone CS schools in the US. Porous department boundaries — faculty can supervise PhD students across departments.",
+    "url": "https://www.cs.cmu.edu/",
+    "refs": [
+      {
+        "t": "Carnegie Mellon School of Computer Science (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/Carnegie_Mellon_School_of_Computer_Science"
+      },
+      {
+        "t": "CRA, Creating Institutional Homes for Computing (2019)",
+        "u": "https://cra.org/resources/creating-institutional-homes-for-computing/"
+      }
+    ]
   },
   {
     "university": "Georgia Institute of Technology",
     "unit": "College of Computing",
     "year": 1990,
-    "prior": "School of ICS in College of Science & Liberal Studies",
+    "prior": "School of Information and Computer Science within the College of Science & Liberal Studies",
     "admin": "standalone",
-    "departments": "School of CS; School of Interactive Computing; School of CSE; School of Cybersecurity & Privacy; School of Computing Instruction",
+    "departments": "School of Computer Science; Interactive Computing; Computational Science & Engineering; Cybersecurity & Privacy; Computing Instruction",
     "scope": "CS, HCI, Computational Media, Cybersecurity, CSE",
-    "naming": "Klaus $15M (building, 2000)",
+    "naming": "Klaus $15M (building gift, 2000) — the college itself is unnamed",
     "faculty": "~100+ research faculty",
-    "notes": "First 'College of Computing' in the US. ~4,600 UG + ~16,900 grad (incl. OMSCS). Five internal schools. Joint degree in Computational Media with Liberal Arts college.",
-    "source": "CRA White Paper (2019); Wikipedia; GT Catalog",
-    "url": "https://www.cc.gatech.edu/"
+    "notes": "The first 'College of Computing' in the US. ~4,600 undergraduates plus ~16,900 graduate students including OMSCS. Five internal schools; joint degrees with Liberal Arts.",
+    "url": "https://www.cc.gatech.edu/",
+    "refs": [
+      {
+        "t": "Georgia Tech College of Computing (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/Georgia_Institute_of_Technology_College_of_Computing"
+      },
+      {
+        "t": "CRA, Creating Institutional Homes for Computing (2019)",
+        "u": "https://cra.org/resources/creating-institutional-homes-for-computing/"
+      }
+    ]
   },
   {
-    "university": "Northeastern University",
-    "unit": "Khoury College of Computer Sciences",
-    "year": 1982,
-    "prior": "CS formed from Math (A&S) and Industrial Eng (Engineering)",
+    "university": "DePaul University",
+    "unit": "Jarvis College of Computing and Digital Media (CDM)",
+    "year": 1995,
+    "prior": "Department of Computer Science in the College of Liberal Arts and Sciences (est. 1981, founding chair Helmut Epp)",
     "admin": "standalone",
-    "departments": "Programs in CS, Data Science, Cybersecurity, AI, Health Informatics",
-    "scope": "CS, Data Science, Cybersecurity, AI, Informatics",
-    "naming": "Kal & Renata Khoury $50M (2019)",
-    "faculty": "~90",
-    "notes": "One of the earliest standalone CS colleges (1982). Pioneered 'combined majors' (CS + X). Co-op program central to identity.",
-    "source": "CRA White Paper (2019)",
-    "url": "https://www.khoury.northeastern.edu/"
+    "departments": "Three internal schools: School of Computing; School of Cinematic Arts; School of Design",
+    "scope": "CS, Software Engineering, Cybersecurity, Data Science, Game Design, Cinematic Arts, HCI",
+    "naming": "Eugene P. Jarvis and Sasha L. Gerritson — largest gift in DePaul history; amount undisclosed at the donors' request (DePaul's previous record was $30M)",
+    "faculty": "Not verified",
+    "notes": "Established 1995 as the School of Computer Science, Telecommunications and Information Systems (CTI) — one of the earliest US computing units outside engineering. An early distance-learning pioneer. Unusual scope: computing sits alongside cinema and design in one college.",
+    "url": "https://cdm.depaul.edu/",
+    "refs": [
+      {
+        "t": "DePaul CTI history (Encyclopedia.com)",
+        "u": "https://www.encyclopedia.com/education/news-and-education-magazines/depaul-university-school-computer-science-telecommunications-and-information-systems"
+      },
+      {
+        "t": "Jarvis College of Computing and Digital Media (DePaul catalog)",
+        "u": "https://catalog.depaul.edu/colleges-schools/computing-digital-media/"
+      },
+      {
+        "t": "Largest donation in DePaul's history renames the college (The DePaulia)",
+        "u": "https://depauliaonline.com/57478/news/campusnews/largest-donation-in-depauls-history-to-rename-the-college-of-computing-and-digital-media/"
+      }
+    ],
+    "gift_m": null,
+    "gift_label": "Jarvis / Gerritson — undisclosed"
   },
   {
-    "university": "Cornell University",
-    "unit": "Ann S. Bowers College of Computing and Information Science",
-    "year": 2020,
-    "prior": "Faculty of CIS (est. 1999); CS originally in Engineering / Arts & Sciences. Became full College 2020.",
+    "university": "National University of Singapore (NUS)",
+    "unit": "School of Computing (SoC)",
+    "year": 1998,
+    "prior": "Department of Computer Science (from ~1975); Faculty status granted 1998",
     "admin": "standalone",
-    "departments": "Computer Science; Information Science; Statistics & Data Science",
-    "scope": "CS, Information Science, Data Science, Statistics",
-    "naming": "Ann S. Bowers $100M+ (2020)",
-    "faculty": "~120 (CS 62, Info Sci 42, Stats 18)",
-    "notes": "Pioneering 'faculty' structure in 1999 became full college in 2020. Spans Ithaca + Cornell Tech (NYC). 76% of UGs take at least one CIS course.",
-    "source": "CRA White Paper (2019); Wikipedia; Cornell Milestones",
-    "url": "https://cis.cornell.edu/"
+    "departments": "Computer Science; Information Systems and Analytics",
+    "scope": "CS, Information Systems, Business Analytics, AI, Cybersecurity",
+    "naming": "None",
+    "faculty": "Not verified",
+    "notes": "Became a faculty-level School in 1998, 33 years after computing began as a department. NTU's creation of CCDS in 2024 gave Singapore two college-level computing units within 6 km of each other.",
+    "url": "https://www.comp.nus.edu.sg/",
+    "refs": [
+      {
+        "t": "NUS School of Computing — 10 years as a faculty (en-academic)",
+        "u": "https://en-academic.com/dic.nsf/enwiki/1502314"
+      },
+      {
+        "t": "NUS School of Computing",
+        "u": "https://www.comp.nus.edu.sg/"
+      }
+    ]
+  },
+  {
+    "university": "University of Edinburgh",
+    "unit": "School of Informatics",
+    "year": 1998,
+    "prior": "Five separate units: Dept of Artificial Intelligence, Dept of Computer Science, Centre for Cognitive Science, AI Applications Institute, and the Human Communication Research Centre",
+    "admin": "within_sci",
+    "departments": "Institutes for Adaptive & Neural Computation; Computing Systems Architecture; Language, Cognition & Computation; Perception, Action & Behaviour; Computer Systems; Design Informatics",
+    "scope": "AI, Cognitive Science, CS, Computational Linguistics, Robotics",
+    "naming": "None",
+    "faculty": "Not verified",
+    "notes": "One of the earliest and most complete 'informatics' consolidations anywhere — merged AI and cognitive science into computing a full generation before US universities began doing the same. Sits within Edinburgh's College of Science and Engineering.",
+    "url": "https://informatics.ed.ac.uk/",
+    "refs": [
+      {
+        "t": "History of the School of Informatics (University of Edinburgh)",
+        "u": "https://informatics.ed.ac.uk/about/history-of-the-school-of-informatics"
+      },
+      {
+        "t": "School of Informatics, University of Edinburgh (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/School_of_Informatics,_University_of_Edinburgh"
+      }
+    ]
+  },
+  {
+    "university": "Pennsylvania State University",
+    "unit": "College of Information Sciences and Technology (IST)",
+    "year": 1999,
+    "prior": "New unit built from scratch; School of IST founded 1997, approved by trustees 1998",
+    "admin": "standalone",
+    "departments": "Single college; programs in IST, Data Sciences, Cybersecurity Analytics & Operations, Human-Centered Design",
+    "scope": "Information Science, Data Science, Cybersecurity, HCI, Social Informatics",
+    "naming": "None",
+    "faculty": "Not verified",
+    "notes": "Opened at University Park on Aug 25, 1999 with 105 students, 5 full-time faculty and 43 new courses; renamed from School to College in 2006. One of the first information schools in the world, and an early example of a university creating a computing unit rather than promoting an existing department.",
+    "url": "https://ist.psu.edu/",
+    "refs": [
+      {
+        "t": "History of the College (Penn State IST)",
+        "u": "https://ist.psu.edu/about/mission/history"
+      },
+      {
+        "t": "Penn State College of IST (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/Penn_State_University_College_of_Information_Sciences_and_Technology"
+      }
+    ]
   },
   {
     "university": "Indiana University",
     "unit": "Luddy School of Informatics, Computing, and Engineering",
     "year": 2000,
-    "prior": "CS in Arts & Sciences; new School of Informatics 2000; CS joined 2005; Library Science merged 2013; Engineering added 2016",
+    "prior": "CS in Arts & Sciences; School of Informatics created 2000; CS joined 2005; Library Science merged 2013; Engineering added 2016",
     "admin": "standalone",
-    "departments": "CS; Informatics; Info & Library Science; Intelligent Systems Eng (Bloomington). Bio-Health Informatics; HCC; LIS (Indianapolis).",
+    "departments": "Computer Science; Informatics; Information & Library Science; Intelligent Systems Engineering (Bloomington)",
     "scope": "CS, Informatics, Library Science, Data Science, Engineering",
-    "naming": "Fred Luddy $25M+ (2019)",
+    "naming": "Fred Luddy $60M (Oct 17, 2019) — second-largest private gift in IU history",
     "faculty": "~183 across two campuses",
-    "notes": "Informatics BS is inherently 'CS + X' — each student picks a cognate area. Second-largest major at IU-Bloomington.",
-    "source": "CRA White Paper (2019)",
-    "url": "https://luddy.indiana.edu/"
+    "notes": "The Informatics BS is a 'CS + X' degree — each student picks a cognate area. Second-largest major at IU Bloomington. Luddy's gift also funded the Luddy Center for Artificial Intelligence.",
+    "url": "https://luddy.indiana.edu/",
+    "refs": [
+      {
+        "t": "Landmark $60M gift to establish major AI initiative at IU (IU News, Oct 2019)",
+        "u": "https://news.iu.edu/live/news/26412-landmark-60m-gift-to-establish-major-initiative-in"
+      },
+      {
+        "t": "CRA, Creating Institutional Homes for Computing (2019)",
+        "u": "https://cra.org/resources/creating-institutional-homes-for-computing/"
+      }
+    ],
+    "gift_m": 60,
+    "gift_label": "Fred Luddy, 2019"
+  },
+  {
+    "university": "University of North Carolina at Charlotte",
+    "unit": "College of Computing and Informatics (CCI)",
+    "year": 2000,
+    "prior": "CS dept formed 1985 from Electrical Engineering and Math faculty, inside the Lee College of Engineering; became School of Information Technology 1998",
+    "admin": "standalone",
+    "departments": "Computer Science; Software and Information Systems; Bioinformatics and Genomics; Data Science",
+    "scope": "CS, Software & Information Systems, Bioinformatics, Health Informatics, Data Science, Cybersecurity, Robotics",
+    "naming": "None",
+    "faculty": "Not verified",
+    "notes": "Founded in 2000 as the College of Information Technology — separate from Engineering, where the program originated — and renamed College of Computing and Informatics in 2006. Opened with ~700 students; enrollment has since grown roughly 400%, making it the fastest-growing college in the UNC System. Founding dean Mirsad Hadzikadic.",
+    "url": "https://cci.charlotte.edu/",
+    "refs": [
+      {
+        "t": "UNC Charlotte's CCI is North Carolina's largest computer science program (Inside UNC Charlotte, 2021)",
+        "u": "https://inside.charlotte.edu/news-features/2021-11-04/unc-charlottee28099s-college-computing-and-informatics-north-carolinas-largest/"
+      },
+      {
+        "t": "A Computing Revolution: CCI at 20 (UNC Charlotte magazine)",
+        "u": "https://issuu.com/unc_charlotte/docs/uncc-spring2020/s/10458512"
+      }
+    ]
   },
   {
     "university": "University of Utah",
     "unit": "Kahlert School of Computing",
     "year": 2000,
-    "prior": "CS division in EE dept (est. 1965); became School of Computing ~2000",
+    "prior": "CS division inside the Electrical Engineering department (est. 1965)",
     "admin": "within_eng",
-    "departments": "Single school; affiliated with SCI Institute and Entertainment Arts & Engineering program",
+    "departments": "Single school; affiliated with the SCI Institute and the Entertainment Arts & Engineering program",
     "scope": "CS, Graphics, Scientific Computing, Games/Entertainment",
-    "naming": "Kahlert family gift",
+    "naming": "Kahlert Foundation $15M (Nov 2022); school renamed Kahlert School of Computing",
     "faculty": "~50",
-    "notes": "Historic role in computer graphics (Utah Teapot, ARPANET). School within College of Engineering with significant autonomy via MOU.",
-    "source": "CRA White Paper (2019); Wikipedia",
-    "url": "https://www.cs.utah.edu/"
+    "notes": "Historic role in computer graphics and networking (the Utah teapot, an original ARPANET node). Remains a school within the Price College of Engineering, with significant autonomy via an MOU.",
+    "url": "https://www.cs.utah.edu/",
+    "refs": [
+      {
+        "t": "School of Computing Gets New Name and Gift (U of U Price College of Engineering, Nov 2022)",
+        "u": "https://www.price.utah.edu/2022/11/04/school-of-computing-gets-new-name-and-gift"
+      },
+      {
+        "t": "Kahlert Foundation donates $15M to the School of Computing (@theU)",
+        "u": "https://attheu.utah.edu/facultystaff/kahlert-foundation-donates-15-million-to-the-school-of-computing/"
+      }
+    ],
+    "gift_m": 15,
+    "gift_label": "Kahlert Foundation, 2022"
   },
   {
-    "university": "University of Massachusetts Amherst",
-    "unit": "Manning College of Information and Computer Sciences (CICS)",
-    "year": 2015,
-    "prior": "CS dept in College of Natural Sciences → School of CS 2015 → College ~2017",
+    "university": "New Jersey Institute of Technology",
+    "unit": "Ying Wu College of Computing",
+    "year": 2001,
+    "prior": "Computing programs within other NJIT units; College of Computing Sciences created 2001",
     "admin": "standalone",
-    "departments": "Computer Science; Information Science (forming)",
-    "scope": "CS, AI/NLP, Data Science, Information Science",
-    "naming": "Manning family (2023)",
-    "faculty": "~60",
-    "notes": "Recent transition from dept to standalone college. Strong in NLP/AI. Dean reports to provost.",
-    "source": "UMass CICS website; CRA White Paper (2019)",
-    "url": "https://www.cics.umass.edu/"
+    "departments": "Computer Science; Informatics; Data Science",
+    "scope": "CS, Informatics, Data Science, Cybersecurity, AI",
+    "naming": "Ying Wu (amount not publicly disclosed) — used for undergraduate scholarships, graduate fellowships, labs and equipment",
+    "faculty": "Not verified",
+    "notes": "Founded 2001 as the College of Computing Sciences, later named for alumnus Ying Wu. One of several 2000–2002 computing colleges at technical and urban public universities that predate the better-known 2019+ wave.",
+    "url": "https://computing.njit.edu/",
+    "refs": [
+      {
+        "t": "NJIT's College of Computing Sciences Named: Ying Wu College of Computing Sciences (NJIT News)",
+        "u": "https://news.njit.edu/njits-college-computing-sciences-named-ying-wu-college-computing-sciences"
+      },
+      {
+        "t": "About the Ying Wu College of Computing",
+        "u": "https://computing.njit.edu/aboutthecollege"
+      }
+    ],
+    "gift_m": null,
+    "gift_label": "Ying Wu — undisclosed"
   },
   {
-    "university": "University of Washington",
-    "unit": "Paul G. Allen School of Computer Science & Engineering",
-    "year": 2017,
-    "prior": "Dept of CS&E in College of Engineering; elevated to School 2017",
-    "admin": "within_eng",
-    "departments": "Single school",
-    "scope": "CS, Computer Engineering",
-    "naming": "Paul G. Allen $40M+ (cumulative)",
-    "faculty": "~70",
-    "notes": "School-level within College of Engineering, not standalone college. Among top-5 nationally. Gates Center opened 2019.",
-    "source": "UW Allen School website",
-    "url": "https://www.cs.washington.edu/"
-  },
-  {
-    "university": "Massachusetts Institute of Technology",
-    "unit": "MIT Schwarzman College of Computing",
-    "year": 2019,
-    "prior": "EECS in School of Engineering; CSAIL and other labs",
-    "admin": "hybrid",
-    "departments": "Shares EECS (reorganized: EE, CS, AI+Decision-Making) with School of Eng; CSAIL; IDSS; ORC; SERC",
-    "scope": "CS, AI, Data Science, Ethics of Computing, cross-disciplinary",
-    "naming": "Stephen Schwarzman $350M (of $1.1B total, 2018)",
-    "faculty": "50 new positions; hundreds affiliated",
-    "notes": "Cross-cutting institute-wide unit alongside MIT's five Schools. First structural change since 1950s. ~40% of UGs major in CS.",
-    "source": "MIT News; Wikipedia",
-    "url": "https://computing.mit.edu/"
-  },
-  {
-    "university": "Illinois Institute of Technology",
-    "unit": "College of Computing",
-    "year": 2020,
-    "prior": "CS and Applied Math depts",
+    "university": "Rochester Institute of Technology",
+    "unit": "B. Thomas Golisano College of Computing and Information Sciences (GCCIS)",
+    "year": 2001,
+    "prior": "Computing programs distributed across other RIT colleges",
     "admin": "standalone",
-    "departments": "Computer Science; Applied Mathematics; IT and Management",
-    "scope": "CS, Applied Math, AI, Cybersecurity, Data Science, IT",
-    "naming": "None",
-    "faculty": "~40",
-    "notes": "Now the largest college at Illinois Tech by enrollment. Dean reports to provost.",
-    "source": "Illinois Tech website; Dean search posting",
-    "url": "https://www.iit.edu/computing"
-  },
-  {
-    "university": "UC Berkeley",
-    "unit": "College of Computing, Data Science, and Society (CDSS)",
-    "year": 2023,
-    "prior": "Division of CDSS; Data Science UG Studies + Statistics + shared EECS",
-    "admin": "standalone",
-    "departments": "Shares EECS with College of Eng; Dept of Statistics; Data Science UG Studies; BIDS; D-Lab (shared with Social Sciences)",
-    "scope": "CS, Data Science, Statistics, Society/Ethics",
-    "naming": "$330M+ raised (no single naming gift)",
-    "faculty": "Growing; shared EECS faculty",
-    "notes": "First new college at Berkeley in 50+ years. UC Regents voted May 2023. Gateway Building opening 2025-26. 1 in 4 CDSS grads holds a second major.",
-    "source": "Berkeley News; CDSS website; Wikipedia",
-    "url": "https://cdss.berkeley.edu/"
-  },
-  {
-    "university": "University of Florida",
-    "unit": "Herbert Wertheim College of Engineering — Dept of CISE",
-    "year": null,
-    "prior": "CS & Information Science & Engineering dept within Engineering",
-    "admin": "within_eng",
-    "departments": "Computer Science; Computer Engineering (shared with ECE)",
-    "scope": "CS, AI, Data Science",
-    "naming": "N/A for CS specifically",
-    "faculty": "~50",
-    "notes": "Dept-level within Engineering. UF invested $70M in university-wide AI initiative (2020). Included as comparison case.",
-    "source": "CRA White Paper (2019)",
-    "url": "https://www.cise.ufl.edu/"
-  },
-  {
-    "university": "Purdue University",
-    "unit": "Department of Computer Science (College of Science)",
-    "year": null,
-    "prior": "CS dept in College of Science",
-    "admin": "within_sci",
-    "departments": "CS in College of Science; Applied Computing in Purdue Polytechnic",
-    "scope": "CS, Data Science (split across colleges)",
-    "naming": "N/A",
-    "faculty": "~60",
-    "notes": "CS remains in College of Science. Computing activities split across Science and Polytechnic colleges. Included as comparison case.",
-    "source": "CRA White Paper (2019); Purdue website",
-    "url": "https://www.cs.purdue.edu/"
-  },
-  {
-    "university": "Vanderbilt University",
-    "unit": "College of Connected Computing",
-    "year": 2024,
-    "prior": "CS dept in School of Engineering; Vanderbilt Data Science Institute",
-    "admin": "standalone",
-    "departments": "Computer Science; Data Science (at launch); Scientific Computing; additional depts planned",
-    "scope": "CS, AI, Data Science, Scientific Computing, cross-disciplinary",
-    "naming": "None",
-    "faculty": "Growing; shared appointments across schools",
-    "notes": "First new college at Vanderbilt since 1981. Announced March 2024. Inaugural dean (Matthew Johnson-Roberson, ex-CMU Robotics) started May 2025. CS dept moved from Engineering fall 2025. First UG class expected fall 2027. Emphasizes 'connected computing' — shared faculty with Medicine, Law, Education, etc.",
-    "source": "Vanderbilt News; College of Connected Computing website",
-    "url": "https://computing.vanderbilt.edu/"
-  },
-  {
-    "university": "University of Southern California",
-    "unit": "School of Advanced Computing",
-    "year": 2024,
-    "prior": "CS and ECE depts within Viterbi School of Engineering",
-    "admin": "within_eng",
-    "departments": "Thomas Lord Dept of Computer Science; Ming Hsieh Dept of Electrical and Computer Engineering; Division of Computing Education",
-    "scope": "CS, ECE, AI, Data Science, Quantum Computing, Ethics of Computing",
-    "naming": "Lord Foundation $260M (part of $1B+ Frontiers of Computing initiative)",
-    "faculty": "30 new faculty by 2025; 90 total new by 2030",
-    "notes": "School-within-a-school under USC Viterbi. USC's 23rd school. Keystone of President Folt's $1B+ Frontiers of Computing initiative. Ginsburg Hall (116K sq ft) opened 2024. Partners with ISI and ICT institutes. Director: Gaurav Sukhatme.",
-    "source": "USC Today; SAC website",
-    "url": "https://sac.usc.edu/"
-  },
-  {
-    "university": "University of California, San Diego",
-    "unit": "School of Computing, Information and Data Sciences (SCIDS)",
-    "year": 2024,
-    "prior": "Halicioğlu Data Science Institute (est. 2018) + San Diego Supercomputer Center",
-    "admin": "standalone",
-    "departments": "Halicioğlu Data Science Institute; San Diego Supercomputer Center; joint affiliations with CSE, ECE, Cognitive Science, Mathematics",
-    "scope": "Data Science, AI, Computing, Information Science",
-    "naming": "Taner Halicioğlu (HDSI founding gift); no single naming for school",
-    "faculty": "~50 across 16 disciplines (growing)",
-    "notes": "UC Regents approved July 2024. 12th school at UCSD and 4th added in 21st century. Combines HDSI and SDSC. Expected 8,000 students. Dean: Rajesh Gupta. Does NOT include main CS&E dept (remains in Jacobs School of Engineering).",
-    "source": "UC San Diego News; Wikipedia; SCIDS website",
-    "url": "https://scids.ucsd.edu/"
-  },
-  {
-    "university": "University of Texas at San Antonio",
-    "unit": "College of AI, Cyber and Computing",
-    "year": 2025,
-    "prior": "CS, Data Science, Information Systems depts across existing colleges; School of Data Science (est. 2018)",
-    "admin": "standalone",
-    "departments": "Computer Science; Computer Engineering; Information Systems & Cyber Security; Data Science & Statistics",
-    "scope": "CS, AI, Cybersecurity, Data Science, Computer Engineering",
-    "naming": "None",
-    "faculty": "TBD (dean search launched Jan 2025)",
-    "notes": "Announced Dec 2024, officially launched fall 2025. 9th college at UTSA. 5,000+ students enrolled. Builds on UTSA's nationally recognized cybersecurity programs. Housed in San Pedro I campus; San Pedro II opening Jan 2026.",
-    "source": "UTSA Today; TPR",
-    "url": "https://provost.utsa.edu/ai-cyber-computing/"
+    "departments": "Computer Science; Software Engineering; Information Sciences & Technologies; Computing Security; Cybersecurity; Interactive Games & Media; Computing and Information Sciences PhD",
+    "scope": "CS, Software Engineering, IT, Computing Security, Games & Media",
+    "naming": "B. Thomas Golisano $14M (Feb 2001) — at the time the largest gift by a living donor to any Rochester-area university",
+    "faculty": "Not verified",
+    "notes": "Established July 1, 2001; RIT described it as the first US college dedicated to computing and information sciences of its kind. Dedicated May 2, 2003. An early example of a naming gift creating rather than merely renaming a computing college.",
+    "url": "https://www.rit.edu/computing/",
+    "refs": [
+      {
+        "t": "RIT Creates First-of-its-Kind College in Computing and Information Sciences — Golisano Gift of $14 Million",
+        "u": "https://www.rit.edu/news/rit-creates-first-its-kind-college-computing-and-information-sciences-golisano-gift-14-million"
+      },
+      {
+        "t": "Golisano College celebrates 20th anniversary (RIT)",
+        "u": "https://www.rit.edu/news/golisano-college-computing-and-information-sciences-celebrates-20th-anniversary"
+      }
+    ],
+    "gift_m": 14,
+    "gift_label": "B. Thomas Golisano, 2001"
   },
   {
     "university": "University of California, Irvine",
     "unit": "Donald Bren School of Information and Computer Sciences (ICS)",
     "year": 2002,
-    "prior": "Department of Information and Computer Science (est. 1968; originated as Program in Information and Communication Science, 1966)",
+    "prior": "Department of Information and Computer Science (est. 1968), one of the first CS units in the US",
     "admin": "standalone",
     "departments": "Computer Science; Informatics; Statistics",
-    "scope": "CS, AI/ML, Software Engineering, HCI, Data Science, Statistics, Networked Systems, Cybersecurity",
-    "naming": "Donald Bren ($20M gift, 2004); Donald Bren Hall opened 2007",
-    "faculty": "~100 tenure-track faculty; ~60 in Computer Science dept alone",
-    "notes": "First independent computing school in the University of California system and one of the first in the nation. ~4,000 undergraduates, ~600 master's students, ~400 Ph.D. students/postdocs, 17,000+ alumni. The naming gift came in 2004.",
-    "source": "ICS Facts & Figures; ICS Mission & History; UCI General Catalogue; Wikipedia",
-    "url": "https://ics.uci.edu/"
-   },
+    "scope": "CS, Informatics, Statistics, Data Science, HCI",
+    "naming": "Donald Bren $20M (2004); Donald Bren Hall opened 2007",
+    "faculty": "~100 tenure-track; ~60 in Computer Science alone",
+    "notes": "The first computing school in the University of California system, and among the earliest US schools to place informatics and statistics alongside CS.",
+    "url": "https://ics.uci.edu/",
+    "refs": [
+      {
+        "t": "ICS Mission & History (UC Irvine)",
+        "u": "https://ics.uci.edu/about/"
+      },
+      {
+        "t": "Donald Bren School of Information and Computer Sciences (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/Donald_Bren_School_of_Information_and_Computer_Sciences"
+      }
+    ],
+    "gift_m": 20,
+    "gift_label": "Donald Bren, 2004"
+  },
+  {
+    "university": "Clemson University",
+    "unit": "School of Computing",
+    "year": 2007,
+    "prior": "Department of Computer Science (formally established July 1, 1978)",
+    "admin": "within_eng",
+    "departments": "Four divisions: Computer Science; Human-Centered Computing; Visual Computing; Faculty of Instruction",
+    "scope": "CS, HCI, Visual Computing/Graphics, Computing Education",
+    "naming": "None",
+    "faculty": "Not verified",
+    "notes": "Became the School of Computing on Jan 1, 2007 within the College of Engineering and Science, with three divisions (Computer Science, Visual Computing — originally Computational Arts — and Human-Centered Computing); a Faculty of Instruction division was added later, with division leadership from 2019. An early example of the divisional model now used by newer schools.",
+    "url": "https://www.clemson.edu/computing",
+    "refs": [
+      {
+        "t": "School of Computing at Clemson — A Short History (Mark Smotherman)",
+        "u": "https://mark.people.clemson.edu/soc_history.html"
+      },
+      {
+        "t": "Clemson School of Computing",
+        "u": "https://www.clemson.edu/cecas/departments/computing/"
+      }
+    ]
+  },
+  {
+    "university": "Drexel University",
+    "unit": "College of Computing & Informatics (CCI)",
+    "year": 2013,
+    "prior": "Three separate units merged: the College of Information Science and Technology (iSchool), the Department of Computer Science, and the Department of Computing and Security Technology",
+    "admin": "standalone",
+    "departments": "Computer Science; Information Science; Software Engineering",
+    "scope": "CS, Information Science, Data Science, Cybersecurity, Software Engineering",
+    "naming": "None",
+    "faculty": "Not verified",
+    "notes": "Formed September 2013 by consolidating an iSchool with two computing departments — the merger pattern later followed by Pitt (2017), Cornell (2020) and UT Austin (2026).",
+    "url": "https://drexel.edu/cci/",
+    "refs": [
+      {
+        "t": "Drexel Launches College of Computing & Informatics (Sept 2013)",
+        "u": "https://drexel.edu/news/archive/2013/september/cci-launch"
+      },
+      {
+        "t": "Drexel University College of Computing and Informatics (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/Drexel_University_College_of_Computing_and_Informatics"
+      }
+    ]
+  },
+  {
+    "university": "Kennesaw State University",
+    "unit": "College of Computing and Software Engineering (CCSE)",
+    "year": 2015,
+    "prior": "Computing programs at Kennesaw State and at Southern Polytechnic State University, which merged into KSU in 2015",
+    "admin": "standalone",
+    "departments": "Computer Science; Information Technology; Software Engineering and Game Design & Development; School of Data Science and Analytics",
+    "scope": "CS, IT, Software Engineering, Game Design, Data Science & Analytics",
+    "naming": "None",
+    "faculty": "Not verified",
+    "notes": "Year needs confirmation: KSU does not publish a founding date for CCSE. The college's current shape follows the Jan 2015 Board of Regents-approved consolidation of Kennesaw State and Southern Polytechnic State University, effective July 1, 2015. One of the larger US computing colleges by enrollment.",
+    "url": "https://campus.kennesaw.edu/colleges-departments/ccse/",
+    "refs": [
+      {
+        "t": "About CCSE (Kennesaw State)",
+        "u": "https://campus.kennesaw.edu/colleges-departments/ccse/about/index.php"
+      },
+      {
+        "t": "Kennesaw State and Southern Polytechnic Will Consolidate (University System of Georgia)",
+        "u": "https://www.usg.edu/news/release/kennesaw_state_and_southern_polytechnic_will_consolidate"
+      }
+    ]
+  },
+  {
+    "university": "University of Massachusetts Amherst",
+    "unit": "Manning College of Information and Computer Sciences (CICS)",
+    "year": 2015,
+    "prior": "Department of Computer Science within the College of Natural Sciences; School of Computer Science",
+    "admin": "standalone",
+    "departments": "Single college; Computer Science, with growing information science and data science programs",
+    "scope": "CS, AI/NLP, Data Science, Information Science",
+    "naming": "Robert and Donna Manning $50M to the UMass system (announced Sept 2021, the largest in system history), of which $18M endowed the college; renamed Manning College",
+    "faculty": "~60",
+    "notes": "CICS was created in 2015. In Oct 2021 the college announced nearly $95M combined from the Manning gift and a state capital grant. Long-standing strength in NLP and information retrieval. Dean reports to the provost.",
+    "url": "https://www.cics.umass.edu/",
+    "refs": [
+      {
+        "t": "UMass Amherst CICS receives nearly $95 million (UMass Amherst News, Oct 2021)",
+        "u": "https://www.umass.edu/news/article/umass-amherst-college-information-and-computer-sciences-receives-nearly-95-million"
+      },
+      {
+        "t": "UMass system announcement of the Manning gift",
+        "u": "https://www.massachusetts.edu/news/umass-amherst-college-information-and-computer-sciences-receives-nearly-95-million-enhance"
+      }
+    ],
+    "gift_m": 50,
+    "gift_label": "Manning family, 2021 ($18M endowed the college)"
+  },
+  {
+    "university": "University of Pittsburgh",
+    "unit": "School of Computing and Information (SCI)",
+    "year": 2017,
+    "prior": "School of Information Sciences (founded 1901) and the Department of Computer Science (founded 1966), merged",
+    "admin": "standalone",
+    "departments": "Computer Science; Informatics and Networked Systems; Information Culture and Data Stewardship",
+    "scope": "CS, Information Science, Data Science, Library & Information Science, Networked Systems",
+    "naming": "None",
+    "faculty": "Not verified",
+    "notes": "Began operations July 1, 2017 and enrolled its first cohort that fall — an iSchool/CS merger two years before the trend became widely visible.",
+    "url": "https://www.sci.pitt.edu/",
+    "refs": [
+      {
+        "t": "Reputation and History (Pitt SCI)",
+        "u": "https://www.sci.pitt.edu/about/reputation-and-history"
+      },
+      {
+        "t": "University of Pittsburgh School of Computing and Information (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/University_of_Pittsburgh_School_of_Computing_and_Information"
+      }
+    ]
+  },
+  {
+    "university": "University of Washington",
+    "unit": "Paul G. Allen School of Computer Science & Engineering",
+    "year": 2017,
+    "prior": "Department of Computer Science & Engineering within the College of Engineering",
+    "admin": "within_eng",
+    "departments": "Single school",
+    "scope": "CS, Computer Engineering",
+    "naming": "Paul G. Allen $40M (2017) plus $10M from Microsoft in Allen's honor — a $50M endowment",
+    "faculty": "~70",
+    "notes": "The UW Board of Regents elevated the department to a school and named it in March 2017. Consistently top-5 nationally. The Gates Center opened in 2019.",
+    "url": "https://www.cs.washington.edu/",
+    "refs": [
+      {
+        "t": "Paul G. Allen School of Computer Science & Engineering established (UW News, Mar 2017)",
+        "u": "https://washington.edu/news/2017/03/09/paul-g-allen-school-of-computer-science-and-engineering"
+      },
+      {
+        "t": "Paul Allen makes landmark $40M gift (GeekWire)",
+        "u": "https://www.geekwire.com/2017/microsoft-co-founder-paul-allen-makes-landmark-40m-gift-university-washington-computer-science-school/"
+      }
+    ],
+    "gift_m": 50,
+    "gift_label": "Paul G. Allen $40M + Microsoft $10M, 2017"
+  },
+  {
+    "university": "Boston University",
+    "unit": "Faculty of Computing & Data Sciences (CDS)",
+    "year": 2019,
+    "prior": "CS department in Arts & Sciences and computing programs spread across schools; no unified computing unit",
+    "admin": "hybrid",
+    "departments": "Not organised into departments; a 'Faculty' that convenes computing and data science across BU's schools",
+    "scope": "CS, Data Science, Computing & Society, cross-disciplinary computing",
+    "naming": "None",
+    "faculty": "Not verified",
+    "notes": "BU chose the term 'Faculty' rather than College or School — a deliberately cross-cutting design like MIT's. Azer Bestavros was named inaugural Associate Provost for Computing and Data Sciences (Nov 2019) and sits on BU's Council of Deans, giving CDS dean-equivalent standing without a conventional dean title.",
+    "url": "https://www.bu.edu/cds-faculty/",
+    "refs": [
+      {
+        "t": "Azer Bestavros Announced as Associate Provost for Computing and Data Sciences (BU, Nov 2019)",
+        "u": "https://www.bu.edu/hic/2019/11/01/azer-bestavros-announced-as-associate-provost-for-computing-and-data-sciences"
+      },
+      {
+        "t": "BU Faculty of Computing & Data Sciences",
+        "u": "https://www.bu.edu/cds-faculty/"
+      },
+      {
+        "t": "BU Deans & Senior Leaders (Office of the Provost)",
+        "u": "https://www.bu.edu/provost/people/deans-and-senior-administration/"
+      }
+    ]
+  },
+  {
+    "university": "Massachusetts Institute of Technology",
+    "unit": "MIT Stephen A. Schwarzman College of Computing",
+    "year": 2019,
+    "prior": "EECS within the School of Engineering, plus CSAIL and other labs",
+    "admin": "hybrid",
+    "departments": "Shares EECS (EE, CS, AI+Decision-Making) with the School of Engineering; CSAIL; IDSS; Social and Ethical Responsibilities of Computing",
+    "scope": "CS, AI, Data Science, Ethics, cross-disciplinary computing",
+    "naming": "Stephen A. Schwarzman $350M, part of a $1B MIT commitment announced Oct 15, 2018",
+    "faculty": "50 new positions; hundreds of affiliated faculty",
+    "notes": "A cross-cutting Institute-wide unit sitting alongside MIT's five Schools rather than replacing them — MIT's first major structural change since the 1950s. Roughly 40% of MIT undergraduates major in computing.",
+    "url": "https://computing.mit.edu/",
+    "refs": [
+      {
+        "t": "FAQ on the newly established MIT Stephen A. Schwarzman College of Computing (MIT News)",
+        "u": "https://news.mit.edu/2018/faq-mit-stephen-schwarzman-college-of-computing-1015"
+      },
+      {
+        "t": "Letter to the MIT community regarding the College of Computing",
+        "u": "https://news.mit.edu/2018/letter-mit-community-regarding-mit-stephen-schwarzman-college-computing"
+      }
+    ],
+    "gift_m": 350,
+    "gift_label": "Stephen A. Schwarzman, 2018"
+  },
+  {
+    "university": "Michigan Technological University",
+    "unit": "College of Computing",
+    "year": 2019,
+    "prior": "Computing programs distributed across other Michigan Tech colleges",
+    "admin": "standalone",
+    "departments": "Computer Science; Applied Computing; Data Science",
+    "scope": "CS, Applied Computing, Data Science, Cybersecurity, AI",
+    "naming": "None",
+    "faculty": "Not verified; 88 active grant-funded projects, 3.1 grants per tenure-track faculty member",
+    "notes": "Michigan Tech describes it as the first academic unit in Michigan dedicated solely to computing. 1,164 undergraduate and graduate students enrolled as of fall 2023. A separate Data Science department is unusual at this scale.",
+    "url": "https://www.mtu.edu/computing/",
+    "refs": [
+      {
+        "t": "Our College (Michigan Tech College of Computing)",
+        "u": "https://www.mtu.edu/computing/about/college/"
+      },
+      {
+        "t": "Computing History, Part I (Michigan Tech)",
+        "u": "https://www.mtu.edu/computing/about/college/history/part-1/"
+      }
+    ]
+  },
+  {
+    "university": "University of Virginia",
+    "unit": "School of Data Science",
+    "year": 2019,
+    "prior": "Data Science Institute (est. 2013); no degree-granting computing school outside Engineering",
+    "admin": "standalone",
+    "departments": "Single school, organised around research areas rather than departments",
+    "scope": "Data Science, Statistics, Machine Learning, Ethics of Data",
+    "naming": "Quantitative Foundation (Jaffray Woodriff) $120M (2019) — the largest private gift in UVA history",
+    "faculty": "Not verified",
+    "notes": "UVA describes it as the first school of data science in the nation. Notable as a data-science-first rather than CS-first model: UVA's CS department remained in Engineering, so the university now runs two computing units in parallel.",
+    "url": "https://datascience.virginia.edu/",
+    "refs": [
+      {
+        "t": "UVA Plans New School of Data Science; $120 Million Gift is Largest in University History (UVA Today)",
+        "u": "https://news.virginia.edu/content/uva-plans-new-school-data-science-120-million-gift-largest-university-history"
+      },
+      {
+        "t": "About the UVA School of Data Science",
+        "u": "https://datascience.virginia.edu/about"
+      }
+    ],
+    "gift_m": 120,
+    "gift_label": "Quantitative Foundation, 2019"
+  },
+  {
+    "university": "Cornell University",
+    "unit": "Ann S. Bowers College of Computing and Information Science",
+    "year": 2020,
+    "prior": "Faculty of Computing and Information Science (est. 1999); CS split between Engineering and Arts & Sciences",
+    "admin": "standalone",
+    "departments": "Computer Science; Information Science; Statistics and Data Science",
+    "scope": "CS, Information Science, Data Science, Statistics",
+    "naming": "Ann S. Bowers '59 — a nine-figure commitment; exact amount not disclosed (announced Dec 2020)",
+    "faculty": "~120 (CS 62, Information Science 42, Statistics 18)",
+    "notes": "Pioneered the cross-cutting 'faculty' structure in 1999 and converted it to a full college in 2020 — a two-stage path several universities have since copied. Spans Ithaca and Cornell Tech in New York City. 76% of Cornell undergraduates take at least one CIS course.",
+    "url": "https://cis.cornell.edu/",
+    "refs": [
+      {
+        "t": "Gift from Ann S. Bowers '59 creates new college of computing and information science (Cornell Chronicle)",
+        "u": "https://news.cornell.edu/stories/2020/12/gift-ann-s-bowers-59-creates-new-college-computing-and-information-science"
+      },
+      {
+        "t": "Cornell Bowers CIS",
+        "u": "https://cis.cornell.edu/"
+      }
+    ],
+    "gift_m": null,
+    "gift_label": "Ann S. Bowers — nine figures, undisclosed"
+  },
+  {
+    "university": "Illinois Institute of Technology",
+    "unit": "College of Computing",
+    "year": 2020,
+    "prior": "Departments of Computer Science and Applied Mathematics",
+    "admin": "standalone",
+    "departments": "Computer Science; Applied Mathematics; Information Technology and Management",
+    "scope": "CS, Applied Math, AI, Cybersecurity, Data Science, IT",
+    "naming": "None",
+    "faculty": "~40",
+    "notes": "Now the largest college at Illinois Tech by enrollment. Dean reports to the provost. Pairing applied mathematics with computing in one college is uncommon.",
+    "url": "https://www.iit.edu/computing",
+    "refs": [
+      {
+        "t": "Illinois Tech College of Computing",
+        "u": "https://www.iit.edu/computing"
+      },
+      {
+        "t": "College of Computing Dean search (Illinois Tech Provost)",
+        "u": "https://www.iit.edu/provost/executive-searches/college-computing-dean"
+      }
+    ]
+  },
+  {
+    "university": "Arizona State University",
+    "unit": "School of Computing and Augmented Intelligence (SCAI)",
+    "year": 2021,
+    "prior": "School of Computing, Informatics, and Decision Systems Engineering (CIDSE)",
+    "admin": "within_eng",
+    "departments": "Single school within the Ira A. Fulton Schools of Engineering",
+    "scope": "CS, Computer Systems Engineering, AI, Data Analytics, Cybersecurity, Visualization",
+    "naming": "None (Fulton Schools named separately)",
+    "faculty": "Not verified",
+    "notes": "Renamed effective fall 2021 following a University Senate motion (first reading Mar 29, 2021; second reading Apr 26, 2021). The 'augmented intelligence' framing — AI as complement to human capability rather than substitute — is a distinct scope choice; no other unit on this list uses the term.",
+    "url": "https://scai.engineering.asu.edu/",
+    "refs": [
+      {
+        "t": "ASU University Senate motion 2021-50 (name change to SCAI)",
+        "u": "https://usenate.asu.edu/motions/2021-50"
+      },
+      {
+        "t": "Fulton Schools — Evolving to increase impact (ASU, Aug 2021)",
+        "u": "https://intheloop.engineering.asu.edu/2021/08/19/fulton-schools-evolving-to-increase-impact-and-better-meet-societys-needs/"
+      }
+    ]
+  },
+  {
+    "university": "University of Nebraska–Lincoln",
+    "unit": "School of Computing",
+    "year": 2021,
+    "prior": "Department of Computer Science and Engineering",
+    "admin": "within_eng",
+    "departments": "Single school within the College of Engineering",
+    "scope": "CS, Software Engineering, Data Science, Cybersecurity",
+    "naming": "None",
+    "faculty": "Not verified",
+    "notes": "Approved and announced November 2021, effective for the 2021–22 year, and now fully housed in the College of Engineering. A representative example of the department-to-school-within-engineering path chosen by large public universities that stopped short of a standalone college.",
+    "url": "https://computing.unl.edu/",
+    "refs": [
+      {
+        "t": "Computer Science and Engineering officially becomes School of Computing (Nebraska Engineering, Nov 2021)",
+        "u": "https://engineering.unl.edu/news/211112/soc/school_of_computing_approved"
+      },
+      {
+        "t": "About the Nebraska School of Computing",
+        "u": "https://computing.unl.edu/about/"
+      }
+    ]
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "unit": "School of Computation, Information and Technology (CIT)",
+    "year": 2022,
+    "prior": "Three separate departments: Informatics, Mathematics, and Electrical & Computer Engineering",
+    "admin": "standalone",
+    "departments": "Computer Science; Mathematics; Computer Engineering; Electrical Engineering",
+    "scope": "CS, Mathematics, Electrical Engineering, AI, Data Science",
+    "naming": "None",
+    "faculty": "~140 professorships; 1,500+ staff; 14,600 students (53% international)",
+    "notes": "Created in 2022 under TUM Agenda 2030, which replaced Germany's traditional faculty structure with schools across the whole university. The largest single unit on this list by student count. Notable for merging mathematics and electrical engineering into computing rather than adding information science.",
+    "url": "https://www.cit.tum.de/en/cit/home/",
+    "refs": [
+      {
+        "t": "TUM School of Computation, Information and Technology founded (TUM press release)",
+        "u": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-school-of-computation-information-and-technology-gegruendet"
+      },
+      {
+        "t": "TUM School of Computation, Information and Technology (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/TUM_School_of_Computation,_Information_and_Technology"
+      }
+    ]
+  },
+  {
+    "university": "University of Georgia",
+    "unit": "School of Computing",
+    "year": 2022,
+    "prior": "Department of Computer Science (est. 1984, within Franklin College of Arts and Sciences)",
+    "admin": "hybrid",
+    "departments": "Single school — no sub-departments; affiliated Institutes for AI and for Cybersecurity & Privacy",
+    "scope": "CS, AI, Cybersecurity, Data Science, Software Engineering",
+    "naming": "None",
+    "faculty": "~30 (including courtesy appointments from Engineering, Genetics and elsewhere)",
+    "notes": "Effective July 1, 2022. Jointly administered by the Franklin College of Arts & Sciences and the College of Engineering — an unusual dual-college governance model. Came out of a seven-member Task Force on the Future of Computing charged by the provost. Inaugural director Gagan Agrawal appointed July 2023. CS was UGA's third-most-enrolled and fastest-growing major.",
+    "url": "https://computing.uga.edu/",
+    "refs": [
+      {
+        "t": "UGA establishes School of Computing (UGA College of Engineering)",
+        "u": "https://engineering.uga.edu/uga-establishes-school-of-computing/"
+      },
+      {
+        "t": "University of Georgia School of Computing (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/University_of_Georgia_School_of_Computing"
+      }
+    ]
+  },
+  {
+    "university": "UC Berkeley",
+    "unit": "College of Computing, Data Science, and Society (CDSS)",
+    "year": 2023,
+    "prior": "Division of Computing, Data Science, and Society; Data Science undergraduate studies plus Statistics, with EECS shared",
+    "admin": "standalone",
+    "departments": "Shares EECS with the College of Engineering; Department of Statistics; Data Science undergraduate studies; BIDS; D-Lab",
+    "scope": "CS, Data Science, Statistics, Society & Ethics",
+    "naming": "$330M+ raised; no single naming gift",
+    "faculty": "Growing; shared EECS faculty",
+    "notes": "The first new college at Berkeley in more than 50 years; UC Regents voted May 2023. Gateway Building opening 2025–26. One in four CDSS graduates holds a second major.",
+    "url": "https://cdss.berkeley.edu/",
+    "refs": [
+      {
+        "t": "UC Berkeley College of Computing, Data Science, and Society (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/UC_Berkeley_College_of_Computing,_Data_Science,_and_Society"
+      },
+      {
+        "t": "Berkeley CDSS",
+        "u": "https://cdss.berkeley.edu/"
+      }
+    ]
+  },
+  {
+    "university": "University of Oregon",
+    "unit": "School of Computer and Data Sciences (SCDS)",
+    "year": 2023,
+    "prior": "Department of Computer Science plus a five-year university investment in data science",
+    "admin": "within_sci",
+    "departments": "Single school within the College of Arts and Sciences",
+    "scope": "CS, Data Science",
+    "naming": "None",
+    "faculty": "Not verified",
+    "notes": "Opened fall 2023 and housed in the College of Arts and Sciences rather than engineering — one of the few units here to take that route, alongside UT Austin's 2026 school in Natural Sciences and Georgia State's planned school.",
+    "url": "https://scds.uoregon.edu/",
+    "refs": [
+      {
+        "t": "UO to launch new School of Computer and Data Sciences (OregonNews)",
+        "u": "https://news.uoregon.edu/content/uo-launch-new-school-computer-and-data-sciences"
+      },
+      {
+        "t": "About the School of Computer and Data Sciences",
+        "u": "https://scds.uoregon.edu/about"
+      }
+    ]
+  },
+  {
+    "university": "Grand Valley State University",
+    "unit": "College of Computing",
+    "year": 2024,
+    "prior": "Padnos College of Engineering and Computing, reorganised to separate computing from engineering",
+    "admin": "standalone",
+    "departments": "Computing; Cybersecurity; Applied Computer Science and related programs",
+    "scope": "CS, IT, Cybersecurity, Data Science, Health Informatics",
+    "naming": "None",
+    "faculty": "Not verified",
+    "notes": "Established in 2024 by splitting computing out of the combined Padnos College of Engineering and Computing — the reverse of the merger pattern seen elsewhere, and evidence that the trend now reaches regional comprehensive universities.",
+    "url": "https://www.gvsu.edu/computing",
+    "refs": [
+      {
+        "t": "About Us — GVSU College of Computing",
+        "u": "https://www.gvsu.edu/computing/our-college-2"
+      },
+      {
+        "t": "History of Computing at GVSU",
+        "u": "https://www.gvsu.edu/computing/history-of-computing-126"
+      }
+    ]
+  },
+  {
+    "university": "Indian Institute of Technology Madras",
+    "unit": "Wadhwani School of Data Science and Artificial Intelligence (WSAI)",
+    "year": 2024,
+    "prior": "AI and data science efforts spread across departments and centres",
+    "admin": "standalone",
+    "departments": "Single school with its own faculty, degree programs and research infrastructure",
+    "scope": "Data Science, AI, Machine Learning",
+    "naming": "Sunil Wadhwani ₹110 crore endowment (announced Jan 30, 2024) — among the largest alumni gifts to create a school at an Indian institution",
+    "faculty": "Not verified",
+    "notes": "Consolidates IIT Madras's AI work into a single school. Launched alongside a BTech in AI and Data Analytics. Stated goal of reaching the global top 20 for AI-focused schools.",
+    "url": "https://wsai.iitm.ac.in/",
+    "refs": [
+      {
+        "t": "IIT Madras receives endowment of Rs 110 Crore from Sunil Wadhwani (IIT Madras)",
+        "u": "https://www.iitm.ac.in/happenings/press-releases-and-coverages/iit-madras-receives-endowment-rs-110-crore-mr-sunil"
+      },
+      {
+        "t": "Wadhwani School of Data Science and Artificial Intelligence",
+        "u": "https://wsai.iitm.ac.in/"
+      }
+    ],
+    "gift_m": null,
+    "gift_label": "Sunil Wadhwani — ₹110 crore, 2024"
+  },
+  {
+    "university": "Nanyang Technological University, Singapore (NTU)",
+    "unit": "College of Computing and Data Science (CCDS)",
+    "year": 2024,
+    "prior": "School of Computer Science and Engineering (renamed 2016; originally the School of Applied Science, est. 1988, then School of Computer Engineering)",
+    "admin": "standalone",
+    "departments": "Three academic divisions: AI; Data Science; Computing",
+    "scope": "CS, Computer Engineering, AI, Data Science, Cybersecurity",
+    "naming": "None",
+    "faculty": "257 faculty (2024)",
+    "notes": "Announced Feb 2024, operational May 2024 as NTU's sixth academic college, formed by reorganising SCSE and pulling computing disciplines out of the College of Engineering. Founding dean Luke Ong, also NTU's first VP for AI & Digital Economy. 4,227 undergraduates, 1,078 graduate students, 578 research staff. Launched alongside a Bachelor of Computing in AI and Society and an AI minor open to all NTU undergraduates, aligned with Singapore's national AI strategy.",
+    "url": "https://www.ntu.edu.sg/computing",
+    "refs": [
+      {
+        "t": "NTU College of Computing and Data Science",
+        "u": "https://www.ntu.edu.sg/computing"
+      },
+      {
+        "t": "NTU Singapore establishes new College of Computing and Data Science (EurekAlert)",
+        "u": "https://www.eurekalert.org/news-releases/1035073"
+      }
+    ]
+  },
+  {
+    "university": "Rice University",
+    "unit": "George R. Brown School of Engineering and Computing",
+    "year": 2024,
+    "prior": "George R. Brown School of Engineering (est. 1975)",
+    "admin": "within_eng",
+    "departments": "Computer Science alongside Rice's engineering departments",
+    "scope": "CS, AI/ML, Engineering",
+    "naming": "George R. Brown (original 1975 naming); no new gift attached to the 2024 rename",
+    "faculty": "Not verified",
+    "notes": "A rename, not a restructure — announced Sept 25, 2024 to reflect computing's weight within the existing school. Included as a contrast case: several universities have added 'computing' to a school's title without changing governance, budget or reporting lines.",
+    "url": "https://engineering.rice.edu/",
+    "refs": [
+      {
+        "t": "Rice's school of engineering changes its name to reflect excellence in computing (Rice News, Sept 2024)",
+        "u": "https://news.rice.edu/news/2024/rices-school-engineering-changes-its-name-reflect-excellence-computing"
+      },
+      {
+        "t": "George R. Brown School of Engineering and Computing (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/George_R._Brown_School_of_Engineering_and_Computing"
+      }
+    ]
+  },
+  {
+    "university": "Tsinghua University",
+    "unit": "College of AI",
+    "year": 2024,
+    "prior": "Institute for AI and AI programs across departments",
+    "admin": "standalone",
+    "departments": "Undergraduate AI programs; details still emerging",
+    "scope": "AI, machine learning, AI applications",
+    "naming": "None disclosed",
+    "faculty": "Not verified",
+    "notes": "Date needs confirmation: Tsinghua's English-language announcement gives an April 2024 inauguration, while other coverage describes a new undergraduate AI school launching in 2025 with an intake of about 150 students. The two may describe different stages of the same unit. Part of a broader Chinese and Korean pattern of creating AI-named colleges rather than computing colleges.",
+    "url": "https://collegeai.tsinghua.edu.cn/en/",
+    "refs": [
+      {
+        "t": "Tsinghua University Inaugurates New College of AI (Tsinghua)",
+        "u": "https://www.tsinghua.edu.cn/en/info/1399/13439.htm"
+      },
+      {
+        "t": "Tsinghua University to Launch New School for AI Talent Development (Beijing govt)",
+        "u": "https://english.beijing.gov.cn/studyinginbeijing/news/202503/t20250304_4024276.html"
+      }
+    ]
+  },
+  {
+    "university": "University of California, San Diego",
+    "unit": "School of Computing, Information and Data Sciences (SCIDS)",
+    "year": 2024,
+    "prior": "Halıcıoğlu Data Science Institute, CSE within the Jacobs School of Engineering, and computing programs across divisions",
+    "admin": "hybrid",
+    "departments": "Halıcıoğlu Data Science Institute; Design Lab; computing units drawn from across campus",
+    "scope": "CS, Data Science, Information Science, Design",
+    "naming": "Taner Halıcıoğlu (HDSI founding gift); no single naming gift for the school",
+    "faculty": "~50 across 16 disciplines and growing",
+    "notes": "Built as a cross-divisional school rather than by moving CSE out of Jacobs Engineering — UC San Diego now runs computing units in parallel, similar to UVA.",
+    "url": "https://scids.ucsd.edu/",
+    "refs": [
+      {
+        "t": "UC San Diego School of Computing, Information and Data Sciences (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/UC_San_Diego_School_of_Computing,_Information_and_Data_Sciences"
+      },
+      {
+        "t": "UC San Diego SCIDS",
+        "u": "https://scids.ucsd.edu/"
+      }
+    ]
+  },
+  {
+    "university": "University of Illinois Urbana-Champaign",
+    "unit": "Siebel School of Computing and Data Science",
+    "year": 2024,
+    "prior": "Department of Computer Science within The Grainger College of Engineering",
+    "admin": "within_eng",
+    "departments": "Single school within The Grainger College of Engineering",
+    "scope": "CS, Data Science, AI",
+    "naming": "Thomas M. Siebel $50M (announced Apr 24, 2024)",
+    "faculty": "Not verified",
+    "notes": "One of the largest CS programs in the US elevated to a school rather than a standalone college — a deliberate choice to stay inside Grainger Engineering. Subject to approval by the University of Illinois Board of Trustees and the Illinois Board of Higher Education at the time of announcement.",
+    "url": "https://siebelschool.illinois.edu/",
+    "refs": [
+      {
+        "t": "University of Illinois Urbana-Champaign Announces the Siebel School of Computing and Data Science (U of I System News)",
+        "u": "https://news.uillinois.edu/view/7815/1526284931"
+      },
+      {
+        "t": "Thomas Siebel Makes $50 Million Gift (University of Illinois Foundation)",
+        "u": "https://uif.uillinois.edu/news/178/thomas-siebel-makes-transformative-50-million-gift-to-establish-the-siebel-school-of-computing-and-data-science"
+      }
+    ],
+    "gift_m": 50,
+    "gift_label": "Thomas M. Siebel, 2024"
+  },
+  {
+    "university": "University of Southern California",
+    "unit": "School of Advanced Computing",
+    "year": 2024,
+    "prior": "Computing programs within the Viterbi School of Engineering and across USC",
+    "admin": "hybrid",
+    "departments": "Computer Science; Information Sciences Institute; Thomas Lord Department of Computer Science; new AI and advanced computing units",
+    "scope": "CS, AI, Data Science, Quantum, cross-disciplinary computing",
+    "naming": "Lord Foundation $260M, part of a $1B+ Frontiers of Computing initiative",
+    "faculty": "30 new faculty by 2025; 90 total new hires planned by 2030",
+    "notes": "Sits within Viterbi Engineering but operates university-wide, with joint appointments across USC's schools. One of the largest single financial commitments to computing by any university.",
+    "url": "https://computing.usc.edu/",
+    "refs": [
+      {
+        "t": "USC School of Advanced Computing — Frontiers of Computing",
+        "u": "https://computing.usc.edu/"
+      },
+      {
+        "t": "USC launches School of Advanced Computing (USC Today)",
+        "u": "https://today.usc.edu/usc-launches-school-of-advanced-computing/"
+      }
+    ],
+    "gift_m": 260,
+    "gift_label": "Lord Foundation, 2024"
+  },
+  {
+    "university": "Vanderbilt University",
+    "unit": "College of Connected Computing",
+    "year": 2024,
+    "prior": "Computing programs within the School of Engineering and across schools; no dedicated computing college",
+    "admin": "standalone",
+    "departments": "Being built; designed to share faculty and curriculum across Vanderbilt's schools",
+    "scope": "CS, AI, Data Science, cross-disciplinary computing",
+    "naming": "None",
+    "faculty": "Growing; shared appointments across schools",
+    "notes": "Vanderbilt's first new college in more than 40 years. Matthew Johnson-Roberson named inaugural dean, effective May 1, 2025, after a search launched Sept 2024. The 'connected' framing is explicitly about embedding computing in other disciplines rather than concentrating it.",
+    "url": "https://www.vanderbilt.edu/chancellor/initiatives-and-outreach/growth/connected-computing/",
+    "refs": [
+      {
+        "t": "Vanderbilt names Matthew Johnson-Roberson first dean of the College of Connected Computing (Mar 2025)",
+        "u": "https://news.vanderbilt.edu/2025/03/20/vanderbilt-names-technology-visionary-matthew-johnson-roberson-as-its-first-dean-of-the-college-of-connected-computing/"
+      },
+      {
+        "t": "College of Connected Computing (Office of the Chancellor)",
+        "u": "https://www.vanderbilt.edu/chancellor/initiatives-and-outreach/growth/connected-computing/"
+      }
+    ]
+  },
+  {
+    "university": "New York University",
+    "unit": "Courant Institute School of Mathematics, Computing, and Data Science",
+    "year": 2025,
+    "prior": "Courant Institute of Mathematical Sciences (est. 1935), the Center for Data Science, and computer science split between Courant and the Tandon School of Engineering",
+    "admin": "standalone",
+    "departments": "Mathematics; Computer Science (expanded, linked with Tandon's CS program); Center for Data Science",
+    "scope": "Mathematics, CS, Data Science, AI",
+    "naming": "None (named for Richard Courant, not a donor)",
+    "faculty": "Not verified",
+    "notes": "Announced Nov 13, 2025 — the largest structural change to a top-tier US computing unit that year. Gérard Ben Arous serves as inaugural dean, with Denis Zorin taking over as permanent dean in August 2026. Notable for building the school around mathematics rather than folding math in as a partner.",
+    "url": "https://cims.nyu.edu/",
+    "refs": [
+      {
+        "t": "Courant Institute School of Mathematics, Computing, and Data Science (Wikipedia)",
+        "u": "https://en.wikipedia.org/wiki/Courant_Institute_School_of_Mathematics,_Computing,_and_Data_Science"
+      },
+      {
+        "t": "NYU Courant Institute",
+        "u": "https://cims.nyu.edu/"
+      }
+    ]
+  },
+  {
+    "university": "University at Albany, State University of New York",
+    "unit": "Artificial Intelligence & Society College",
+    "year": 2025,
+    "prior": "AI Plus initiative and the College of Emergency Preparedness, Homeland Security and Cybersecurity",
+    "admin": "standalone",
+    "departments": "Cross-campus college drawing faculty from existing departments",
+    "scope": "AI, AI ethics and policy, societal impact of AI",
+    "naming": "None (SUNY/state funding: $2.4M over three years)",
+    "faculty": "Director from Philosophy; associate director from Electrical & Computer Engineering; leverages existing faculty across campus",
+    "notes": "One of the few units on this list led from the humanities. Positions AI's societal consequences, not computing capability, as the organising principle.",
+    "url": "https://www.albany.edu/ai-society",
+    "refs": [
+      {
+        "t": "UAlbany launches new AI & Society College and research center (UAlbany News Center, 2025)",
+        "u": "https://www.albany.edu/news-center/news/2025-ualbany-launches-new-ai-society-college-research-center"
+      }
+    ]
+  },
+  {
+    "university": "University of Texas at San Antonio",
+    "unit": "College of AI, Cyber and Computing",
+    "year": 2025,
+    "prior": "Computing, cybersecurity and data science programs across UTSA colleges",
+    "admin": "standalone",
+    "departments": "AI; Cyber; Computing; Data Science",
+    "scope": "AI, Cybersecurity, CS, Data Science",
+    "naming": "None",
+    "faculty": "Dean search launched Jan 2025",
+    "notes": "Among the first US colleges to put AI first in its name. Builds on UTSA's established cybersecurity strength.",
+    "url": "https://provost.utsa.edu/ai-cyber-computing/",
+    "refs": [
+      {
+        "t": "UTSA College of AI, Cyber and Computing (UTSA Provost)",
+        "u": "https://provost.utsa.edu/ai-cyber-computing/"
+      },
+      {
+        "t": "UTSA launches new college (UTSA Today)",
+        "u": "https://www.utsa.edu/today/2024/09/story/college-ai-cyber-computing.html"
+      }
+    ]
+  },
+  {
+    "university": "Korea Advanced Institute of Science and Technology (KAIST)",
+    "unit": "College of AI",
+    "year": 2026,
+    "prior": "Kim Jaechul Graduate School of AI (est. 2019, graduate-only — the first in Korea to offer MS/PhD degrees in AI) plus the Department of Computer Science",
+    "admin": "standalone",
+    "departments": "AI Computing; AI Systems; AX (AI Transformation, with tracks in Data & Content, Manufacturing & Physical, Bio & Materials, Sustainability); AI Futures (ethics, policy, governance)",
+    "scope": "AI algorithms and generative AI, AI semiconductors and hardware, industrial AI applications, AI ethics and policy",
+    "naming": "None (funded by Korea's Ministry of Science and ICT)",
+    "faculty": "20 initial full-time (5 per department) with planned expansion; the existing graduate school has 20 core, 43 affiliated and 7 adjunct faculty",
+    "notes": "Board approved Dec 11, 2025. Undergraduate programs begin spring 2026, graduate programs fall 2026, with 300 new students per year (100 undergraduate, 150 MS, 50 PhD) in entirely new enrollment slots. The first Korean university to elevate AI to an independent college. Similar AI colleges are planned at GIST, DGIST and UNIST by 2027, each aligned with regional industries. KAIST operates a department-free first year; sophomores choose among the four AI majors.",
+    "url": "https://aicollege.kaist.ac.kr/",
+    "refs": [
+      {
+        "t": "KAIST College of AI",
+        "u": "https://aicollege.kaist.ac.kr/"
+      },
+      {
+        "t": "KAIST to open College of AI (The Korea Herald)",
+        "u": "https://www.koreaherald.com/article/10668066"
+      }
+    ]
+  },
+  {
+    "university": "Stevens Institute of Technology",
+    "unit": "School of Computing",
+    "year": 2026,
+    "prior": "Computing programs within the Schaefer School of Engineering and Science",
+    "admin": "standalone",
+    "departments": "Not yet announced; planned interdisciplinary pathways in computational biology, financial technology, cyber-physical systems and digital health",
+    "scope": "CS, AI, Cybersecurity, FinTech, Computational Biology, Digital Health",
+    "naming": "None yet; $36M in initial philanthropic support, with more anticipated",
+    "faculty": "Recruiting a faculty cluster; founding dean search underway",
+    "notes": "Board of Trustees approved the school Jan 29, 2026, targeting a fall 2026 launch. Structural details including departments and the dean's reporting line were still being determined at announcement.",
+    "url": "https://www.stevens.edu/",
+    "refs": [
+      {
+        "t": "Stevens Launches School of Computing to Lead AI and Technology Education (Stevens, Jan 2026)",
+        "u": "https://www.stevens.edu/news/stevens-institute-of-technology-establishes-school-of-computing-to-lead-the"
+      }
+    ]
+  },
+  {
+    "university": "University of Texas at Austin",
+    "unit": "School of Computing",
+    "year": 2026,
+    "prior": "Department of Computer Science, the iSchool, and the Department of Statistics & Data Sciences, merged within the College of Natural Sciences",
+    "admin": "within_sci",
+    "departments": "Computer Science; Information; Statistics and Data Sciences",
+    "scope": "CS, Data Science, Statistics, Information, AI, Robotics",
+    "naming": "None",
+    "faculty": "~140, plus 50 new hires planned",
+    "notes": "Approved by the UT System Board of Regents Feb 2026, opening fall 2026. Unites three existing units inside the College of Natural Sciences rather than creating a standalone college. Peter Stone (CS chair and Texas Robotics founder) named Special Adviser for School Formation. CS had moved from Engineering to Natural Sciences and gained autonomy via an MOU with the dean around 2005.",
+    "url": "https://www.cs.utexas.edu/",
+    "refs": [
+      {
+        "t": "UT Launches New School of Computing (UT News, Feb 19, 2026)",
+        "u": "https://news.utexas.edu/2026/02/19/ut-launches-new-school-of-computing-uniting-computer-and-data-science-statistics-information-disciplines/"
+      },
+      {
+        "t": "UT's New School of Computing Brings Together Computer, Data, and Information Sciences (The Alcalde)",
+        "u": "https://alcalde.texasexes.org/2026/04/uts-new-school-of-computing-brings-together-computer-data-and-information-sciences"
+      }
+    ]
+  },
   {
     "university": "University of Wisconsin–Madison",
     "unit": "College of Computing and Artificial Intelligence (CAI)",
     "year": 2026,
-    "prior": "School of Computer, Data & Information Sciences (CDIS, est. 2019 within College of Letters & Science)",
+    "prior": "School of Computer, Data & Information Sciences (CDIS)",
     "admin": "standalone",
-    "departments": "Computer Sciences; Information School; Statistics",
-    "scope": "CS, AI, Data Science, Information Science, Statistics",
-    "naming": "None (seeking philanthropic support)",
-    "faculty": "TBD (inherits CDIS faculty)",
-    "notes": "UW Board of Regents approved Dec 4, 2025. Expected to begin operations July 1, 2026. First new academic division at UW-Madison since 1983. CS majors tripled from ~1,000 (2015) to ~3,000 (2025). 6,000+ students in CDIS programs.",
-    "source": "UW News; Badger Herald; CAI website",
-    "url": "https://cai.wisc.edu/"
+    "departments": "Inherits CDIS units: Computer Sciences; Information School; Statistics",
+    "scope": "CS, Data Science, Statistics, Information Science, AI",
+    "naming": "None; $100M in philanthropic commitments from the Catalyst Collective plus $50M+ in annual institutional investment",
+    "faculty": "Inherits CDIS faculty",
+    "notes": "Approved by the UW System Board of Regents in Dec 2025 — the first new academic division at UW–Madison in more than 40 years. Remzi Arpaci-Dusseau, CDIS director, becomes founding dean effective July 1, 2026.",
+    "url": "https://cai.wisc.edu/",
+    "refs": [
+      {
+        "t": "UW–Madison names Remzi Arpaci-Dusseau founding dean of the College of Computing and Artificial Intelligence (UW News)",
+        "u": "https://news.wisc.edu/uw-madison-names-remzi-arpaci-dusseau-founding-dean-of-college-of-computing-and-artificial-intelligence-announces-major-investment-in-colleges-launch/"
+      },
+      {
+        "t": "CDIS Director to be inaugural dean (The Daily Cardinal, Apr 2026)",
+        "u": "https://www.dailycardinal.com/article/2026/04/cdis-director-to-be-inaugural-dean-of-college-of-computing-and-artificial-intelligence"
+      }
+    ]
   },
   {
-    "university": "University at Albany - State University of New York (SUNY)",
-    "unit": "Artificial Intelligence & Society College",
-    "year": 2025,
-    "prior": "AI Plus Institute; CS and ECE depts remain in existing colleges",
-    "admin": "hybrid",
-    "departments": "Cross-campus unit — does not house traditional departments; works across all 9 existing schools/colleges",
-    "scope": "AI literacy, AI ethics, cross-disciplinary AI integration",
-    "naming": "None (SUNY/state funding: $2.4M over 3 years)",
-    "faculty": "Director from Philosophy; Associate Director from ECE; leverages existing faculty across campus",
-    "notes": "Announced April 2025. Unusual model — students don't enroll directly in the college. Instead it infuses AI curriculum across UAlbany's 59 UG majors and 150+ grad programs. Paired with AI & Society Research Center under AI Plus Institute. Funded by Gov. Hochul/SUNY initiative.",
-    "source": "UAlbany News Center",
-    "url": "https://www.albany.edu/news-center/news/2025-ualbany-launches-new-ai-society-college-research-center"
+    "university": "Georgia State University",
+    "unit": "School of Computing (approved in strategic plan; in planning)",
+    "year": null,
+    "prior": "Department of Computer Science within the College of Arts & Sciences",
+    "admin": "within_sci",
+    "departments": "To be determined",
+    "scope": "CS plus interdisciplinary computing fields",
+    "naming": "None announced",
+    "faculty": "Not determined",
+    "notes": "Committed but not yet established. Georgia State's 2023-2033 strategic plan commits to a School of Computing within the College of Arts & Sciences, broadening traditional computer science with interdisciplinary fields. Still in the planning phase as of Q1 2026, so it carries no establishment year.",
+    "url": "https://strategic.gsu.edu/2023-2033/initiatives/irsca/school-of-computing/",
+    "refs": [
+      {
+        "t": "School of Computing — Georgia State Strategic Plan 2023–2033",
+        "u": "https://strategic.gsu.edu/2023-2033/initiatives/irsca/school-of-computing/"
+      }
+    ]
   }
 ]

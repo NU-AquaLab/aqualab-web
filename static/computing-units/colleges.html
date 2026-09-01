@@ -52,6 +52,10 @@
   .timeline-legend .l-est::before { background:var(--green); }
   .timeline-legend .l-none::before { background:var(--border); }
 
+  .detail-value .refs { margin:0; padding-left:18px; }
+  .detail-value .refs li { margin-bottom:4px; }
+  .detail-value .refs a { word-break:break-word; }
+
   /* Named gifts */
   .gifts-box { background:#fffbeb; border:1px solid #fde68a; border-radius:14px; padding:24px 28px; margin-bottom:32px; }
   .gifts-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(220px,1fr)); gap:12px; margin-top:14px; }
@@ -116,13 +120,13 @@
 
   <div class="hero">
     <h1>The Rise of Computing Colleges</h1>
-    <p class="sub">A survey of US universities that have elevated computing to college-level academic units — and what their structures look like</p>
+    <p class="sub">Which universities have given computing its own college or school, when they did it, and how they structured it. Mostly US, with international peers included.</p>
   </div>
 
   <div class="narrative">
-    Computing has outgrown the department. As the discipline has become foundational to virtually every field of study — and as student demand, research funding, and industry hiring have surged — a growing number of leading US universities have elevated computing from a department within engineering or sciences to a <strong>standalone college or school</strong> with its own dean, budget, and strategic autonomy.
-    <span class="highlight">This is not a trend among a few outliers — it is a structural shift across American higher education.</span>
-    The timeline below tracks <strong>when</strong> universities made this move, <strong>what governance model</strong> they chose, and <strong>what scope</strong> they defined for the new unit. It is intended as a living resource for university leaders considering similar transitions.
+    A university that wants to grow computing has to decide where to put it. The usual answer for fifty years was a department inside engineering or inside arts and sciences. Since 1982, the 49 institutions on this list have concluded that container is too small and have given computing its own dean, budget, and faculty lines — usually together with data science, statistics, or information science.
+    <span class="highlight">Sixteen of them did it in 2024–2026 alone.</span>
+    They did not all do the same thing. Some built a standalone college; some kept computing inside engineering and gave it a school's autonomy; MIT, Berkeley, and Boston University built cross-cutting units that share faculty with existing schools rather than claiming them. This page records what each institution did, when, under what governance model, and with what money, so that the options can be compared side by side. Every entry links to its sources.
   </div>
 
   <div class="stats" id="stats"></div>
@@ -130,23 +134,23 @@
   <div class="takeaways" id="takeaways">
     <div class="takeaway">
       <div class="takeaway-icon">📈</div>
-      <div class="takeaway-title">Accelerating Trend</div>
-      <div class="takeaway-text">After early movers in the late 1980s and 1990s, the pace has accelerated sharply — more standalone computing colleges were created between 2019 and 2023 than in the entire preceding two decades.</div>
+      <div class="takeaway-title">The wave is 2024–2026, not 2019</div>
+      <div class="takeaway-text">Three earlier clusters — 1982–1990, 1998–2002, and 2019–2023 — each produced a handful of units. The current one has produced 16 in three years, including UT Austin, Wisconsin, NYU, Illinois, Vanderbilt, USC, and Stevens.</div>
     </div>
     <div class="takeaway">
       <div class="takeaway-icon">🏛️</div>
-      <div class="takeaway-title">Standalone is the Dominant Model</div>
-      <div class="takeaway-text">The majority of top-ranked programs that have restructured chose a standalone college with a dean reporting directly to the provost — giving computing strategic parity with engineering, sciences, and other major colleges.</div>
+      <div class="takeaway-title">Standalone is the common choice, not the only one</div>
+      <div class="takeaway-text">About two thirds of the dated entries are standalone colleges whose dean reports to the provost. The rest split between schools that stayed inside engineering — Illinois, Washington, Utah — and cross-cutting units that share faculty rather than claiming them.</div>
     </div>
     <div class="takeaway">
       <div class="takeaway-icon">🔬</div>
-      <div class="takeaway-title">Beyond CS: Data Science, AI, Information Science</div>
-      <div class="takeaway-text">Newer units increasingly encompass data science, statistics, information science, and AI ethics — reflecting the interdisciplinary nature of modern computing and its applications across every domain.</div>
+      <div class="takeaway-title">The unit is rarely just computer science</div>
+      <div class="takeaway-text">The recurring merger is CS plus an iSchool plus statistics — Pittsburgh 2017, Cornell 2020, UT Austin 2026. TUM added mathematics and electrical engineering; NYU built its school around mathematics. Since 2024, AI increasingly appears in the name itself.</div>
     </div>
     <div class="takeaway">
       <div class="takeaway-icon">💰</div>
-      <div class="takeaway-title">Major Philanthropic Investment</div>
-      <div class="takeaway-text">The creation of computing colleges has attracted hundreds of millions in naming gifts — signaling donor confidence in computing as a distinct, investable academic identity.</div>
+      <div class="takeaway-title">Naming gifts range widely, and many units have none</div>
+      <div class="takeaway-text">From $10M at FIU to Schwarzman's $350M at MIT and Ann Bowers' undisclosed nine figures at Cornell. But Georgia Tech, CMU, Wisconsin, UT Austin, and Michigan Tech all built theirs without a naming donor.</div>
     </div>
   </div>
 
@@ -155,12 +159,13 @@
     <div class="timeline" id="timeline"></div>
     <div class="timeline-legend">
       <span class="l-est">College/School established</span>
-      <span class="l-none">No establishment</span>
+      <span class="l-none">No unit established that year</span>
     </div>
   </div>
 
   <div class="gifts-box">
-    <div class="section-title">Named Gifts That Launched Computing Colleges</div>
+    <div class="section-title">Naming gifts</div>
+    <div style="font-size:13px;color:var(--muted);margin-bottom:4px">Gifts that named the unit. Building gifts, campaign totals, and non-naming philanthropy (Berkeley's $330M, Wisconsin's $100M, Stevens' $36M) are excluded.</div>
     <div class="gifts-grid" id="gifts"></div>
   </div>
 
@@ -173,29 +178,13 @@
   <div class="entries" id="entries"></div>
 
   <div class="footer">
-    <strong>Key Reference:</strong> CRA White Paper, <a href="https://cra.org/resources/creating-institutional-homes-for-computing/" target="_blank">"Creating Institutional Homes for Computing"</a> (2019)<br>
+    <strong>Scope:</strong> this page lists only institutions that have created a college- or school-level computing unit; it is not a census of all universities. <strong>Background reading:</strong> CRA White Paper, <a href="https://cra.org/resources/creating-institutional-homes-for-computing/" target="_blank">"Creating Institutional Homes for Computing"</a> (2019). Every entry carries its own sources; where a date or figure could not be confirmed from a primary source, the entry says so.<br>
     <strong>How to update:</strong> Edit <code>colleges.json</code> in the <a href="https://github.com/NU-AquaLab/aqualab-web/tree/main/static/computing-units" target="_blank">GitHub repository</a> to add or modify entries. The site rebuilds automatically on push.<br>
     <strong>Compiled by:</strong> AquaLab, Northwestern University · Last updated: <span id="lastmod"></span>
   </div>
 </div>
 
 <script>
-const SEED_DATA = [
-  { "university":"Carnegie Mellon University", "unit":"School of Computer Science", "year":1988, "prior":"CS dept in College of Science", "admin":"standalone", "departments":"Computer Science; Machine Learning; Robotics; Language Technologies; HCI; Software Research; Computational Biology", "scope":"CS, AI/ML, Robotics, HCI, Computational Biology", "naming":"None (building gifts)", "faculty":"~250", "notes":"One of the first standalone CS schools. Porous dept boundaries — faculty can supervise PhD students in any dept.", "source":"CRA White Paper (2019); Wikipedia", "url":"https://www.cs.cmu.edu/" },
-  { "university":"Georgia Institute of Technology", "unit":"College of Computing", "year":1990, "prior":"School of ICS in College of Science & Liberal Studies", "admin":"standalone", "departments":"School of CS; Interactive Computing; CSE; Cybersecurity & Privacy; Computing Instruction", "scope":"CS, HCI, Computational Media, Cybersecurity, CSE", "naming":"Klaus $15M (building, 2000)", "faculty":"~100+ research faculty", "notes":"First 'College of Computing' in the US. ~4,600 UG + ~16,900 grad (incl. OMSCS). Five internal schools. Joint degrees with Liberal Arts.", "source":"CRA White Paper (2019); Wikipedia; GT Catalog", "url":"https://www.cc.gatech.edu/" },
-  { "university":"Northeastern University", "unit":"Khoury College of Computer Sciences", "year":1982, "prior":"CS formed from Math (A&S) and Industrial Eng (Engineering)", "admin":"standalone", "departments":"Programs in CS, Data Science, Cybersecurity, AI, Health Informatics", "scope":"CS, Data Science, Cybersecurity, AI, Informatics", "naming":"Khoury $50M (2019)", "faculty":"~90", "notes":"One of the earliest standalone CS colleges (1982). Pioneered 'combined majors' (CS + X). Co-op program central to identity.", "source":"CRA White Paper (2019)", "url":"https://www.khoury.northeastern.edu/" },
-  { "university":"Cornell University", "unit":"Ann S. Bowers College of Computing and Information Science", "year":2020, "prior":"Faculty of CIS (est. 1999); CS in Engineering / A&S. Became full College 2020.", "admin":"standalone", "departments":"Computer Science; Information Science; Statistics & Data Science", "scope":"CS, Information Science, Data Science, Statistics", "naming":"Ann S. Bowers $100M+ (2020)", "faculty":"~120 (CS 62, Info Sci 42, Stats 18)", "notes":"Pioneer 'faculty' structure 1999, full college 2020. Spans Ithaca + Cornell Tech NYC. 76% of UGs take ≥1 CIS course.", "source":"CRA White Paper (2019); Wikipedia; Cornell Milestones", "url":"https://cis.cornell.edu/" },
-  { "university":"Indiana University", "unit":"Luddy School of Informatics, Computing, and Engineering", "year":2000, "prior":"CS in A&S; new School of Informatics 2000; CS joined 2005; Library Sci merged 2013; Eng added 2016", "admin":"standalone", "departments":"CS; Informatics; Info & Library Science; Intelligent Systems Eng (Bloomington)", "scope":"CS, Informatics, Library Science, Data Science, Engineering", "naming":"Fred Luddy $25M+ (2019)", "faculty":"~183 across two campuses", "notes":"Informatics BS is 'CS + X' — each student picks a cognate area. Second-largest major at IU-Bloomington.", "source":"CRA White Paper (2019)", "url":"https://luddy.indiana.edu/" },
-  { "university":"University of Utah", "unit":"Kahlert School of Computing", "year":2000, "prior":"CS division in EE dept (est. 1965)", "admin":"within_eng", "departments":"Single school; affiliated with SCI Institute and EAE program", "scope":"CS, Graphics, Scientific Computing, Games/Entertainment", "naming":"Kahlert family gift", "faculty":"~50", "notes":"Historic role in computer graphics (Utah Teapot, ARPANET). School within Engineering with significant autonomy via MOU.", "source":"CRA White Paper (2019); Wikipedia", "url":"https://www.cs.utah.edu/" },
-  { "university":"University of Texas at Austin", "unit":"Department of Computer Science", "year":2005, "prior":"CS moved from Engineering to Natural Sciences; School-level ~2005", "admin":"within_sci", "departments":"Computer Science", "scope":"CS, AI, ML, Systems, Theory", "naming":"N/A", "faculty":"~70", "notes":"Transitioned from Engineering to Natural Sciences. Greater autonomy via MOU with dean. One of the largest CS programs nationally.", "source":"CRA White Paper (2019)", "url":"https://www.cs.utexas.edu/" },
-  { "university":"University of Massachusetts Amherst", "unit":"Manning College of Information and Computer Sciences", "year":2015, "prior":"CS dept in Natural Sciences → School of CS 2015 → College ~2017", "admin":"standalone", "departments":"Computer Science; Information Science (forming)", "scope":"CS, AI/NLP, Data Science, Information Science", "naming":"Manning family (2023)", "faculty":"~60", "notes":"Recent transition from dept to standalone college. Strong in NLP/AI. Dean reports to provost.", "source":"UMass CICS; CRA White Paper (2019)", "url":"https://www.cics.umass.edu/" },
-  { "university":"University of Washington", "unit":"Paul G. Allen School of Computer Science & Engineering", "year":2017, "prior":"Dept of CS&E in College of Engineering; elevated to School 2017", "admin":"within_eng", "departments":"Single school", "scope":"CS, Computer Engineering", "naming":"Paul G. Allen $40M+ (cumulative)", "faculty":"~70", "notes":"School-level within Engineering. Among top-5 nationally. Gates Center opened 2019.", "source":"UW Allen School website", "url":"https://www.cs.washington.edu/" },
-  { "university":"Massachusetts Institute of Technology", "unit":"MIT Schwarzman College of Computing", "year":2019, "prior":"EECS in School of Engineering; CSAIL and other labs", "admin":"hybrid", "departments":"Shares EECS (EE, CS, AI+Decision-Making) with School of Eng; CSAIL; IDSS; SERC", "scope":"CS, AI, Data Science, Ethics, cross-disciplinary", "naming":"Stephen Schwarzman $350M (of $1.1B, 2018)", "faculty":"50 new positions; hundreds affiliated", "notes":"Cross-cutting institute-wide unit alongside MIT's five Schools. First structural change since 1950s. ~40% of UGs major in CS.", "source":"MIT News; Wikipedia", "url":"https://computing.mit.edu/" },
-  { "university":"Illinois Institute of Technology", "unit":"College of Computing", "year":2020, "prior":"CS and Applied Math depts", "admin":"standalone", "departments":"Computer Science; Applied Mathematics; IT and Management", "scope":"CS, Applied Math, AI, Cybersecurity, Data Science, IT", "naming":"None", "faculty":"~40", "notes":"Now the largest college at Illinois Tech by enrollment. Dean reports to provost.", "source":"Illinois Tech website", "url":"https://www.iit.edu/computing" },
-  { "university":"UC Berkeley", "unit":"College of Computing, Data Science, and Society (CDSS)", "year":2023, "prior":"Division of CDSS; Data Science UG Studies + Statistics + shared EECS", "admin":"standalone", "departments":"Shares EECS with College of Eng; Dept of Statistics; Data Science UG Studies; BIDS; D-Lab", "scope":"CS, Data Science, Statistics, Society/Ethics", "naming":"$330M+ raised (no single naming gift)", "faculty":"Growing; shared EECS faculty", "notes":"First new college at Berkeley in 50+ years. UC Regents voted May 2023. Gateway Building opening 2025–26. 1 in 4 CDSS grads holds second major.", "source":"Berkeley News; CDSS website; Wikipedia", "url":"https://cdss.berkeley.edu/" },
-  { "university":"University of Florida", "unit":"Herbert Wertheim College of Engineering — Dept of CISE", "year":null, "prior":"CS & Info Science & Engineering dept within Engineering", "admin":"within_eng", "departments":"Computer Science; Computer Engineering (shared with ECE)", "scope":"CS, AI, Data Science", "naming":"N/A for CS specifically", "faculty":"~50", "notes":"Dept-level within Engineering. UF invested $70M in university-wide AI initiative (2020). Included as comparison.", "source":"CRA White Paper (2019)", "url":"https://www.cise.ufl.edu/" },
-  { "university":"Purdue University", "unit":"Department of CS (College of Science)", "year":null, "prior":"CS dept in College of Science", "admin":"within_sci", "departments":"CS in Science; Applied Computing in Polytechnic", "scope":"CS, Data Science (split across colleges)", "naming":"N/A", "faculty":"~60", "notes":"CS remains in College of Science. Computing split across Science and Polytechnic colleges. Included as comparison.", "source":"CRA White Paper (2019)", "url":"https://www.cs.purdue.edu/" }
-];
 
 const ADMIN_LABELS = { standalone:"Standalone College (Dean → Provost)", within_eng:"School within Engineering", within_sci:"School/Dept within Sciences", hybrid:"Cross-cutting / Hybrid" };
 const ADMIN_COLORS = { standalone:"var(--green)", within_eng:"var(--blue)", within_sci:"var(--purple)", hybrid:"var(--amber)" };
@@ -206,9 +195,14 @@ let currentFilter = "All";
 async function init() {
   try {
     const r = await fetch("colleges.json");
-    if (r.ok) { allData = await r.json(); }
-    else { allData = SEED_DATA; }
-  } catch { allData = SEED_DATA; }
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    allData = await r.json();
+  } catch (err) {
+    document.getElementById("entries").innerHTML =
+      '<div class="entry" style="padding:20px">Could not load <code>colleges.json</code> (' + err.message +
+      '). Reload the page; if it persists the data file is missing from the deploy.</div>';
+    return;
+  }
   document.getElementById("lastmod").textContent = new Date().toLocaleDateString("en-US",{year:"numeric",month:"long"});
   renderAll();
 }
@@ -222,12 +216,15 @@ function renderStats() {
   const sa = allData.filter(d=>d.admin==="standalone").length;
   const mn = wy.length ? Math.min(...wy.map(d=>d.year)) : "—";
   const mx = wy.length ? Math.max(...wy.map(d=>d.year)) : "—";
-  const recent = allData.filter(d=>d.year && d.year>=2019).length;
+  const recent = allData.filter(d=>d.year && d.year>=2024).length;
+  const named = allData.filter(d=>d.gift_label);
+  const totalM = named.reduce((t,d)=>t+(d.gift_m||0),0);
+  const undis = named.filter(d=>!d.gift_m).length;
   document.getElementById("stats").innerHTML = [
-    {n:allData.length, l:"Institutions Tracked"},
-    {n:sa, l:"Standalone Colleges"},
-    {n:recent, l:"Created Since 2019"},
-    {n:"$875M+", l:"In Naming Gifts"}
+    {n:wy.length, l:`Units established (${mn}–${mx})`},
+    {n:sa, l:"Standalone colleges"},
+    {n:recent, l:"Created 2024 or later"},
+    {n:"$"+(totalM/1000).toFixed(2)+"B", l:`In naming gifts, plus ${undis} undisclosed`}
   ].map(s=>`<div class="stat"><div class="stat-n">${s.n}</div><div class="stat-l">${s.l}</div></div>`).join("");
 }
 
@@ -256,21 +253,13 @@ function renderTimeline() {
 }
 
 function renderGifts() {
-  const gifts = allData.filter(d => d.naming && !d.naming.match(/^(N\/A|None|none|\$?0)/i) && d.naming.includes("$"))
-    .map(d => {
-      const m = d.naming.match(/\$[\d,.]+[MB+]*/);
-      return { uni: d.university, amount: m ? m[0] : d.naming, donor: d.naming, year: d.year };
-    })
-    .sort((a,b) => {
-      const pa = parseFloat(a.amount.replace(/[\$,MB+]/g,''))||0;
-      const pb = parseFloat(b.amount.replace(/[\$,MB+]/g,''))||0;
-      return pb-pa;
-    });
+  const gifts = allData.filter(d => d.gift_label)
+    .sort((a,b) => (b.gift_m||0) - (a.gift_m||0));
   document.getElementById("gifts").innerHTML = gifts.map(g =>
     `<div class="gift-card">
-      <div class="gift-amount">${g.amount}</div>
-      <div class="gift-uni">${g.uni}</div>
-      <div class="gift-donor">${g.donor}</div>
+      <div class="gift-amount">${g.gift_m ? "$"+g.gift_m+"M" : "Undisclosed"}</div>
+      <div class="gift-uni">${g.university}</div>
+      <div class="gift-donor">${g.gift_label}</div>
     </div>`
   ).join("");
 }
@@ -289,6 +278,13 @@ function renderFilters() {
 
 function setFilter(f){currentFilter=f;renderFilters();renderEntries();}
 
+function refList(e) {
+  if (Array.isArray(e.refs) && e.refs.length) {
+    return "<ol class=\"refs\">" + e.refs.map(r =>
+      `<li><a href="${r.u}" target="_blank" rel="noopener">${r.t}</a></li>`).join("") + "</ol>";
+  }
+  return e.source || "—";
+}
 function renderEntries() {
   let d=currentFilter==="All"?[...allData]:allData.filter(e=>e.admin===currentFilter);
   d.sort((a,b)=>(a.year||9999)-(b.year||9999));
@@ -315,7 +311,7 @@ function renderEntries() {
           <span class="detail-label">Naming gift</span><span class="detail-value">${e.naming||"—"}</span>
           <span class="detail-label">Notes</span><span class="detail-value">${e.notes||"—"}</span>
           <span class="detail-label">Website</span><span class="detail-value">${e.url?`<a href="${e.url}" target="_blank">${e.url}</a>`:"—"}</span>
-          <span class="detail-label">Sources</span><span class="detail-value src">${e.source||"—"}</span>
+          <span class="detail-label">References</span><span class="detail-value src">${refList(e)}</span>
         </div>
       </div>
     </div>
