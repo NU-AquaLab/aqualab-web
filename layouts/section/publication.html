@@ -35,16 +35,28 @@
               {{ with $p.Params.url_pdf }}
                 {{ $pdf = . }}
               {{ end }}
-              {{ if eq $pdf "" }}
+              {{/* A bundled PDF is the paper only when nothing else claims it —
+                   for a talk, url_slides points at it and there is no paper. */}}
+              {{ if and (eq $pdf "") (not $p.Params.url_slides) }}
                 {{ with $p.Resources.GetMatch "*.pdf" }}
                   {{ $pdf = .RelPermalink }}
                 {{ end }}
               {{ end }}
-
               {{ if ne $pdf "" }}
                 {{ $isAbs := or (hasPrefix $pdf "http") (hasPrefix $pdf "/") }}
-                {{ $href := cond $isAbs $pdf (printf "%s%s" $p.RelPermalink $pdf) }}
-                <a class="pub-title" href="{{ $href }}">{{ $p.Title }}</a>
+                {{ $pdf = cond $isAbs $pdf (printf "%s%s" $p.RelPermalink $pdf) }}
+              {{ end }}
+
+              {{/* Slides may be bundled with the page, like url_pdf */}}
+              {{ $slides := "" }}
+              {{ with $p.Params.url_slides }}
+                {{ $isAbs := or (hasPrefix . "http") (hasPrefix . "/") }}
+                {{ $slides = cond $isAbs . (printf "%s%s" $p.RelPermalink .) }}
+              {{ end }}
+
+              {{ $titleHref := cond (ne $pdf "") $pdf $slides }}
+              {{ if ne $titleHref "" }}
+                <a class="pub-title" href="{{ $titleHref }}">{{ $p.Title }}</a>
               {{ else }}
                 <span class="pub-title">{{ $p.Title }}</span>
               {{ end }}
@@ -72,15 +84,13 @@
               {{/* ── Action links (plain text style) ── */}}
               <span class="pub-links">
                 {{ if ne $pdf "" }}
-                  {{ $isAbs := or (hasPrefix $pdf "http") (hasPrefix $pdf "/") }}
-                  {{ $href := cond $isAbs $pdf (printf "%s%s" $p.RelPermalink $pdf) }}
-                  <a href="{{ $href }}">[Paper]</a>
+                  <a href="{{ $pdf }}">[Paper]</a>
                 {{ end }}
                 {{ with $p.Params.url_code }}
                   <a href="{{ . }}">[Code]</a>
                 {{ end }}
-                {{ with $p.Params.url_slides }}
-                  <a href="{{ . }}">[Slides]</a>
+                {{ if ne $slides "" }}
+                  <a href="{{ $slides }}">[Slides]</a>
                 {{ end }}
                 {{ with $p.Params.url_video }}
                   <a href="{{ . }}">[Video]</a>
