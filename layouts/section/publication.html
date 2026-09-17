@@ -136,8 +136,10 @@
                   {{ $abs = . }}
                 {{ end }}
               {{ end }}
+              {{/* Fall back to the rendered body, not .Summary: summaryLength
+                   is 30 words, which silently truncates every abstract. */}}
               {{ if eq $abs "" }}
-                {{ with $p.Summary }}
+                {{ with $p.Content }}
                   {{ $abs = . }}
                 {{ end }}
               {{ end }}
