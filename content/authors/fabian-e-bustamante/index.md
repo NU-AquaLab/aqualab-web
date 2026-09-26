@@ -29,5 +29,5 @@ social:
 # Important: must NOT be a draft
 draft: false
 ---
-Fabián is a Professor of Computer Science at Northwestern University, working on Internet-scale systems, measurement, and critical infrastructure.
+Fabián is a Professor of Computer Science at Northwestern University. His group makes the Internet observable from the outside, revealing the hidden infrastructure and dependencies that shape global connectivity, often by turning existing systems into measurement instruments. Their tools have been used by over 1.5 million people.
 
