@@ -107,7 +107,7 @@ Y. Liu, Y. Xiao, X. Zhang et al. — NSDI 2025
 
 {{< /day >}}
 
-{{< day date="Tue 10/13" topic="Network verification & formal methods" >}}
+{{< day date="Tue 10/13" topic="Network verification & formal methods" note="From making networks verifiable (HSA) to making verification scale: formal models let us systematically reason about network behavior, but their representations can become the bottleneck. Can a better representation make verification dramatically more efficient?" >}}
 
 **Background**
 [Header Space Analysis: Static Checking for Networks,](https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/kazemian)
@@ -137,7 +137,7 @@ S. McClure, N. Dukkipati, S. Ratnasamy, S. Shenker — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Tue 10/20" topic="Transport & QUIC" due="In-class proposal pitches (5 min per team)" >}}
+{{< day date="Tue 10/20" topic="Transport & QUIC" due="In-class proposal pitches (5 min per team)" note="From designing and deploying QUIC to measuring what followed: QUIC promised a more evolvable transport protocol and was rapidly deployed at Google scale. Years later, what does Internet-wide deployment actually look like, and what does it reveal about how new transport protocols diffuse in practice?" >}}
 
 **Background**
 [QUIC at Google: Deployed at Scale,](https://dl.acm.org/doi/10.1145/3098822.3098842)
@@ -165,7 +165,7 @@ D. Straussman, I. Keslassy, A. Shpiner, L. Liss — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Tue 10/27" topic="RDMA & high-performance datacenter networking" >}}
+{{< day date="Tue 10/27" topic="RDMA & high-performance datacenter networking" note="From managing congestion and loss (DCTCP) to questioning lossless RDMA: can high-performance datacenter transport remain reliable and efficient when packet loss is treated as a normal condition rather than something the fabric must prevent?" >}}
 
 **Background**
 [DCTCP: Data Center TCP,](https://dl.acm.org/doi/10.1145/1851275.1851192)
@@ -181,21 +181,19 @@ W. Li, X. Liu, Y. Zhang et al. — SIGCOMM 2025 *(Best Student Paper, Honorable 
 
 {{< week n="6" >}}
 
-{{< day date="Thu 10/29" topic="ML training networks" due="Midpoint report" >}}
+{{< day date="Thu 10/29" topic="ML training networks" due="Midpoint report" note="From parallelizing large models to disaggregating heterogeneous ones: large-scale training distributes computation across GPUs, but multimodal models combine components and data with very different resource demands. Should they all share the same parallelization and resource-allocation strategy?" >}}
 
 **Background**
 [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM,](https://dl.acm.org/doi/10.1145/3458817.3476209)
 D. Narayanan et al., SC 2021
 
 **Research paper**
-[InfiniteHBD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers,](https://dl.acm.org/doi/10.1145/3718958.3750468)
-C. Shou, G. Liu, H. Nie et al. — SIGCOMM 2025
-
-*Alt: Z. Zhang et al., [DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal LLMs](https://dl.acm.org/doi/10.1145/3718958.3750472), SIGCOMM 2025.*
+[DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal LLMs,](https://dl.acm.org/doi/10.1145/3718958.3750472)
+Z. Zhang et al. — SIGCOMM 2025
 
 {{< /day >}}
 
-{{< day date="Tue 11/3" topic="Sustainable & energy-efficient networking" >}}
+{{< day date="Tue 11/3" topic="Sustainable & energy-efficient networking" note="From energy-efficient datacenters to carbon-aware computation: datacenter design has long treated power and energy as critical resources to optimize. But when the carbon intensity of electricity varies across time and location, can workloads themselves be scheduled to reduce emissions without sacrificing performance?" >}}
 
 **Background**
 [The Datacenter as a Computer](https://doi.org/10.2200/S00874ED3V01Y201906CAC046) (power and energy chapters),
@@ -204,8 +202,6 @@ L. A. Barroso, U. Hölzle, P. Ranganathan, 3rd ed., 2019
 **Research paper**
 [GREEN: Carbon-Efficient Resource Scheduling for Machine Learning Clusters,](https://www.usenix.org/conference/nsdi25/presentation/xu-kaiqiang)
 K. Xu, D. Sun, H. Tian, J. Zhang, K. Chen — NSDI 2025
-
-*Alt: Z. Liu, S. Oh, B. Tao et al., [EcoCell: Energy Conservation through Traffic Shaping in Cellular Radio Access Networks](https://nines-conference.org/papers/p006-Liu.pdf), NINeS 2026.*
 
 {{< /day >}}
 
@@ -225,7 +221,7 @@ S. Bharadwaj, Z. Ma, I. Liang, M. Farb, A. Rowe, S. Seshan — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Tue 11/10" topic="LEO satellites & new access infrastructure" note="A systems paper: rather than measuring LEO performance, LeoCC proposes a new CC algorithm aware of satellite-induced path changes." >}}
+{{< day date="Tue 11/10" topic="LEO satellites & new access infrastructure" note="From characterizing LEO Internet access to redesigning congestion control for its dynamics: Starlink measurements reveal an access network whose paths and performance change as satellites move. What happens when transport protocols built for terrestrial networks mistake those infrastructure dynamics for congestion?" >}}
 
 **Background**
 [Analyzing Starlink from the Ground,](https://dl.acm.org/doi/10.1145/3544216.3544237)
@@ -234,8 +230,6 @@ Q. Michel et al., SIGCOMM 2022
 **Research paper**
 [LeoCC: Making Internet Congestion Control Robust to LEO Satellite Dynamics,](https://dl.acm.org/doi/10.1145/3718958.3750491)
 Z. Lai, Z. Li, Q. Wu et al. — SIGCOMM 2025
-
-*Alt: B. Kataria, H. Bin Tanveer, R. Nithyanand, R. Singh, [What Obstructed Skies Teach Us about Satellite Internet](https://nines-conference.org/papers/p007-Kataria.pdf), NINeS 2026.*
 
 {{< /day >}}
 
@@ -264,8 +258,6 @@ N. Cardwell, Y. Cheng, C. S. Gunn, S. H. Yeganeh, V. Jacobson, ACM Queue 2016
 **Research paper**
 [BISCAY: Practical Radio KPI Driven Congestion Control for Mobile Networks,](https://nines-conference.org/papers/p015-Larrea.pdf)
 J. Larrea, T. Shreedhar, A. Niemi, A. Sefiane, M. K. Marina — NINeS 2026
-
-*Alt: M. Tariq, Y. Chen, H. Hassanieh, R. Mittal, [Performance Isolation for 5G RAN Slices Across Multiple Interfering Cells](https://nines-conference.org/papers/p002-Tariq.pdf), NINeS 2026.*
 
 {{< /day >}}
 
