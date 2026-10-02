@@ -79,7 +79,7 @@ G. Baltra, T. Saluja, Y. Pradkin, J. Heidemann — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Tue 10/6" topic="WAN architecture & traffic engineering" due="Paper selection + project proposal" >}}
+{{< day date="Tue 10/6" topic="WAN architecture & traffic engineering" due="Paper selection + project proposal" note="From WAN optimization (B4) to an underexplored question: what happens when the network degrades rather than simply fails? How can we systematically reason about the consequences of partial performance loss?" >}}
 
 **Background**
 [B4: Experience with a Globally-Deployed Software Defined WAN,](https://dl.acm.org/doi/10.1145/2486001.2486019)
@@ -95,11 +95,11 @@ B. Arzani, S. Taheri, P. Namyar, R. Beckett, S. K. Kakarla, E. Jalilipour — SI
 
 {{< week n="3" >}}
 
-{{< day date="Thu 10/8" topic="SDN & programmable networks" >}}
+{{< day date="Thu 10/8" topic="Data-center fabrics / multipath control" note="From scalable path diversity (Al-Fares) to precise path control: ECMP gives commodity networks many paths but little control over which one a flow takes. Can we make ECMP itself programmable?" >}}
 
 **Background**
-[The Road to SDN: An Intellectual History of Programmable Networks,](https://dl.acm.org/doi/10.1145/2602204.2602219)
-N. Feamster, J. Rexford, E. Zegura, SIGCOMM CCR 2014
+[A Scalable, Commodity Data Center Network Architecture,](https://dl.acm.org/doi/abs/10.1145/1402958.1402967)
+M. Al-Fares, A. Loukissas, A. Vahdat, SIGCOMM 2008
 
 **Research paper**
 [Unlocking ECMP Programmability for Precise Traffic Control,](https://www.usenix.org/conference/nsdi25/presentation/liu-yadong)
