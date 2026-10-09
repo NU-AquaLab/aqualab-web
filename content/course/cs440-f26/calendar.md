@@ -79,6 +79,8 @@ L. Gao and J. Rexford, SIGMETRICS 2000
 [Understanding Partial Reachability in the Internet Core,](https://nines-conference.org/papers/p004-Baltra.pdf)
 G. Baltra, T. Saluja, Y. Pradkin, J. Heidemann — NINeS 2026
 
+*Presenter: Fabián.*
+
 {{< /day >}}
 
 {{< day date="Tue 10/6" topic="WAN architecture & traffic engineering" due="Paper selection + project proposal" note="From WAN optimization (B4) to an underexplored question: what happens when the network degrades rather than simply fails? How can we systematically reason about the consequences of partial performance loss?" >}}
@@ -138,7 +140,7 @@ S. McClure, N. Dukkipati, S. Ratnasamy, S. Shenker — NINeS 2026
 {{< day date="Tue 10/20" topic="Transport & QUIC" note="From designing and deploying QUIC to measuring what followed: QUIC promised a more evolvable transport protocol and was rapidly deployed at Google scale. Years later, what does Internet-wide deployment actually look like, and what does it reveal about how new transport protocols diffuse in practice?" >}}
 
 **Background**
-[QUIC at Google: Deployed at Scale,](https://dl.acm.org/doi/10.1145/3098822.3098842)
+[The QUIC Transport Protocol: Design and Internet-Scale Deployment,](https://dl.acm.org/doi/10.1145/3098822.3098842)
 A. Langley et al., SIGCOMM 2017
 
 **Research paper**
@@ -156,7 +158,7 @@ J. Mücke, M. Nawrocki, R. Hiesgen et al. — CoNEXT 2025
 {{< day date="Thu 10/22" topic="Datacenter transport: rethinking the model" note="Proposes that endpoints simulate network behavior before committing to a send rate — a genuine departure from reactive transport design." >}}
 
 **Background**
-[DCTCP: Data Center TCP,](https://dl.acm.org/doi/10.1145/1851275.1851192)
+[Data Center TCP (DCTCP),](https://dl.acm.org/doi/10.1145/1851275.1851192)
 M. Alizadeh et al., SIGCOMM 2010
 
 **Research paper**
@@ -202,7 +204,7 @@ Z. Zhang et al. — SIGCOMM 2025
 {{< day date="Tue 11/3" topic="Sustainable & energy-efficient networking" note="From energy-efficient datacenters to carbon-aware computation: datacenter design has long treated power and energy as critical resources to optimize. But when the carbon intensity of electricity varies across time and location, can workloads themselves be scheduled to reduce emissions without sacrificing performance?" >}}
 
 **Background**
-[The Datacenter as a Computer](https://doi.org/10.2200/S00874ED3V01Y201906CAC046) (power and energy chapters),
+[The Datacenter as a Computer](https://doi.org/10.1007/978-3-031-01761-2) (power and energy chapters),
 L. A. Barroso, U. Hölzle, P. Ranganathan, 3rd ed., 2019
 
 **Research paper**
@@ -234,8 +236,8 @@ S. Bharadwaj, Z. Ma, I. Liang, M. Farb, A. Rowe, S. Seshan — NINeS 2026
 {{< day date="Tue 11/10" topic="LEO satellites & new access infrastructure" note="From characterizing LEO Internet access to redesigning congestion control for its dynamics: Starlink measurements reveal an access network whose paths and performance change as satellites move. What happens when transport protocols built for terrestrial networks mistake those infrastructure dynamics for congestion?" >}}
 
 **Background**
-[Analyzing Starlink from the Ground,](https://dl.acm.org/doi/10.1145/3544216.3544237)
-Q. Michel et al., SIGCOMM 2022
+[A First Look at Starlink Performance,](https://dl.acm.org/doi/10.1145/3517745.3561416)
+F. Michel, M. Trevisan, D. Giordano, O. Bonaventure, IMC 2022
 
 **Research paper**
 [LeoCC: Making Internet Congestion Control Robust to LEO Satellite Dynamics,](https://dl.acm.org/doi/10.1145/3718958.3750491)
@@ -295,10 +297,10 @@ H. Ikram, R. Habib, M. Ali, Z. A. Uzmi — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Tue 11/24" topic="BGP security & routing integrity" note="The background paper asks how secure BGP security proposals are; this paper proposes bypassing the BGP control plane entirely for hijack detection using in-band telemetry. Note the Rexford co-authorship across both papers — 15 years of progress on the same problem." due="Final report (including critique section)" >}}
+{{< day date="Tue 11/24" topic="BGP security & routing integrity" note="The background paper asks how secure BGP security proposals are; this paper proposes bypassing the BGP control plane entirely for hijack detection using in-band telemetry. Note the Rexford co-authorship across both papers — 16 years of progress on the same problem." due="Final report (including critique section)" >}}
 
 **Background**
-[How Secure Are Secure Interdomain Routing Protocols?,](https://dl.acm.org/doi/10.1145/1851182.1851198)
+[How Secure Are Secure Interdomain Routing Protocols?,](https://dl.acm.org/doi/10.1145/1851182.1851195)
 S. Goldberg, M. Schapira, P. Hummon, J. Rexford, SIGCOMM 2010
 
 **Research paper**
