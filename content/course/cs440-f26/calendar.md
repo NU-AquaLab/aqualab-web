@@ -29,6 +29,8 @@ summary: "Topics and readings by week."
 
 **[B]** = background paper (no blog post required) · **[R]** = research paper (blog post required)
 
+Fabián presents the background and companion papers in every session; the listed student presents the research paper.
+
 ---
 
 {{< week n="1" >}}
@@ -326,8 +328,6 @@ R. Kumar, F. E. Bustamante, M. Flores — NINeS 2026
 *Presenter: Jintao Wang.*
 
 *Companion reading: M. Weaver, D. Veitch, P. Barford, F. E. Bustamante, E. Carisimo, [Monitoring Latency on Submarine Cables](https://nines-conference.org/papers/p016-Weaver.pdf), NINeS 2026.*
-
-*Presenter: Fabián.*
 
 {{< /day >}}
 
