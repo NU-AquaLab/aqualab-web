@@ -156,8 +156,8 @@ J. Mücke, M. Nawrocki, R. Hiesgen et al. — CoNEXT 2025
 {{< day date="Thu 10/22" topic="Datacenter transport: rethinking the model" note="Proposes that endpoints simulate network behavior before committing to a send rate — a genuine departure from reactive transport design." >}}
 
 **Background**
-[A Scalable, Commodity Data Center Network Architecture,](https://dl.acm.org/doi/10.1145/1402958.1402967)
-M. Al-Fares, A. Loukissas, A. Vahdat, SIGCOMM 2008
+[DCTCP: Data Center TCP,](https://dl.acm.org/doi/10.1145/1851275.1851192)
+M. Alizadeh et al., SIGCOMM 2010
 
 **Research paper**
 [Simulate Before Sending: Rethinking Transport in Datacenter Networks,](https://nines-conference.org/papers/p019-Straussman.pdf)
@@ -167,11 +167,11 @@ D. Straussman, I. Keslassy, A. Shpiner, L. Liss — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Tue 10/27" topic="RDMA & high-performance datacenter networking" note="From managing congestion and loss (DCTCP) to questioning lossless RDMA: can high-performance datacenter transport remain reliable and efficient when packet loss is treated as a normal condition rather than something the fabric must prevent?" >}}
+{{< day date="Tue 10/27" topic="RDMA & high-performance datacenter networking" note="From making RDMA work over lossless Ethernet (DCQCN) to questioning lossless RDMA: can high-performance datacenter transport remain reliable and efficient when packet loss is treated as a normal condition rather than something the fabric must prevent?" >}}
 
 **Background**
-[DCTCP: Data Center TCP,](https://dl.acm.org/doi/10.1145/1851275.1851192)
-M. Alizadeh et al., SIGCOMM 2010
+[Congestion Control for Large-Scale RDMA Deployments,](https://conferences.sigcomm.org/sigcomm/2015/pdf/papers/p523.pdf)
+Y. Zhu et al., SIGCOMM 2015
 
 **Research paper**
 [Revisiting RDMA Reliability for Lossy Fabrics,](https://dl.acm.org/doi/10.1145/3718958.3750480)
