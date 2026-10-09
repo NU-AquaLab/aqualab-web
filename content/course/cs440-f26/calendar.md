@@ -107,15 +107,7 @@ Y. Liu, Y. Xiao, X. Zhang et al. — NSDI 2025
 
 {{< /day >}}
 
-{{< day date="Tue 10/13" topic="Network verification & formal methods" note="From making networks verifiable (HSA) to making verification scale: formal models let us systematically reason about network behavior, but their representations can become the bottleneck. Can a better representation make verification dramatically more efficient?" >}}
-
-**Background**
-[Header Space Analysis: Static Checking for Networks,](https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/kazemian)
-P. Kazemian, G. Varghese, N. McKeown, NSDI 2012
-
-**Research paper**
-[NDD: A Decision Diagram for Network Verification,](https://www.usenix.org/conference/nsdi25/presentation/li-zechun)
-Z. Li, P. Zhang, Y. Zhang, H. Yang — NSDI 2025 *(Outstanding Paper Award)*
+{{< day date="Tue 10/13" topic="Project Proposal Presentations" >}}
 
 {{< /day >}}
 
@@ -137,7 +129,7 @@ S. McClure, N. Dukkipati, S. Ratnasamy, S. Shenker — NINeS 2026
 
 {{< /day >}}
 
-{{< day date="Tue 10/20" topic="Transport & QUIC" due="In-class proposal pitches (5 min per team)" note="From designing and deploying QUIC to measuring what followed: QUIC promised a more evolvable transport protocol and was rapidly deployed at Google scale. Years later, what does Internet-wide deployment actually look like, and what does it reveal about how new transport protocols diffuse in practice?" >}}
+{{< day date="Tue 10/20" topic="Transport & QUIC" note="From designing and deploying QUIC to measuring what followed: QUIC promised a more evolvable transport protocol and was rapidly deployed at Google scale. Years later, what does Internet-wide deployment actually look like, and what does it reveal about how new transport protocols diffuse in practice?" >}}
 
 **Background**
 [QUIC at Google: Deployed at Scale,](https://dl.acm.org/doi/10.1145/3098822.3098842)

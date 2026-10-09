@@ -35,7 +35,7 @@ A reproduction that succeeds but reveals underspecified conditions is just as va
 | ----------- | --- |
 | Team formation | Week 1 Thu |
 | Paper selection + project proposal | Week 3 Tue |
-| In-class proposal pitch (5 min) | Week 4 Thu |
+| In-class proposal pitch (5 min) | Week 3 Tue |
 | Midpoint report | Week 6 Tue |
 | Final report (incl. critique section) | Week 9 Thu |
 | Project presentations | Finals Week |
