@@ -89,6 +89,8 @@ S. Jain et al., SIGCOMM 2013
 [Raha: A General Tool to Analyze WAN Degradation,](https://dl.acm.org/doi/10.1145/3718958.3754348)
 B. Arzani, S. Taheri, P. Namyar, R. Beckett, S. K. Kakarla, E. Jalilipour — SIGCOMM 2025
 
+*Presenter: Fabián.*
+
 {{< /day >}}
 
 {{< /week >}}
@@ -104,6 +106,8 @@ M. Al-Fares, A. Loukissas, A. Vahdat, SIGCOMM 2008
 **Research paper**
 [Unlocking ECMP Programmability for Precise Traffic Control,](https://www.usenix.org/conference/nsdi25/presentation/liu-yadong)
 Y. Liu, Y. Xiao, X. Zhang et al. — NSDI 2025
+
+*Presenter: Gavin Wang.*
 
 {{< /day >}}
 
@@ -125,6 +129,8 @@ R. Ware, M. Mukerjee, S. Seshan, J. Sherry, HotNets 2019
 [No Signal to Rule Them All: A Systematic Analysis of In-Network Congestion Signals,](https://nines-conference.org/papers/p012-McClure.pdf)
 S. McClure, N. Dukkipati, S. Ratnasamy, S. Shenker — NINeS 2026
 
+*Presenter: Kaito Sekiya.*
+
 *Alt: Agarwal, Arun, Seshan, [Contracts: A Unified Lens on Congestion Control](https://nines-conference.org/papers/p008-Agarwal.pdf), NINeS 2026.*
 
 {{< /day >}}
@@ -138,6 +144,8 @@ A. Langley et al., SIGCOMM 2017
 **Research paper**
 [Waiting for QUIC: Passive Measurements to Understand QUIC Deployments,](https://dl.acm.org/doi/10.1145/3768988)
 J. Mücke, M. Nawrocki, R. Hiesgen et al. — CoNEXT 2025
+
+*Presenter: Phillip Kobylinski.*
 
 {{< /day >}}
 
@@ -155,6 +163,8 @@ M. Al-Fares, A. Loukissas, A. Vahdat, SIGCOMM 2008
 [Simulate Before Sending: Rethinking Transport in Datacenter Networks,](https://nines-conference.org/papers/p019-Straussman.pdf)
 D. Straussman, I. Keslassy, A. Shpiner, L. Liss — NINeS 2026
 
+*Presenter: Winnie Vallonia Nna.*
+
 {{< /day >}}
 
 {{< day date="Tue 10/27" topic="RDMA & high-performance datacenter networking" note="From managing congestion and loss (DCTCP) to questioning lossless RDMA: can high-performance datacenter transport remain reliable and efficient when packet loss is treated as a normal condition rather than something the fabric must prevent?" >}}
@@ -166,6 +176,8 @@ M. Alizadeh et al., SIGCOMM 2010
 **Research paper**
 [Revisiting RDMA Reliability for Lossy Fabrics,](https://dl.acm.org/doi/10.1145/3718958.3750480)
 W. Li, X. Liu, Y. Zhang et al. — SIGCOMM 2025 *(Best Student Paper, Honorable Mention)*
+
+*Presenter: Arthur Mendes Pereira.*
 
 {{< /day >}}
 
@@ -183,6 +195,8 @@ D. Narayanan et al., SC 2021
 [DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal LLMs,](https://dl.acm.org/doi/10.1145/3718958.3750472)
 Z. Zhang et al. — SIGCOMM 2025
 
+*Presenter: Sebastian Pacheco.*
+
 {{< /day >}}
 
 {{< day date="Tue 11/3" topic="Sustainable & energy-efficient networking" note="From energy-efficient datacenters to carbon-aware computation: datacenter design has long treated power and energy as critical resources to optimize. But when the carbon intensity of electricity varies across time and location, can workloads themselves be scheduled to reduce emissions without sacrificing performance?" >}}
@@ -194,6 +208,8 @@ L. A. Barroso, U. Hölzle, P. Ranganathan, 3rd ed., 2019
 **Research paper**
 [GREEN: Carbon-Efficient Resource Scheduling for Machine Learning Clusters,](https://www.usenix.org/conference/nsdi25/presentation/xu-kaiqiang)
 K. Xu, D. Sun, H. Tian, J. Zhang, K. Chen — NSDI 2025
+
+*Presenter: Sicheng Liu.*
 
 {{< /day >}}
 
@@ -211,6 +227,8 @@ K. Schomp et al., SIGCOMM 2020
 [OpenFLAME: A Federated Spatial Naming Infrastructure,](https://nines-conference.org/papers/p020-Bharadwaj.pdf)
 S. Bharadwaj, Z. Ma, I. Liang, M. Farb, A. Rowe, S. Seshan — NINeS 2026
 
+*Presenter: Hyunseok Jang.*
+
 {{< /day >}}
 
 {{< day date="Tue 11/10" topic="LEO satellites & new access infrastructure" note="From characterizing LEO Internet access to redesigning congestion control for its dynamics: Starlink measurements reveal an access network whose paths and performance change as satellites move. What happens when transport protocols built for terrestrial networks mistake those infrastructure dynamics for congestion?" >}}
@@ -222,6 +240,8 @@ Q. Michel et al., SIGCOMM 2022
 **Research paper**
 [LeoCC: Making Internet Congestion Control Robust to LEO Satellite Dynamics,](https://dl.acm.org/doi/10.1145/3718958.3750491)
 Z. Lai, Z. Li, Q. Wu et al. — SIGCOMM 2025
+
+*Presenter: Robert Hayek.*
 
 {{< /day >}}
 
@@ -239,6 +259,8 @@ S. Krishnan and R. Sitaraman, IMC 2012
 [Tight Loops, Smooth Streams: Responsive Congestion Control for Real-Time Video,](https://nines-conference.org/papers/p009-Karimi.pdf)
 P. Karimi, S. Fouladi, V. Sivaraman, M. Alizadeh — NINeS 2026
 
+*Presenter: Megxi Xia.*
+
 {{< /day >}}
 
 {{< day date="Tue 11/17" topic="Mobile & wireless systems design" note="BBR uses network-layer signals to estimate state; BISCAY adds radio-layer KPIs as an additional signal source — extending model-based CC into the mobile context." >}}
@@ -250,6 +272,8 @@ N. Cardwell, Y. Cheng, C. S. Gunn, S. H. Yeganeh, V. Jacobson, ACM Queue 2016
 **Research paper**
 [BISCAY: Practical Radio KPI Driven Congestion Control for Mobile Networks,](https://nines-conference.org/papers/p015-Larrea.pdf)
 J. Larrea, T. Shreedhar, A. Niemi, A. Sefiane, M. K. Marina — NINeS 2026
+
+*Presenter: Albert Luo.*
 
 {{< /day >}}
 
@@ -267,6 +291,8 @@ R. Dingledine, N. Mathewson, P. Syverson, USENIX Security 2004
 [Don't get caught, keep your Onions in a Vault,](https://nines-conference.org/papers/p017-Ikram.pdf)
 H. Ikram, R. Habib, M. Ali, Z. A. Uzmi — NINeS 2026
 
+*Presenter: Charles Kozel.*
+
 {{< /day >}}
 
 {{< day date="Tue 11/24" topic="BGP security & routing integrity" note="The background paper asks how secure BGP security proposals are; this paper proposes bypassing the BGP control plane entirely for hijack detection using in-band telemetry. Note the Rexford co-authorship across both papers — 15 years of progress on the same problem." due="Final report (including critique section)" >}}
@@ -278,6 +304,8 @@ S. Goldberg, M. Schapira, P. Hummon, J. Rexford, SIGCOMM 2010
 **Research paper**
 [Passive Data-Plane Telemetry to Mitigate Long-Distance BGP Hijacks,](https://nines-conference.org/papers/p014-Sengupta.pdf)
 S. Sengupta, H. Kim, D. Jubas, M. Apostolaki, J. Rexford — NINeS 2026
+
+*Presenter: Hyunseok Jang.*
 
 {{< /day >}}
 
@@ -294,6 +322,8 @@ B. Schlinker, H. Kim, T. Cunha et al., SIGCOMM 2017
 **Research paper**
 [Who Holds the Steering Wheel? Opacity and Consolidation in CDN Replica Selection,](https://nines-conference.org/papers/p023-Kumar.pdf)
 R. Kumar, F. E. Bustamante, M. Flores — NINeS 2026
+
+*Presenter: Jintao Wang.*
 
 *Companion reading: M. Weaver, D. Veitch, P. Barford, F. E. Bustamante, E. Carisimo, [Monitoring Latency on Submarine Cables](https://nines-conference.org/papers/p016-Weaver.pdf), NINeS 2026.*
 
