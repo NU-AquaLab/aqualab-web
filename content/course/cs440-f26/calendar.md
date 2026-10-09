@@ -29,7 +29,7 @@ summary: "Topics and readings by week."
 
 **[B]** = background paper (no blog post required) · **[R]** = research paper (blog post required)
 
-Fabián presents the background and companion papers in every session; the listed student presents the research paper.
+Fabián presents the background paper in every session; the listed student presents the research paper.
 
 ---
 
@@ -132,8 +132,6 @@ R. Ware, M. Mukerjee, S. Seshan, J. Sherry, HotNets 2019
 S. McClure, N. Dukkipati, S. Ratnasamy, S. Shenker — NINeS 2026
 
 *Presenter: Kaito Sekiya.*
-
-*Alt: Agarwal, Arun, Seshan, [Contracts: A Unified Lens on Congestion Control](https://nines-conference.org/papers/p008-Agarwal.pdf), NINeS 2026.*
 
 {{< /day >}}
 
@@ -326,8 +324,6 @@ B. Schlinker, H. Kim, T. Cunha et al., SIGCOMM 2017
 R. Kumar, F. E. Bustamante, M. Flores — NINeS 2026
 
 *Presenter: Jintao Wang.*
-
-*Companion reading: M. Weaver, D. Veitch, P. Barford, F. E. Bustamante, E. Carisimo, [Monitoring Latency on Submarine Cables](https://nines-conference.org/papers/p016-Weaver.pdf), NINeS 2026.*
 
 {{< /day >}}
 
