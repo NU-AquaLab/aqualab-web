@@ -201,17 +201,17 @@ Z. Zhang et al. — SIGCOMM 2025
 
 {{< /day >}}
 
-{{< day date="Tue 11/3" topic="Sustainable & energy-efficient networking" note="From energy-efficient datacenters to carbon-aware computation: datacenter design has long treated power and energy as critical resources to optimize. But when the carbon intensity of electricity varies across time and location, can workloads themselves be scheduled to reduce emissions without sacrificing performance?" >}}
+{{< day date="Tue 11/3" topic="Sustainable & energy-efficient networking" note="From energy-proportional computing to carbon-aware routing: reducing load does not necessarily reduce power consumption proportionally, and the carbon intensity of electricity varies across time and location. Can routing exploit these differences to reduce emissions, and what limits the benefits of choosing a “greener” path?" >}}
 
 **Background**
-[The Datacenter as a Computer](https://doi.org/10.1007/978-3-031-01761-2) (power and energy chapters),
-L. A. Barroso, U. Hölzle, P. Ranganathan, 3rd ed., 2019
+[The Case for Energy-Proportional Computing,](https://ieeexplore.ieee.org/document/4404806)
+L. A. Barroso, U. Hölzle, IEEE Computer 2007
 
 **Research paper**
-[GREEN: Carbon-Efficient Resource Scheduling for Machine Learning Clusters,](https://www.usenix.org/conference/nsdi25/presentation/xu-kaiqiang)
-K. Xu, D. Sun, H. Tian, J. Zhang, K. Chen — NSDI 2025
+[Exploring the Benefits of Carbon-Aware Routing,](https://dl.acm.org/doi/10.1145/3629165)
+S. El-Zahr, P. Gunning, N. Zilberman — CoNEXT 2023 (PACMNET)
 
-*Presenter: Sicheng Liu.*
+*Presenter: Fabián.*
 
 {{< /day >}}
 
