@@ -107,6 +107,7 @@ In our HotNets 2026 paper, with Santiago Klein, Caleb Wang, Kedar Thiagarajan, a
 - [Interactive artifact](/project/self-validating-uncertainty/explorer/)
 - [Paper page]({{< relref "publication/2026/FBustamante-HotNets26" >}})
 - [The Aleph]({{< relref "project/thealeph" >}}) — LLM-based network geolocation
+- [Calypso](https://www.calypso.voyage/) — mapping traceroute paths onto submarine cables ([project]({{< relref "project/scn-criticality" >}}))
 - [AquaLab Research Group](https://aqualab.cs.northwestern.edu/)
 
 </div>
