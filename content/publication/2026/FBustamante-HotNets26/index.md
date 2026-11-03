@@ -10,6 +10,11 @@ authors:
 date: 2026-09-26
 publication: "HotNets '26"
 abstract: ""
+url_pdf: "FBustamante-HotNets26.pdf"
+url_project: "/project/self-validating-uncertainty/"
+links:
+  - name: Artifact
+    url: "/project/self-validating-uncertainty/explorer/"
 featured: false
 nugget: "When ground truth is scarce, validate calibration rather than correctness, and make every answer say what kind of uncertainty it carries."
 ---

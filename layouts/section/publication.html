@@ -95,6 +95,10 @@
                 {{ with $p.Params.url_video }}
                   <a href="{{ . }}">[Video]</a>
                 {{ end }}
+                {{/* Custom links (e.g. an interactive artifact), same front matter the single page uses */}}
+                {{ range $p.Params.links }}
+                  <a href="{{ .url }}">[{{ .name }}]</a>
+                {{ end }}
 
                 {{/* ── Cite toggle ── */}}
                 {{ $citeID := $p.File.ContentBaseName }}
