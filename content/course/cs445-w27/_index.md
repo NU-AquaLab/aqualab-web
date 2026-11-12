@@ -54,7 +54,7 @@ This course satisfies the Systems requirement and the project requirement.
 ### Meeting Time & Location
 
 - **Time:** Tue/Thu 11:00 AM–12:20 PM
-- **Room:** Technological Institute L150
+- **Room:** [Technological Institute L150](https://www.mccormick.northwestern.edu/contact/tech-room-finder-map.php?id=L150&room-floor=1&room-id=1172&room-ingress=)
 
 ### Course Prerequisites
 
