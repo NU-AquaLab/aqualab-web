@@ -53,8 +53,8 @@ This course satisfies the Systems requirement and the project requirement.
 
 ### Meeting Time & Location
 
-- **Time:** Tue/Thu 11:00–12:20
-- **Room:** TBD
+- **Time:** Tue/Thu 11:00 AM–12:20 PM
+- **Room:** Technological Institute L150
 
 ### Course Prerequisites
 
