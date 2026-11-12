@@ -176,18 +176,15 @@ L. Salamatian, K. Vermeulen, D. Choffnes, E. Katz-Bassett, P. Gill — SIGCOMM 2
 
 {{< day date="Thu 1/28" topic="From archived observations to a defensible claim" note="Between the vantage point and your analysis sits a collection and archive pipeline. Learn to account for what it retained, not only for what could have been seen, before you make a claim." >}}
 
+{{< reading_tag "Question" >}}
+[Measuring the Impact of RPKI on the BGP Updates Volume,](https://dl.acm.org/doi/10.1145/3808667)
+S. Quinzi, C. Pelsser, G. Di Battista — CoNEXT 2026 (PACMNET)
+
 {{< reading_tag "Review" >}}
 [‘Quis mensurat ipsos mensores?’ Evaluating Data Consistency of BGP Route Collectors & Brokers,](https://dl.acm.org/doi/10.1145/3777912.3809145)
 P. Mani, Q. Misell, P. Hennen, A. Feldmann, T. Fiebig — IMC 2026
 
-**Exercise**
-Revisit a claim from Week 3: what happens if a collector, region, or measurement interval is missing?
-
-**Optional**
-[Measuring the Impact of RPKI on the BGP Updates Volume,](https://dl.acm.org/doi/10.1145/3808667)
-S. Quinzi, C. Pelsser, G. Di Battista — CoNEXT 2026 (PACMNET)
-
-**Discussion.** Quinzi et al. attribute changes in BGP update volume to RPKI events. Which checks would you run on the BGP archive before attributing a burst of updates to an RPKI change, and what baseline would tell you how much activity would have happened anyway?
+**Discussion.** Quinzi et al. attribute changes in BGP update volume to RPKI events. Which checks would you run on the BGP archive before attributing a burst of updates to an RPKI change, and what baseline would tell you how much activity would have happened anyway? Follow-up: how would the claim change if a collector, region, or measurement interval were missing?
 
 *Presenter: Fabián.*
 
