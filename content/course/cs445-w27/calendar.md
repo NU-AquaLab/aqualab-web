@@ -132,21 +132,27 @@ R. Fontugne et al., IMC 2024
 
 {{< /day >}}
 
-{{< day date="Thu 1/21" topic="Natural and quasi-experiments" note="Randomized experiments are rarely possible at Internet scale. Natural and quasi-experiments are the course's core tool for causal claims: finding a comparison that stands in for the experiment you cannot run." >}}
+{{< day date="Thu 1/21" topic="Natural and quasi-experiments" note="Randomized experiments are rarely possible at Internet scale. Natural and quasi-experiments are the course's core tool for causal claims: finding a comparison that stands in for the experiment you cannot run, and showing that the variation it relies on is as good as random." >}}
 
 {{< reading_tag "Background" >}}
 [Conceptualizing Natural and Quasi-Experiments in Public Health,](https://pubmed.ncbi.nlm.nih.gov/33573595/)
 F. de Vocht et al., BMC Medical Research Methodology 2021 *(selected sections)*
 
 {{< reading_tag "Question" >}}
-[Need, Want, Can Afford: Broadband Markets and the Behavior of Users,](https://aqualab.cs.northwestern.edu/publication/2014/zbischof-imc14/ZBischof-IMC14.pdf)
-Z. S. Bischof, F. E. Bustamante, R. Stanojevic — IMC 2014
+[Video Stream Quality Impacts Viewer Behavior: Inferring Causality Using Quasi-Experimental Designs,](https://dl.acm.org/doi/10.1145/2398776.2398799)
+S. S. Krishnan, R. K. Sitaraman — IMC 2012
+
+{{< reading_tag "Question" >}}
+[AutoSens: Inferring Latency Sensitivity of User Activity through Natural Experiments,](https://dl.acm.org/doi/10.1145/3487552.3487839)
+P. Thakkar, R. Saxena, V. N. Padmanabhan — IMC 2021
 
 **Optional**
-[Measuring the Impact of RPKI on the BGP Updates Volume,](https://dl.acm.org/doi/10.1145/3808667)
-S. Quinzi, C. Pelsser, G. Di Battista — CoNEXT 2026 (PACMNET)
+[The Internet as Sisyphus: Repeating Measurements, Missing Causes,](https://conferences.sigcomm.org/hotnets/2025/papers/hotnets25-final316.pdf)
+L. Salamatian — HotNets 2025
 
-**Discussion.** What comparison would tell us whether access capacity changed demand? State it in your own words and name one plausible competing explanation. For Quinzi et al.: how much update activity would have happened anyway, and what baseline would let you estimate it?
+*Alt:* [Need, Want, Can Afford: Broadband Markets and the Behavior of Users,](https://aqualab.cs.northwestern.edu/publication/2014/zbischof-imc14/ZBischof-IMC14.pdf) Z. S. Bischof, F. E. Bustamante, R. Stanojevic, IMC 2014
+
+**Discussion.** What matched comparison lets Krishnan and Sitaraman claim that startup delay causes viewers to abandon a video? Which confounders does the matching rule out, and which can it not? AutoSens calls normal latency fluctuations a natural experiment; using the HotNets critique, where would the as-good-as-random variation have to come from, and what could break it?
 
 *Presenter: Fabián.*
 
@@ -181,7 +187,11 @@ P. Mani, Q. Misell, P. Hennen, A. Feldmann, T. Fiebig — IMC 2026
 **Exercise**
 Revisit a claim from Week 3: what happens if a collector, region, or measurement interval is missing?
 
-**Discussion.** Bring back Quinzi et al. from Week 3: which checks would you run on the BGP archive before attributing a burst of updates to an RPKI change?
+**Optional**
+[Measuring the Impact of RPKI on the BGP Updates Volume,](https://dl.acm.org/doi/10.1145/3808667)
+S. Quinzi, C. Pelsser, G. Di Battista — CoNEXT 2026 (PACMNET)
+
+**Discussion.** Quinzi et al. attribute changes in BGP update volume to RPKI events. Which checks would you run on the BGP archive before attributing a burst of updates to an RPKI change, and what baseline would tell you how much activity would have happened anyway?
 
 *Presenter: Fabián.*
 
