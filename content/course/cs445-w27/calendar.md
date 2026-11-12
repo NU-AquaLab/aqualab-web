@@ -86,8 +86,6 @@ B. Augustin et al., IMC 2006
 [TTL Jumps: Unexpected TTL Rewrites Impacting Inferences from Traceroutes,](https://dl.acm.org/doi/10.1145/3777912.3809149)
 S. Kappes, A. Feldmann, T. Fiebig, J. Zirngibl — IMC 2026
 
-*Alt:* [RemapRoute: Local Remapping of Internet Path Changes,](https://dl.acm.org/doi/10.1145/3730567.3732923) E. Fazzion et al., IMC 2025 (short)
-
 **Discussion.** When a traceroute shows a link between two routers, what assumptions let us read it as a real adjacency? What evidence would distinguish a load-balancing artifact from hops hidden by TTL rewriting?
 
 *Presenter: Fabián.*
