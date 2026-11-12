@@ -114,7 +114,7 @@ K. Izhikevich, B. Du, S. Rao, M. Tran, A. Ukani, R. Bellis, L. Izhikevich — IM
 
 {{< week n="3" >}}
 
-{{< day date="Tue 1/19" topic="Collecting and combining observational data" note="Not every study needs new probes. Learn how passive, reactive, and reused data each shape what you can observe, and what you take on when you combine measurements others collected." >}}
+{{< day date="Tue 1/19" topic="Collecting and combining observational data" note="Thu 1/14 asked where you can measure from; this meeting asks what you can learn without sending probes: from traffic that arrives on its own, and from data others have already collected. Learn what a passive sensor misses, and what you take on when you combine measurements others collected." >}}
 
 {{< reading_tag "Review" >}}
 [Understanding Different Perspectives: Analyzing UDP Scanning Through Reactive Telescopes,](https://dl.acm.org/doi/10.1145/3777912.3839810)
@@ -124,11 +124,7 @@ D. Ferrero, A. Sordello, H. Griffioen, I. Drago, G. Smaragdakis, M. Mellia — I
 [The Wisdom of the Measurement Crowd: Building the Internet Yellow Pages, a Knowledge Graph for the Internet,](https://dl.acm.org/doi/10.1145/3646547.3688444)
 R. Fontugne et al., IMC 2024
 
-*Alt:* [Lessons Learned from Operating a Large Network Telescope,](https://dl.acm.org/doi/10.1145/3718958.3754347) A. Männel et al., SIGCOMM 2025
-
-*Alt (companion on sensor placement):* [Lightscope: Turning Production Machines into Telescopes and Honeypots,](https://dl.acm.org/doi/10.1145/3777912.3839790) E. Kapitanski, J. Mirkovic, IMC 2026
-
-*Alt (for Yellow Pages):* [How Did You Find That Address? An In-Depth Investigation of Domain-Based IPv6 Scanners,](https://dl.acm.org/doi/10.1145/3830390) S. Kappes et al., CoNEXT 2026 (PACMNET)
+*Alt (for Ferrero et al.):* [Lessons Learned from Operating a Large Network Telescope,](https://dl.acm.org/doi/10.1145/3718958.3754347) A. Männel et al., SIGCOMM 2025
 
 **Discussion.** What becomes visible only after the instrument replies? What do you inherit, and what must you check, when you build on datasets collected by others?
 
