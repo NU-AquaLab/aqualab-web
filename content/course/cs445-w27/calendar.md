@@ -194,15 +194,19 @@ P. Mani, Q. Misell, P. Hennen, A. Feldmann, T. Fiebig — IMC 2026
 
 {{< week n="5" >}}
 
-{{< day date="Tue 2/2" topic="Where is the infrastructure?" note="First application of the methods to infrastructure: combining independent, imperfect clues into an inference, and knowing when to narrow, revise, or report unknown." >}}
+{{< day date="Tue 2/2" topic="Where is the infrastructure?" note="First application of the methods to infrastructure: extracting location clues, checking them against independent evidence, and knowing when to narrow, revise, or report unknown." >}}
 
 {{< reading_tag "Question" >}}
 [The Aleph: Decoding DNS PTR Records With LLMs,](https://aqualab.cs.northwestern.edu/publication/2025/kthiagarajan-conext25/KThiagarajan-CoNEXT25.pdf)
-K. Thiagarajan et al., CoNEXT 2025
+K. Thiagarajan, E. Carisimo, F. E. Bustamante — CoNEXT 2025
 
-**Discussion.** Defend one router-location inference from your warm-up using the observations available to you. Which clues are independent? Bring one ambiguous result to class.
+{{< reading_tag "Review" >}}
+[WHEREIS: IP Address Registration Geo-Consistency,](https://dl.acm.org/doi/10.1145/3777912.3809139)
+R. Beverly, A. Phokeer, O. Gasser — IMC 2026
 
-*Presenter: TBD.*
+**Discussion.** Aleph extracts one clue (what a hostname says); WHEREIS asks what happens when location evidence disagrees. Defend one router-location inference from your warm-up: which clues are independent, which one would you trust when they conflict, and when would you report the location as unknown?
+
+*Presenters: TBD.*
 
 {{< /day >}}
 
