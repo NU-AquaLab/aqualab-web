@@ -17,9 +17,11 @@ Below is a concise overview. Full details live on Canvas.
 
 The warm-up project gives you practical experience with Internet-scale measurement techniques, focusing on analyzing **geolocating network routers**.
 
-**Deliverables**
-- **Report**: 3–5 pages describing your methodology, findings, and analysis.  
-- **Presentation**: A concise 5-minute presentation summarizing your work.
+**Deliverables** (due **Sun 1/31, 11:59 PM**)
+- **Report**: Short — 2 pages max — describing your methodology, findings, and analysis.
+- **One slide**: Your hardest router. Show the clues you had, where they conflicted, and what you concluded (including "unknown" if that is the honest answer).
+
+**In class (Tue 2/2)**: We use your slides to open the discussion of *The Aleph* and *WHEREIS*. A few contrasting cases will be selected, and their authors will defend their inference in about 3 minutes each.
 
 ---
 

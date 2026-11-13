@@ -194,7 +194,7 @@ P. Mani, Q. Misell, P. Hennen, A. Feldmann, T. Fiebig — IMC 2026
 
 {{< week n="5" >}}
 
-{{< day date="Tue 2/2" topic="Where is the infrastructure?" note="First application of the methods to infrastructure: extracting location clues, checking them against independent evidence, and knowing when to narrow, revise, or report unknown." >}}
+{{< day date="Tue 2/2" topic="Where is the infrastructure?" due="Warm-up report + slide (Sun 1/31)" note="First application of the methods to infrastructure: extracting location clues, checking them against independent evidence, and knowing when to narrow, revise, or report unknown." >}}
 
 {{< reading_tag "Question" >}}
 [The Aleph: Decoding DNS PTR Records With LLMs,](https://aqualab.cs.northwestern.edu/publication/2025/kthiagarajan-conext25/KThiagarajan-CoNEXT25.pdf)
